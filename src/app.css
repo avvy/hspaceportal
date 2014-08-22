@@ -6,6 +6,8 @@ svg {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  border: greн;
+  border-style: solid;
 }
 
 svg:not(.active):not(.ctrl) {
@@ -24,7 +26,8 @@ svg:not(.active):not(.ctrl) path.link {
 }
 
 path.link.selected {
-  stroke-dasharray: 10,2;
+  /* stroke-dasharray: 10,2; * was dashed line, I replaced it with solid orange line*/
+  stroke: orange;
 }
 
 path.link.dragline {

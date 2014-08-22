@@ -1,7 +1,15 @@
+//AVVY visualizer
+
+/* TODOs:
+  * make nodes to be still (not moving theirselves)
+  * add zooming in and out
+  * додати переміщення поля відносно екрану користувача -- див. в коді "allow panning if nothing is selected"
+*/
+
 // set up SVG for D3
-var width  = 960,
-    height = 500,
-    colors = d3.scale.category10();
+var width  = 1024,
+    height = 800,
+    colors = d3.scale.category10();    // nodes colors depth
 
 var svg = d3.select('body')
   .append('svg')
@@ -16,13 +24,16 @@ var nodes = [
     {id: 0, reflexive: false},
     {id: "Hackerspace", reflexive: true },
     {id: "Somebody's name", reflexive: false},
-	{id: "Yabadabadoo!", reflexive: false}
+	{id: "Yabadabadoo!", reflexive: false},
+	{id: "Yo ho ho!", reflexive: false}
   ],
   lastNodeId = 2,
   links = [
     {source: nodes[0], target: nodes[1], left: false, right: true },
-    {source: nodes[2], target: nodes[1], left: false, right: true },
-	{source: nodes[3], target: nodes[2], left: false, right: true }
+    {source: nodes[1], target: nodes[2], left: true, right: false },
+	{source: nodes[2], target: nodes[3], left: false, right: true },
+	{source: nodes[1], target: nodes[3], left: true, right: true },
+	{source: nodes[1], target: nodes[4], left: false, right: false }
   ];
 
 // init D3 force layout
@@ -35,10 +46,11 @@ var force = d3.layout.force()
     .on('tick', tick)
 
 // define arrow markers for graph links
+//END ARROW
 svg.append('svg:defs').append('svg:marker')
     .attr('id', 'end-arrow')
     .attr('viewBox', '0 -5 10 10')
-    .attr('refX', 22)  // <------------------------------------ arrow marker distance from center of node  !!! can not  meke visible marker for selected link !!!! TODO
+    .attr('refX', 22)  // <------------------------------------ arrow marker distance from END of the link, which goes to center of node 
     .attr('markerWidth', 3)
     .attr('markerHeight', 3)
     .attr('orient', 'auto')
@@ -46,14 +58,15 @@ svg.append('svg:defs').append('svg:marker')
     .attr('d', 'M0,-5L10,0L0,5')
     .attr('fill', '#000');
 
+//START ARROW
 svg.append('svg:defs').append('svg:marker')
     .attr('id', 'start-arrow')
     .attr('viewBox', '0 -5 10 10')
-    .attr('refX', 32) // <------------------------------------ arrow marker distance from center of node ???
+    .attr('refX', -12) // <------------------------------------ arrow marker distance from START of the link, which goes from center of node 
     .attr('markerWidth', 3)
     .attr('markerHeight', 3)
     .attr('orient', 'auto')
-  .append('svg:path')
+   .append('svg:path')
     .attr('d', 'M10,-5L0,0L10,5')
     .attr('fill', '#000');
 
@@ -155,11 +168,11 @@ function restart() {
     .on('mouseover', function(d) {
       if(!mousedown_node || d === mousedown_node) return;
       // enlarge target node
-      d3.select(this).attr('transform', 'scale(1.1)');
+      d3.select(this).attr('transform', 'scale(1.1)');  // ---------------------------------------------- ENLARGE??? -- TO TEST IT
     })
     .on('mouseout', function(d) {
       if(!mousedown_node || d === mousedown_node) return;
-      // unenlarge target node
+      // unenlarge target node  // ---------------------------------------------- UNENLARGE??? -- TO TEST IT
       d3.select(this).attr('transform', '');
     })
     .on('mousedown', function(d) {
@@ -249,6 +262,16 @@ function mousedown() {
 
   if(d3.event.ctrlKey || mousedown_node || mousedown_link) return;
 
+  /* 
+  //wannted to add ZOOMing -- copied code from "force_view.js" (Force Editor + PanZoom)
+  // -- DOES NOT WORK because "vis" variable is not set properly
+  if (!mousedown_node && !mousedown_link) {
+    // allow panning if nothing is selected
+    vis.call(d3.behavior.zoom().on("zoom"), rescale); // was "rescale" instead of "null"------ NOT WORKS!!! --- MOVE the bacground --- TODO!!!!
+    return;
+  }
+  */
+  
   // insert new node at point
   var point = d3.mouse(this),
       node = {id: ++lastNodeId, reflexive: false};
@@ -361,6 +384,17 @@ function keyup() {
       .on('touchstart.drag', null);
     svg.classed('ctrl', false);
   }
+}
+
+// wannted to add ZOOMing -- copied code from "force_view.js" (Force Editor + PanZoom)
+// -- DOES NOT WORK because "vis" variable is not set properly
+function rescale() {
+  trans=d3.event.translate;
+  scale=d3.event.scale;
+
+  vis.attr("transform",     //--------------------- TODO raplace vis by appropriate variable!!!! to make rescale() work
+      "translate(" + trans + ")"
+      + " scale(" + scale + ")");
 }
 
 // app starts here
