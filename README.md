@@ -26,7 +26,7 @@ hspaceportal
 * deploy neo4j
   * windows
     * download package from http://neo4j.com/download/
-    * install into **d:\dev\neo4j**
+    * install into **d:\dev\neo4j-2.0.0**
     * run neo4j community
     * from GUI select folder **d:\dev\hspaceportal\db**
     * start db instance
