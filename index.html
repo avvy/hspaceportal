@@ -24,6 +24,7 @@
   <body>
     <div class="surface">
 	    <img src="img/hspace.png" alt="logo" class="hspace"/>
+			<div id="temp" class="alert alert-danger" role="alert" style="position:absolute;top:48px">...</div>
     </div>
     <div class="top-bar">
       <img src="img/home.png" alt="" class="home"/>
@@ -63,8 +64,23 @@
     <script src="libs/typeahead/typeahead.min.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
-      $.get( "cypher.php", function( data ) {
-        //alert( JSON.stringify( data ) );
+      $.get( "cypher.php?q=match n return n&p", function( data ) {
+				if ( data ) {
+					if ( data.code == 200 ) {
+						var s = '';
+						for( var i = 0; i < data.response.data.length; i++ ){
+							if ( data.response.data[i][0].data.name && data.response.data[i][0].data.surname ) {
+								s = s + data.response.data[i][0].data.name + ',' + data.response.data[i][0].data.surname;
+							} else {
+								s = s + data.response.data[i][0].data.title;
+							}
+							s = s + '<br/>';
+						}
+						$("#temp").html( s );
+					} else {
+						$("#temp").html( data.response.message );
+					}
+				}
       });
 
 /*
