@@ -8,20 +8,36 @@
 	left:0px;
 	right:0px;
 	height:48px;
-  background-color: lightgray;
+  background-color: rgba(211,211,211,.75);
+}
+
+.surface{
+	position: absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+  background-color: white;
 }
 
 img.hspace {
   position: fixed;
   top: 50%;
   left: 50%;
-	width:64px;
-	height:64px;
-  margin-top: -32px;
-  margin-left: -32px;
+  margin-top: -96px;
+  margin-left: -96px;
+	opacity: 0.2;
 }
 
 img.home {
+	position: absolute;
+	top:4px;
+	left:4px;
+	width:40px;
+	height:40px;
+}
+
+img.login {
 	position: absolute;
 	top:4px;
 	right:4px;
@@ -39,9 +55,6 @@ img.home {
 	border: none;
 }
 
-body {
-    padding-top: 40px;
-}
 .twitter-typeahead .tt-query,
 .twitter-typeahead .tt-hint {
   margin-bottom: 0;
