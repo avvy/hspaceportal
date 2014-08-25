@@ -22,12 +22,34 @@
     <![endif]-->
   </head>
   <body>
+    <div class="surface">
+	    <img src="img/hspace.png" alt="logo" class="hspace"/>
+    </div>
     <div class="top-bar">
       <img src="img/home.png" alt="" class="home"/>
+      <a id="login_btn" href="#" data-toggle="modal" data-target="#login-csv-modal" title="Login">
+        <img src="img/login.png" alt="" class="login"/>
+      </a>
     </div>
-    <img src="img/hspace.png" alt="logo" class="hspace"/>
-    <div class="container">
-      <div class="project-template">
+    <!-- Modal -->
+    <div class="modal fade" id="login-csv-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Login with ...</h4>
+          </div>
+          <div class="modal-body">
+						<div class="row">
+						  <div class="col-md-3"><img src="img/facebook.png" alt="facebook" class="img-thumbnail"></div>
+						  <div class="col-md-3"><img src="img/linkedin.png" alt="linkedin" class="img-thumbnail"></div>
+						  <div class="col-md-3"><img src="img/twitter.png" alt="twitter" class="img-thumbnail"></div>
+						  <div class="col-md-3"><img src="img/gplus.png" alt="google plus" class="img-thumbnail"></div>
+						</div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
       </div>
     </div>
     <!-- /.container -->
@@ -40,5 +62,28 @@
     <script src="libs/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
     <script src="libs/typeahead/typeahead.min.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      $.get( "cypher.php", function( data ) {
+        //alert( JSON.stringify( data ) );
+      });
+
+/*
+			$.ajax
+    	({
+        type: "POST",
+        url: "http://localhost:7474/db/data/cypher",
+        data: JSON.stringify('{"query" : "MATCH (n) RETURN n LIMIT 100","params":{}}'),
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function(data){alert(data);},
+        failure: function(errMsg) {
+            //alert(errMsg);
+        }
+    	});
+
+*/
+
+    </script>
+
   </body>
 </html>
