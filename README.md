@@ -24,4 +24,10 @@ hspaceportal
   * add two lines **127.0.0.1 hspaceportal** and "::1 hspaceportal" at the end of the **hosts** file (**c:\Windows\System32\drivers\etc\hosts**)
   * start web server, site will be available at **http://hspaceportal:8080/**
 * deploy neo4j
-  * TBA
+  * windows
+    * download package from http://neo4j.com/download/
+    * install into **d:\dev\neo4j**
+    * run neo4j community
+    * from GUI select folder **d:\dev\hspaceportal\db**
+    * start db instance
+
