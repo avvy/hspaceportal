@@ -30,4 +30,11 @@ hspaceportal
     * run neo4j community
     * from GUI select folder **d:\dev\hspaceportal\db**
     * start db instance
-
+  * centos
+    * start SSL session
+    * cd /opt
+    * wget http://dist.neo4j.org/neo4j-community-2.1.3-unix.tar.gz
+    * tar -zxvf neo4j-community-2.1.3-unix.tar.gz
+    * edit /opt/neo4j-community-2.1.3/conf/neo4j-server.properties file to uncomment the line "org.neo4j.server.webserver.address=0.0.0.0" and define ip address to listen
+    * cd /opt/neo4j-community-2.1.3
+    * sudo bin/neo4j start
