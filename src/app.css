@@ -50,10 +50,24 @@ circle.node.reflexive {
 
 text {
   font: 12px sans-serif;
-  pointer-events: none;
+  pointer-events: auto;  /*was "none". See https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events for info */
 }
 
 text.id {
   text-anchor: middle;
   font-weight: bold;
+  cursor: pointer;
+  color: green; /* not works */
+}
+text.other {
+  text-anchor: middle;
+  font-weight: normal;
+  cursor: pointer;
+  color: green; /* not works */
+}
+text.slabel {
+  text-anchor: right;
+  font-weight: normal;
+  cursor: pointer;
+  color: red; /* not works */
 }

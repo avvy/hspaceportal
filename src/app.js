@@ -1,9 +1,12 @@
 //AVVY visualizer
 
 /* TODOs:
+  * add labels to links: one label near source node and one label near target node 
+  * add <div> into nodes OR <img>
   * make nodes to be still (not moving theirselves)
   * add zooming in and out
   * додати переміщення поля відносно екрану користувача -- див. в коді "allow panning if nothing is selected"
+  * make labels editable
 */
 
 // set up SVG for D3
@@ -19,21 +22,21 @@ var svg = d3.select('body')
 // set up initial nodes and links
 //  - nodes are known by 'id', not by index in array.
 //  - reflexive edges are indicated on the node (as a bold black circle).
-//  - links are always source < target; edge directions are set by 'left' and 'right'.
+//  - links are always source < target; edge directions are set by 'left' and 'right'.  --- !!!!!
 var nodes = [
-    {id: 0, reflexive: false},
-    {id: "Hackerspace", reflexive: true },
-    {id: "Somebody's name", reflexive: false},
-	{id: "Yabadabadoo!", reflexive: false},
-	{id: "Yo ho ho!", reflexive: false}
+    {id: 0, reflexive: false, type: "type1"},
+    {id: "Hackerspace", reflexive: true, type: "type2"},
+    {id: "Somebody's name", reflexive: false, type: "type3"},
+	{id: "Yabadabadoo!", reflexive: false, type: "type4"},
+	{id: "Yo ho ho!", reflexive: true, type: "type5"}
   ],
-  lastNodeId = 2,
+  lastNodeId = 0,
   links = [
-    {source: nodes[0], target: nodes[1], left: false, right: true },
-    {source: nodes[1], target: nodes[2], left: true, right: false },
-	{source: nodes[2], target: nodes[3], left: false, right: true },
-	{source: nodes[1], target: nodes[3], left: true, right: true },
-	{source: nodes[1], target: nodes[4], left: false, right: false }
+    {source: nodes[0], target: nodes[1], left: false, right: true, slabel:  "involves", tlabel:  "involved to"},  //------- added "slabel" for source link label, and "tlabel" for target link label
+    {source: nodes[1], target: nodes[2], left: true, right: false, slabel:  "involved to", tlabel:  "involves"},
+	{source: nodes[2], target: nodes[3], left: false, right: true, slabel:  "involves", tlabel:  "involved to"},
+	{source: nodes[1], target: nodes[3], left: true, right: true, slabel:  "interacts with", tlabel:  "interacts with"},
+	{source: nodes[1], target: nodes[4], left: false, right: false, slabel:  "just undirected link", tlabel:  "just undirected link"}
   ];
 
 // init D3 force layout
@@ -41,7 +44,7 @@ var force = d3.layout.force()
     .nodes(nodes)
     .links(links)
     .size([width, height])
-    .linkDistance(150)
+    .linkDistance(150)  // <------------------------------------------------- link Distance is constrained?
     .charge(-500)
     .on('tick', tick)
 
@@ -57,6 +60,12 @@ svg.append('svg:defs').append('svg:marker')
   .append('svg:path')
     .attr('d', 'M0,-5L10,0L0,5')
     .attr('fill', '#000');
+/*g.append('svg:text')  <----------------------------------- trying to add text to link
+      .attr('class', 'slabel')
+	  .attr("x", 0) 
+	  .attr("y", -40) 
+      .text(function(d) { return d.lname; });
+*/
 
 //START ARROW
 svg.append('svg:defs').append('svg:marker')
@@ -107,7 +116,7 @@ function tick() {
         sourceY = d.source.y + (sourcePadding * normY),
         targetX = d.target.x - (targetPadding * normX),
         targetY = d.target.y - (targetPadding * normY);
-    return 'M' + sourceX + ',' + sourceY + 'L' + targetX + ',' + targetY;
+    return 'M' + sourceX + ',' + sourceY + 'L' + targetX + ',' + targetY;  //------------------------------ must get something like 'M0,-5L10,0L0,5'
   });
 
   circle.attr('transform', function(d) {
@@ -188,7 +197,7 @@ function restart() {
       drag_line
         .style('marker-end', 'url(#end-arrow)')
         .classed('hidden', false)
-        .attr('d', 'M' + mousedown_node.x + ',' + mousedown_node.y + 'L' + mousedown_node.x + ',' + mousedown_node.y);
+        .attr('d', 'M' + mousedown_node.x + ',' + mousedown_node.y + 'L' + mousedown_node.x + ',' + mousedown_node.y);    //------------------------------ must get something like 'M0,-5L10,0L0,5'
 
       restart();
     })
@@ -239,13 +248,20 @@ function restart() {
       restart();
     });
 
-  // show node IDs
+  // show node IDs and Types
   g.append('svg:text')
-      .attr('class', 'id')
+      .attr('class', 'id')  //'id' or 'slabel' -- correspond to "text.id" and "text.slabel" in app.css
 	  .attr("x", 0)  // <------------------------------------------- distance of Label text from target center
 	  .attr("y", -40) // <------------------------------------------- distance of Label text from target center   ".31em"
-      .text(function(d) { return d.id; });
-
+      .text(function(d) {
+		return 'id = ' + d.id; });  //can add other node properties to be displayed
+  g.append('svg:text')
+      .attr('class', 'other')  //'id' or 'slabel' or 'other' -- correspond to "text.id" and "text.slabel" in app.css
+	  .attr("x", 0)  // <------------------------------------------- distance of Label text from target center
+	  .attr("y", 45) // <------------------------------------------- distance of Label text from target center   ".31em"
+      .text(function(d) {
+		return 'type = ' + d.type; });  //can add 'reflexive = ' + d.reflexive + ','
+					
   // remove old nodes
   circle.exit().remove();
 
@@ -274,7 +290,20 @@ function mousedown() {
   
   // insert new node at point
   var point = d3.mouse(this),
-      node = {id: ++lastNodeId, reflexive: false};
+	   nodeType = "Default Type";
+  
+  if (point[0] < 330) {   // ----- that is x coordinate of mouse. TODO: add point[1] (y)coordinate for "Type1" button area
+	nodeType = "Type1 - CONTACT";
+  }
+    if (point[0] >= 330 && point[0] < 660) {  // ----- that is x coordinate of mouse. TODO: add point[1] (y)coordinate for "Type2" button area
+	nodeType = "Type2 - GOAL";
+  }
+  if (point[0] > 660) {   // ----- that is x coordinate of mouse. TODO: add point[1] (y)coordinate for "Type3" button area
+	nodeType = "Type3 - DOCUMENT";
+  }
+
+
+  var node = {id: ++lastNodeId, reflexive: false, type: nodeType};
   node.x = point[0];
   node.y = point[1];
   nodes.push(node);
@@ -286,7 +315,7 @@ function mousemove() {
   if(!mousedown_node) return;
 
   // update drag line
-  drag_line.attr('d', 'M' + mousedown_node.x + ',' + mousedown_node.y + 'L' + d3.mouse(this)[0] + ',' + d3.mouse(this)[1]);
+  drag_line.attr('d', 'M' + mousedown_node.x + ',' + mousedown_node.y + 'L' + d3.mouse(this)[0] + ',' + d3.mouse(this)[1]);  //------------------------------ must get something like 'M0,-5L10,0L0,5'
 
   restart();
 }
