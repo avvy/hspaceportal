@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" DefaultTargets="convert">
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<Target Name="convert">
+
+		<PropertyGroup>
+			<xslt_param><![CDATA[<Parameter Name='param' Value='val'/>]]></xslt_param>
+		</PropertyGroup>
+		
+		<XslTransformation 
+			XmlInputPaths="idcontacts.xml"
+			OutputPaths="hspace.cmd"
+			XslInputPath="idcontacts.xslt"
+			Parameters="$(xslt_param)"/>
+	</Target>
+</Project>
