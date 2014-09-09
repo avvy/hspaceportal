@@ -6,7 +6,12 @@
 CREATE (hspace:goal {type:'project', title:'Hacker Space', desc:''})
 	<xsl:for-each select="Records/Record/Row">
 		<xsl:if test="position()&gt;1">
-CREATE (u<xsl:value-of select="position()"/>:contact {name:'<xsl:value-of select="@B"/>',surname:'<xsl:value-of select="@C"/>',location:'<xsl:value-of select="@D"/>'})
+CREATE (u<xsl:value-of select="position()"/>:contact {
+guid:'<xsl:value-of select="@B"/>',
+name:'<xsl:value-of select="@C"/>',
+surname:'<xsl:value-of select="@D"/>',
+location:'<xsl:value-of select="@E"/>'
+})
 CREATE (u<xsl:value-of select="position()"/>)-[:involved]->(hspace)
 
 		</xsl:if>
