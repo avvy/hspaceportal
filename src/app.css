@@ -35,11 +35,11 @@ path.link.dragline {
 }
 
 path.link.hidden {
-  stroke-width: 0;
+  stroke-width: 0; /* 0 */
 }
 
 circle.node {
-  stroke-width: 1.5px;
+  stroke-width: 1px; .* 1.5 *.
   cursor: pointer;
 }
 
