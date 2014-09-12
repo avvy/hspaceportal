@@ -45,6 +45,11 @@ img.login {
 	height:40px;
 }
 
+.node {
+	position: absolute;
+}
+
+
 .bootstrap-tagsinput { width: 100%; }
 
 .accordion {

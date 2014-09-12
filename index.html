@@ -25,6 +25,7 @@
     <div class="surface">
 	    <img src="img/hspace.png" alt="logo" class="hspace"/>
 			<div id="temp" class="alert alert-danger" role="alert" style="position:absolute;top:48px">...</div>
+			<img data-src="holder.js/64x64/sky" class="template node img-circle" style="left:0px;top:0px;display:none">
     </div>
     <div class="top-bar">
       <img src="img/home.png" alt="" class="home"/>
@@ -59,12 +60,22 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="libs/jquery/jquery.js"></script>
     <script src="libs/holder/holder.js"></script>
+
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="libs/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
     <script src="libs/typeahead/typeahead.min.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
+	  	    var template = $(".template");
+  	  	  var node = template.clone();
+    	  	node.removeClass("template");
+					node.css("left", window.innerWidth / 2 - 32);
+					node.css("top", window.innerHeight / 2 - 32);
+	  	    $(".surface").prepend(node.fadeIn());
+
+/*
       $.get( "cypher.php?q=match n return n&p", function( data ) {
+
 				if ( data ) {
 					if ( data.code == 200 ) {
 						var s = '';
@@ -82,7 +93,7 @@
 					}
 				}
       });
-
+*/
 /*
 			$.ajax
     	({
