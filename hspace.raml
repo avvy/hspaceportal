@@ -1,0 +1,406 @@
+#%RAML 0.8
+---
+title: hSpace API
+host: hspace.net
+version: 1
+baseUri: http://{host}/{version}
+
+#?k=65485a0d-e25c-480f-bac1-41b78696eaa0
+
+/config
+	get:
+		description: get agent configurations
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {
+                "version":"1.0.0",
+                "geolocatorService":{
+                  "root":"http://geopc.dev:8080/",
+                  "locate":"http://geopc.dev:8080/api/1/locate/",
+                  "store":"http://geopc.dev:8080/api/1/store/"
+                  "search":"http://geopc.dev:8080/api/1/search/"
+                },
+                "publicIPService":"http://ipinfo.io/ip",
+                "geoProviders":{
+                  "skyhook":{
+                    "key":"eJwz5DQ0AAFDU0MTzmoDAzMXc0MXF11TI2MjXQNjRxddAzNDU10jQydLM2cnN1djN_NaAApECvo",
+                    "inputs":"ip;wifi;gps;bluetooth;broadband"
+                  },
+                  "google":{
+                    "key":"AIzaSyAfLu57sGysfVZ_FShQoC3cD-9ZydvJA50",
+                    "delegate":true,
+                    "inputs":"ip;wifi;gps;bluetooth;broadband"
+                  },
+                  "mozilla":{
+                    "key":"",
+                    "delegate":true,
+                    "inputs":"ip;wifi;gps;bluetooth;broadband"
+                  }
+                }
+              }
+
+/store
+	post:
+    description: store device location at local db
+    body:
+      application/json:
+        example: |
+          {
+            "uid":"dc4c30b7-01ba-4b30-b5f1-34735d305d17",
+            "time":"2014-07-03 16:18:46+0200",
+            "geoProviders":{
+              "skyhook":[
+                {
+                  "ip":"195.238.92.105",
+                  "latitude":"50.4333",
+                  "longitude":"30.5167",
+                  "address":"",
+                  "accuracy":""
+                },
+                {
+                  "ip":"",
+                  "latitude":"50.4244",
+                  "longitude":"30.5073",
+                  "address":"UA,Ukraine,ћиколи √р≥нченка вулиц€",
+                  "accuracy":""
+                }
+              ],
+              "google":{
+              },
+              "mozilla":{
+              }
+            }
+          }
+
+    responses:
+      200:
+
+/search
+	get:
+		description: return items that meet requested criteria
+    uriParameters:
+      q:
+       displayName: queue
+       type: string
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              [
+                {
+                  "uid":"dc4c30b7-01ba-4b30-b5f1-34735d305d17",
+                  "latitude":"50.4333",
+                  "longitude":"30.5167",
+                },
+                {
+                  "uid":"f52073eb-1819-4939-b0e9-97f56f9703ab",
+                  "latitude":"50.4244",
+                  "longitude":"30.5073",
+                }
+              ]
+
+
+
+/locate
+	post:
+    description: get location info from external geo services
+    body:
+      application/x-www-form-urlencoded:
+        formParameters:
+          desc:
+            description: content short description
+            type: string
+            required: true
+          fields:
+            description: TBD key fields from csv to use
+            type: string
+            required: true
+          file:
+            description: csv file
+            type: file
+            required: true
+    responses:
+      200:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ uriParameters:
+    mediaTypeExtension:
+      enum: [ .json, .xml ]
+      description: Use .json to specify application/json or .xml to specify text/xml
+
+
+/jobs:
+  displayName: Jobs
+  post:
+    description: Create a Job
+    body:
+      text/xml:
+        schema: |
+          <xs:schema attributeFormDefault="unqualified"
+                     elementFormDefault="qualified"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:element name="api-request">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element type="xs:string" name="input"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+      application/json:
+        schema: |
+          {
+            "$schema": "http://json-schema.org/draft-03/schema",
+            "properties": {
+                "input": {
+                    "required": false,
+                    "type": "string"
+                }
+            },
+            "required": false,
+            "type": "object"
+          }
+
+
+
+
+/setup:
+	get:
+		description: return array of all uploaded csv files
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              [
+                {
+                  "src-id":"92d2b632-22bb-42f6-b653-8033e271ee47",
+									"desc":"114k Remedy data",
+									"start":"2013-01-01",
+									"end":"2014-02-14"
+                },
+                {
+                  "src-id":"b8207467-3e67-4442-87d8-bde925b8540a",
+									"desc":"Virtual Agent test dataset"
+									"start":"2014-01-01",
+									"end":"2014-02-28"
+                }
+              ]
+	post:
+    description: upload new csv file
+    body:
+      application/x-www-form-urlencoded:
+        formParameters:
+          desc:
+            description: content short description
+            type: string
+            required: true
+          fields:
+            description: TBD key fields from csv to use
+            type: string
+            required: true
+          file:
+            description: csv file
+            type: file
+            required: true
+    responses:
+      200:
+
+  /{src-id}
+  	get:
+	  	description: return array of all created snapshots
+      responses:
+        200:
+          body:
+            application/json:
+              example: |
+                {
+                  "src-id":"92d2b632-22bb-42f6-b653-8033e271ee47",
+                  "snapshot": 
+                    [
+                      {
+                        "snapshot-id":"0c91f62f-42b1-45ed-a9d0-735983a39ba8",
+                        "desc":"LSI input",
+		  							    "start":"2013-01-01",
+			  						    "end":"2013-12-31"
+                      },
+                      {
+                        "snapshot-id":"17cda9a7-4276-42d8-8c99-99d0c02d56f5",
+							  		    "desc":"Verification set"
+								  	    "start":"2014-01-01",
+  									    "end":"2014-02-28"
+                      }
+                    ]
+                }
+	  post:
+      description: build new snapshot
+      body:
+        application/x-www-form-urlencoded:
+          formParameters:
+            desc:
+              description: content short description
+              type: string
+              required: true
+            start:
+              description: interval start timestamp
+              type: string
+              required: true
+            end:
+              description: interval end timestamp
+              type: string
+              required: true
+      responses:
+        200:
+
+	  delete:
+      description: delete csv file by id and related all snapshots
+      responses:
+        200:
+
+    /{snapshot-id}
+      get:
+	  	  description: return array of all created lsi
+        responses:
+          200:
+            body:
+              application/json:
+                example: |
+                  {
+                    "src-id":"92d2b632-22bb-42f6-b653-8033e271ee47",
+                    "snapshot-id":"0c91f62f-42b1-45ed-a9d0-735983a39ba8",
+                    "lsi": 
+                      [
+                        {
+                          "lsi-id":"f86c9546-1071-4d95-a58a-fefa4e5f259e",
+                          "desc":"LSI input",
+		  		  					    "filter":"no",
+			  		  				    "transform":"no"
+                        }
+                      ]
+                  }
+	    post:
+        description: build new snapshot
+        body:
+          application/x-www-form-urlencoded:
+            formParameters:
+              filter:
+                description: 
+                enum: [ "no", "stop_worlds_only", "names_only", "full" ]
+                required: true
+              start:
+                description: interval start timestamp
+                enum: [ "no", "log_entropy", "tf_idf" ]
+                required: true
+              columns:
+                description: comma separeted list of columns to use as LSI input, they will be concatenated 
+                type: string
+								example : DESCRIPTION,DETAILED_DESCRIPTION
+                required: true
+        responses:
+          200:
+      delete:
+        description: delete snapshot by id
+        responses:
+          200:
+
+      /random
+        get:
+	    	  description: return random snapshot item, TBD returned fields
+          queryParameters:
+				    n:
+              displayName: Number of results
+              type: number
+              description: Items to return
+              example: 50
+              required: true
+				    c:
+              displayName: Columns
+              type: string
+              description: Columns to return
+              example: DESCRIPTION,DETAILED_DESCRIPTION,CATEGORIZATION_TIER_1,CATEGORIZATION_TIER_2,CATEGORIZATION_TIER_3,ASSIGNED_GROUP
+              required: true
+          responses:
+            200:
+              body:
+                application/json:
+                  example: |
+                    [
+                      {
+                        "src-id":"92d2b632-22bb-42f6-b653-8033e271ee47",
+                        "snapshot-id":"0c91f62f-42b1-45ed-a9d0-735983a39ba8",
+                        "DESCRIPTION":"...", 
+                        "DETAILED_DESCRIPTION":"...", 
+											  "CATEGORIZATION_TIER_1:"...",
+                        "CATEGORIZATION_TIER_2:"...",
+                        "CATEGORIZATION_TIER_3":"...",
+                        "ASSIGNED_GROUP":"..."
+                      }
+                    ]
+
+/search
+  /{lsi-id}
+	  get:
+		  description: return relative number of items
+      queryParameters:
+        q:
+          displayName: Queue
+          type: string
+          description: Text to search
+          example: I need to reset my account password
+          required: true
+        n:
+          displayName: Number of results
+          type: number
+          description: Items to return
+          example: 10
+          required: true
+        c:
+          displayName: Columns
+          type: string
+          description: Columns to return
+          example: DESCRIPTION,DETAILED_DESCRIPTION,CATEGORIZATION_TIER_1,CATEGORIZATION_TIER_2,CATEGORIZATION_TIER_3,ASSIGNED_GROUP
+          required: true
+        responses:
+          200:
+            body:
+              application/json:
+                example: |
+                  [
+                    {
+                      "DESCRIPTION":"...", 
+                      "DETAILED_DESCRIPTION":"...", 
+						  			  "CATEGORIZATION_TIER_1:"...",
+                      "CATEGORIZATION_TIER_2:"...",
+                      "CATEGORIZATION_TIER_3":"...",
+                      "ASSIGNED_GROUP":"..."
+                    }
+                  ]

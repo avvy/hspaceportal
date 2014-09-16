@@ -1,8 +1,10 @@
 {
-	"stream":[
+	"remote":[
 		{
-			"guid":"fd0894b9-c915-428f-a02e-c005cb1b3c58",
-			"host":""
+			"guid":"65485a0d-e25c-480f-bac1-41b78696eaa0",
+			"api":"api/1/",
+			"heo4j":"http://localhost:7474/"
+			"root":""
 		},
 		{
 			"guid":"434befc0-0cc2-4fd8-8912-73ad013280c8",

@@ -47,8 +47,28 @@ img.login {
 
 .node {
 	position: absolute;
+	display:block;
+	width:128px;
+	height:128px;
+	border-radius: 50%;
+	border:4px double #ccc;
+	font-size:18px;
+	color:#666;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	vertical-align: middle;
+	background:#ddd
+}
+.node:hover {
+	color:blue;
 }
 
+.node span {
+  position: relative;
+  top: 25%;
+  transform: translateY(-50%);
+}
 
 .bootstrap-tagsinput { width: 100%; }
 

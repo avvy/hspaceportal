@@ -1,0 +1,86 @@
+Променада	Dream town	Комод	Ocean Plaza	ГородОК	Sky Mall	Гуливер	Art mall 	Пирамида
+BAGATT	Alessandro	Naf Naf  	CERRUTI	TEZ TOUR Турагенція	Bershka	4travel	Oodji	New Balance
+CHESTER	Arber	Franco Riveiro	ECCO 	BLOOM	New Yorker	Adidas	KFC	Monica ricci
+CROCS	Colin’s	In Wear/ Matinique 	Gino Rossi	City.com	New Look	AERONAUTICA MILITARE	INTERTOP	OODJi
+DEBUT	Extyn \ Junker	Marks&Spencer 	Un Italiano Vero	GOOVER	Zara	Amaro	Scorpio	Public & Private
+EMANUELE GELMETTI	Franttini	Arber	Benetton	Pier Lucci	Pull&Bear	annette görtz	Zarina	De vie
+FABI | BALDININI	LOVE REPUBLIC	O`Stin 	Gilda Tonelli	Алло-телеком	Karen Millen	Antica Murrina	Tally Weijl	Vinci
+FELLINI	Mango	Oodji	TAGO	BROCARD	Massimo Dutti	Attribute	ARGO CENTER	Reserved
+GEOX	Marc O'Polo	ТМ Lira	Massimo	CLASNA collection	Befree	Attribute Time		Levi's
+INTERTOP	Mario Maretti	TOP SECRET	BeGOODi	Fabiani	OGGI-oodji	Belle Femme		Respect
+LESTA SHOES	Marks & Spenсer	LTB	Crocs	Jhiva	Cropp Town	Bonjour		Ecco
+PLATO	Milan Fashion	Polo Garage 	Franttini	 Marco Pini Marco Pini	Reserved	Bershka		Интертоп
+ARGO CENTER	Monica Ricci	AIRPORT	Arena	COLIN'S	INCITY	Bookling		Big Bag
+COLIN’S	Monton	Интертоп	Kari	Gloria jeans	Mango	Butlers		GOOVER
+GARCIA JEANS	Mosaic	Carlo Pazolini 	Hadley	Argo	Naf Naf	Camicissima		CHES
+GUESS	Pierre Cardin	ECCO	L'OCCITANE	Coma	O'STIN	Camper		Welfare
+LAWINE	Polo Garage	Chester	Chantal Thomass	LATTORI	Tommy Hilfiger	Casa Bella		Wittchen
+LEVI'S	Savage	Antonio Biaggi	Antonio Biaggi	Public & Privat	House	CERRUTI		Mario Muzi
+MARKS & SPENCER	Tally Weijl	ТМ Sharman	Lagerfeld	Avenue Montaigne	Stradivarius	Chantal store		Sempre
+MEXX	Sisley	BROCARD	Why Denis	BEST	Oasis	Chartage		Karen
+MONTON	Stradivarius	LUSH	TJ COLLECTION	BGN	Love Republic	Chester		Mery
+OGGI	Tre	Зарина	Lush	BLOOM	Colin's	Cropp Town		Watsons
+O’STIN	U.S.Polo	925	Cacharel	Businessman	Topshop	Daniel Risotto		Sea of Spa
+TIMBERLAND	United Colors of Benetton	SWATCH	Dzintars	Clan	Marks & Spencer	Deha		Brocard
+TOP SECRET	Vіlonna	TISSOT	Новий Зiр	CLASNA collection	InWear/Matinique	Dolcedonna		Lush
+ZARINA	Zara	Watch Station	Ельдорадо	Crane	Lacoste	Fabs		Алло
+Arber	Афина	Calvin Klein 	Clarks	EuroStyle	Oysho	Fissman		Фокстрот
+BAUROTTI	Aldo	TEZ TOUR	ZARINA	Filpucci	Calvin Klein Jeans	Francelli		
+LAGERFELD	Carlo Pazolini	ВАШ ТУР АГЕНТ	Satin	Frank Walder	Levi's	Frank Walder		
+BROCARD	Ecco	ПИЛОТ	Frau Lusia	Grand Madame	Mexx	Gold Vintage		
+BEGOODI	Geox		Milavitsa	Ingineer	Arber	Gourmandine		
+AMANTA	Luciano Carvari		Urban United	Jhiva	Springfield	Green Gallery		
+ARIN	Miraton		Armani Jeans	Lady Style	Monton	Hadley		
+BESSINI	Respect		Max Mara Weekend	LESYA	Pierre Cardin	Homster		
+BGN	Scarpa Bella		Спортмастер	Love Style	NAUTICA	Intertop		
+BON | TON SILVER	Shar Man		Adidas 	Luxury House	Marc Aurel	iStore		
+DENNY ROSE	Sketchers		Golden Club	MISS SOMMERSBY	Guess	Jewelry Paradise		
+IMAGE COLLECTION	U Style		Calliope	Mosaic	Pepe Jeans London	JYSK		
+MARC AUREL	Интертоп		TOPSHOP	Natali Bolgar	Karen Millen	Kira Plastinina		
+MARIELLA ROSATI	Puma		Arber	Oblique	Tommy Hilfiger	Koranso		
+MAXI MODA	Timberland		Butlers	Potis & Verso	Chester	L'etude		
+NICE COLLECTION	Спортмастер		Savage	Queen of beauty	Carlo Pazolini	L'Occitane		
+RAMILEE	Brocard		Cropptown	S&K Collection	Ecco	La Dolce Vita		
+	Sea Of Spa		ProMenu	Sezone	Intertop	Lagarto		
+	Yamaha		Luxury House	Space	Marks & Spencer	Lefard		
+	iStore		Lava&Cuce	Vilonna	Helen Marlen	Lerros		
+	Moyo		Stefani	Vilonna	Egle	Loriblu		
+	Ringoo		U.S. POLO	Voronin	Luciano Carvari	Love republic		
+	Алло		Z-Generation	W.E.	Respect	Marasil		
+	Технополис		Tru Trussardi	Котофей	Crocs	Marc Сain		
+	DeKa		Oodji	Пижон	Karma of Charme	Massimo		
+	Swarowski		Intertop	Ритмы Индии	Miraton	MassimoDutti		
+	Swatch		oasis	Сезон	WALKER	Michel Negrin		
+	Zarina		mohito	Arber	Adidas	MILAVITSA		
+	Секунда		nautica	Carlo Pazolini	Nike	Mini Bаmbini		
+			Ringoo	Chester	Марафон	Mini Leydi		
+			Centro	Epiffani	Puma	Mohito		
+			New Balance	Marco Pini	Reebok	MONTON		
+			Diesel	Nursace	Timberland	Oodji		
+			Marks&Spencer	Piazza di Lusso	New Balance	Parfois		
+			CK Jeans	Pier Lucci		Reebok		
+			Naf Naf	PLATO		SOVA		
+			Pepe Jeans			SPRINGFIELD		
+			Puma			ViloNNa		
+			GEOX			Vitto Rossi		
+			Секунда			Zarina		
+			ДЕКА			Дека		
+			Karen Millen					
+			Plato					
+			Docker Trend					
+			Pandora					
+			Reserved					
+			Fellini					
+			Walker					
+			Reiss					
+			Carlo Pazolini					
+			Helen Marlen 2					
+			Carlo Pazolini					
+			Watsons					
+			Love Republic					
+			Tommy Hiffiger					
+			Mango					
+			Алло					
+			Ostin					
+			MEXX					
+			Respect					
