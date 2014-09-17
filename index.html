@@ -22,15 +22,24 @@
     <![endif]-->
   </head>
   <body>
+
     <div class="surface">
 	    <img src="img/hspace.png" alt="logo" class="hspace"/>
-			<div id="temp" class="alert alert-danger" role="alert" style="position:absolute;top:48px">...</div>
+			<div class="template node" style="display:none"><span></span></div>
+
+
     </div>
     <div class="top-bar">
       <img src="img/home.png" alt="" class="home"/>
       <a id="login_btn" href="#" data-toggle="modal" data-target="#login-csv-modal" title="Login">
         <img src="img/login.png" alt="" class="login"/>
       </a>
+			<div class="row">
+				<div class=" col-sm-offset-3 col-sm-6 alert alert-danger alert-dismissible" role="alert" style="display:none">
+  				<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+  				<h5>text</h5>
+				</div>
+			</div>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="login-csv-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -59,30 +68,50 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="libs/jquery/jquery.js"></script>
     <script src="libs/holder/holder.js"></script>
+
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="libs/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
     <script src="libs/typeahead/typeahead.min.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
-      $.get( "cypher.php?q=match n return n&p", function( data ) {
+			function createNode( x, y, t ) {
+  	    var template = $(".template");
+ 	  	  var node = template.clone();
+   	  	node.removeClass("template");
+				node.css("left", x - 64 );
+				node.css("top", y - 64 );
+   	  	node.find("span").text( t );
+  	    $(".surface").prepend(node.fadeIn());
+			}
+
+      $.get( "conf.php", function( data ) {
 				if ( data ) {
-					if ( data.code == 200 ) {
-						var s = '';
-						for( var i = 0; i < data.response.data.length; i++ ){
-							if ( data.response.data[i][0].data.name && data.response.data[i][0].data.surname ) {
-								s = s + data.response.data[i][0].data.name + ',' + data.response.data[i][0].data.surname;
-							} else {
-								s = s + data.response.data[i][0].data.title;
-							}
-							s = s + '<br/>';
-						}
-						$("#temp").html( s );
-					} else {
-						$("#temp").html( data.response.message );
-					}
+					alert( JSON.stringify( data ) );
 				}
       });
 
+      $.get( "cypher.php?q=match n return n&p", function( data ) {
+				if ( data ) {
+					if ( data.code == 200 ) {
+						var a = 0;
+						var b = 15;
+						var s = 0.37;
+						var phi = 9.42;
+						for( var i = 0; i < data.response.data.length; i++ ){
+							var t = data.response.data[i][0].data.id;
+							//
+							var r = a + b * phi;
+							var x = r * Math.cos(phi);
+							var y = r * Math.sin(phi);
+							createNode( window.innerWidth / 2 + x, window.innerHeight / 2 + y, t );
+							phi += s;
+						}
+					} else {
+						$(".alert h5").text( data.response.message );
+						$(".alert").show();
+					}
+				}
+      });
 /*
 			$.ajax
     	({
