@@ -98,12 +98,7 @@
 						var s = 0.37;
 						var phi = 9.42;
 						for( var i = 0; i < data.response.data.length; i++ ){
-							var t = "";
-							if ( data.response.data[i][0].data.name && data.response.data[i][0].data.surname ) {
-								t = data.response.data[i][0].data.name + ' ' + data.response.data[i][0].data.surname;
-							} else {
-								t = data.response.data[i][0].data.title;
-							}
+							var t = data.response.data[i][0].data.id;
 							//
 							var r = a + b * phi;
 							var x = r * Math.cos(phi);
