@@ -11,7 +11,7 @@
 		
 		<XslTransformation 
 			XmlInputPaths="idcontacts.xml"
-			OutputPaths="hspace.cmd"
+			OutputPaths="hspace.neo4j"
 			XslInputPath="idcontacts.xslt"
 			Parameters="$(xslt_param)"/>
 	</Target>
