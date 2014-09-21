@@ -3,7 +3,7 @@
 /* TODOs:
   * add labels to links: one label near source node and one label near target node 
   * add <div> into nodes OR <img>
-  * make nodes to be still (not moving theirselves)
+  * ? make nodes to be still (not moving theirselves) ?
   * add zooming in and out
   * додати переміщення поля відносно екрану користувача -- див. в коді "allow panning if nothing is selected"
   * make labels editable
@@ -24,11 +24,11 @@ var svg = d3.select('body')
 //  - reflexive edges are indicated on the node (as a bold black circle).
 //  - links are always source < target; edge directions are set by 'left' and 'right'.  --- !!!!!
 var nodes = [
-    {id: 0, reflexive: false, type: "type1"},
-    {id: "Hackerspace", reflexive: true, type: "type2"},
-    {id: "Somebody's name", reflexive: false, type: "type3"},
-	{id: "Yabadabadoo!", reflexive: false, type: "type4"},
-	{id: "Yo ho ho!", reflexive: true, type: "type5"}
+    {id: 0, reflexive: false, type: "GOAL"},
+    {id: "Hackerspace", reflexive: true, type: "CONTACT"},
+    {id: "Somebody's name", reflexive: false, type: "DOCUMENT"},
+	{id: "Yabadabadoo!", reflexive: false, type: "GOAL"},
+	{id: "Yo ho ho!", reflexive: true, type: "CONTACT"}
   ],
   lastNodeId = 0,
   links = [
@@ -258,9 +258,9 @@ function restart() {
   g.append('svg:text')
       .attr('class', 'other')  //'id' or 'slabel' or 'other' -- correspond to "text.id" and "text.slabel" in app.css
 	  .attr("x", 0)  // <------------------------------------------- distance of Label text from target center
-	  .attr("y", 45) // <------------------------------------------- distance of Label text from target center   ".31em"
+	  .attr("y", 5) // <------------------------------------------- distance of Label text from target center   ".31em"
       .text(function(d) {
-		return 'type = ' + d.type; });  //can add 'reflexive = ' + d.reflexive + ','
+		return d.type; });  //DISPLAYS type of node       can add 'reflexive = ' + d.reflexive + ','
 					
   // remove old nodes
   circle.exit().remove();
@@ -293,13 +293,13 @@ function mousedown() {
 	   nodeType = "Default Type";
   
   if (point[0] < 330) {   // ----- that is x coordinate of mouse. TODO: add point[1] (y)coordinate for "Type1" button area
-	nodeType = "Type1 - CONTACT";
+	nodeType = "CONTACT";//"Type1 - CONTACT";
   }
     if (point[0] >= 330 && point[0] < 660) {  // ----- that is x coordinate of mouse. TODO: add point[1] (y)coordinate for "Type2" button area
-	nodeType = "Type2 - GOAL";
+	nodeType = "GOAL"; //"Type2 - GOAL";
   }
   if (point[0] > 660) {   // ----- that is x coordinate of mouse. TODO: add point[1] (y)coordinate for "Type3" button area
-	nodeType = "Type3 - DOCUMENT";
+	nodeType = "DOCUMENT"; //"Type3 - DOCUMENT";
   }
 
 
