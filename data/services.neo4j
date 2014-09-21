@@ -1,0 +1,57 @@
+
+CREATE (facebook:contact {
+uuid:'3ec2b1cf-33c8-4882-b677-8fc0478901ca',
+name:'{"title":"Facebook"}',
+key:'{"url":"http://facebook.com/"}'
+})
+  
+CREATE (twitter:contact {
+uuid:'20b3e65f-aabe-4c2a-a3b7-d06ecce791fa',
+name:'{"title":"Twitter"}',
+key:'{"url":"http://twitter.com"}'
+})
+  
+CREATE (linkedin:contact {
+uuid:'37f905cf-5d8d-4ac0-8f51-17be90e6738b',
+name:'{"title":"Linkedin"}',
+key:'{"url":"http://linkedin.com/"}'
+})
+  
+CREATE (google:contact {
+uuid:'a4dde6e9-3c52-495e-b1c5-aa0962eb0b60',
+name:'{"title":"Google"}',
+key:'{"url":"http://google.com/"}'
+})
+  
+CREATE (googlePlus:contact {
+uuid:'ee8b3515-d025-42f2-b0b1-a755c44d69f7',
+name:'{"title":"Google+"}',
+key:'{"url":"http://plus.google.com/"}'
+})
+  
+CREATE (skype:contact {
+uuid:'a4dde6e9-3c52-495e-b1c5-aa0962eb0b60',
+name:'{"title":"Skype"}',
+key:'{"url":"http://skype.com/"}'
+})
+  
+CREATE (github:contact {
+uuid:'b6a7eb04-e732-48cb-926a-95a394648d53',
+name:'{"title":"Github"}',
+key:'{"url":"http://github.com/"}'
+})
+  
+CREATE (stackoverflow:contact {
+uuid:'a90c5e78-2584-4ea2-953d-68c3ab6eabac',
+name:'{"title":"Stackoverflow"}',
+key:'{"url":"http://stackoverflow.com/"}'
+})
+  
+CREATE (globallogic:contact {
+uuid:'630a8a17-0768-4bab-8527-d1bcb467e2bd',
+name:'{"title":"Global Logic"}',
+key:'{"url":"http://globallogic.com/"}'
+})
+  
+CREATE (googlePlus)-[:part_of]->(google)
+  
