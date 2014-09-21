@@ -1,14 +1,16 @@
 {
-	"remote":[
-		{
-			"guid":"65485a0d-e25c-480f-bac1-41b78696eaa0",
+	"realm":{
+		"65485a0d-e25c-480f-bac1-41b78696eaa0":{
 			"api":"api/1/",
-			"heo4j":"http://localhost:7474/"
-			"root":""
+			"heo4j":"http://localhost:7474/",
+			"home":"89eeac34-407c-437a-99d7-608b4ed616b8",
+			"title":"hSpace"
 		},
-		{
-			"guid":"434befc0-0cc2-4fd8-8912-73ad013280c8",
-			"host":""
+		"a1945b2f-65c2-4bd2-a986-949a0f78180f":{
+			"api":"api/1/",
+			"heo4j":"http://localhost:7474/",
+			"home":"1c33090f-433a-4395-a160-857a64f1319a",
+			"title":"BMC Lab"
 		}
-	]
+	}
 }

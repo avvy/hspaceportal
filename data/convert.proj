@@ -9,11 +9,11 @@
 			<xslt_param><![CDATA[<Parameter Name='param' Value='val'/>]]></xslt_param>
 		</PropertyGroup>
 		
-		<!--XslTransformation 
+		<XslTransformation 
 			XmlInputPaths="idcontacts.xml"
 			OutputPaths="hspace.neo4j"
 			XslInputPath="idcontacts.xslt"
-			Parameters="$(xslt_param)"/-->
+			Parameters="$(xslt_param)"/>
 		<XslTransformation 
 			XmlInputPaths="services.xml"
 			OutputPaths="services.neo4j"

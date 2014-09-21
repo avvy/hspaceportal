@@ -1,54 +1,16 @@
 
 
-CREATE (facebook:contact {
-uuid:'3ec2b1cf-33c8-4882-b677-8fc0478901ca',
-key:'http://facebook.com/',
-id:'Facebook'})
+CREATE (home:contact {
+uuid:'89eeac34-407c-437a-99d7-608b4ed616b8',
+name:'{"title":"Facebook"}',
+key:'{"url":"http://hspace.globallogic.com/"}'})
 
-CREATE (twitter:contact {
-uuid:'20b3e65f-aabe-4c2a-a3b7-d06ecce791fa',
-key:'http://twitter.com',
-id:'Twitter'})
-
-CREATE (linkedin:contact {
-uuid:'37f905cf-5d8d-4ac0-8f51-17be90e6738b',
-key:'http://linkedin.com/',
-id:'Linkedin'})
-
-CREATE (google:contact {
-uuid:'a4dde6e9-3c52-495e-b1c5-aa0962eb0b60',
-key:'http://google.com/',
-id:'Google'})
-CREATE (google_plus:contact {
-uuid:'ee8b3515-d025-42f2-b0b1-a755c44d69f7',
-key:'http://plus.google.com/',
-id:'Google+'})
-CREATE (google_plus)-[:part_of]->(google)
-
-CREATE (skype:contact {
-uuid:'a4dde6e9-3c52-495e-b1c5-aa0962eb0b60',
-key:'http://skype.com/',
-id:'Skype'})
-
-CREATE (github:contact {
-uuid:'a90c5e78-2584-4ea2-953d-68c3ab6eabac',
-key:'http://github.com/',
-id:'Github'})
-
-CREATE (stackoverflow:contact {
-uuid:'a90c5e78-2584-4ea2-953d-68c3ab6eabac',
-key:'http://stackoverflow.com/',
-id:'Stackoverflow'})
 
 
 CREATE (glo:contact {
 uuid:'ba90472d-93cd-45f2-b05f-c33b2c457752',
 key:'http://glo.globallogic.com/',
 id:'GLO'})
-CREATE (globallogic:contact {
-uuid:'630a8a17-0768-4bab-8527-d1bcb467e2bd',
-key:'http://globallogic.com/',
-id:'Global Logic'})
 CREATE (glo)-[:part_of]->(globallogic)
 
 
@@ -61,7 +23,9 @@ id:'Hacker Space'})
 	
 CREATE (u2:contact {
 uuid:'defe0074-96ba-4bb9-8fb9-2744fa99d434',
-id:'Oleksandr,Baglai'})
+id:'Oleksandr,Baglai'
+})
+
 CREATE (u2)-[:part_of]->(hspace)
 
 	CREATE (u2)-[:part_of {key:'oleksandr.baglai@globallogic.com'} ]->(globallogic)
@@ -70,7 +34,9 @@ CREATE (u2)-[:part_of]->(hspace)
 
 CREATE (u3:contact {
 uuid:'a157d60e-eddc-4321-8989-6b793a448077',
-id:'Volodymyr,Shymanskyy'})
+id:'Volodymyr,Shymanskyy'
+})
+
 CREATE (u3)-[:part_of]->(hspace)
 
 	CREATE (u3)-[:part_of {key:'volodymyr.shymanskyy@globallogic.com'} ]->(globallogic)
@@ -79,7 +45,9 @@ CREATE (u3)-[:part_of]->(hspace)
 
 CREATE (u4:contact {
 uuid:'626e029e-8e53-441a-898b-bd3850846fb0',
-id:'Yurii,Pyvovarenko'})
+id:'Yurii,Pyvovarenko'
+})
+
 CREATE (u4)-[:part_of]->(hspace)
 
 	CREATE (u4)-[:part_of {key:'yurii.pyvovarenko@globallogic.com'} ]->(globallogic)
@@ -90,7 +58,9 @@ CREATE (u4)-[:part_of]->(hspace)
 
 CREATE (u5:contact {
 uuid:'a5080454-88b5-439f-9803-86ec14decc80',
-id:'Oleksandr,Litvinov'})
+id:'Oleksandr,Litvinov'
+})
+
 CREATE (u5)-[:part_of]->(hspace)
 
 	CREATE (u5)-[:part_of {key:'oleksandr.litvinov@globallogic.com'} ]->(globallogic)
@@ -99,21 +69,27 @@ CREATE (u5)-[:part_of]->(hspace)
 
 CREATE (u6:contact {
 uuid:'a7c65a96-cab7-4c93-8f42-9a8df2b7aa4f',
-id:'Igor,Kaplinskyi'})
+id:'Igor,Kaplinskyi'
+})
+
 CREATE (u6)-[:part_of]->(hspace)
 
 	CREATE (u6)-[:part_of {key:'igor.kaplinskyi@globallogic.com'} ]->(globallogic)
 
 CREATE (u7:contact {
 uuid:'46a00696-3675-4f9d-ae3c-5cd3cd57668f',
-id:'Vitalii,Chernookyi'})
+id:'Vitalii,Chernookyi'
+})
+
 CREATE (u7)-[:part_of]->(hspace)
 
 	CREATE (u7)-[:part_of {key:'vitalii.chernookyi@globallogic.com'} ]->(globallogic)
 
 CREATE (u8:contact {
 uuid:'19f422a8-18c1-4e32-a3c2-73df03b2a52e',
-id:'Dmytro,Riabichenko'})
+id:'Dmytro,Riabichenko'
+})
+
 CREATE (u8)-[:part_of]->(hspace)
 
 	CREATE (u8)-[:part_of {key:'dmytro.riabichenko@globallogic.com'} ]->(globallogic)
@@ -122,7 +98,9 @@ CREATE (u8)-[:part_of]->(hspace)
 
 CREATE (u9:contact {
 uuid:'2c118040-46b2-47eb-aa87-2f9ba94cdfba',
-id:'Andrii,Oleshko'})
+id:'Andrii,Oleshko'
+})
+
 CREATE (u9)-[:part_of]->(hspace)
 
 	CREATE (u9)-[:part_of {key:'andrii.oleshko@globallogic.com'} ]->(globallogic)
@@ -131,14 +109,18 @@ CREATE (u9)-[:part_of]->(hspace)
 
 CREATE (u10:contact {
 uuid:'5b5fa803-e827-4281-a4ff-dd1eed0667e6',
-id:'Anastasiia,Zaitseva'})
+id:'Anastasiia,Zaitseva'
+})
+
 CREATE (u10)-[:part_of]->(hspace)
 
 	CREATE (u10)-[:part_of {key:'anastasiia.zaitseva@globallogic.com'} ]->(globallogic)
 
 CREATE (u11:contact {
 uuid:'06d7e3ae-8548-451c-a147-ccaadee0a66b',
-id:'Smbat,Makiyan'})
+id:'Smbat,Makiyan'
+})
+
 CREATE (u11)-[:part_of]->(hspace)
 
 	CREATE (u11)-[:part_of {key:'smbat.makiyan@globallogic.com'} ]->(globallogic)
@@ -147,21 +129,27 @@ CREATE (u11)-[:part_of]->(hspace)
 
 CREATE (u12:contact {
 uuid:'49fd3087-961e-45c5-bfed-e488c7df8ea8',
-id:'Oleksandr,Sotnikov'})
+id:'Oleksandr,Sotnikov'
+})
+
 CREATE (u12)-[:part_of]->(hspace)
 
 	CREATE (u12)-[:part_of {key:'oleksandr.sotnikov@globallogic.com'} ]->(globallogic)
 
 CREATE (u13:contact {
 uuid:'25506943-1ce7-4721-b777-746f82d8f276',
-id:'Kyrylo,Iun'})
+id:'Kyrylo,Iun'
+})
+
 CREATE (u13)-[:part_of]->(hspace)
 
 	CREATE (u13)-[:part_of {key:'kyrylo.iun@globallogic.com'} ]->(globallogic)
 
 CREATE (u14:contact {
 uuid:'c9a1ca63-db1d-496d-a729-f32449ad8684',
-id:'Artem,Ryabokon'})
+id:'Artem,Ryabokon'
+})
+
 CREATE (u14)-[:part_of]->(hspace)
 
 	CREATE (u14)-[:part_of {key:'artem.ryabokon@globallogic.com'} ]->(globallogic)
@@ -170,21 +158,27 @@ CREATE (u14)-[:part_of]->(hspace)
 
 CREATE (u15:contact {
 uuid:'6ef3da45-c12e-4583-9f1b-3c58c6da0611',
-id:'Mykhailo,Nedokushev'})
+id:'Mykhailo,Nedokushev'
+})
+
 CREATE (u15)-[:part_of]->(hspace)
 
 	CREATE (u15)-[:part_of {key:'mykhailo.nedokushev@globallogic.com'} ]->(globallogic)
 
 CREATE (u16:contact {
 uuid:'f60a0742-b3e7-41c8-9799-d8b17bc79770',
-id:'Sergiy,Didenko'})
+id:'Sergiy,Didenko'
+})
+
 CREATE (u16)-[:part_of]->(hspace)
 
 	CREATE (u16)-[:part_of {key:'sergiy.didenko@globallogic.com'} ]->(globallogic)
 
 CREATE (u17:contact {
 uuid:'cee59ba9-b072-426d-a2eb-a5a87dd1dc89',
-id:'Oleg,Tatarchuk'})
+id:'Oleg,Tatarchuk'
+})
+
 CREATE (u17)-[:part_of]->(hspace)
 
 	CREATE (u17)-[:part_of {key:'oleg.tatarchuk@globallogic.com'} ]->(globallogic)
@@ -195,7 +189,9 @@ CREATE (u17)-[:part_of]->(hspace)
 
 CREATE (u18:contact {
 uuid:'93b2e95f-cbe4-47fa-9aea-1d6b8e2f0227',
-id:'Dmytro,Maslenko'})
+id:'Dmytro,Maslenko'
+})
+
 CREATE (u18)-[:part_of]->(hspace)
 
 	CREATE (u18)-[:part_of {key:'dmytro.maslenko@globallogic.com'} ]->(globallogic)
@@ -206,7 +202,9 @@ CREATE (u18)-[:part_of]->(hspace)
 
 CREATE (u19:contact {
 uuid:'436bf582-7537-4c0d-a33a-ae64a74a61f4',
-id:'Kateryna,Tertytska'})
+id:'Kateryna,Tertytska'
+})
+
 CREATE (u19)-[:part_of]->(hspace)
 
 	CREATE (u19)-[:part_of {key:'kateryna.tertytska@globallogic.com'} ]->(globallogic)
@@ -215,7 +213,9 @@ CREATE (u19)-[:part_of]->(hspace)
 
 CREATE (u20:contact {
 uuid:'813cb82d-ab7c-406e-b7c7-56402bdbc491',
-id:'Artem,Paskhin'})
+id:'Artem,Paskhin'
+})
+
 CREATE (u20)-[:part_of]->(hspace)
 
 	CREATE (u20)-[:part_of {key:'artem.paskhin@globallogic.com'} ]->(globallogic)
@@ -224,7 +224,9 @@ CREATE (u20)-[:part_of]->(hspace)
 
 CREATE (u21:contact {
 uuid:'8a42543f-94f5-4bea-9c7a-2c98e19aa062',
-id:'Oleg,Kuzych'})
+id:'Oleg,Kuzych'
+})
+
 CREATE (u21)-[:part_of]->(hspace)
 
 	CREATE (u21)-[:part_of {key:'oleg.kuzych@globallogic.com'} ]->(globallogic)
@@ -233,21 +235,27 @@ CREATE (u21)-[:part_of]->(hspace)
 
 CREATE (u22:contact {
 uuid:'ccdebe59-78be-4005-bdff-1205702071bf',
-id:'Pavlo,Rudenko'})
+id:'Pavlo,Rudenko'
+})
+
 CREATE (u22)-[:part_of]->(hspace)
 
 	CREATE (u22)-[:part_of {key:'pavlo.rudenko@globallogic.com'} ]->(globallogic)
 
 CREATE (u23:contact {
 uuid:'5ecf9df5-bdf3-4b2a-a3d9-c0708b603210',
-id:'Sergiy,Pechenizhskiy'})
+id:'Sergiy,Pechenizhskiy'
+})
+
 CREATE (u23)-[:part_of]->(hspace)
 
 	CREATE (u23)-[:part_of {key:'s.pechenizhskiy@globallogic.com'} ]->(globallogic)
 
 CREATE (u24:contact {
 uuid:'e90138a1-eb93-40bf-b0b8-1fbb536052d9',
-id:'Georgii,Slotvinskyi'})
+id:'Georgii,Slotvinskyi'
+})
+
 CREATE (u24)-[:part_of]->(hspace)
 
 	CREATE (u24)-[:part_of {key:'georgii.slotvinskyi@globallogic.com'} ]->(globallogic)
@@ -258,7 +266,9 @@ CREATE (u24)-[:part_of]->(hspace)
 
 CREATE (u25:contact {
 uuid:'78704270-c238-4707-92e5-63da12b26737',
-id:'Nadiia,Sakara'})
+id:'Nadiia,Sakara'
+})
+
 CREATE (u25)-[:part_of]->(hspace)
 
 	CREATE (u25)-[:part_of {key:'nadiia.sakara@globallogic.com'} ]->(globallogic)
@@ -267,7 +277,9 @@ CREATE (u25)-[:part_of]->(hspace)
 
 CREATE (u26:contact {
 uuid:'e9f12ca5-07ec-4901-a983-2a8ae9b3bf72',
-id:'Oleksandr,Buratynskyi'})
+id:'Oleksandr,Buratynskyi'
+})
+
 CREATE (u26)-[:part_of]->(hspace)
 
 	CREATE (u26)-[:part_of {key:'o.buratynskyi@globallogic.com'} ]->(globallogic)
@@ -276,7 +288,9 @@ CREATE (u26)-[:part_of]->(hspace)
 
 CREATE (u27:contact {
 uuid:'9b27f8d9-85c8-426d-a355-266765fb661a',
-id:'Sergii,Pylypenko'})
+id:'Sergii,Pylypenko'
+})
+
 CREATE (u27)-[:part_of]->(hspace)
 
 	CREATE (u27)-[:part_of {key:'sergii.pylypenko@globallogic.com'} ]->(globallogic)
@@ -287,7 +301,9 @@ CREATE (u27)-[:part_of]->(hspace)
 
 CREATE (u28:contact {
 uuid:'39df41d4-440f-4142-9fcf-07ea72faa8f2',
-id:'Volodymyr,Shaboltas'})
+id:'Volodymyr,Shaboltas'
+})
+
 CREATE (u28)-[:part_of]->(hspace)
 
 	CREATE (u28)-[:part_of {key:'volodymyr.shaboltas@globallogic.com'} ]->(globallogic)
@@ -296,7 +312,9 @@ CREATE (u28)-[:part_of]->(hspace)
 
 CREATE (u29:contact {
 uuid:'66eb5ef3-f452-4139-9d43-c3f8fe4b8e5b',
-id:'Denys,Dudaiev'})
+id:'Denys,Dudaiev'
+})
+
 CREATE (u29)-[:part_of]->(hspace)
 
 	CREATE (u29)-[:part_of {key:'denys.dudaiev@globallogic.com'} ]->(globallogic)
@@ -305,7 +323,9 @@ CREATE (u29)-[:part_of]->(hspace)
 
 CREATE (u30:contact {
 uuid:'e8ad1536-9ced-4fa0-b6c8-eb424ae84a38',
-id:'Nataliia,Akimova'})
+id:'Nataliia,Akimova'
+})
+
 CREATE (u30)-[:part_of]->(hspace)
 
 	CREATE (u30)-[:part_of {key:'nataliia.akimova@globallogic.com'} ]->(globallogic)
@@ -316,7 +336,9 @@ CREATE (u30)-[:part_of]->(hspace)
 
 CREATE (u31:contact {
 uuid:'c2d062db-63fb-45fd-b3aa-4a0dc0e1e27e',
-id:'Oleksii,Koliada'})
+id:'Oleksii,Koliada'
+})
+
 CREATE (u31)-[:part_of]->(hspace)
 
 	CREATE (u31)-[:part_of {key:'oleksii.koliada@globallogic.com'} ]->(globallogic)
@@ -327,7 +349,9 @@ CREATE (u31)-[:part_of]->(hspace)
 
 CREATE (u32:contact {
 uuid:'90b0190e-4763-4c76-a76d-eb0b5b87c0f6',
-id:'Nataliia,Lytvynenko'})
+id:'Nataliia,Lytvynenko'
+})
+
 CREATE (u32)-[:part_of]->(hspace)
 
 	CREATE (u32)-[:part_of {key:'nataliia.lytvynenko@globallogic.com'} ]->(globallogic)
@@ -336,7 +360,9 @@ CREATE (u32)-[:part_of]->(hspace)
 
 CREATE (u33:contact {
 uuid:'ec7c2477-3fc4-4ded-a3b0-32aa6b3dfc04',
-id:'Olga,Stashevska'})
+id:'Olga,Stashevska'
+})
+
 CREATE (u33)-[:part_of]->(hspace)
 
 	CREATE (u33)-[:part_of {key:'olga.stashevska@globallogic.com'} ]->(globallogic)
@@ -345,7 +371,9 @@ CREATE (u33)-[:part_of]->(hspace)
 
 CREATE (u34:contact {
 uuid:'91b1d446-2f49-4627-b27b-2faea8e47fe9',
-id:'Timur,Suleimanov'})
+id:'Timur,Suleimanov'
+})
+
 CREATE (u34)-[:part_of]->(hspace)
 
 	CREATE (u34)-[:part_of {key:'timur.suleimanov@globallogic.com'} ]->(globallogic)
@@ -356,7 +384,9 @@ CREATE (u34)-[:part_of]->(hspace)
 
 CREATE (u35:contact {
 uuid:'2d30fe2a-cada-4a20-ab80-7b25391cc255',
-id:'Georgiy,Belikov'})
+id:'Georgiy,Belikov'
+})
+
 CREATE (u35)-[:part_of]->(hspace)
 
 	CREATE (u35)-[:part_of {key:'georgiy.belikov@globallogic.com'} ]->(globallogic)
@@ -365,14 +395,18 @@ CREATE (u35)-[:part_of]->(hspace)
 
 CREATE (u36:contact {
 uuid:'8922f339-1e6f-457c-b0d4-677ac1bec1d0',
-id:'Andriy,Shkodyn'})
+id:'Andriy,Shkodyn'
+})
+
 CREATE (u36)-[:part_of]->(hspace)
 
 	CREATE (u36)-[:part_of {key:'andriy.shkodyn@globallogic.com'} ]->(globallogic)
 
 CREATE (u37:contact {
 uuid:'82f81365-2bce-4201-9da6-e3d7c8c201b9',
-id:'Andrii,Kulikov'})
+id:'Andrii,Kulikov'
+})
+
 CREATE (u37)-[:part_of]->(hspace)
 
 	CREATE (u37)-[:part_of {key:'andrii.kulikov@globallogic.com'} ]->(globallogic)
@@ -383,14 +417,18 @@ CREATE (u37)-[:part_of]->(hspace)
 
 CREATE (u38:contact {
 uuid:'d32e5cf5-7abd-4c32-81c9-2c2cad54b142',
-id:'Pavlo,Kharchenko'})
+id:'Pavlo,Kharchenko'
+})
+
 CREATE (u38)-[:part_of]->(hspace)
 
 	CREATE (u38)-[:part_of {key:'pavlo.i.kharchenko@globallogic.com'} ]->(globallogic)
 
 CREATE (u39:contact {
 uuid:'c95595dc-961e-4e59-abab-05e890c770fa',
-id:'Igor,Nedashkivskyi'})
+id:'Igor,Nedashkivskyi'
+})
+
 CREATE (u39)-[:part_of]->(hspace)
 
 	CREATE (u39)-[:part_of {key:'igor.nedashkivskyi@globallogic.com'} ]->(globallogic)
@@ -399,7 +437,9 @@ CREATE (u39)-[:part_of]->(hspace)
 
 CREATE (u40:contact {
 uuid:'3a70ae0c-4561-412c-b0a5-72c5e87c4029',
-id:'Alina,Bazhura'})
+id:'Alina,Bazhura'
+})
+
 CREATE (u40)-[:part_of]->(hspace)
 
 	CREATE (u40)-[:part_of {key:'alina.bazhura@globallogic.com'} ]->(globallogic)
@@ -410,28 +450,36 @@ CREATE (u40)-[:part_of]->(hspace)
 
 CREATE (u41:contact {
 uuid:'7c53e8d1-f5d3-41a5-b4e0-a3fdbdce411c',
-id:'Oleksii,Kolotylenko'})
+id:'Oleksii,Kolotylenko'
+})
+
 CREATE (u41)-[:part_of]->(hspace)
 
 	CREATE (u41)-[:part_of {key:'oleksii.kolotylenko@globallogic.com'} ]->(globallogic)
 
 CREATE (u42:contact {
 uuid:'c0b1c04a-7788-4ad8-a644-19ec182030d5',
-id:'Oleksandr,Revin'})
+id:'Oleksandr,Revin'
+})
+
 CREATE (u42)-[:part_of]->(hspace)
 
 	CREATE (u42)-[:part_of {key:'oleksandr.revin@globallogic.com'} ]->(globallogic)
 
 CREATE (u43:contact {
 uuid:'e6efcc92-49c6-49e2-b191-a5de734dc72d',
-id:'Volodymyr,Davydenko'})
+id:'Volodymyr,Davydenko'
+})
+
 CREATE (u43)-[:part_of]->(hspace)
 
 	CREATE (u43)-[:part_of {key:'volodymyr.davydenko@globallogic.com'} ]->(globallogic)
 
 CREATE (u44:contact {
 uuid:'5408be83-19d0-43a8-9f16-6ea048304db6',
-id:'Vladyslav,Kurmaz'})
+id:'Vladyslav,Kurmaz'
+})
+
 CREATE (u44)-[:part_of]->(hspace)
 
 	CREATE (u44)-[:part_of {key:'vladyslav.kurmaz@globallogic.com'} ]->(globallogic)
