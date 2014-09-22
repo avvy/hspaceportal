@@ -45,6 +45,14 @@ img.login {
 	height:40px;
 }
 
+img.settings {
+	position: absolute;
+	top:4px;
+	right:4px;
+	width:40px;
+	height:40px;
+}
+
 .node {
 	position: absolute;
 	display:block;

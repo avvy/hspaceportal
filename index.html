@@ -22,17 +22,17 @@
     <![endif]-->
   </head>
   <body>
-
     <div class="surface">
-	    <img src="img/hspace.png" alt="logo" class="hspace"/>
+	    <!--img src="img/hspace.png" alt="logo" class="hspace"/-->
 			<div class="template node" style="display:none"><span></span></div>
-
-
     </div>
     <div class="top-bar">
       <img src="img/home.png" alt="" class="home"/>
-      <a id="login_btn" href="#" data-toggle="modal" data-target="#login-csv-modal" title="Login">
+      <!--a id="login_btn" href="#" data-toggle="modal" data-target="#login-csv-modal" title="Login">
         <img src="img/login.png" alt="" class="login"/>
+      </a-->
+      <a id="btnSettings" href="#" data-toggle="modal" data-target="#settings-modal" title="Settings">
+        <img src="img/settings.png" alt="" class="settings"/>
       </a>
 			<div class="row">
 				<div class=" col-sm-offset-3 col-sm-6 alert alert-danger alert-dismissible" role="alert" style="display:none">
@@ -42,31 +42,24 @@
 			</div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="login-csv-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="settings-modal" tabindex="-1" role="dialog" aria-labelledby="settingsLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel">Login with ...</h4>
+            <h4 class="modal-title" id="settingsLabel">Settings</h4>
           </div>
           <div class="modal-body">
-<ul class="nav nav-list">
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-	<li><label class="checkbox"><input type="checkbox" value="89" name="[14].Answer.SelectedAnswers">Biologie</label></li>
-</ul>
-						<div class="row">
+						<label for="realmList">Realms</label>
+						<ul id="realmList" class="nav nav-list">
+							<li id="realmTemplate" style="display:none"><label class="checkbox"><input type="checkbox" value="" name=""><span>Template</span></label></li>
+						</ul>
+						<!--div class="row">
 						  <div class="col-md-3"><img src="img/facebook.png" alt="facebook" class="img-thumbnail"></div>
 						  <div class="col-md-3"><img src="img/linkedin.png" alt="linkedin" class="img-thumbnail"></div>
 						  <div class="col-md-3"><img src="img/twitter.png" alt="twitter" class="img-thumbnail"></div>
 						  <div class="col-md-3"><img src="img/gplus.png" alt="google plus" class="img-thumbnail"></div>
-						</div>
+						</div-->
           </div>
           <div class="modal-footer">
           </div>

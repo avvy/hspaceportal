@@ -4,13 +4,15 @@
 			"api":"api/1/",
 			"heo4j":"http://localhost:7474/",
 			"home":"89eeac34-407c-437a-99d7-608b4ed616b8",
-			"title":"hSpace"
+			"title":"hSpace",
+			"default":true
 		},
 		"a1945b2f-65c2-4bd2-a986-949a0f78180f":{
 			"api":"api/1/",
 			"heo4j":"http://localhost:7474/",
 			"home":"1c33090f-433a-4395-a160-857a64f1319a",
-			"title":"BMC Lab"
+			"title":"BMC Lab",
+			"default":true
 		}
 	}
 }

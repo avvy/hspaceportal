@@ -5,8 +5,8 @@
 <xsl:template match="/">
 
 CREATE (home:contact {
-uuid:'89eeac34-407c-437a-99d7-608b4ed616b8',
-name:'{"title":"Facebook"}',
+uuid:'e1857546-1f94-4724-8597-aef07a15a18a',
+name:'{"title":"hSpace"}',
 key:'{"url":"http://hspace.globallogic.com/"}'})
 
 

@@ -1,3 +1,6 @@
+// globals
+var realms = null;
+
 function createNode( x, y, t ) {
 	var template = $(".template");
  	var node = template.clone();
@@ -8,9 +11,23 @@ function createNode( x, y, t ) {
   $(".surface").prepend(node.fadeIn());
 }
 
+// get configuration
 $.get( "conf.php", function( data ) {
 	if ( data ) {
-//		alert( JSON.stringify( data ) );
+		realms = data;
+		// add user defined realms from cookies
+		// TODO
+
+		// start exploring realms
+		var rt = $("#realmTemplate");
+
+		for ( var i = 0; i < realms.length; ++i ) {
+			var nr = rt.clone();
+			nr.attr("id", "");
+			nr.find("label span").text( realms[i].title );
+			nr.find("input").prop('checked', realms[i].default );
+			$("#realmList").append(nr.fadeIn());
+		}
 	}
 });
 
