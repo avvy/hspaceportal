@@ -1,5 +1,8 @@
 <?php
+header('Content-Type: application/json; charset=UTF-8');
+
 $fn = "skills.csv"; // input file name
+$of = "skills.cypher"; // input file name
 $hasHeader = true; // input file has header, we will skip first line
 //
 function appendItem( &$r, $lvl, $item ) {
@@ -12,18 +15,23 @@ function appendItem( &$r, $lvl, $item ) {
 	}
 }
 
-function neo4j( &$r, $parent, &$ndex ) {
-	foreach( $r as $rk => $rv ) {
+function neo4j( &$s, $parent, &$ndex, &$r ) {
+	foreach( $s as $sk => $sv ) {
 		$ndex++;
 		$name = "skill".$ndex;
-		echo "(".$name.":skill { id:'".$rk."'}),"."</br>";
+		$skill = "CREATE (".$name.":skill {var:'".$name."', id:'".$sk."'})";
 		if ( $parent ) {
-			echo "(".$parent.")-[:linked]->(".$name."),"."</br>";
+			$r[] = "MATCH (parent:skill { var:'".$parent."' })\n";
+			$r[] = $skill."\n";
+			$r[] = "CREATE (parent)-[:linked]->(".$name.");\n";
+		} else {
+			$r[] = $skill.";\n";
 		}
-		neo4j( $rv, $name, $ndex );
+		neo4j( $sv, $name, $ndex, $r );
 	}
 }
 
+$s = array();
 $r = array();
 if ( ( $handle = fopen( $fn, "r" ) ) !== FALSE ) {
 	$header = true;
@@ -35,7 +43,7 @@ if ( ( $handle = fopen( $fn, "r" ) ) !== FALSE ) {
 			foreach( $data as $dv ) {
 				$v = trim( $dv );
 				if ( $v ) {
-					appendItem( $r, $lvl, $v );
+					appendItem( $s, $lvl, $v );
 					break;
 				}
 				$lvl++;
@@ -43,8 +51,10 @@ if ( ( $handle = fopen( $fn, "r" ) ) !== FALSE ) {
 		}
 	}
 }
-//echo json_encode( $r );
+//echo json_encode( $s );
 $index = 0;
-echo "CREATE ";
-neo4j( $r, "", $index );
+neo4j( $s, "", $index, $r );
+
+file_put_contents( $of, $r );
+print_r( $r );
 ?>

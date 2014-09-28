@@ -19,18 +19,19 @@
 	}
 	function constructContact( $id, $key, $prefix ) {
 		$uuid = uuid();
-		$name = $prefix.str_replace( "-", "_", $uuid );
+		$name = str_replace( array("-"," ", "\\", "/", "'",".","&","|","`"), "_", $prefix.$id );
 		return array(
 			"name" => $name,
 			"props" => array( 
+				"var"=> $name,
 				"uuid" => $uuid,
 				"id" => $id,
-				"key" => $key,
-				"location" => ""
+				"name" => $id,
+				"key" => $key
 			)
 		);
 	}
-	function echoContact( $contact ) {
+	function echoContact( &$r, $contact ) {
 		$ck = array_keys( $contact["props"] );
 		$s = "";
 		foreach( $ck as $ckv ) {
@@ -39,13 +40,17 @@
 			}
 			$s .= $ckv.":'".$contact["props"][$ckv]."'";
 		}
-		echo "CREATE (".$contact["name"].":contact {".$s."})\n";
+		$r[] = "CREATE (".$contact["name"].":contact {".$s."});\n";
 	}
-	function echoRelation( $from, $name, $to ) {
-		echo "CREATE (".$from.")-[:".$name."]->(".$to.")\n";
+	function echoRelation( &$r, $from, $name, $to ) {
+		$r[] = "MATCH (from:contact { var:'".$from."' })\n";
+		$r[] = "MATCH (to:contact { var:'".$to."' })\n";
+		$r[] = "CREATE (from)-[:".$name."]->(to);\n";
 	}
 
 	$file = "malls.txt";
+	$ofile = "malls.cypher";
+	$rel = "linked";
 	$handle = fopen($file, "r");
 	$read = file_get_contents( $file );
 	$lines = explode( "\n", $read );
@@ -58,7 +63,7 @@
 		if ( $fline ) {
 			$fline = false;
 			foreach( $cols as $ck => $cv ) {
-				$c = constructContact( stringify( $cv ), "" , "m" );
+				$c = constructContact( stringify( $cv ), "" , "mall" );
 				$c["store"] = array();
 				$malls[] = $c;
 			}
@@ -67,10 +72,10 @@
 			foreach( $cols as $ck => $cv ) {
 				$s = stringify( $cv );
 				if ( strlen( $s ) ) {
-					$malls[$i]["store"][] = constructContact( $s, "", "s" );
+					$malls[$i]["store"][] = constructContact( $s, "", "store".$malls[$i]["props"]["id"] );
 					//
 					if ( !array_key_exists( $s, $brands ) ) {
-						$brands[$s] = constructContact( $s, "", "b" );
+						$brands[$s] = constructContact( $s, "", "brand" );
 					}
 				}
 				$i++;
@@ -78,25 +83,26 @@
 		}
 	}
 
+	$r = array();
 	// create brands
-	$brandHome = constructContact( "Brands", "", "bs" );
-	echoContact( $brandHome );
+	$brandHome = constructContact( "Brands", "", "" );
+	echoContact( $r, $brandHome );
 	foreach( $brands as $bk => $bv ) {
-		echoContact( $bv );
-		echoRelation( $bv["name"], "part_of", $brandHome["name"] );
+		echoContact( $r, $bv );
+		echoRelation( $r, $bv["name"], $rel, $brandHome["name"] );
 	}
-	echo "\n";
 	// create malls
-	$mallHome = constructContact( "Malls", "", "bs" );
-	echoContact( $mallHome );
+	$mallHome = constructContact( "Malls", "", "" );
+	echoContact( $r, $mallHome );
 	foreach( $malls as $mk => $mv ) {
-		echoContact( $mv );
-		echoRelation( $mv["name"], "part_of", $mallHome["name"] );
+		echoContact( $r, $mv );
+		echoRelation( $r, $mv["name"], $rel, $mallHome["name"] );
 		foreach( $mv["store"] as $sk => $sv ) {
-			echoContact( $sv );
-			echoRelation( $sv["name"], "part_of", $mv["name"] );
-			echoRelation( $sv["name"], "part_of", $brands[$sv["props"]["id"]]["name"] );
+			echoContact( $r, $sv );
+			echoRelation( $r, $sv["name"], $rel, $mv["name"] );
+			echoRelation( $r, $sv["name"], $rel, $brands[$sv["props"]["id"]]["name"] );
 		}
-		echo "\n";
 	}
+	file_put_contents( $ofile, $r );
+	print_r( $r );
 ?>
