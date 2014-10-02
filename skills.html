@@ -24,7 +24,10 @@
 						  return $.map(list, function(skill) {
 							return { name: skill }; });
 						}
-				  }
+				  },
+					remote: {
+						url: 'skills.php?%QUERY',
+					}
 				});
 				skills.initialize();
 				/**
