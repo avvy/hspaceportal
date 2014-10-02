@@ -5,28 +5,28 @@
     <meta name="robots" content="index, follow" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.css">
-    <link rel="stylesheet" href="css/skills.css">
-		<script src="libs/jquery-2.1.1/jquery.min.js"></script>
-    <script src="libs/bootstrap-3.2.0/js/bootstrap.min.js"></script>
-    <script src="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
-    <script src="libs/typeahead-0.10.5/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="../libs/bootstrap-3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libs/bootstrap-3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="../css/skills.css">
+		<script src="../libs/jquery-2.1.1/jquery.min.js"></script>
+    <script src="../libs/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script src="../libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
+    <script src="../libs/typeahead-0.10.5/typeahead.bundle.js"></script>
     <script>
 			$(document).ready(function() {
 				var skills = new Bloodhound({
 				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
 				  queryTokenizer: Bloodhound.tokenizers.whitespace,
 				  prefetch: {
-						url: 'skills-list.json',
+						url: 'skills.json',
 						filter: function(list) {
 						  return $.map(list, function(skill) {
 							return { name: skill }; });
 						}
 				  },
 					remote: {
-						url: 'skills.php?%QUERY',
+						url: 'skills.php?q=%QUERY',
 					}
 				});
 				skills.initialize();
