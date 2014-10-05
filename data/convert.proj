@@ -10,14 +10,14 @@
 		</PropertyGroup>
 		
 		<XslTransformation 
-			XmlInputPaths="hspace.xml"
-			OutputPaths="hspace.cypher"
-			XslInputPath="hspace.xslt"
+			XmlInputPaths="in/hspace.xml"
+			OutputPaths="out/hspace.cypher"
+			XslInputPath="in/hspace.xslt"
 			Parameters="$(xslt_param)"/>
 		<XslTransformation 
-			XmlInputPaths="services.xml"
-			OutputPaths="services.cypher"
-			XslInputPath="services.xslt"
+			XmlInputPaths="in/services.xml"
+			OutputPaths="out/services.cypher"
+			XslInputPath="in/services.xslt"
 			Parameters=""/>
 	</Target>
 </Project>

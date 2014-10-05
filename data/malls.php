@@ -5,12 +5,6 @@
   	$content = file_get_contents($fn);
     return mb_convert_encoding($content, 'UTF-8', mb_detect_encoding($content, 'UTF-16, UTF-8, ISO-8859-1', true));
 	}
-	function uuid() {
-    if ( function_exists('com_create_guid') === true ) {
-        return trim(com_create_guid(), '{}');
-    }
-    return sprintf('%04x%04x-%04x-%04x-%04x-%04x%04x%04x', mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(16384, 20479), mt_rand(32768, 49151), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535));
-	}
 	function stringify( $id ) {
 		$s = ucwords( strtolower( trim( $id ) ) );
 		$s = str_replace( "\\", "\\\\", $s );

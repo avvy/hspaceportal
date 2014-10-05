@@ -6,7 +6,7 @@
 CREATE (<xsl:value-of select="map/@var"/>:contact {
 var:'<xsl:value-of select="map/@var"/>',
 uuid:'<xsl:value-of select="map/@uuid"/>',
-name:'<xsl:value-of select="map/@title"/>',
+id:'<xsl:value-of select="map/@title"/>',
 key:'<xsl:value-of select="map/@key"/>'
 });
 <xsl:variable name="services"><xsl:value-of select="map/@var"/></xsl:variable>
@@ -17,7 +17,7 @@ MATCH (services:contact { var:'<xsl:value-of select="$services"/>' })
 CREATE (<xsl:value-of select="@var"/>:contact {
 var:'<xsl:value-of select="@var"/>',
 uuid:'<xsl:value-of select="@uuid"/>',
-name:'<xsl:value-of select="@title"/>',
+id:'<xsl:value-of select="@title"/>',
 key:'<xsl:value-of select="@key"/>'
 })
 CREATE (services)-[:<xsl:value-of select="$rel"/>]->(<xsl:value-of select="@var"/>);

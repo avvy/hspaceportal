@@ -17,21 +17,21 @@ MATCH (services:contact { var:'services' })
 CREATE (globallogic:contact {
 var:'globallogic',
 uuid:'630a8a17-0768-4bab-8527-d1bcb467e2bd',
-name:'GlobalLogic',
+id:'GlobalLogic',
 key:'http://globallogic.com'
 })
 
 CREATE (hspace:contact {
 var:'hspace',
 uuid:'e1857546-1f94-4724-8597-aef07a15a18a',
-name:'hSpace',
+id:'hSpace',
 key:'http://hspace.globallogic.com/'
 })
 
 CREATE (glo:contact {
 var:'glo',
 uuid:'ba90472d-93cd-45f2-b05f-c33b2c457752',
-name:'GLO',
+id:'GLO',
 key:'http://glo.globallogic.com/'
 })
 
@@ -57,7 +57,7 @@ MATCH (hspace:contact { var:'hspace' }),
 <!-- contact-->
 CREATE (<xsl:value-of select="$contact"/>:contact {
 uuid:'<xsl:value-of select="@B"/>',
-name:'<xsl:value-of select="@C"/>,<xsl:value-of select="@D"/>'
+id:'<xsl:value-of select="@C"/><xsl:text>&#32;</xsl:text><xsl:value-of select="@D"/>'
 })
 
 
@@ -70,7 +70,7 @@ CREATE (<xsl:value-of select="$contact"/>)-[:<xsl:value-of select="$rel"/>]->(hs
 CREATE (<xsl:value-of select="$globallogicContact"/>:contact {
 var:'<xsl:value-of select="$globallogicContact"/>',
 uuid:'',
-name:'',
+id:'',
 key:'<xsl:value-of select="@F"/>'
 })
 CREATE (<xsl:value-of select="$contact"/>)-[:<xsl:value-of select="$rel"/>]->(<xsl:value-of select="$globallogicContact"/>)
@@ -83,7 +83,7 @@ CREATE (<xsl:value-of select="$globallogicContact"/>)-[:<xsl:value-of select="$r
 CREATE (<xsl:value-of select="$skypeContact"/>:contact {
 var:'<xsl:value-of select="$skypeContact"/>',
 uuid:'',
-name:'',
+id:'',
 key:'<xsl:value-of select="@J"/>'
 })
 CREATE (<xsl:value-of select="$contact"/>)-[:<xsl:value-of select="$rel"/>]->(<xsl:value-of select="$skypeContact"/>)
@@ -96,7 +96,7 @@ CREATE (<xsl:value-of select="$skypeContact"/>)-[:<xsl:value-of select="$rel"/>]
 CREATE (<xsl:value-of select="$twitterContact"/>:contact {
 var:'<xsl:value-of select="$twitterContact"/>',
 uuid:'',
-name:'',
+id:'',
 key:'<xsl:value-of select="@K"/>'
 })
 CREATE (<xsl:value-of select="$contact"/>)-[:<xsl:value-of select="$rel"/>]->(<xsl:value-of select="$twitterContact"/>)
@@ -109,7 +109,7 @@ CREATE (<xsl:value-of select="$twitterContact"/>)-[:<xsl:value-of select="$rel"/
 CREATE (<xsl:value-of select="$facebookContact"/>:contact {
 var:'<xsl:value-of select="$facebookContact"/>',
 uuid:'',
-name:'',
+id:'',
 key:'<xsl:value-of select="@L"/>'
 })
 CREATE (<xsl:value-of select="$contact"/>)-[:<xsl:value-of select="$rel"/>]->(<xsl:value-of select="$facebookContact"/>)
@@ -122,7 +122,7 @@ CREATE (<xsl:value-of select="$facebookContact"/>)-[:<xsl:value-of select="$rel"
 CREATE (<xsl:value-of select="$googlePlusContact"/>:contact {
 var:'<xsl:value-of select="$googlePlusContact"/>',
 uuid:'',
-name:'',
+id:'',
 key:'<xsl:value-of select="@N"/>'
 })
 CREATE (<xsl:value-of select="$contact"/>)-[:<xsl:value-of select="$rel"/>]->(<xsl:value-of select="$googlePlusContact"/>)
