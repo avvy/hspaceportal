@@ -1,0 +1,181 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Graph based tags cloud</title>
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="css/tags.css">
+		<script src="libs/jquery-2.1.1/jquery.min.js"></script>
+    <script src="libs/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
+    <script src="libs/typeahead-0.10.5/typeahead.bundle.js"></script>
+    <script>
+			$(document).ready(function() {
+				//---------------------------------------------------------------------
+				//skills
+				//---------------------------------------------------------------------
+				var skills = new Bloodhound({
+				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+				  queryTokenizer: Bloodhound.tokenizers.whitespace,
+				  prefetch: {
+						url: 'tags.php?id=skill',
+						filter: function(list) {
+						  return $.map(list, function(tag) {
+							return { name: tag }; });
+						}
+				  },
+					remote: {
+						url: 'api/tag/lookup/?q=%QUERY&id=skill&l=10',
+						filter: function(list) {
+						  return $.map(list, function(tag) {
+							return { name: tag }; });
+						}
+					}
+				});
+				skills.initialize();
+
+				var skills_elt = $('.skills');
+				skills_elt.tagsinput({
+				  typeaheadjs: {
+					name: 'skills',
+					displayKey: 'name',
+					valueKey: 'name',
+					source: skills.ttAdapter()
+				  }
+				});
+				//---------------------------------------------------------------------
+				//interests
+				//---------------------------------------------------------------------
+				var interests = new Bloodhound({
+				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+				  queryTokenizer: Bloodhound.tokenizers.whitespace,
+				  prefetch: {
+						url: 'tags.php?id=interest',
+						filter: function(list) {
+						  return $.map(list, function(tag) {
+							return { name: tag }; });
+						}
+				  },
+					remote: {
+						url: 'api/tag/lookup/?q=%QUERY&id=interest&l=10',
+						filter: function(list) {
+						  return $.map(list, function(tag) {
+							return { name: tag }; });
+						}
+					}
+				});
+				interests.initialize();
+
+				var interests_elt = $('.interests');
+				interests_elt.tagsinput({
+				  typeaheadjs: {
+					name: 'interests',
+					displayKey: 'name',
+					valueKey: 'name',
+					source: interests.ttAdapter()
+				  }
+				});
+
+				//---------------------------------------------------------------------
+				//contact id
+				//---------------------------------------------------------------------
+				var contacts = new Bloodhound({
+					datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+  				queryTokenizer: Bloodhound.tokenizers.whitespace,
+					prefetch: {
+						url: 'data/out/contact.json',
+						filter: function(list) {
+						  return $.map(list, function(tag) {
+							return { name: tag }; });
+						}
+					}
+				});
+				contacts.initialize();
+				$('#contactName').typeahead(null, {
+			  	name: 'contact',
+			  	displayKey: 'name',
+					valueKey: 'name',
+  				source: contacts.ttAdapter()
+				});
+
+
+				// HACK: overrule hardcoded display inline-block of typeahead.js
+				$(".twitter-typeahead").css('display', 'inline');
+				//
+				//
+				var checIdTimer;
+				$("#contactName").keypress(function( e ) {
+					/*if ( e.which !== 0 )*/ {
+					  clearTimeout( checIdTimer );
+  					checIdTimer = setTimeout( function(){
+							/*alert( $("#contactName").val() );*/
+						}, 500 );
+					}
+				});
+
+/*
+				$("#formAddContact").submit(function(e){
+					$.ajax({
+						url: "addContact.php",
+            type: "POST",
+                    data: $(this).serialize(),
+                    success: function(data){
+                    	alert(data);
+                    }
+          });
+        });
+*/
+			});
+		</script>
+  </head>
+  <body>
+		<div class="container">
+			<div class="page-header">
+			  <h1>Graph based tags cloud <small>demo</small></h1>
+			</div>
+			<h4>Contact</h4>
+			<form id="formAddContact" class="form-horizontal" role="form">
+			  <div class="form-group"><!--  has-error has-feedback -->
+			    <label for="contactName" class="col-sm-2 control-label">Name</label>
+			    <div class="col-sm-4">
+			      <input type="text" class="form-control" name="contactName" id="contactName" placeholder="Name" autofocus>
+						<!-- span class="glyphicon glyphicon-remove form-control-feedback"></span-->
+			    </div>
+			  </div>
+			  <div class="form-group"><!--  has-success has-feedback -->
+			    <label for="contactSkills" class="col-sm-2 control-label">Skills</label>
+			    <div class="col-sm-10">
+				 	 	<input class="skills" type="text" name="contactSkills" id="contactSkills" placeholder="Skills" value="">
+						<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="contactInterests" class="col-sm-2 control-label">Interests</label>
+			    <div class="col-sm-10">
+				 	 	<input class="interests" type="text" name="contactInterests" id="contactInterests" placeholder="Interests" value="">
+			    </div>
+			  </div>
+			  <!--div class="form-group">
+			    <div class="col-sm-offset-2 col-sm-10">
+			      <button type="submit" class="btn btn-default">Submit</button>
+			    </div>
+			  </div-->
+			</form>
+			<hr/>
+			<h4>Search</h4>
+				<div class="row">
+			    <div class="col-sm-6">
+						<input class="skills" type="text" id="searchSkills" placeholder="Skills" value="">
+					</div>
+			    <div class="col-sm-6">
+						<input class="interests" type="text" id="searchInterests" placeholder="Interests" value="">
+					</div>
+				</div>
+		</div>
+  </body>
+</html>
+

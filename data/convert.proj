@@ -10,9 +10,14 @@
 		</PropertyGroup>
 		
 		<XslTransformation 
-			XmlInputPaths="idcontacts.xml"
-			OutputPaths="hspace.neo4j"
-			XslInputPath="idcontacts.xslt"
+			XmlInputPaths="in/hspace.xml"
+			OutputPaths="out/hspace.cypher"
+			XslInputPath="in/hspace.xslt"
 			Parameters="$(xslt_param)"/>
+		<XslTransformation 
+			XmlInputPaths="in/services.xml"
+			OutputPaths="out/services.cypher"
+			XslInputPath="in/services.xslt"
+			Parameters=""/>
 	</Target>
 </Project>

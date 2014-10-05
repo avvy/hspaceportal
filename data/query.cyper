@@ -1,0 +1,7 @@
+MATCH (n)
+WHERE n.id =~ '.*C\\+\\+.*'
+RETURN n
+
+MATCH (n)
+WHERE n.id =~ '.*Java.*'
+RETURN n

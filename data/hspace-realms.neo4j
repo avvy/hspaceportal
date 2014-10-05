@@ -1,6 +1,15 @@
+
+
+CREATE (home:realm {
+uuid:'65485a0d-e25c-480f-bac1-41b78696eaa0',
+name:'hSpace',
+key:'{"url":"http://hspace.globallogic.com/"}'})
+
+
+
 {
 	"realm":{
-		"65485a0d-e25c-480f-bac1-41b78696eaa0":{
+		"":{
 			"api":"api/1/",
 			"heo4j":"http://localhost:7474/",
 			"home":"89eeac34-407c-437a-99d7-608b4ed616b8",

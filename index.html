@@ -9,10 +9,11 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <title>HSpace portal</title>
     <!-- Bootstrap core CSS -->
-    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="libs/bootstrap-tagsinput/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.css">
     <!-- Custom styles for this template -->
-    <link href="css/project.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/project.css">
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,17 +23,17 @@
     <![endif]-->
   </head>
   <body>
-
     <div class="surface">
-	    <img src="img/hspace.png" alt="logo" class="hspace"/>
+	    <!--img src="img/hspace.png" alt="logo" class="hspace"/-->
 			<div class="template node" style="display:none"><span></span></div>
-
-
     </div>
     <div class="top-bar">
       <img src="img/home.png" alt="" class="home"/>
-      <a id="login_btn" href="#" data-toggle="modal" data-target="#login-csv-modal" title="Login">
+      <!--a id="login_btn" href="#" data-toggle="modal" data-target="#login-csv-modal" title="Login">
         <img src="img/login.png" alt="" class="login"/>
+      </a-->
+      <a id="btnSettings" href="#" data-toggle="modal" data-target="#settings-modal" title="Settings">
+        <img src="img/settings.png" alt="" class="settings"/>
       </a>
 			<div class="row">
 				<div class=" col-sm-offset-3 col-sm-6 alert alert-danger alert-dismissible" role="alert" style="display:none">
@@ -42,20 +43,24 @@
 			</div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="login-csv-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="settings-modal" tabindex="-1" role="dialog" aria-labelledby="settingsLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel">Login with ...</h4>
+            <h4 class="modal-title" id="settingsLabel">Settings</h4>
           </div>
           <div class="modal-body">
-						<div class="row">
+						<label for="realmList">Realms</label>
+						<ul id="realmList" class="nav nav-list">
+							<li id="realmTemplate" style="display:none"><label class="checkbox"><input type="checkbox" value="" name=""><span>Template</span></label></li>
+						</ul>
+						<!--div class="row">
 						  <div class="col-md-3"><img src="img/facebook.png" alt="facebook" class="img-thumbnail"></div>
 						  <div class="col-md-3"><img src="img/linkedin.png" alt="linkedin" class="img-thumbnail"></div>
 						  <div class="col-md-3"><img src="img/twitter.png" alt="twitter" class="img-thumbnail"></div>
 						  <div class="col-md-3"><img src="img/gplus.png" alt="google plus" class="img-thumbnail"></div>
-						</div>
+						</div-->
           </div>
           <div class="modal-footer">
           </div>
@@ -66,69 +71,12 @@
     <!-- Bootstrap core JavaScript
       ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="libs/jquery/jquery.js"></script>
-    <script src="libs/holder/holder.js"></script>
-
-    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="libs/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
-    <script src="libs/typeahead/typeahead.min.js"></script>
+		<script type="text/javascript" src="libs/jquery-2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
+    <script type="text/javascript" src="libs/typeahead-0.10.5/typeahead.bundle.js"></script>
+    <script type="text/javascript" src="libs/holder-2.4.0/holder.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-			function createNode( x, y, t ) {
-  	    var template = $(".template");
- 	  	  var node = template.clone();
-   	  	node.removeClass("template");
-				node.css("left", x - 64 );
-				node.css("top", y - 64 );
-   	  	node.find("span").text( t );
-  	    $(".surface").prepend(node.fadeIn());
-			}
-
-      $.get( "conf.php", function( data ) {
-				if ( data ) {
-					alert( JSON.stringify( data ) );
-				}
-      });
-
-      $.get( "cypher.php?q=match n return n&p", function( data ) {
-				if ( data ) {
-					if ( data.code == 200 ) {
-						var a = 0;
-						var b = 15;
-						var s = 0.37;
-						var phi = 9.42;
-						for( var i = 0; i < data.response.data.length; i++ ){
-							var t = data.response.data[i][0].data.id;
-							//
-							var r = a + b * phi;
-							var x = r * Math.cos(phi);
-							var y = r * Math.sin(phi);
-							createNode( window.innerWidth / 2 + x, window.innerHeight / 2 + y, t );
-							phi += s;
-						}
-					} else {
-						$(".alert h5").text( data.response.message );
-						$(".alert").show();
-					}
-				}
-      });
-/*
-			$.ajax
-    	({
-        type: "POST",
-        url: "http://localhost:7474/db/data/cypher",
-        data: JSON.stringify('{"query" : "MATCH (n) RETURN n LIMIT 100","params":{}}'),
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function(data){alert(data);},
-        failure: function(errMsg) {
-            //alert(errMsg);
-        }
-    	});
-
-*/
-
-    </script>
-
+    <script type="text/javascript" src="js/project.js"></script>
   </body>
 </html>
