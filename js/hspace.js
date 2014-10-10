@@ -31,7 +31,7 @@ $.get( "conf.php", function( data ) {
 	}
 });
 
-$.get( "cypher.php?q=match n return n&p", function( data ) {
+$.get( "cypher.php?q=match n return n limit 25&p", function( data ) {
 	if ( data ) {
 		if ( data.code == 200 ) {
 			var a = 0;

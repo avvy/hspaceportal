@@ -5,22 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <meta name="author" content="Vladyslav Kurmaz">
     <title>HSpace portal</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.css">
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/project.css">
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap-3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap-3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.css">
+    <link rel="stylesheet" type="text/css" href="libs/timeline-2.9.0/timeline.css">
+
+
+    <link rel="stylesheet" href="css/hspace.css">
   </head>
   <body>
     <div class="surface">
@@ -42,6 +36,8 @@
 				</div>
 			</div>
     </div>
+		<div id="mytimeline" style="position:absolute;left:0px;right:0px;bottom:0px;"></div>
+
     <!-- Modal -->
     <div class="modal fade" id="settings-modal" tabindex="-1" role="dialog" aria-labelledby="settingsLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -76,7 +72,60 @@
     <script type="text/javascript" src="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
     <script type="text/javascript" src="libs/typeahead-0.10.5/typeahead.bundle.js"></script>
     <script type="text/javascript" src="libs/holder-2.4.0/holder.js"></script>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript" src="js/project.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="libs/timeline-2.9.0/timeline.js"></script>
+    <script type="text/javascript" src="js/hspace.js"></script>
+
+    <script type="text/javascript">
+        var timeline;
+
+        google.load("visualization", "1");
+
+        // Set callback to run when API is loaded
+        google.setOnLoadCallback(drawVisualization);
+
+        // Called when the Visualization API is loaded.
+        function drawVisualization() {
+            // Create and populate a data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('datetime', 'start');
+            data.addColumn('datetime', 'end');
+            data.addColumn('string', 'content');
+
+            data.addRows([
+                [new Date(2010,7,23), , 'Conversation<br>'/* +
+                        '<img src="img/tl/comments-icon.png" style="width:32px; height:32px;">'*/],
+                [new Date(2010,7,23,23,0,0), , 'Mail from boss<br>'/* +
+                        '<img src="img/tl/mail-icon.png" style="width:32px; height:32px;">'*/],
+                [new Date(2010,7,24,16,0,0), , 'Report'],
+                [new Date(2010,7,26), new Date(2010,8,2), 'Traject A'],
+                [new Date(2010,7,28), , 'Memo<br>'/* +
+                        '<img src="img/tl/notes-edit-icon.png" style="width:48px; height:48px;">'*/],
+                [new Date(2010,7,29), , 'Phone call<br>'/* +
+                        '<img src="img/tl/Hardware-Mobile-Phone-icon.png" style="width:32px; height:32px;">'*/],
+                [new Date(2010,7,31), new Date(2010,8,3), 'Traject B'],
+                [new Date(2010,8,4,12,0,0), , 'Report<br>'/* +
+                        '<img src="img/tl/attachment-icon.png" style="width:32px; height:32px;">'*/]
+            ]);
+
+            // specify options
+            var options = {
+								"cluster":true,
+								"clusterMaxItems":2,
+                "width":  "100%",
+                "height": "auto",
+                "style": "box"
+            };
+
+            // Instantiate our timeline object.
+            timeline = new links.Timeline(document.getElementById('mytimeline'), options);
+
+            // Draw our timeline with the created data and options
+            timeline.draw(data);
+        }
+    </script>
+
+
+
   </body>
 </html>
