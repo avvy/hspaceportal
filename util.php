@@ -69,7 +69,7 @@ function neo4j2json( $foutput, $labels ) {
 			$tags[] = $rv[0];
 		}
 	}
-	echo json_encode( array_count_values( $tags ) );
+	echo json_encode( array_count_values( $tags ) )."\n\n";
 	file_put_contents( getOutputFile( $foutput ), json_encode( array_keys( array_count_values( $tags ) ) ) );
 }
 
@@ -100,15 +100,15 @@ function c2cAppendItem( &$r, $lvl, $item, &$items ) {
 function c2cNeo4j( &$s, $parent, &$r, &$items, $label ) {
 	foreach( $s as $sk => $sv ) {
 		if ( $parent ) {
-			$r[] = "MATCH (parent:tag:".$label." { id:'".$parent."' })\n";
-			$r[] = "MATCH (child:tag:".$label." { id:'".$sk."' })\n";
+			$r[] = "MATCH (parent".$label." { id:'".$parent."' })\n";
+			$r[] = "MATCH (child".$label." { id:'".$sk."' })\n";
 			$r[] = "CREATE (parent)-[:linked]->(child);\n";
 		}
 		c2cNeo4j( $sv, $sk, $r, $items, $label );
 	}
 }
 
-function csv2cypher( $finput, $foutput, $hasHeader, $label, $stopWorlds ) {
+function csv2cypher( $finput, $foutput, $hasHeader, $labels, $stopWorlds ) {
 	$s = array();
 	$r = array();
 	$items = array();
@@ -133,11 +133,11 @@ function csv2cypher( $finput, $foutput, $hasHeader, $label, $stopWorlds ) {
 	// get unique keys array
 	$items = array_keys( array_count_values( $items ) );
 	foreach( $items as $is ) {
-		$r[] = "CREATE (:tag:".$label." {id:'".$is."',uuid:'".uuid()."'});\n";
+		$r[] = "CREATE (".$labels." {id:'".$is."',uuid:'".uuid()."'});\n";
 	}
 
 	//echo json_encode( $s );
-	c2cNeo4j( $s, "", $r, $items, $label );
+	c2cNeo4j( $s, "", $r, $items, $labels );
 
 	file_put_contents( getOutputFile( $foutput ), $r );
 	print_r( $r );

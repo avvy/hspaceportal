@@ -13,10 +13,48 @@
     <script src="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
     <script src="libs/typeahead-0.10.5/typeahead.bundle.js"></script>
     <script>
+			function configureTags( id, fileKey, labels, limit ) {
+				var tags = new Bloodhound({
+				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+				  queryTokenizer: Bloodhound.tokenizers.whitespace,
+				  prefetch: {
+						url: 'tags.php?id='+fileKey,
+						filter: function(list) {
+						  return $.map(list, function(tag) {
+							return { name: tag }; });
+						}
+				  },
+					remote: {
+						url: 'api/tag/s/?q=%QUERY&id='+labels+'&l='+limit,
+						filter: function(list) {
+						  return $.map(list, function(tag) {
+							return { name: tag }; });
+						}
+					}
+				});
+				tags.clearPrefetchCache();
+				tags.initialize();
+
+				var elt = $( id );
+				elt.tagsinput({
+				  typeaheadjs: {
+					name: 'tags',
+					displayKey: 'name',
+					valueKey: 'name',
+					source: tags.ttAdapter()
+				  }
+				});
+			}
+
 			$(document).ready(function() {
+				configureTags( ".skills-hard", "skills-hard", "tag;skill;hard", 10 );
+				configureTags( ".soft-skills", "soft-skills", "tag;skill;soft", 10 );
+				configureTags( ".interests", "interests", "tag;interest", 10 );
+				configureTags( ".search", "skills-hard;soft-skills;interests", "tag", 10 );
 				//---------------------------------------------------------------------
 				//skills
 				//---------------------------------------------------------------------
+/*
 				var skills = new Bloodhound({
 				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
 				  queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -35,6 +73,7 @@
 						}
 					}
 				});
+				skills.clearPrefetchCache();
 				skills.initialize();
 
 				var skills_elt = $('.skills');
@@ -46,9 +85,11 @@
 					source: skills.ttAdapter()
 				  }
 				});
+*/
 				//---------------------------------------------------------------------
 				//interests
 				//---------------------------------------------------------------------
+/*
 				var interests = new Bloodhound({
 				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
 				  queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -79,7 +120,7 @@
 					source: interests.ttAdapter()
 				  }
 				});
-
+*/
 				//---------------------------------------------------------------------
 				//contact id
 				//---------------------------------------------------------------------
@@ -158,16 +199,16 @@
 						    </div>
 						  </div>
 						  <div class="form-group"><!--  has-success has-feedback -->
-						    <label for="contactHardSkills" class="col-sm-2 control-label">Hard skills</label>
+						    <label for="contactSkillsHard" class="col-sm-2 control-label">Hard skills</label>
 						    <div class="col-sm-10">
-							 	 	<input class="hard-skills" type="text" name="contactHardSkills" id="contactHardSkills" placeholder="" value="">
+							 	 	<input class="skills-hard" type="text" name="contactSkillsHard" id="contactSkillsHard" placeholder="" value="">
 									<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
 						    </div>
 						  </div>
 						  <div class="form-group"><!--  has-success has-feedback -->
-						    <label for="contactSoftSkills" class="col-sm-2 control-label">Soft skills</label>
+						    <label for="contactSkillsSoft" class="col-sm-2 control-label">Soft skills</label>
 						    <div class="col-sm-10">
-							 	 	<input class="soft-skills" type="text" name="contactSoftSkills" id="contactSoftSkills" placeholder="" value="">
+							 	 	<input class="soft-skills" type="text" name="contactSkillsSoft" id="contactSkillsSoft" placeholder="" value="">
 									<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
 						    </div>
 						  </div>
@@ -200,7 +241,7 @@
         	<div class="panel-body">
 						<div class="row">
 					    <div class="col-sm-12">
-								<input class="skills" type="text" id="searchSkills" placeholder="Skills" value="">
+								<input class="search" type="text" id="searchSkills" placeholder="Skills" value="">
 							</div>
 						</div>
           </div>
