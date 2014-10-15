@@ -53,20 +53,21 @@
 				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
 				  queryTokenizer: Bloodhound.tokenizers.whitespace,
 				  prefetch: {
-						url: 'http://hspaceportal:8080/tags.php?id=interest',
+						url: 'tags.php?id=interest',
 						filter: function(list) {
 						  return $.map(list, function(tag) {
 							return { name: tag }; });
 						}
 				  },
 					remote: {
-						url: 'api/tag/lookup/?q=%QUERY&id=interest&l=10',
+						url: 'api/tag/s/?q=%QUERY&id=interest&l=10',
 						filter: function(list) {
 						  return $.map(list, function(tag) {
 							return { name: tag }; });
 						}
 					}
 				});
+				interests.clearPrefetchCache();
 				interests.initialize();
 
 				var interests_elt = $('.interests');
@@ -136,48 +137,75 @@
 			<div class="page-header">
 			  <h1>Graph based tag cloud <small>demo</small></h1>
 			</div>
-			<h4>Contact</h4>
-			<form id="formAddContact" class="form-horizontal" role="form">
-			  <div class="form-group"><!--  has-error has-feedback -->
-			    <label for="contactName" class="col-sm-2 control-label">Name</label>
-			    <div class="col-sm-4">
-			      <input type="text" class="form-control" name="contactName" id="contactName" placeholder="" autofocus>
-						<!-- span class="glyphicon glyphicon-remove form-control-feedback"></span-->
-			    </div>
-			  </div>
-			  <div class="form-group"><!--  has-success has-feedback -->
-			    <label for="contactHardSkills" class="col-sm-2 control-label">Hard skills</label>
-			    <div class="col-sm-10">
-				 	 	<input class="skills" type="text" name="contactHardSkills" id="contactHardSkills" placeholder="" value="">
-						<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
-			    </div>
-			  </div>
-			  <div class="form-group"><!--  has-success has-feedback -->
-			    <label for="contactSoftSkills" class="col-sm-2 control-label">Soft skills</label>
-			    <div class="col-sm-10">
-				 	 	<input class="skills" type="text" name="contactSoftSkills" id="contactSoftSkills" placeholder="" value="">
-						<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <label for="contactInterests" class="col-sm-2 control-label">Interests</label>
-			    <div class="col-sm-10">
-				 	 	<input class="interests" type="text" name="contactInterests" id="contactInterests" placeholder="" value="">
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <div class="col-sm-offset-2 col-sm-10">
-			      <button type="submit" class="btn btn-default">Submit</button>
-			    </div>
-			  </div>
-			</form>
-			<hr/>
-			<h4>Search</h4>
-				<div class="row">
-			    <div class="col-sm-12">
-						<input class="skills" type="text" id="searchSkills" placeholder="Skills" value="">
-					</div>
-				</div>
+			<!-- -->
+      <div class="panel panel-default template">
+				<div class="panel-heading">
+        	<div class="panel-title">
+          	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseContact" title="collapse/expand">
+            	<span class="glyphicon glyphicon-collapse-down action"></span>
+            </a>
+						Contact
+          </div>
+        </div>
+        <div id="collapseContact" class="panel-collapse collapse in">
+        	<div class="panel-body">
+						<form id="formAddContact" class="form-horizontal" role="form">
+						  <div class="form-group"><!--  has-error has-feedback -->
+						    <label for="contactName" class="col-sm-2 control-label">Name</label>
+						    <div class="col-sm-4">
+						      <input type="text" class="form-control" name="contactName" id="contactName" placeholder="" autofocus>
+									<!-- span class="glyphicon glyphicon-remove form-control-feedback"></span-->
+						    </div>
+						  </div>
+						  <div class="form-group"><!--  has-success has-feedback -->
+						    <label for="contactHardSkills" class="col-sm-2 control-label">Hard skills</label>
+						    <div class="col-sm-10">
+							 	 	<input class="hard-skills" type="text" name="contactHardSkills" id="contactHardSkills" placeholder="" value="">
+									<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
+						    </div>
+						  </div>
+						  <div class="form-group"><!--  has-success has-feedback -->
+						    <label for="contactSoftSkills" class="col-sm-2 control-label">Soft skills</label>
+						    <div class="col-sm-10">
+							 	 	<input class="soft-skills" type="text" name="contactSoftSkills" id="contactSoftSkills" placeholder="" value="">
+									<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="contactInterests" class="col-sm-2 control-label">Interests</label>
+						    <div class="col-sm-10">
+							 	 	<input class="interests" type="text" name="contactInterests" id="contactInterests" placeholder="" value="">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-sm-offset-2 col-sm-10">
+						      <button type="submit" class="btn btn-default">Submit</button>
+						    </div>
+						  </div>
+						</form>
+          </div>
+        </div>
+      </div>
+			<!-- -->
+      <div class="panel panel-default template">
+				<div class="panel-heading">
+        	<div class="panel-title">
+          	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSearch" title="collapse/expand">
+            	<span class="glyphicon glyphicon-collapse-down action"></span>
+            </a>
+						Search
+          </div>
+        </div>
+        <div id="collapseSearch" class="panel-collapse collapse in">
+        	<div class="panel-body">
+						<div class="row">
+					    <div class="col-sm-12">
+								<input class="skills" type="text" id="searchSkills" placeholder="Skills" value="">
+							</div>
+						</div>
+          </div>
+        </div>
+      </div>
 		</div>
   </body>
 </html>
