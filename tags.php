@@ -7,7 +7,15 @@ $attr_id = "id";
 //
 $required = array( $attr_id );
 $get = $_GET;
+$r = array();
 if( count( array_intersect_key( array_flip( $required ), $get ) ) === count( $required ) ) {
-	echo file_get_contents( "data/out/".$get[$attr_id].".json" );
+	$fls = explode( ";", $get[$attr_id] );
+	foreach( $fls as $flk ) {
+		$fn = "data/out/".$flk.".json";
+		if ( file_exists( $fn ) ) {
+			$r = array_merge( $r, json_decode( file_get_contents( $fn ) ) );
+		}
+	}
 }
+echo json_encode( $r );
 ?>

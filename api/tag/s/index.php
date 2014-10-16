@@ -12,7 +12,7 @@
 	$get = $_GET;
 	if( count( array_intersect_key( array_flip( $required ), $get ) ) === count( $required ) ) {
 		$tags = explode( "/", $_GET[$attr_queue] );
-		$id = $_GET[$attr_id];
+		$id = str_replace( ";", ":", $_GET[$attr_id] );
 		$l = $_GET[$attr_limit];
 		//
 		$match = "";
@@ -28,7 +28,7 @@
 	        $return .= ", "; 
 				}
 				$name = "n".$i;
-				$match .= "(".$name.":tag:".$id.")";
+				$match .= "(".$name.":".$id.")";
 				$where .= $name.".id=~"."'".normalize( $tk );
 				if ( $i == ( $cnt - 1 ) ) {
 					$where .= ".*";
