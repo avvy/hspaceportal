@@ -11,7 +11,10 @@ $r = array();
 if( count( array_intersect_key( array_flip( $required ), $get ) ) === count( $required ) ) {
 	$fls = explode( ";", $get[$attr_id] );
 	foreach( $fls as $flk ) {
-		$r = array_merge( $r, json_decode( file_get_contents( "data/out/".$flk.".json" ) ) );
+		$fn = "data/out/".$flk.".json";
+		if ( file_exists( $fn ) ) {
+			$r = array_merge( $r, json_decode( file_get_contents( $fn ) ) );
+		}
 	}
 }
 echo json_encode( $r );

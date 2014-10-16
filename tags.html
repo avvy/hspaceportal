@@ -48,82 +48,13 @@
 
 			$(document).ready(function() {
 				configureTags( ".skills-hard", "skills-hard", "tag;skill;hard", 10 );
-				configureTags( ".soft-skills", "soft-skills", "tag;skill;soft", 10 );
+				configureTags( ".skills-soft", "skills-soft", "tag;skill;soft", 10 );
 				configureTags( ".interests", "interests", "tag;interest", 10 );
 				configureTags( ".search", "skills-hard;soft-skills;interests", "tag", 10 );
 				//---------------------------------------------------------------------
-				//skills
-				//---------------------------------------------------------------------
-/*
-				var skills = new Bloodhound({
-				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
-				  queryTokenizer: Bloodhound.tokenizers.whitespace,
-				  prefetch: {
-						url: 'tags.php?id=skill',
-						filter: function(list) {
-						  return $.map(list, function(tag) {
-							return { name: tag }; });
-						}
-				  },
-					remote: {
-						url: 'api/tag/s/?q=%QUERY&id=skill&l=10',
-						filter: function(list) {
-						  return $.map(list, function(tag) {
-							return { name: tag }; });
-						}
-					}
-				});
-				skills.clearPrefetchCache();
-				skills.initialize();
-
-				var skills_elt = $('.skills');
-				skills_elt.tagsinput({
-				  typeaheadjs: {
-					name: 'skills',
-					displayKey: 'name',
-					valueKey: 'name',
-					source: skills.ttAdapter()
-				  }
-				});
-*/
-				//---------------------------------------------------------------------
-				//interests
-				//---------------------------------------------------------------------
-/*
-				var interests = new Bloodhound({
-				  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
-				  queryTokenizer: Bloodhound.tokenizers.whitespace,
-				  prefetch: {
-						url: 'tags.php?id=interest',
-						filter: function(list) {
-						  return $.map(list, function(tag) {
-							return { name: tag }; });
-						}
-				  },
-					remote: {
-						url: 'api/tag/s/?q=%QUERY&id=interest&l=10',
-						filter: function(list) {
-						  return $.map(list, function(tag) {
-							return { name: tag }; });
-						}
-					}
-				});
-				interests.clearPrefetchCache();
-				interests.initialize();
-
-				var interests_elt = $('.interests');
-				interests_elt.tagsinput({
-				  typeaheadjs: {
-					name: 'interests',
-					displayKey: 'name',
-					valueKey: 'name',
-					source: interests.ttAdapter()
-				  }
-				});
-*/
-				//---------------------------------------------------------------------
 				//contact id
 				//---------------------------------------------------------------------
+				// TO move to the configureTags function
 				var contacts = new Bloodhound({
 					datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
   				queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -135,6 +66,7 @@
 						}
 					}
 				});
+				contacts.clearPrefetchCache();
 				contacts.initialize();
 				$('#contactName').typeahead(null, {
 			  	name: 'contact',
@@ -208,7 +140,7 @@
 						  <div class="form-group"><!--  has-success has-feedback -->
 						    <label for="contactSkillsSoft" class="col-sm-2 control-label">Soft skills</label>
 						    <div class="col-sm-10">
-							 	 	<input class="soft-skills" type="text" name="contactSkillsSoft" id="contactSkillsSoft" placeholder="" value="">
+							 	 	<input class="skills-soft" type="text" name="contactSkillsSoft" id="contactSkillsSoft" placeholder="" value="">
 									<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
 						    </div>
 						  </div>
