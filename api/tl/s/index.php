@@ -6,11 +6,14 @@
 	$attr_id = "id";
 	$attr_limit = "l";
 
-	$r = array("code" => 200, "response" => array( "data" => array(
-	array( "start"=> mktime( 0, 0, 0, 10, 10, 2014 ), "end" => null, "content" => "Dev group meeting" ),
-	array( "start"=> mktime( 0, 0, 0, 10, 16, 2014 ), "end" => null, "content" => "Dev group meeting" ),
-	array( "start"=> mktime( 0, 0, 0, 10, 23, 2014 ), "end" => null, "content" => "Dev group meeting" )
-	) ) );
+	$now = time();
+	$day = 5 * 60*60*24;
+	$tl = array();
+	for( $i = 0; $i < 20; $i++ ) {
+		$rnd = mt_rand( -mt_getrandmax() / 2, mt_getrandmax() / 2 ) / mt_getrandmax();
+		$tl[] = array( "start"=> round( $now + $day * $rnd ), "end" => null, "content" => "Event" );
+	}
+	$r = array("code" => 200, "response" => array( "data" => $tl ) );
 	//
 	echo json_encode( $r );
 ?>

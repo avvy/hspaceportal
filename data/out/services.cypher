@@ -1,95 +1,105 @@
 
 
-CREATE (services:contact {
-var:'services',
+CREATE (:contact {
 uuid:'f7d786f4-0989-49be-931c-5b5cfa196f20',
-id:'Services',
-key:''
+id:'',
+name:'Atlas',
+key:'http://atlas.com',
+img:'http://i.imgur.com/3XTmDT9.png'
 });
 
-MATCH (services:contact { var:'services' })
-CREATE (facebook:contact {
-var:'facebook',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'3ec2b1cf-33c8-4882-b677-8fc0478901ca',
-id:'Facebook',
-key:'http://facebook.com/'
+id:'',
+name:'Facebook',
+key:'http://facebook.com/',
+img:''
 })
-CREATE (services)-[:linked]->(facebook);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (twitter:contact {
-var:'twitter',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'20b3e65f-aabe-4c2a-a3b7-d06ecce791fa',
-id:'Twitter',
-key:'http://twitter.com'
+id:'',
+name:'Twitter',
+key:'http://twitter.com',
+img:''
 })
-CREATE (services)-[:linked]->(twitter);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (linkedin:contact {
-var:'linkedin',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'37f905cf-5d8d-4ac0-8f51-17be90e6738b',
-id:'Linkedin',
-key:'http://linkedin.com/'
+id:'',
+name:'Linkedin',
+key:'http://linkedin.com/',
+img:''
 })
-CREATE (services)-[:linked]->(linkedin);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (google:contact {
-var:'google',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'a4dde6e9-3c52-495e-b1c5-aa0962eb0b60',
-id:'Google',
-key:'http://google.com/'
+id:'',
+name:'Google',
+key:'http://google.com/',
+img:''
 })
-CREATE (services)-[:linked]->(google);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (googlePlus:contact {
-var:'googlePlus',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'ee8b3515-d025-42f2-b0b1-a755c44d69f7',
-id:'Google+',
-key:'http://plus.google.com/'
+id:'',
+name:'Google+',
+key:'http://plus.google.com/',
+img:''
 })
-CREATE (services)-[:linked]->(googlePlus);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (skype:contact {
-var:'skype',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'906a7586-d6a5-4b70-b8d7-9f106e7e0bc5',
-id:'Skype',
-key:'http://skype.com/'
+id:'',
+name:'Skype',
+key:'http://skype.com/',
+img:''
 })
-CREATE (services)-[:linked]->(skype);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (github:contact {
-var:'github',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'b6a7eb04-e732-48cb-926a-95a394648d53',
-id:'Github',
-key:'http://github.com/'
+id:'',
+name:'Github',
+key:'http://github.com/',
+img:''
 })
-CREATE (services)-[:linked]->(github);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (stackoverflow:contact {
-var:'stackoverflow',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'a90c5e78-2584-4ea2-953d-68c3ab6eabac',
-id:'Stackoverflow',
-key:'http://stackoverflow.com/'
+id:'',
+name:'Stackoverflow',
+key:'http://stackoverflow.com/',
+img:''
 })
-CREATE (services)-[:linked]->(stackoverflow);
+CREATE (atlas)-[:linked]->(c);
   
-MATCH (services:contact { var:'services' })
-CREATE (swarm:contact {
-var:'swarm',
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
 uuid:'8dd5a5b3-3442-4c3b-94e6-d25662ceed6e',
-id:'Swarm',
-key:'http://swarmapp.com/'
+id:'',
+name:'Swarm',
+key:'http://swarmapp.com/',
+img:''
 })
-CREATE (services)-[:linked]->(swarm);
+CREATE (atlas)-[:linked]->(c);
   
 
-MATCH (n1:contact { var:'googlePlus' }),
-			(n2:contact { var:'google' })
+MATCH (n1:contact { name:'Google+' }),
+			(n2:contact { name:'Google' })
 CREATE (n1)-[:linked]->(n2);
   

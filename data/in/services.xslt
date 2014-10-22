@@ -3,30 +3,32 @@
 <xsl:output method="text" encoding="ascii" />
 <xsl:template match="/">
 
-CREATE (<xsl:value-of select="map/@var"/>:contact {
-var:'<xsl:value-of select="map/@var"/>',
+CREATE (:contact {
 uuid:'<xsl:value-of select="map/@uuid"/>',
 id:'<xsl:value-of select="map/@title"/>',
-key:'<xsl:value-of select="map/@key"/>'
+name:'<xsl:value-of select="map/@name"/>',
+key:'<xsl:value-of select="map/@key"/>',
+img:'<xsl:value-of select="map/@img"/>'
 });
-<xsl:variable name="services"><xsl:value-of select="map/@var"/></xsl:variable>
+<xsl:variable name="atlas"><xsl:value-of select="map/@name"/></xsl:variable>
 <xsl:variable name="rel"><xsl:value-of select="map/@rel"/></xsl:variable>
 
 	<xsl:for-each select="map/services/service">
-MATCH (services:contact { var:'<xsl:value-of select="$services"/>' })
-CREATE (<xsl:value-of select="@var"/>:contact {
-var:'<xsl:value-of select="@var"/>',
+MATCH (atlas:contact { name:'<xsl:value-of select="$atlas"/>' })
+CREATE (c:contact {
 uuid:'<xsl:value-of select="@uuid"/>',
 id:'<xsl:value-of select="@title"/>',
-key:'<xsl:value-of select="@key"/>'
+name:'<xsl:value-of select="@name"/>',
+key:'<xsl:value-of select="@key"/>',
+img:'<xsl:value-of select="@img"/>'
 })
-CREATE (services)-[:<xsl:value-of select="$rel"/>]->(<xsl:value-of select="@var"/>);
+CREATE (atlas)-[:<xsl:value-of select="$rel"/>]->(c);
   </xsl:for-each>
 
 	<xsl:for-each select="map/rels/rel">
 
-MATCH (n1:contact { var:'<xsl:value-of select="@from"/>' }),
-			(n2:contact { var:'<xsl:value-of select="@to"/>' })
+MATCH (n1:contact { name:'<xsl:value-of select="@from"/>' }),
+			(n2:contact { name:'<xsl:value-of select="@to"/>' })
 CREATE (n1)-[:<xsl:value-of select="@rel"/>]->(n2);
   </xsl:for-each>
 

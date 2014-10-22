@@ -47,9 +47,9 @@ function createNode( x, y, s, t, b ) {
 	];
 	var angle_step = 360.0 / ( nodes.length );
 	var center_x = window.innerWidth / 2;
-	var center_y = window.innerHeight / 2;
+	var center_y = 2 * window.innerHeight / 5;
 	//
-	createNode( center_x, center_y, 92, "", "url(http://i.imgur.com/LBJTljW.png)" );
+	createNode( center_x, center_y, 92, "", "url(http://i.imgur.com/3XTmDT9.png)" );
 	for ( var i = 0; i < nodes.length; i++ ) {
 		var rad = Math.PI * angle / 180.0;
 		createNode( center_x + raduis * Math.cos( rad ), center_y + raduis * Math.sin( rad ), sz, nodes[i].text, nodes[i].img );
