@@ -1,21 +1,15 @@
 // globals
-var realms = null;
+var domains = null;
 
-function createNode( x, y, s, t, b ) {
-	var template = $(".template");
- 	var node = template.clone();
-  node.removeClass("template");
-	node.css("left", x - s/2 );
-	node.css("top", y - s/2 );
-	node.css("width", s );
-	node.css("height", s );
-	node.css("background-image", b );
-  node.find("span").text( t );
-  $(".surface").prepend(node.fadeIn());
+jQuery.fn.fadeOutAndRemove = function(speed){
+    $(this).fadeOut(speed,function(){
+        $(this).remove();
+    })
 }
 
 //$(function() {
 	// get configuration
+/*
 	$.get( "conf.php", function( data ) {
 		if ( data ) {
 			realms = data;
@@ -34,28 +28,7 @@ function createNode( x, y, s, t, b ) {
 			}
 		}
 	});
-	var sz = 48;
-	var	raduis = 100;
-	var angle = 0;
-	var nodes = [
-		{ text:"", img:"url(http://i.imgur.com/GDgHjAZ.png)" },
-		{ text:"", img:"url(http://i.imgur.com/5jK0e61.png)" },
-		{ text:"", img:"url(http://i.imgur.com/DPPA8mW.png)" },
-		{ text:"", img:"url(http://i.imgur.com/TK4ok72.png)" },
-		{ text:"", img:"url(http://i.imgur.com/lXZ6vls.png)" },
-		{ text:"", img:"url(http://i.imgur.com/KqNmG8v.png)" }
-	];
-	var angle_step = 360.0 / ( nodes.length );
-	var center_x = window.innerWidth / 2;
-	var center_y = 2 * window.innerHeight / 5;
-	//
-	createNode( center_x, center_y, 92, "", "url(http://i.imgur.com/3XTmDT9.png)" );
-	for ( var i = 0; i < nodes.length; i++ ) {
-		var rad = Math.PI * angle / 180.0;
-		createNode( center_x + raduis * Math.cos( rad ), center_y + raduis * Math.sin( rad ), sz, nodes[i].text, nodes[i].img );
-		angle += angle_step;
-	}
-
+*/
 /*
 	var q = "cypher.php?q=match n return n limit 10&p"; 
 	var q = "cypher.php?q=match (n{var:'hspace'}) return n limit 10&p"; 
