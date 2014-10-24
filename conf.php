@@ -1,18 +1,9 @@
 <?php
-	header('Content-Type: application/json');
+	header('Content-Type: application/json; charset=UTF-8');
+	header("Cache-Control: no-cache, must-revalidate");
+	header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 	//
-	
-	$r = array();
-	$cfg = json_decode( file_get_contents( "./conf.json" ), true );
-	//
-	if ( $cfg ) {
-		foreach( $cfg["realm"] as $ck => $cv ) {
-			$r[] = array( 
-				"uuid" => $ck,
-				"title" => $cv["title"],
-				"api" => "http://".$_SERVER["HTTP_HOST"]."/".$cv["api"],
-				"default" => $cv["default"] );
-		}
-	}
-	echo json_encode( $r );
+	include './conf-builder.php';
+	echo json_encode( buildConfig( true ) );
+	print_r( $_SERVER );
 ?>
