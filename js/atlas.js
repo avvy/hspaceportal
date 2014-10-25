@@ -1,5 +1,4 @@
 // globals
-var domains = null;
 
 jQuery.fn.fadeOutAndRemove = function(speed){
     $(this).fadeOut(speed,function(){
@@ -7,28 +6,9 @@ jQuery.fn.fadeOutAndRemove = function(speed){
     })
 }
 
+
 //$(function() {
 	// get configuration
-/*
-	$.get( "conf.php", function( data ) {
-		if ( data ) {
-			realms = data;
-			// add user defined realms from cookies
-			// TODO
-
-			// start exploring realms
-			var rt = $("#realmTemplate");
-
-			for ( var i = 0; i < realms.length; ++i ) {
-				var nr = rt.clone();
-				nr.attr("id", "");
-				nr.find("label span").text( realms[i].title );
-				nr.find("input").prop('checked', realms[i].default );
-				$("#realmList").append(nr.fadeIn());
-			}
-		}
-	});
-*/
 /*
 	var q = "cypher.php?q=match n return n limit 10&p"; 
 	var q = "cypher.php?q=match (n{var:'hspace'}) return n limit 10&p"; 

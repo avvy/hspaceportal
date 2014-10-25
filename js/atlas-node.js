@@ -1,5 +1,4 @@
 // globals
-var domains = null;
 var root = null;
 
 function getDims( level ) {
@@ -79,10 +78,12 @@ function buildSurface( level, maxLevel, x, y, uuid ) {
 	buildArea( level, maxLevel, x, y, uuid );
 }
 
-
-var cx = window.innerWidth / 2;
-var cy = 2 * window.innerHeight / 5;
-buildSurface( 0, 1, cx, cy, "f7d786f4-0989-49be-931c-5b5cfa196f20" );
+$(function() {
+  alert("node");
+	var cx = window.innerWidth / 2;
+	var cy = 2 * window.innerHeight / 5;
+	buildSurface( 0, 1, cx, cy, "f7d786f4-0989-49be-931c-5b5cfa196f20" );
+});
 
 /*
 	var q = "cypher.php?q=match n return n limit 10&p"; 

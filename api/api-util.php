@@ -1,5 +1,4 @@
 <?php
-	include './../../../conf-builder.php';
 
 	function buildResultJson( $code, $msq, &$data ) {
 		return json_encode( array( "code" => $code, "msg" => $msq, "data" => $data ) );
@@ -10,6 +9,6 @@
 	}
 
 	function getConfig() {
-		return buildConfig( true );
+		return json_decode( file_get_contents( __DIR__.'/../domains.json' ), true );
 	}
 ?>
