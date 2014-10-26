@@ -3,8 +3,6 @@ var remotes = [];
 var domains = [];
 
 $(function() {
-  alert("domains");
-
 	// get configuration script from master host
 	var url = document.URL;
 	var path = url.substring( 0, url.lastIndexOf('/') );
