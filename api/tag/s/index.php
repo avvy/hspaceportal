@@ -38,9 +38,10 @@
 				$i++;
 			}
 			$q = "MATCH ".$match." WHERE ".$where."RETURN ".$return." LIMIT ".$l;
-			//echo $q."\n";
+			echo $q."\n\n";
 			if ( neo4jQueue( $q, "", $r ) ) {
 				$out = array();
+				print_r( $r["response"]["data"] );
 				foreach( $r["response"]["data"] as $rk ) {
 					$out[] = implode( "/", $rk );
 				}
