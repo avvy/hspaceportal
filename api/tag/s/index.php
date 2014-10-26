@@ -29,23 +29,25 @@
 				}
 				$name = "n".$i;
 				$match .= "(".$name.":".$id.")";
-				$where .= $name.".id=~"."'".normalize( $tk );
+				$where .= $name.".name=~"."'".normalize( $tk );
 				if ( $i == ( $cnt - 1 ) ) {
 					$where .= ".*";
 				}
 				$where .= "'";
-				$return .= $name.".id";
+				$return .= $name.".name";
 				$i++;
 			}
 			$q = "MATCH ".$match." WHERE ".$where."RETURN ".$return." LIMIT ".$l;
-			echo $q."\n\n";
+			//echo $q."\n\n";
 			if ( neo4jQueue( $q, "", $r ) ) {
 				$out = array();
-				print_r( $r["response"]["data"] );
+				//print_r( $r["response"]["data"] );
 				foreach( $r["response"]["data"] as $rk ) {
 					$out[] = implode( "/", $rk );
 				}
 				echo json_encode( $out );
+			} else {
+				echo $r["message"];
 			}
 		}
 	}
