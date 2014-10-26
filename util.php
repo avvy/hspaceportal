@@ -64,7 +64,7 @@ function neo4j2json( $foutput, $labels ) {
 	foreach( $labels as $lsk ) {
 		$l .= ":".$lsk;
 	}
-	if ( neo4jQueue( "MATCH (n".$l.") RETURN n.id", "", $r ) ) {
+	if ( neo4jQueue( "MATCH (n".$l.") RETURN n.name", "", $r ) ) {
 		foreach( $r["response"]["data"] as $rk => $rv ) {
 			$tags[] = $rv[0];
 		}
@@ -100,8 +100,8 @@ function c2cAppendItem( &$r, $lvl, $item, &$items ) {
 function c2cNeo4j( &$s, $parent, &$r, &$items, $label ) {
 	foreach( $s as $sk => $sv ) {
 		if ( $parent ) {
-			$r[] = "MATCH (parent".$label." { id:'".$parent."' })\n";
-			$r[] = "MATCH (child".$label." { id:'".$sk."' })\n";
+			$r[] = "MATCH (parent".$label." { name:'".$parent."' })\n";
+			$r[] = "MATCH (child".$label." { name:'".$sk."' })\n";
 			$r[] = "CREATE (parent)-[:linked]->(child);\n";
 		}
 		c2cNeo4j( $sv, $sk, $r, $items, $label );
@@ -133,7 +133,7 @@ function csv2cypher( $finput, $foutput, $hasHeader, $labels, $stopWorlds ) {
 	// get unique keys array
 	$items = array_keys( array_count_values( $items ) );
 	foreach( $items as $is ) {
-		$r[] = "CREATE (".$labels." {id:'".$is."',uuid:'".uuid()."'});\n";
+		$r[] = "CREATE (".$labels." {uuid:'".uuid()."',name:'".$is."'});\n";
 	}
 
 	//echo json_encode( $s );

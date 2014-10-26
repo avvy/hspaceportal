@@ -46,6 +46,42 @@
 				});
 			}
 
+			function fillTagsTavle( id, tags ) {
+				var example = $( id );
+				var html = "";
+				for( var i = 0; i < tags.length; ++i ) {
+					html += '<div class="row">';
+					for( var j = 0; j < tags[i].length; ++j ) {
+						html += '<div class="col-md-1 text-center" style="margin:0px; padding:4px;">';
+						if ( tags[i][j].t ) {
+							var c = tags[i][j].c;
+							html += '<div style="border:1px ' + c + ' solid;border-radius:10;background-color:' + c + '">';
+							html += '<strong>' + tags[i][j].t + '</strong><br/>';
+							if ( tags[i][j].e ) {
+								var lbl = ""
+								if ( tags[i][j].e == "novice" ) {
+									lbl = "label-default";
+								} else if ( tags[i][j].e == "beginner" ) {
+									lbl = "label-warning";
+								} else if ( tags[i][j].e == "competent" ) {
+									lbl = "label-info";
+								} else if ( tags[i][j].e == "proficient" ) {
+									lbl = "label-primary";
+								} else if ( tags[i][j].e == "expert" ) {
+									lbl = "label-success";
+								}
+								html += '<span class="label ' + lbl + '">' + tags[i][j].e + '</span>';
+							}
+							html += '</div>';
+						}
+						html += '</div>';
+					}
+					html += '</div>';
+				}
+				example.html( html );
+
+			}
+
 			$(document).ready(function() {
 				configureTags( ".skills-hard", "skills-hard", "tag;skill;hard", 10 );
 				configureTags( ".skills-soft", "skills-soft", "tag;skill;soft", 10 );
@@ -89,6 +125,97 @@
 						}, 500 );
 					}
 				});
+				//
+				var hardSkills = 	[
+														[{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'Java',c:'DodgerBlue',e:'expert'},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''}],
+														[{t:'Grails',c:'',e:'novice'},{t:'Hamlets',c:'',e:''},{t:'ItsNat',c:'',e:''},{t:'GWT',c:'DodgerBlue',e:'competent'},{t:'JBoss Seam',c:'',e:'beginner'},{t:'Jspx-bay',c:'',e:''},{t:'Spring',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''}],
+														[{t:'',c:'',e:''},{t:'Errai',c:'DodgerBlue',e:'competent'},{t:'GXT',c:'DodgerBlue',e:''},{t:'Vaadin',c:'DodgerBlue',e:'competent'},{t:'SmartGWT',c:'DodgerBlue',e:'expert'},{t:'Javascript',c:'DodgerBlue',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''}]
+													];
+				fillTagsTavle( "#hardSkillExample", hardSkills );
+				//
+				var example = $("#searchExample");
+				var searchResult = 	[
+															[
+																{
+																	name:'Sheldon Cooper',
+																	img:'http://i.imgur.com/URkHZrQ.png',
+																	hard:['Java/Java EE','Spring','Apache Spark','Hadoop'],
+																	soft:['Thinks Outdide the Box'],
+																	interest:['Chess']
+																},
+																{
+																	name:'Leonard Hofstadter',
+																	img:'http://i.imgur.com/YP5mT96.png',
+																	hard:['Microsoft Azure','jQuery Mobile','Amazon BeansTalk'],
+																	soft:['Talant Management'],
+																	interest:['Tabletop Games']
+																}                            
+															],
+															[
+																{
+																	name:'Penny',
+																	img:'http://i.imgur.com/2DDHWnq.png',
+																	hard:['Ze Framework','Data Service','Google Apps'],
+																	soft:['Friendly'],
+																	interest:['Acting Technique']
+																},
+																{
+																	name:'Howard Wolowitz',
+																	img:'http://i.imgur.com/w0p9A0V.png',
+																	hard:['HTML/CSS frameworks','LESS','Toast'],
+																	soft:['Crisis Management'],
+																	interest:['Robotics']
+																}
+															]
+													];
+				var html = "";
+				for( var i = 0; i < searchResult.length; ++i ) {
+					html += '<div class="row">';
+					for( var j = 0; j < searchResult[i].length; ++j ) {
+						var cl = ( 12 / searchResult[i].length );
+						html += '<div class="col-md-' + cl + '" style="margin:0px; padding:2px;">';
+						html += '<div class="panel panel-default" >';
+						html += '<div class="panel-heading">';
+						html += searchResult[i][j].name;
+						html += '</div>';
+						html += '<div class="panel-body">';
+						html += '<div class="container-fluid"><div class="row">';
+						html += '<div class="col-sm-4">';
+						html += '<img src="' + searchResult[i][j].img + '"class="img-circle" style="width:64px;height:64px;">';
+						html += '</div>';
+						html += '<div class="col-sm-8">';
+						for( var k = 0; k < searchResult[i][j].hard.length; ++k ) {
+							html += '<span class="label label-success">' + searchResult[i][j].hard[k] + '</span>&nbsp;';
+						}
+						html += '</br>';
+						for( var k = 0; k < searchResult[i][j].soft.length; ++k ) {
+							html += '<span class="label label-primary">' + searchResult[i][j].soft[k] + '</span>&nbsp;';
+						}
+						html += '</br>';
+						for( var k = 0; k < searchResult[i][j].interest.length; ++k ) {
+							html += '<span class="label label-info">' + searchResult[i][j].interest[k] + '</span>&nbsp;';
+						}
+						html += '</div>';
+						html += '</div></div>';
+						html += '</div>';
+						html += '</div>';
+						html += '</div>';
+					}
+					html += '</div>';
+				}
+				example.html( html );
+				//
+				var searchTable = [
+														[{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'C++',c:'DodgerBlue',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'Cloud',c:'DodgerBlue',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''}],
+														[{t:'',c:'',e:''},{t:'Windows',c:'DodgerBlue',e:''},{t:'Linux',c:'DodgerBlue',e:''},{t:'STL',c:'',e:''},{t:'Qt',c:'DodgerBlue',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'Data Analysis',c:'',e:''},{t:'Cloud Services',c:'',e:''},{t:'Cloud Technology',c:'DodgerBlue',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''}],
+														[{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'',c:'D',e:''},{t:'',c:' ',e:''},{t:'',c:'',e:''},{t:'',c:'',e:''},{t:'SaaS',c:'DodgerBlue',e:''},{t:'PaaS',c:'DodgerBlue',e:''},{t:'IaaS',c:'DodgerBlue',e:''},{t:'',c:'',e:''}]
+													];
+				fillTagsTavle( "#searchTableExample", searchTable );
+
+
+
+
+
 
 /*
 				$("#formAddContact").submit(function(e){
@@ -130,12 +257,17 @@
 									<!-- span class="glyphicon glyphicon-remove form-control-feedback"></span-->
 						    </div>
 						  </div>
-						  <div class="form-group"><!--  has-success has-feedback -->
+						  <div class="form-group">
 						    <label for="contactSkillsHard" class="col-sm-2 control-label">Hard skills</label>
 						    <div class="col-sm-10">
 							 	 	<input class="skills-hard" type="text" name="contactSkillsHard" id="contactSkillsHard" placeholder="" value="">
-									<!-- span class="glyphicon glyphicon-ok form-control-feedback"></span-->
 						    </div>
+								<div class="col-md-offset-2 col-md-10">
+									<div class="container" id="hardSkillExample">
+										<div class="row">
+										</div>
+									</div>
+								</div>
 						  </div>
 						  <div class="form-group"><!--  has-success has-feedback -->
 						    <label for="contactSkillsSoft" class="col-sm-2 control-label">Soft skills</label>
@@ -171,9 +303,24 @@
         </div>
         <div id="collapseSearch" class="panel-collapse collapse in">
         	<div class="panel-body">
-						<div class="row">
-					    <div class="col-sm-12">
-								<input class="search" type="text" id="searchSkills" placeholder="Skills" value="">
+						<div class="container-fluid">
+							<div class="row">
+						    <div class="col-sm-12">
+									<input class="search" type="text" id="searchSkills" placeholder="Skills" value="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="container-fluid" id="searchTableExample">
+									</div>
+								</div>
+							</div>
+							<hr/>
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="container-fluid" id="searchExample">
+									</div>
+								</div>
 							</div>
 						</div>
           </div>

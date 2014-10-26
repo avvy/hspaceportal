@@ -1,561 +1,561 @@
-CREATE (:tag:skill:soft {id:'Soft Skills',uuid:'0109923d-6505-4642-8814-deb891b0317d'});
-CREATE (:tag:skill:soft {id:'Able to Listen',uuid:'83ed0582-8599-495c-9ce7-6661001e6875'});
-CREATE (:tag:skill:soft {id:'Accept Feedback',uuid:'c7fe3424-be0b-47ff-95e8-d1655145bd34'});
-CREATE (:tag:skill:soft {id:'Adaptable',uuid:'e966ddb4-f2d2-4b73-8d1a-bb7a00df3cd8'});
-CREATE (:tag:skill:soft {id:'Artistic Sense',uuid:'ddd874bc-50e7-42ec-8268-f4ed200c4878'});
-CREATE (:tag:skill:soft {id:'Assertive',uuid:'582cef91-0788-4648-bb2a-16e601527914'});
-CREATE (:tag:skill:soft {id:'Attentive',uuid:'2cb947cf-d8b7-4dad-af23-fffaf8011fcc'});
-CREATE (:tag:skill:soft {id:'Business Trend Awareness',uuid:'19f53506-096b-41bc-b512-65f5df1b1ded'});
-CREATE (:tag:skill:soft {id:'Collaborating',uuid:'a2e2b75a-58cb-4991-af63-00c95111a539'});
-CREATE (:tag:skill:soft {id:'Communication',uuid:'bb5b5ef4-9618-48c8-b4cc-32bcf618e2e3'});
-CREATE (:tag:skill:soft {id:'Competitive',uuid:'be27068d-7cf7-475a-b609-8d64f2c00938'});
-CREATE (:tag:skill:soft {id:'Confidant',uuid:'0de6bd23-533d-4fc6-a03d-eeb2cfc4c155'});
-CREATE (:tag:skill:soft {id:'Conflict Resolution',uuid:'6dcfc433-b0c5-4565-a40e-9ca6c425a80e'});
-CREATE (:tag:skill:soft {id:'Cooperative',uuid:'96d0cd66-8e96-4f61-a315-919399493a50'});
-CREATE (:tag:skill:soft {id:'Courteous',uuid:'2bd0ae42-1ade-46dd-8809-61810fdb9c7a'});
-CREATE (:tag:skill:soft {id:'Creative Thinker',uuid:'c5aa82c6-71d7-4650-8551-309212248f8f'});
-CREATE (:tag:skill:soft {id:'Critical Thinker',uuid:'1463913a-1bf4-465c-b65d-79b4fb2e72a8'});
-CREATE (:tag:skill:soft {id:'Crisis Management',uuid:'83c4a8ee-bcef-45a7-94a4-b9acf1297cee'});
-CREATE (:tag:skill:soft {id:'Critical Observer',uuid:'a01fec1f-19b3-4525-853b-e68e0099b0f7'});
-CREATE (:tag:skill:soft {id:'Customer Service Experience',uuid:'1b30e9cf-786b-41be-b5ce-2a9268e3142e'});
-CREATE (:tag:skill:soft {id:'Deal Making',uuid:'90491043-242a-49a8-9ad0-ddc1c03b8297'});
-CREATE (:tag:skill:soft {id:'Deal with Difficult Situations',uuid:'3f3fb3f3-3347-4a2c-8a5a-b8f9b1510de6'});
-CREATE (:tag:skill:soft {id:'Deal with Office Politics',uuid:'2c84885b-00ae-4390-887a-d2c0dc573502'});
-CREATE (:tag:skill:soft {id:'Deals with Difficult People',uuid:'81b7013f-d04d-4ae2-b125-8b671f66e8b0'});
-CREATE (:tag:skill:soft {id:'Decision Making',uuid:'94f3ad64-b7c0-4217-8baa-fc5ac6b57656'});
-CREATE (:tag:skill:soft {id:'Dedicated',uuid:'eafbd670-7222-4885-85f6-b24b985552db'});
-CREATE (:tag:skill:soft {id:'Delegation',uuid:'fa0f1afc-fb81-41ff-b59d-ccb6c522d959'});
-CREATE (:tag:skill:soft {id:'Dependable',uuid:'e899535e-b37e-4bc7-8f4b-a507da7ad75e'});
-CREATE (:tag:skill:soft {id:'Design Sense',uuid:'1e6365f1-f326-49ae-bed1-dde8f270456e'});
-CREATE (:tag:skill:soft {id:'Desire to Learn',uuid:'0f3184bb-e7a4-47a0-b3db-18531bd4bd5a'});
-CREATE (:tag:skill:soft {id:'Disability Awareness',uuid:'763ea809-77a1-437b-8589-eedb12e44016'});
-CREATE (:tag:skill:soft {id:'Dispute Resolution',uuid:'2196cb81-28a1-4069-bd15-db91c6ba0565'});
-CREATE (:tag:skill:soft {id:'Diversity Awareness',uuid:'35401c73-b7a6-47dc-8ec9-5a528ff8d8d0'});
-CREATE (:tag:skill:soft {id:'Effective Communicator',uuid:'de3cecf7-899d-41e7-9a10-3a3dbd7c8a1b'});
-CREATE (:tag:skill:soft {id:'Emotion Management',uuid:'b356cbcb-38d9-49a4-a052-58cd1b94c3ab'});
-CREATE (:tag:skill:soft {id:'Emotional Intelligence',uuid:'f376ce54-6698-4879-91d6-91fbd03f428c'});
-CREATE (:tag:skill:soft {id:'Empathetic',uuid:'23f8306f-4e84-47e9-a650-e0acc42e8909'});
-CREATE (:tag:skill:soft {id:'Energetic',uuid:'4a63f55b-644b-4732-ab3b-173b10d68c80'});
-CREATE (:tag:skill:soft {id:'Enthusiastic',uuid:'a9c9991e-28f0-43ce-9e95-8c71b5ef3c01'});
-CREATE (:tag:skill:soft {id:'Entrepreneurial Thinking',uuid:'3394fed4-b2d7-4773-b25a-299c2623f198'});
-CREATE (:tag:skill:soft {id:'Ergonomic Sensitivity',uuid:'9c4920f8-c4db-451c-8c3e-e3fe66856cc1'});
-CREATE (:tag:skill:soft {id:'Establish Interpersonal Relationships',uuid:'697f732f-c1f5-4728-bef0-4bdfc0d554ca'});
-CREATE (:tag:skill:soft {id:'Experience Dealing with Difficult Personalities',uuid:'db782f10-9956-41dc-8034-bbd5b9dd6bee'});
-CREATE (:tag:skill:soft {id:'Experience',uuid:'9ffb0493-4049-4045-aa6a-12b4c5623f6f'});
-CREATE (:tag:skill:soft {id:'Facilitating',uuid:'8c0780af-bc5c-43d2-a802-126807258899'});
-CREATE (:tag:skill:soft {id:'Flexible',uuid:'e273b0df-4ccb-4639-b770-0ae5da493268'});
-CREATE (:tag:skill:soft {id:'Follow Instructions',uuid:'f9d46217-859c-4de1-aced-a423d618a5cb'});
-CREATE (:tag:skill:soft {id:'Follow Regulations',uuid:'5a9df261-49bb-480e-8815-c62f9955162e'});
-CREATE (:tag:skill:soft {id:'Follow Rules',uuid:'2b81d6d1-5e56-46f7-9c59-43092b8af0bb'});
-CREATE (:tag:skill:soft {id:'Friendly',uuid:'44b0ae90-98de-4589-99d4-64c2b271045b'});
-CREATE (:tag:skill:soft {id:'Functions Well Under Pressure',uuid:'b023cc55-d7a8-40c0-b10a-356573957354'});
-CREATE (:tag:skill:soft {id:'Giving Feedback',uuid:'5c3703f9-5c88-4f1a-8bd3-34993aa22618'});
-CREATE (:tag:skill:soft {id:'Good at Networking',uuid:'dcd15771-7a2a-444a-b990-b39b5be24c97'});
-CREATE (:tag:skill:soft {id:'Good at Storytelling',uuid:'cf8b5c85-4491-4349-8df1-3db425090f9b'});
-CREATE (:tag:skill:soft {id:'Good Attitude',uuid:'5eed1d2a-2bcb-411e-825f-f6fbeecb9414'});
-CREATE (:tag:skill:soft {id:'High Energy',uuid:'9831065b-5618-49de-ac8a-ed4048481960'});
-CREATE (:tag:skill:soft {id:'Highly Organized',uuid:'7e0382ee-0c11-41b5-82b2-d7fe308675eb'});
-CREATE (:tag:skill:soft {id:'Highly Recommended',uuid:'7cf2120b-74a2-4894-88e1-9b7e1ef4ca04'});
-CREATE (:tag:skill:soft {id:'Honest',uuid:'eb69ae79-628d-4043-89ad-4e048a78fc63'});
-CREATE (:tag:skill:soft {id:'Independent',uuid:'f9ea21a6-5c27-4fc7-95dc-6d11daf78882'});
-CREATE (:tag:skill:soft {id:'Influence/Persuasive',uuid:'f82ce838-2e63-4eb4-8bc5-a59a6ba589cf'});
-CREATE (:tag:skill:soft {id:'Innovator',uuid:'4b1bb0cf-248c-4fe8-9691-f7b9eabfb9dd'});
-CREATE (:tag:skill:soft {id:'Inspiring',uuid:'5473543d-f60c-4de7-99ec-6caa15a4495b'});
-CREATE (:tag:skill:soft {id:'Intercultural Competence',uuid:'48c5d6e7-b410-43ce-9304-d47657182538'});
-CREATE (:tag:skill:soft {id:'Interpersonal',uuid:'5fae27ef-a5f4-4158-a95a-39a13748650a'});
-CREATE (:tag:skill:soft {id:'Interviewing',uuid:'fd2f372b-9c8b-4e08-9ae6-8a76257da150'});
-CREATE (:tag:skill:soft {id:'Knowledge Management',uuid:'57b8e354-b6d2-49af-8c2a-83d8e7c3a370'});
-CREATE (:tag:skill:soft {id:'Leadership Skills',uuid:'e5949aae-dd30-4212-8fa6-fb411f1d57e3'});
-CREATE (:tag:skill:soft {id:'Make Deadlines',uuid:'4625aa18-7263-41f7-ac7e-373d78c564c1'});
-CREATE (:tag:skill:soft {id:'Management Skills',uuid:'8e7a2e51-9960-4367-9862-5fd951f32511'});
-CREATE (:tag:skill:soft {id:'Managing Difficult Conversations',uuid:'86d39134-98af-47e7-8d66-ca8ca784acb2'});
-CREATE (:tag:skill:soft {id:'Managing Remote Teams',uuid:'0c390cf2-ebbd-47d6-b5b9-26fa1287db0d'});
-CREATE (:tag:skill:soft {id:'Managing Virtual Teams',uuid:'12698e4e-23f0-46b9-94df-0c32b050101b'});
-CREATE (:tag:skill:soft {id:'Meeting Management',uuid:'58e28a31-d77a-45ee-979c-9c0cc22dc37a'});
-CREATE (:tag:skill:soft {id:'Mentoring',uuid:'1d973b4f-4c4c-4482-b26f-d9cc1ef1eb1c'});
-CREATE (:tag:skill:soft {id:'Motivated',uuid:'fbb92e47-25a6-4392-b3cd-fd8617b1fa65'});
-CREATE (:tag:skill:soft {id:'Motivating',uuid:'b02248d7-9783-44b7-bb01-772d6f0cd278'});
-CREATE (:tag:skill:soft {id:'Negotiation Skills',uuid:'36e68a4e-7f6c-40f3-be1a-3946f3815245'});
-CREATE (:tag:skill:soft {id:'Organized',uuid:'0fc630ae-7c7a-4f5f-b3ac-f580aab8e0d0'});
-CREATE (:tag:skill:soft {id:'Patience',uuid:'b41d8e75-b6bd-44e2-8f3b-a168ef2e622a'});
-CREATE (:tag:skill:soft {id:'Perform Effectively in a Deadline Environment',uuid:'e1b1da85-e5d2-44bd-a3c5-a4b1ed354bc7'});
-CREATE (:tag:skill:soft {id:'Performance Management',uuid:'b16c7093-1670-4478-b547-0ba2858f1eea'});
-CREATE (:tag:skill:soft {id:'Perseverance',uuid:'b87016b9-d86d-498c-ba42-33d5aab91173'});
-CREATE (:tag:skill:soft {id:'Persistence',uuid:'0b38c9f8-7453-42d8-8ad3-839e41d18cea'});
-CREATE (:tag:skill:soft {id:'Persuasion',uuid:'6598e9c3-14fb-4bdf-b613-38aaaa44568e'});
-CREATE (:tag:skill:soft {id:'Physical Communication',uuid:'aaa3441a-73a2-4d02-934e-1c6cb8fea659'});
-CREATE (:tag:skill:soft {id:'Planning',uuid:'9170d2b6-defe-4431-b286-12ce0a8c64ea'});
-CREATE (:tag:skill:soft {id:'Positive Work Ethic',uuid:'75ae3e19-e41f-43b1-8279-43d8bdd2c12b'});
-CREATE (:tag:skill:soft {id:'Possess Business Ethics',uuid:'02be46c0-445e-4b3f-9df9-e894124641f0'});
-CREATE (:tag:skill:soft {id:'Presentation',uuid:'8ad27068-21c3-49f4-a945-ad5999c89033'});
-CREATE (:tag:skill:soft {id:'Problem-solver',uuid:'5fba40d9-32ec-4659-8068-9c020966cef3'});
-CREATE (:tag:skill:soft {id:'Process Improvement',uuid:'788ca5a4-9b6b-485a-97fc-d4294ce3fcb9'});
-CREATE (:tag:skill:soft {id:'Proper Business Etiquette',uuid:'6b095fab-c842-4178-a2ef-01769987bc65'});
-CREATE (:tag:skill:soft {id:'Public Speaking',uuid:'9e4cb08b-1a7f-48a9-81d5-7998a63198a0'});
-CREATE (:tag:skill:soft {id:'Punctual',uuid:'837681cd-8adf-454c-b3d8-3b7525ca5c53'});
-CREATE (:tag:skill:soft {id:'Quick-witted',uuid:'f0ba53ac-9f80-432d-a43b-0f4582646c3c'});
-CREATE (:tag:skill:soft {id:'Read Body Language',uuid:'27624ae9-52ba-46da-afe9-03abefb9e9ed'});
-CREATE (:tag:skill:soft {id:'Reliable',uuid:'c2b374a9-33ee-47d3-ade3-5aaa32fec151'});
-CREATE (:tag:skill:soft {id:'Research',uuid:'802aa363-6088-437d-a40a-a7aba7ca2f99'});
-CREATE (:tag:skill:soft {id:'Resilient',uuid:'f44f845f-bad6-4ead-bdff-5935c590b309'});
-CREATE (:tag:skill:soft {id:'Resolving Issues',uuid:'4c06b17f-a7d2-4bfb-bdc2-76aeb3106eb1'});
-CREATE (:tag:skill:soft {id:'Respectful',uuid:'4518582d-54ee-44d2-88be-460c56c082fa'});
-CREATE (:tag:skill:soft {id:'Respectable',uuid:'5011e0ea-df43-41fc-99dc-0c37495b5676'});
-CREATE (:tag:skill:soft {id:'Results-oriented',uuid:'791d0317-1104-40ff-b7ea-2c6b710863c4'});
-CREATE (:tag:skill:soft {id:'Safety Conscious',uuid:'73c9083b-c569-4c7c-9f66-40e0406450b3'});
-CREATE (:tag:skill:soft {id:'Scheduling',uuid:'c47c9f26-5013-41de-813d-bf81044a6842'});
-CREATE (:tag:skill:soft {id:'Self-Awareness',uuid:'ceffb06a-f8e6-4db6-b721-f12a823ad895'});
-CREATE (:tag:skill:soft {id:'Self-directed',uuid:'fb63188e-09fc-4651-b0c5-105b3c749e7d'});
-CREATE (:tag:skill:soft {id:'Self-monitoring',uuid:'cee018e8-fbc7-4eee-b873-53630d328775'});
-CREATE (:tag:skill:soft {id:'Self-supervising',uuid:'71a5a8a9-e2a4-473e-9073-0fbfb5d8bdc5'});
-CREATE (:tag:skill:soft {id:'Selling Skills',uuid:'04c4c526-3a55-4230-90d0-1e0ae825a08f'});
-CREATE (:tag:skill:soft {id:'Sense of Humor',uuid:'26c69c7a-3f04-4fe4-b4c9-7fc3a5cec540'});
-CREATE (:tag:skill:soft {id:'Stay on Task',uuid:'8695691f-f5b4-4f69-ad3e-28ff528635c4'});
-CREATE (:tag:skill:soft {id:'Strategic Planning',uuid:'be06bff6-ad99-48a3-9053-6a8b3b4a414a'});
-CREATE (:tag:skill:soft {id:'Stress Management',uuid:'79728f9b-369f-4ed0-beae-4c58987a6645'});
-CREATE (:tag:skill:soft {id:'Successful Coach',uuid:'73c66267-88fb-440c-aba7-69dda7d7aa9e'});
-CREATE (:tag:skill:soft {id:'Supervising',uuid:'25a418b7-8460-4bd8-b15a-5f76a38adb34'});
-CREATE (:tag:skill:soft {id:'Take Criticism',uuid:'3a9c0c2c-d522-4c97-a4e9-124bd1bfb486'});
-CREATE (:tag:skill:soft {id:'Talent Management',uuid:'ce0aa9b2-9520-46a5-b3bd-cd204ee0bd6b'});
-CREATE (:tag:skill:soft {id:'Team Building',uuid:'bb329a01-5b56-40cc-b7f4-9a541896c25f'});
-CREATE (:tag:skill:soft {id:'Team Player',uuid:'f59f7943-2ad2-439a-939e-baf6de50cbc0'});
-CREATE (:tag:skill:soft {id:'Technology Savvy',uuid:'08786efe-db21-4d50-8788-34a5228a5222'});
-CREATE (:tag:skill:soft {id:'Technology Trend Awareness',uuid:'d666ec81-f3eb-444c-b193-c80c21888c8b'});
-CREATE (:tag:skill:soft {id:'Thinks Outside the Box',uuid:'a1dd0712-91bb-4185-9c83-0e9f4edc55ca'});
-CREATE (:tag:skill:soft {id:'Time Management',uuid:'c610ca9b-75e3-429e-af08-21aadf740497'});
-CREATE (:tag:skill:soft {id:'Tolerant of Change and Uncertainty',uuid:'6974863a-b6a9-44b4-afdf-fefe514ab5dd'});
-CREATE (:tag:skill:soft {id:'Train the Trainer',uuid:'1465a229-f080-43a4-abc0-aa961a04bbaa'});
-CREATE (:tag:skill:soft {id:'Trainable',uuid:'a1fab3e5-38c8-4114-b900-106fca69f839'});
-CREATE (:tag:skill:soft {id:'Training',uuid:'ab93cbde-f14d-439e-8094-75af53df843a'});
-CREATE (:tag:skill:soft {id:'Troubleshooter',uuid:'ffe80abc-7519-4136-857d-eff019ebc78d'});
-CREATE (:tag:skill:soft {id:'Value Education',uuid:'046c9e2a-e0bf-4c70-bf48-14cd67bf677c'});
-CREATE (:tag:skill:soft {id:'Verbal Communication',uuid:'c1ad28a4-1730-4ec1-955f-4caf0c4a20b6'});
-CREATE (:tag:skill:soft {id:'Visual Communication',uuid:'396a8f8b-e9e9-48b4-92fd-ac32388dacef'});
-CREATE (:tag:skill:soft {id:'Well Groomed',uuid:'e67525a9-f2d3-4348-bdba-7ba837fc387e'});
-CREATE (:tag:skill:soft {id:'Willing to Accept Feedback',uuid:'8b12c1c5-575d-49e5-a4d4-14c8c12c04bc'});
-CREATE (:tag:skill:soft {id:'Willingness to Learn',uuid:'559b3515-cab0-4a08-84bd-c28094763647'});
-CREATE (:tag:skill:soft {id:'Work Well Under Pressure',uuid:'a1e90c68-0ea8-4ed7-8bdc-fcb3cb889b31'});
-CREATE (:tag:skill:soft {id:'Work-Life Balance',uuid:'a0be5887-4448-4315-83f5-696b17a503ad'});
-CREATE (:tag:skill:soft {id:'Writing Experience',uuid:'73f7f0af-2381-405a-857f-7902fd421133'});
-CREATE (:tag:skill:soft {id:'Writing Reports and Proposals',uuid:'ea0df92a-8c81-426c-ab3c-ccff3ef57202'});
-CREATE (:tag:skill:soft {id:'Writing Skills',uuid:'e754c886-1cb8-4e2e-820e-4d4177311df3'});
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Able to Listen' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Accept Feedback' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Adaptable' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Artistic Sense' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Assertive' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Attentive' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Business Trend Awareness' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Collaborating' })
+CREATE (:tag:skill:soft {uuid:'bcb9a3f9-7a1b-42a3-bbfc-d74ae4110901',name:'Soft Skills'});
+CREATE (:tag:skill:soft {uuid:'ccf676fa-3047-429e-8375-a4ddb1315aed',name:'Able to Listen'});
+CREATE (:tag:skill:soft {uuid:'a95b84a1-c66a-4ba2-8bf0-e8ba7405c4cb',name:'Accept Feedback'});
+CREATE (:tag:skill:soft {uuid:'24d9f849-2beb-4968-b09e-6c1399695813',name:'Adaptable'});
+CREATE (:tag:skill:soft {uuid:'0f158c00-a47a-4607-bcd9-2eb185982ed7',name:'Artistic Sense'});
+CREATE (:tag:skill:soft {uuid:'12114320-f0b7-424d-9475-2f1e150b2ea8',name:'Assertive'});
+CREATE (:tag:skill:soft {uuid:'133470c8-01a5-47c2-93b4-fb63730b136e',name:'Attentive'});
+CREATE (:tag:skill:soft {uuid:'ace56c50-fdbb-4e7c-bcc9-44e279d103ba',name:'Business Trend Awareness'});
+CREATE (:tag:skill:soft {uuid:'cc14b4d6-68bf-4008-b236-1892bc038ee3',name:'Collaborating'});
+CREATE (:tag:skill:soft {uuid:'d47527f8-5d2c-4248-8cfd-b32b1320a600',name:'Communication'});
+CREATE (:tag:skill:soft {uuid:'34a99fda-e330-46d5-ba61-9fe2bb7a8599',name:'Competitive'});
+CREATE (:tag:skill:soft {uuid:'d52b2cea-be10-4a26-bf1a-acc256a591c2',name:'Confidant'});
+CREATE (:tag:skill:soft {uuid:'6d4cc75f-9985-41ed-be2c-b0e505c4d4d8',name:'Conflict Resolution'});
+CREATE (:tag:skill:soft {uuid:'f5f2fa19-0948-48e8-8210-9dd729d1e4a0',name:'Cooperative'});
+CREATE (:tag:skill:soft {uuid:'aadc44ec-fccb-4d00-8f84-a9ef4563fcaf',name:'Courteous'});
+CREATE (:tag:skill:soft {uuid:'2b237440-d6d4-4e9d-b647-b912f801f144',name:'Creative Thinker'});
+CREATE (:tag:skill:soft {uuid:'497c976f-d586-42d7-8bf6-e239d9fe204b',name:'Critical Thinker'});
+CREATE (:tag:skill:soft {uuid:'75d80772-5291-4523-984e-520c064c6736',name:'Crisis Management'});
+CREATE (:tag:skill:soft {uuid:'0142ee19-89d6-4692-85dc-be1424bd4846',name:'Critical Observer'});
+CREATE (:tag:skill:soft {uuid:'612fe944-5656-43e7-9199-074e14da7d5a',name:'Customer Service Experience'});
+CREATE (:tag:skill:soft {uuid:'ee2fecf0-80fa-436b-9f83-134ee0900138',name:'Deal Making'});
+CREATE (:tag:skill:soft {uuid:'8e313d32-2f8e-4b91-85d2-e8dbe75b2ab9',name:'Deal with Difficult Situations'});
+CREATE (:tag:skill:soft {uuid:'9219dab2-423d-4aba-bad4-014ab844a9b0',name:'Deal with Office Politics'});
+CREATE (:tag:skill:soft {uuid:'d20dd92b-ed4f-4ff7-bbeb-cb2b65890ef2',name:'Deals with Difficult People'});
+CREATE (:tag:skill:soft {uuid:'e521039d-80ef-457e-a3a2-9435325f7549',name:'Decision Making'});
+CREATE (:tag:skill:soft {uuid:'167aa223-0993-4f1a-93f4-c4702bc559d9',name:'Dedicated'});
+CREATE (:tag:skill:soft {uuid:'2e2568b3-4aaa-4d15-8484-2eff97c80052',name:'Delegation'});
+CREATE (:tag:skill:soft {uuid:'659bf19d-c5eb-466b-a1d2-366dcf1f45e5',name:'Dependable'});
+CREATE (:tag:skill:soft {uuid:'f339b128-fa65-41a2-a823-6640a68d6cf7',name:'Design Sense'});
+CREATE (:tag:skill:soft {uuid:'86dd68fd-9c36-4ac3-9a27-207995d1aec7',name:'Desire to Learn'});
+CREATE (:tag:skill:soft {uuid:'016bfc17-4ba3-4e30-8371-5333cd630b87',name:'Disability Awareness'});
+CREATE (:tag:skill:soft {uuid:'b66acb7a-0e4b-4cbf-9677-a3436682c7a5',name:'Dispute Resolution'});
+CREATE (:tag:skill:soft {uuid:'83105b17-f4b4-472a-bfca-f538c11b0c4b',name:'Diversity Awareness'});
+CREATE (:tag:skill:soft {uuid:'ce29304e-fe5e-46ea-b8c3-efcad4715ee1',name:'Effective Communicator'});
+CREATE (:tag:skill:soft {uuid:'2d1ee819-f74c-48e6-ab04-8b9d0e2bd94f',name:'Emotion Management'});
+CREATE (:tag:skill:soft {uuid:'9b717f31-87d5-400e-b91b-c0362e9dd881',name:'Emotional Intelligence'});
+CREATE (:tag:skill:soft {uuid:'0e862b66-0cf4-492d-a941-7f97fd7a8cd5',name:'Empathetic'});
+CREATE (:tag:skill:soft {uuid:'7f8f851f-96dc-49b4-a899-ffc7a5353e6e',name:'Energetic'});
+CREATE (:tag:skill:soft {uuid:'4f776484-7efa-476d-bb3f-9cda2478f7c6',name:'Enthusiastic'});
+CREATE (:tag:skill:soft {uuid:'f94dfc68-efab-403d-b4a4-c8dfde978330',name:'Entrepreneurial Thinking'});
+CREATE (:tag:skill:soft {uuid:'591377b9-6cd0-42cd-bb9d-d3a19fc28a9c',name:'Ergonomic Sensitivity'});
+CREATE (:tag:skill:soft {uuid:'c5984254-e039-414a-ae12-90e8381a874e',name:'Establish Interpersonal Relationships'});
+CREATE (:tag:skill:soft {uuid:'c7318cad-c651-489f-95e1-eaf4f4de6359',name:'Experience Dealing with Difficult Personalities'});
+CREATE (:tag:skill:soft {uuid:'f689c916-ce35-4784-b0f2-cc467e2ef153',name:'Experience'});
+CREATE (:tag:skill:soft {uuid:'6729d7a5-df03-42d1-8a78-02d4a38a2ef1',name:'Facilitating'});
+CREATE (:tag:skill:soft {uuid:'29206a95-3f22-47db-af30-4df653600903',name:'Flexible'});
+CREATE (:tag:skill:soft {uuid:'33a01bd1-8888-404c-9136-5522c0ec76ad',name:'Follow Instructions'});
+CREATE (:tag:skill:soft {uuid:'f4a74a06-2d31-44d6-8bf6-4a4c302dfda5',name:'Follow Regulations'});
+CREATE (:tag:skill:soft {uuid:'25457fbc-0e2e-46f6-8f0c-84491d05d971',name:'Follow Rules'});
+CREATE (:tag:skill:soft {uuid:'353e96d6-8d54-4ea3-b48c-bc2f8d1f0c4c',name:'Friendly'});
+CREATE (:tag:skill:soft {uuid:'358c7fab-d28f-453f-8f2e-22f6b28e1e68',name:'Functions Well Under Pressure'});
+CREATE (:tag:skill:soft {uuid:'2757f54e-b63b-45b2-afd6-7434dc214e93',name:'Giving Feedback'});
+CREATE (:tag:skill:soft {uuid:'a006ef09-e386-4b0d-ad42-433a36fff60b',name:'Good at Networking'});
+CREATE (:tag:skill:soft {uuid:'6d11d04d-e503-4ccc-983d-9f470888e4a1',name:'Good at Storytelling'});
+CREATE (:tag:skill:soft {uuid:'1cfacb4e-23d4-4047-9890-6de5664335ee',name:'Good Attitude'});
+CREATE (:tag:skill:soft {uuid:'b549d346-14dc-4d63-b259-de64a470c87f',name:'High Energy'});
+CREATE (:tag:skill:soft {uuid:'9c2a65a4-97a2-40fd-abb5-1325487c8b55',name:'Highly Organized'});
+CREATE (:tag:skill:soft {uuid:'7d5e2c41-e77c-4310-9603-34a7aa6072c7',name:'Highly Recommended'});
+CREATE (:tag:skill:soft {uuid:'729ac321-a3d7-48b9-bc6b-ea295ddeaa5c',name:'Honest'});
+CREATE (:tag:skill:soft {uuid:'40085b79-3147-4531-8b2e-f1e80b355373',name:'Independent'});
+CREATE (:tag:skill:soft {uuid:'3d3eed83-7bd4-4743-8125-2b25512da38f',name:'Influence/Persuasive'});
+CREATE (:tag:skill:soft {uuid:'f3339ec5-e65b-4411-a26c-4c63d4392573',name:'Innovator'});
+CREATE (:tag:skill:soft {uuid:'58a427a1-5baa-4609-bc81-7b457b62ffcf',name:'Inspiring'});
+CREATE (:tag:skill:soft {uuid:'19b34ebe-79fe-4fb1-86ec-a454de46baa4',name:'Intercultural Competence'});
+CREATE (:tag:skill:soft {uuid:'6a36d534-21f3-4fe1-84ab-1426a6e1137a',name:'Interpersonal'});
+CREATE (:tag:skill:soft {uuid:'79bccfac-3be1-4716-9b05-d92ce174b741',name:'Interviewing'});
+CREATE (:tag:skill:soft {uuid:'6ece48ae-66df-41b3-a0e1-b95f24975e72',name:'Knowledge Management'});
+CREATE (:tag:skill:soft {uuid:'f163ee7e-c59e-4ac7-a0e5-040088328a80',name:'Leadership Skills'});
+CREATE (:tag:skill:soft {uuid:'09fcb12c-e87e-4ab5-8e9e-7139c16017f4',name:'Make Deadlines'});
+CREATE (:tag:skill:soft {uuid:'d1f9e6a4-a746-4790-a2cf-a749d989f8bd',name:'Management Skills'});
+CREATE (:tag:skill:soft {uuid:'56a614c2-6f15-4370-893c-6aec069f4fd2',name:'Managing Difficult Conversations'});
+CREATE (:tag:skill:soft {uuid:'d702c08d-864d-46a4-87ba-8c04faabd340',name:'Managing Remote Teams'});
+CREATE (:tag:skill:soft {uuid:'848e60d2-b4c8-48a2-a888-182876d41513',name:'Managing Virtual Teams'});
+CREATE (:tag:skill:soft {uuid:'d5509738-dd05-4bf2-a4b9-c4718164ff0a',name:'Meeting Management'});
+CREATE (:tag:skill:soft {uuid:'590d4f73-48ea-4dd8-be34-8d3b7f7be17b',name:'Mentoring'});
+CREATE (:tag:skill:soft {uuid:'ee8df9d5-9c75-4431-910a-0b6492bab3c5',name:'Motivated'});
+CREATE (:tag:skill:soft {uuid:'c130aee8-6138-4683-8e90-e07425ebb512',name:'Motivating'});
+CREATE (:tag:skill:soft {uuid:'1ca78204-ef44-4376-b8a7-68ef4392dc28',name:'Negotiation Skills'});
+CREATE (:tag:skill:soft {uuid:'90aa9e50-a1a2-43ba-8ce0-5352f54aff8a',name:'Organized'});
+CREATE (:tag:skill:soft {uuid:'9bd18799-10fa-4fbd-b9ed-b5fda3b409ba',name:'Patience'});
+CREATE (:tag:skill:soft {uuid:'b1888204-d2c1-4c54-950f-a66bcdef144b',name:'Perform Effectively in a Deadline Environment'});
+CREATE (:tag:skill:soft {uuid:'9242f99a-edf0-4538-9e0a-6a9648a41bb0',name:'Performance Management'});
+CREATE (:tag:skill:soft {uuid:'75b2c480-fbff-4b30-9977-14f892f65dfa',name:'Perseverance'});
+CREATE (:tag:skill:soft {uuid:'dae7d223-64f3-4b35-9873-d051c45a753f',name:'Persistence'});
+CREATE (:tag:skill:soft {uuid:'2cc12dd8-1b52-4ff2-ba5d-e8845df626d7',name:'Persuasion'});
+CREATE (:tag:skill:soft {uuid:'b5deba11-141b-46b7-ad4c-632ef72df21c',name:'Physical Communication'});
+CREATE (:tag:skill:soft {uuid:'a582590b-3df6-43cc-bc45-eeaab5da3264',name:'Planning'});
+CREATE (:tag:skill:soft {uuid:'9235cd5a-9b2a-4724-a65d-7913dde79fe8',name:'Positive Work Ethic'});
+CREATE (:tag:skill:soft {uuid:'ad1de0d8-00c1-4213-bd8d-8aa921710ef0',name:'Possess Business Ethics'});
+CREATE (:tag:skill:soft {uuid:'585c5dfa-c8cd-4dad-8e7c-2bf85731da42',name:'Presentation'});
+CREATE (:tag:skill:soft {uuid:'8a237dad-3572-4e3d-8c34-f4f1356564e4',name:'Problem-solver'});
+CREATE (:tag:skill:soft {uuid:'73d007de-4e78-4fe2-9f11-bca05d7b7a5b',name:'Process Improvement'});
+CREATE (:tag:skill:soft {uuid:'e6c9e8ca-d319-4953-8e18-1ebb0595ac49',name:'Proper Business Etiquette'});
+CREATE (:tag:skill:soft {uuid:'ae8c02f5-ad5c-46d9-a43a-c7f2a77f7e63',name:'Public Speaking'});
+CREATE (:tag:skill:soft {uuid:'ea47c52e-8459-49cb-a830-426705971a3c',name:'Punctual'});
+CREATE (:tag:skill:soft {uuid:'f6a0ffbb-77ac-49e7-b77d-e2f69ea6d26e',name:'Quick-witted'});
+CREATE (:tag:skill:soft {uuid:'105a5aa4-0b8b-4a0a-a70e-208cb51ca9da',name:'Read Body Language'});
+CREATE (:tag:skill:soft {uuid:'8fa23707-2d40-489d-a7c0-79c37c6f8e84',name:'Reliable'});
+CREATE (:tag:skill:soft {uuid:'ef2305a2-7257-4d11-a685-87475c42f3ac',name:'Research'});
+CREATE (:tag:skill:soft {uuid:'3047fe6b-cf69-4891-a8dc-9e5facc01a1e',name:'Resilient'});
+CREATE (:tag:skill:soft {uuid:'3b780115-5cb2-44b9-be45-dbfa1970750e',name:'Resolving Issues'});
+CREATE (:tag:skill:soft {uuid:'4e4ea09c-c457-42df-aaa7-85c56cfa6c45',name:'Respectful'});
+CREATE (:tag:skill:soft {uuid:'08e118c8-ae9a-415b-a4ba-f847af36b12c',name:'Respectable'});
+CREATE (:tag:skill:soft {uuid:'931227ad-8015-4529-8c00-8cea0dcdaafe',name:'Results-oriented'});
+CREATE (:tag:skill:soft {uuid:'175ad388-62d9-4181-a5a5-edfce2556d78',name:'Safety Conscious'});
+CREATE (:tag:skill:soft {uuid:'49c04351-dc01-439f-a7e5-b665a107b91e',name:'Scheduling'});
+CREATE (:tag:skill:soft {uuid:'1d232afe-012e-4d0a-b538-485d2af63c9a',name:'Self-Awareness'});
+CREATE (:tag:skill:soft {uuid:'697d1977-6c3a-45d9-8c19-cdafb233408b',name:'Self-directed'});
+CREATE (:tag:skill:soft {uuid:'a8948dd1-7da2-4a13-9622-37899f9fc2ed',name:'Self-monitoring'});
+CREATE (:tag:skill:soft {uuid:'d3fe2722-0cbf-470c-9577-b8dd1237c1a3',name:'Self-supervising'});
+CREATE (:tag:skill:soft {uuid:'286f41b9-72ef-4d30-9b47-2760389752b1',name:'Selling Skills'});
+CREATE (:tag:skill:soft {uuid:'73dbf559-d61d-4ff1-bcf3-6827a6011ceb',name:'Sense of Humor'});
+CREATE (:tag:skill:soft {uuid:'370d44a2-510f-4e5f-8be6-84064e43dd6d',name:'Stay on Task'});
+CREATE (:tag:skill:soft {uuid:'822301b1-300c-4c5c-95f3-ac0534a19e77',name:'Strategic Planning'});
+CREATE (:tag:skill:soft {uuid:'dd27b1d3-a5bc-41d6-85ea-b19e2294512e',name:'Stress Management'});
+CREATE (:tag:skill:soft {uuid:'e0953fc0-6e64-4580-97e1-dade1e1518a7',name:'Successful Coach'});
+CREATE (:tag:skill:soft {uuid:'cf781e18-0fc7-45c8-ae76-bb1ce8ed82a2',name:'Supervising'});
+CREATE (:tag:skill:soft {uuid:'22ea599b-6955-40d9-8754-ab6be3c45682',name:'Take Criticism'});
+CREATE (:tag:skill:soft {uuid:'9a0c0908-ca11-4440-83d5-4f04e8bb0e48',name:'Talent Management'});
+CREATE (:tag:skill:soft {uuid:'08684168-9a65-4c03-bd0e-cf53e9873194',name:'Team Building'});
+CREATE (:tag:skill:soft {uuid:'dbd5c703-5124-4049-b8e8-0ea0bff0bf1e',name:'Team Player'});
+CREATE (:tag:skill:soft {uuid:'21add7ae-7712-4eba-9424-57376ddae635',name:'Technology Savvy'});
+CREATE (:tag:skill:soft {uuid:'5e1023b5-4bd3-488d-b441-edd935f68c2a',name:'Technology Trend Awareness'});
+CREATE (:tag:skill:soft {uuid:'5ee02e78-0953-404e-bdf9-ab4462a3803a',name:'Thinks Outside the Box'});
+CREATE (:tag:skill:soft {uuid:'9f04d8ad-3e9d-4d3e-8c47-37191bdacb82',name:'Time Management'});
+CREATE (:tag:skill:soft {uuid:'51c0905d-30a1-49de-9c5d-a81220f11561',name:'Tolerant of Change and Uncertainty'});
+CREATE (:tag:skill:soft {uuid:'52a0afe1-00a5-408b-84b5-dd28c7083b7b',name:'Train the Trainer'});
+CREATE (:tag:skill:soft {uuid:'21b58f25-a5ab-4913-929c-5ea014267e2d',name:'Trainable'});
+CREATE (:tag:skill:soft {uuid:'79ececad-b4a8-48db-a1e9-492cfb57417d',name:'Training'});
+CREATE (:tag:skill:soft {uuid:'5379528e-3718-41fa-93a8-ad13512e51aa',name:'Troubleshooter'});
+CREATE (:tag:skill:soft {uuid:'3964658e-da25-4f77-bf09-3ffb1b7894bf',name:'Value Education'});
+CREATE (:tag:skill:soft {uuid:'e52be4aa-7cb0-4d52-ab3f-7133a551fab1',name:'Verbal Communication'});
+CREATE (:tag:skill:soft {uuid:'873d6fec-856a-41a3-9fce-1f1cd02fc4d5',name:'Visual Communication'});
+CREATE (:tag:skill:soft {uuid:'0bc803c7-db5a-4563-8c62-725d05fe5124',name:'Well Groomed'});
+CREATE (:tag:skill:soft {uuid:'ac7e2b50-ea29-49f8-b7d6-999b7db14c7d',name:'Willing to Accept Feedback'});
+CREATE (:tag:skill:soft {uuid:'030dec23-e1e8-4e1e-8957-e1cb5dae3586',name:'Willingness to Learn'});
+CREATE (:tag:skill:soft {uuid:'06b2a014-a7fc-41e7-89f1-abdec1e1d4c4',name:'Work Well Under Pressure'});
+CREATE (:tag:skill:soft {uuid:'711982fa-d37c-476d-a6d7-83870642f4b4',name:'Work-Life Balance'});
+CREATE (:tag:skill:soft {uuid:'bb4bbfc4-fe53-4a75-b301-e87d8c05294a',name:'Writing Experience'});
+CREATE (:tag:skill:soft {uuid:'e07160d4-9777-4292-a6b9-88bd6102f64e',name:'Writing Reports and Proposals'});
+CREATE (:tag:skill:soft {uuid:'db6c8e8f-28c1-4382-823a-47380171cb33',name:'Writing Skills'});
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Able to Listen' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Accept Feedback' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Adaptable' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Artistic Sense' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Assertive' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Attentive' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Business Trend Awareness' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Collaborating' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Communication' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Communication' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Competitive' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Competitive' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Confidant' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Confidant' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Conflict Resolution' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Conflict Resolution' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Cooperative' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Cooperative' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Courteous' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Courteous' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Creative Thinker' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Creative Thinker' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Critical Thinker' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Critical Thinker' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Crisis Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Crisis Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Critical Observer' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Critical Observer' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Customer Service Experience' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Customer Service Experience' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Deal Making' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Deal Making' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Deal with Difficult Situations' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Deal with Difficult Situations' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Deal with Office Politics' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Deal with Office Politics' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Deals with Difficult People' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Deals with Difficult People' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Decision Making' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Decision Making' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Dedicated' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Dedicated' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Delegation' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Delegation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Dependable' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Dependable' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Design Sense' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Design Sense' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Desire to Learn' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Desire to Learn' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Disability Awareness' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Disability Awareness' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Dispute Resolution' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Dispute Resolution' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Diversity Awareness' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Diversity Awareness' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Effective Communicator' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Effective Communicator' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Emotion Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Emotion Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Emotional Intelligence' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Emotional Intelligence' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Empathetic' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Empathetic' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Energetic' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Energetic' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Enthusiastic' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Enthusiastic' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Entrepreneurial Thinking' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Entrepreneurial Thinking' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Ergonomic Sensitivity' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Ergonomic Sensitivity' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Establish Interpersonal Relationships' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Establish Interpersonal Relationships' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Experience Dealing with Difficult Personalities' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Experience Dealing with Difficult Personalities' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Experience' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Experience' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Facilitating' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Facilitating' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Flexible' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Flexible' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Follow Instructions' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Follow Instructions' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Follow Regulations' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Follow Regulations' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Follow Rules' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Follow Rules' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Friendly' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Friendly' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Functions Well Under Pressure' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Functions Well Under Pressure' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Giving Feedback' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Giving Feedback' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Good at Networking' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Good at Networking' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Good at Storytelling' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Good at Storytelling' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Good Attitude' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Good Attitude' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'High Energy' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'High Energy' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Highly Organized' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Highly Organized' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Highly Recommended' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Highly Recommended' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Honest' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Honest' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Independent' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Independent' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Influence/Persuasive' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Influence/Persuasive' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Innovator' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Innovator' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Inspiring' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Inspiring' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Intercultural Competence' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Intercultural Competence' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Interpersonal' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Interpersonal' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Interviewing' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Interviewing' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Knowledge Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Knowledge Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Leadership Skills' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Leadership Skills' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Make Deadlines' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Make Deadlines' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Management Skills' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Management Skills' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Managing Difficult Conversations' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Managing Difficult Conversations' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Managing Remote Teams' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Managing Remote Teams' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Managing Virtual Teams' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Managing Virtual Teams' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Meeting Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Meeting Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Mentoring' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Mentoring' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Motivated' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Motivated' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Motivating' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Motivating' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Negotiation Skills' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Negotiation Skills' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Organized' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Organized' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Patience' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Patience' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Perform Effectively in a Deadline Environment' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Perform Effectively in a Deadline Environment' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Performance Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Performance Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Perseverance' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Perseverance' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Persistence' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Persistence' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Persuasion' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Persuasion' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Physical Communication' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Physical Communication' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Planning' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Planning' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Positive Work Ethic' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Positive Work Ethic' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Possess Business Ethics' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Possess Business Ethics' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Presentation' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Presentation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Problem-solver' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Problem-solver' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Process Improvement' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Process Improvement' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Proper Business Etiquette' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Proper Business Etiquette' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Public Speaking' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Public Speaking' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Punctual' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Punctual' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Quick-witted' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Quick-witted' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Read Body Language' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Read Body Language' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Reliable' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Reliable' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Research' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Research' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Resilient' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Resilient' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Resolving Issues' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Resolving Issues' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Respectful' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Respectful' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Respectable' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Respectable' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Results-oriented' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Results-oriented' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Safety Conscious' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Safety Conscious' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Scheduling' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Scheduling' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Self-Awareness' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Self-Awareness' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Self-directed' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Self-directed' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Self-monitoring' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Self-monitoring' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Self-supervising' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Self-supervising' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Selling Skills' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Selling Skills' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Sense of Humor' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Sense of Humor' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Stay on Task' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Stay on Task' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Strategic Planning' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Strategic Planning' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Stress Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Stress Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Successful Coach' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Successful Coach' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Supervising' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Supervising' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Take Criticism' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Take Criticism' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Talent Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Talent Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Team Building' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Team Building' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Team Player' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Team Player' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Technology Savvy' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Technology Savvy' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Technology Trend Awareness' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Technology Trend Awareness' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Thinks Outside the Box' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Thinks Outside the Box' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Time Management' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Time Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Tolerant of Change and Uncertainty' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Tolerant of Change and Uncertainty' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Train the Trainer' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Train the Trainer' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Trainable' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Trainable' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Training' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Training' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Troubleshooter' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Troubleshooter' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Value Education' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Value Education' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Verbal Communication' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Verbal Communication' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Visual Communication' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Visual Communication' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Well Groomed' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Well Groomed' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Willing to Accept Feedback' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Willing to Accept Feedback' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Willingness to Learn' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Willingness to Learn' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Work Well Under Pressure' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Work Well Under Pressure' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Work-Life Balance' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Work-Life Balance' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Writing Experience' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Writing Experience' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Writing Reports and Proposals' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Writing Reports and Proposals' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:soft { id:'Soft Skills' })
-MATCH (child:tag:skill:soft { id:'Writing Skills' })
+MATCH (parent:tag:skill:soft { name:'Soft Skills' })
+MATCH (child:tag:skill:soft { name:'Writing Skills' })
 CREATE (parent)-[:linked]->(child);

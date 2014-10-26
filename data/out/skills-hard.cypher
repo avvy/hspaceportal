@@ -1,5356 +1,5356 @@
-CREATE (:tag:skill:hard {id:'Role Profile',uuid:'af319e05-ce35-4359-bc5f-2e964a7a35fe'});
-CREATE (:tag:skill:hard {id:'Development',uuid:'2510548e-1f1f-40e0-a39e-4a1d02f3c80f'});
-CREATE (:tag:skill:hard {id:'Security',uuid:'c871194a-69d5-48dd-a656-d41b0a895e8c'});
-CREATE (:tag:skill:hard {id:'Cloud',uuid:'7fd5f186-d84e-485c-8aff-52678f2dcc55'});
-CREATE (:tag:skill:hard {id:'Cloud technologies',uuid:'7df4c45c-db20-43ed-9750-9837078a5d3f'});
-CREATE (:tag:skill:hard {id:'IaaS',uuid:'1bbcb30e-4df7-4c09-9429-7a3b591ed1fe'});
-CREATE (:tag:skill:hard {id:'Amazon Web Service (AWS)',uuid:'19aa3874-e563-44c9-a556-cdeed11dd19f'});
-CREATE (:tag:skill:hard {id:'Microsoft Azure',uuid:'876f18ea-f0fa-44c3-9c2a-7b398642958b'});
-CREATE (:tag:skill:hard {id:'Google Compute Engine (GCE)',uuid:'4c33f908-a7fe-4fab-a74b-09643f2d1306'});
-CREATE (:tag:skill:hard {id:'OpenStack',uuid:'4a239468-7bac-415c-9ab3-01c2690770e5'});
-CREATE (:tag:skill:hard {id:'PaaS',uuid:'1f2ec610-fc4a-438b-b045-f4d0c1935dec'});
-CREATE (:tag:skill:hard {id:'Force.com',uuid:'1c81e8c2-134b-4af7-9923-d714f8d31c64'});
-CREATE (:tag:skill:hard {id:'Apache Stratos',uuid:'45854892-a600-499b-a37c-43b1416ac9bc'});
-CREATE (:tag:skill:hard {id:'Amazone BeansTalk',uuid:'959e49ac-f426-4a3a-8c64-166e397c48c4'});
-CREATE (:tag:skill:hard {id:'Heroku',uuid:'e8a87cd1-d59b-4dce-b3a2-cf6939d4da17'});
-CREATE (:tag:skill:hard {id:'SaaS',uuid:'67fab33e-898b-4c65-a13f-4715f145b7ed'});
-CREATE (:tag:skill:hard {id:'Apprenda',uuid:'167c8fa7-309c-4120-9669-c1018e52158c'});
-CREATE (:tag:skill:hard {id:'Google Apps',uuid:'5c44e44d-0200-43bd-a171-6f495452ff46'});
-CREATE (:tag:skill:hard {id:'Salesforce',uuid:'c9c9d06a-4d5f-4934-be2a-87ad8a365519'});
-CREATE (:tag:skill:hard {id:'Cisco WebEx',uuid:'73df434d-1102-4654-b917-aee8046f2e74'});
-CREATE (:tag:skill:hard {id:'Citrix GoToMeeting',uuid:'1a64a857-b9bd-46c7-9dc8-efb21f20b38a'});
-CREATE (:tag:skill:hard {id:'Cloud Services',uuid:'1ef60491-959e-4cd4-8ad2-22e0fb1715ed'});
-CREATE (:tag:skill:hard {id:'Data Service',uuid:'d9a7c0b9-408b-40f2-81a6-df8da21ea049'});
-CREATE (:tag:skill:hard {id:'SQL Database',uuid:'7225d6d6-e328-4793-b9b4-9db3dba3b584'});
-CREATE (:tag:skill:hard {id:'Amazon Relational Database Service (RDS)',uuid:'9cb04d66-044e-400a-9989-aef8f3cd196b'});
-CREATE (:tag:skill:hard {id:'Azure SQL Database',uuid:'9806b275-86c0-4d96-9a09-9a764b4ac3b0'});
-CREATE (:tag:skill:hard {id:'Google Cloud SQL',uuid:'0b8873c4-3e29-47da-bdb6-b07c09c3a458'});
-CREATE (:tag:skill:hard {id:'NoSQL Database',uuid:'b7fe3e52-e407-4f4c-98a1-de35b38dc2dd'});
-CREATE (:tag:skill:hard {id:'CouchDB',uuid:'7937f0f4-3a1e-4fee-85a9-736d6f29bc92'});
-CREATE (:tag:skill:hard {id:'Oracle NoSQL Database',uuid:'648c867b-e38b-48dd-bbbc-874b2bce3e0c'});
-CREATE (:tag:skill:hard {id:'MongoDB',uuid:'737f36d5-9c5e-4f82-b698-14629e6a34e4'});
-CREATE (:tag:skill:hard {id:'Solr',uuid:'565dbebd-1062-4211-9e28-1152c29cba80'});
-CREATE (:tag:skill:hard {id:'Amazon DynamoDB',uuid:'aed2b1b0-5261-4ae6-be5f-3494f194fd18'});
-CREATE (:tag:skill:hard {id:'Microsoft Azure DocumentDB',uuid:'0e1805d9-9255-43ee-8459-2e6e5733f0f9'});
-CREATE (:tag:skill:hard {id:'Graph Database',uuid:'2ad0a4c4-fa17-4c6d-b200-b48b36e74f12'});
-CREATE (:tag:skill:hard {id:'MapGraph',uuid:'f62214da-c37c-4306-a529-3fe9f5a061e5'});
-CREATE (:tag:skill:hard {id:'Neo4j',uuid:'7696d0a5-6254-4be5-87da-518d2d325be2'});
-CREATE (:tag:skill:hard {id:'IBM System G Native Store',uuid:'8afbd4fe-6838-4b61-bf13-784b98247291'});
-CREATE (:tag:skill:hard {id:'Oracle Spatial and Graph',uuid:'b55603d0-59bf-4d59-81ca-213811ae54e4'});
-CREATE (:tag:skill:hard {id:'OrientDB',uuid:'07b9ef96-be57-4f72-97a2-1240d52166bc'});
-CREATE (:tag:skill:hard {id:'VertexDB',uuid:'fda509e2-ca04-45f4-879e-ab736a9562ff'});
-CREATE (:tag:skill:hard {id:'Message Queue / AMQP',uuid:'1c191694-019d-4a04-b626-e8e51489a422'});
-CREATE (:tag:skill:hard {id:'RabbitMQ',uuid:'6965c927-7d9e-49e6-bade-cb47c79e3f9a'});
-CREATE (:tag:skill:hard {id:'Amazon Simple Queue Service',uuid:'2bb81eec-3ee1-4d86-86d4-0c7e628ba4be'});
-CREATE (:tag:skill:hard {id:'StormMQ',uuid:'970158c0-686e-438a-bf05-1138bfd70cd0'});
-CREATE (:tag:skill:hard {id:'IronMQ',uuid:'0b4186fe-0061-4656-b250-5b575195b6ef'});
-CREATE (:tag:skill:hard {id:'CDN',uuid:'ccb86875-bfd6-48ba-b1c9-15e70acca57f'});
-CREATE (:tag:skill:hard {id:'Amazon CloudFront',uuid:'69ec82ae-a131-4bb8-ac48-3b23d96e5336'});
-CREATE (:tag:skill:hard {id:'Azure CDN',uuid:'39a07d38-ac11-4f2c-a34d-12e95d755dcc'});
-CREATE (:tag:skill:hard {id:'CloudFlare',uuid:'2c3d345f-449c-4507-846c-820a1e7a6420'});
-CREATE (:tag:skill:hard {id:'Storage',uuid:'82ed59ab-fb27-40f0-9a2d-c68c20884e51'});
-CREATE (:tag:skill:hard {id:'Amazon Glacier',uuid:'86dad920-852b-4d0e-a099-9bd891305e94'});
-CREATE (:tag:skill:hard {id:'Amazon Simple Storage Service (S3)',uuid:'8d0d2575-3c25-4a19-8682-158889a3c5e5'});
-CREATE (:tag:skill:hard {id:'Amazon Elastic Block Store',uuid:'cb911d12-bfc3-4221-886e-c1744a413d9e'});
-CREATE (:tag:skill:hard {id:'Azure Blob Storage Service',uuid:'8006890f-1112-4ad4-ac92-b245d694fff7'});
-CREATE (:tag:skill:hard {id:'Azure Table Storage Service',uuid:'84e7a341-c1c0-4a87-81d5-88fe9509d265'});
-CREATE (:tag:skill:hard {id:'Google Storage service',uuid:'867a7a22-8a54-4640-a6c8-efc04d3badc4'});
-CREATE (:tag:skill:hard {id:'DropBox',uuid:'d0a5c6b2-68ea-478d-9a7e-7884ee0e5862'});
-CREATE (:tag:skill:hard {id:'OneDrive',uuid:'43abf2a4-0a7c-4cf1-898b-25836528255b'});
-CREATE (:tag:skill:hard {id:'Data Analysis',uuid:'4c8010f6-0d33-41fe-89d1-8543fbf84333'});
-CREATE (:tag:skill:hard {id:'Data Mining',uuid:'16c78acc-d8fc-4118-bfcc-6c2fe97ff0dd'});
-CREATE (:tag:skill:hard {id:'SAS Enterprise Miner',uuid:'09d35b03-f94c-46a7-8078-d5c862251fb0'});
-CREATE (:tag:skill:hard {id:'Microsoft Analysis Services',uuid:'30a8d684-233f-4953-b31d-8b2f51d56480'});
-CREATE (:tag:skill:hard {id:'IBM SPSS Modeler',uuid:'f0a9173e-fab0-43f9-aa5e-7488b435807b'});
-CREATE (:tag:skill:hard {id:'Oracle Data Mining',uuid:'48027dd9-3c41-4219-be2e-84a533cd543f'});
-CREATE (:tag:skill:hard {id:'Business Intelligence',uuid:'497bd860-6ee4-44d2-82d8-e8d5696e2373'});
-CREATE (:tag:skill:hard {id:'SAP',uuid:'f7b30435-fc73-4423-96d3-6f7e25b1351e'});
-CREATE (:tag:skill:hard {id:'Jaspersoft',uuid:'71d6adca-cead-4268-900a-539fecb2b020'});
-CREATE (:tag:skill:hard {id:'Map Reduce',uuid:'7796c1d3-82b5-4de6-a4a1-e48d63b52f37'});
-CREATE (:tag:skill:hard {id:'Couchdb',uuid:'2501c872-67c0-4aa8-86fc-1db388f11f1a'});
-CREATE (:tag:skill:hard {id:'Infinispan',uuid:'2bf34bc7-9482-4d41-a3d2-e18f24515e2b'});
-CREATE (:tag:skill:hard {id:'Amazon Elastic MapReduce',uuid:'02efbe2d-9f7e-417f-a452-84b4fb5105d1'});
-CREATE (:tag:skill:hard {id:'Apache Spark',uuid:'b6845e59-a039-46fb-8785-20fbb48f33d0'});
-CREATE (:tag:skill:hard {id:'Hadoop, Apache',uuid:'f2d9489f-4efe-4ac2-9bab-3bbce1f2c013'});
-CREATE (:tag:skill:hard {id:'Apache Storm',uuid:'926883f9-73ae-4c49-9466-e992ea8b9e81'});
-CREATE (:tag:skill:hard {id:'OLAP',uuid:'701067ee-cf5a-4616-93dd-ea7b910df3c5'});
-CREATE (:tag:skill:hard {id:'SAS OLAP Server',uuid:'48b5a56a-f57e-423e-bd24-f55b40b3f152'});
-CREATE (:tag:skill:hard {id:'IBM Cognos',uuid:'1eb312f8-d12a-40d5-a7e9-cf315c082122'});
-CREATE (:tag:skill:hard {id:'Jedox OLAP Server',uuid:'c07874ef-d024-468c-853e-da5a8f682a85'});
-CREATE (:tag:skill:hard {id:'Web',uuid:'6b3302cb-b99f-44a3-894f-885067490282'});
-CREATE (:tag:skill:hard {id:'Front-End',uuid:'c2f879ea-218a-4116-bb08-9c2694fd1e07'});
-CREATE (:tag:skill:hard {id:'HTML/CSS frameworks',uuid:'a708575c-2340-4d8a-be84-54794fcc0929'});
-CREATE (:tag:skill:hard {id:'HTML5 Boilerplate',uuid:'6126afd9-be77-4575-8f4a-cd523292f4fa'});
-CREATE (:tag:skill:hard {id:'HTML KickStart',uuid:'d34e3a37-8546-427e-8d58-37db96e50368'});
-CREATE (:tag:skill:hard {id:'Montage HTML5 Framework',uuid:'9ca12344-0cc5-4d92-995e-2d934a7ad90c'});
-CREATE (:tag:skill:hard {id:'Sproutcore',uuid:'f98a902d-2f48-4c7b-ba07-77a6c7d2b9b4'});
-CREATE (:tag:skill:hard {id:'DHTMLX',uuid:'478c050f-109e-40eb-8de4-1e5bfff65d0c'});
-CREATE (:tag:skill:hard {id:'YAML',uuid:'245aecdd-031a-42e6-882a-bfdfd6159606'});
-CREATE (:tag:skill:hard {id:'Kube',uuid:'58c05247-81f8-4054-baae-00bbbcfe89eb'});
-CREATE (:tag:skill:hard {id:'Bootstrap',uuid:'32cddc72-3719-4ac4-b129-c61b42d9da73'});
-CREATE (:tag:skill:hard {id:'Foundation',uuid:'f501df00-c0ba-4c61-9a92-4dcb4e49440c'});
-CREATE (:tag:skill:hard {id:'Semantic UI',uuid:'c941483f-0baf-4bd4-9f98-185c4ee3e27a'});
-CREATE (:tag:skill:hard {id:'Uikit',uuid:'5c19c36b-7778-41e0-b63b-56545a560fbe'});
-CREATE (:tag:skill:hard {id:'Skeleton',uuid:'b257d0f1-baf8-42ec-a1aa-74e2a869ee16'});
-CREATE (:tag:skill:hard {id:'960 Grid System',uuid:'94cdb83b-417c-4e78-acae-a663e6be50b0'});
-CREATE (:tag:skill:hard {id:'G5Framework',uuid:'0944cead-c309-461e-b64a-83f8a2416921'});
-CREATE (:tag:skill:hard {id:'Blueprint',uuid:'87720c16-180b-463c-afab-008330865c10'});
-CREATE (:tag:skill:hard {id:'Metro UI CSS 2.0',uuid:'06e497d6-550e-4bd0-8e84-7567a8c4ef8d'});
-CREATE (:tag:skill:hard {id:'Toast',uuid:'3d5e37e0-c9f9-4fd9-aeb1-8352dc8742b8'});
-CREATE (:tag:skill:hard {id:'Gumby',uuid:'55198d3d-362e-4ca8-96b1-a21a30880b86'});
-CREATE (:tag:skill:hard {id:'Responsive',uuid:'7cfe3c47-facd-4cc5-8040-69fcd3fb6834'});
-CREATE (:tag:skill:hard {id:'Columnal',uuid:'862ff72a-0bae-44d3-917f-7a9c2e154317'});
-CREATE (:tag:skill:hard {id:'Susy',uuid:'01d6eeec-37e7-4351-91ef-0a1e26a21d8c'});
-CREATE (:tag:skill:hard {id:'CSS',uuid:'794a1837-b67b-4b41-96e6-769902d36768'});
-CREATE (:tag:skill:hard {id:'CSS3',uuid:'6d6756b7-7d39-4bd9-8b94-ac871d6da886'});
-CREATE (:tag:skill:hard {id:'HTML',uuid:'4b1d0ad6-7dae-401d-895f-043e3cf96bfe'});
-CREATE (:tag:skill:hard {id:'HTML5',uuid:'604ea198-73e3-4edf-8b94-d2bfb4fcae30'});
-CREATE (:tag:skill:hard {id:'Javascript',uuid:'2a58817b-cc5d-42b3-92f4-00f14a910c34'});
-CREATE (:tag:skill:hard {id:'jQuery',uuid:'adf2860c-cff2-4892-a9d1-dcd48886df05'});
-CREATE (:tag:skill:hard {id:'GWT',uuid:'5ee8c8ab-5da2-4737-af94-fb4c2584e1b6'});
-CREATE (:tag:skill:hard {id:'ProcessingJS',uuid:'649bb200-55e0-4bda-ba36-8d9a458e37b9'});
-CREATE (:tag:skill:hard {id:'AngularJS',uuid:'cd85c3e3-1800-4aab-9d44-59346a225742'});
-CREATE (:tag:skill:hard {id:'AtomsJS',uuid:'d7fc4d17-c7fd-4eb7-aa4f-4c7ff5d25175'});
-CREATE (:tag:skill:hard {id:'Dojo',uuid:'e1239ec6-ca7a-4215-8a3e-963b7980ce4c'});
-CREATE (:tag:skill:hard {id:'ExtJS',uuid:'ab718996-f6ab-47f3-a32c-acd7bf716cdd'});
-CREATE (:tag:skill:hard {id:'CreateJS',uuid:'7ad426a9-379c-4bf8-8f13-75a47702e069'});
-CREATE (:tag:skill:hard {id:'KnockoutJS',uuid:'a229816c-6748-4b65-b53a-f5f356167f43'});
-CREATE (:tag:skill:hard {id:'BackboneJS',uuid:'4047e556-415a-456f-9cb5-7cf76f8ee60c'});
-CREATE (:tag:skill:hard {id:'RequireJS',uuid:'e09a4e41-9f1b-4486-ae25-ebab34790530'});
-CREATE (:tag:skill:hard {id:'Ember',uuid:'4534d88d-fd51-45fa-a4f0-c1082bfe4af2'});
-CREATE (:tag:skill:hard {id:'Sencha Touch',uuid:'f343d537-cc1c-47f0-9703-607f33a14b10'});
-CREATE (:tag:skill:hard {id:'jQuery UI',uuid:'aa2aa320-2760-4378-97f0-90893ffda6ff'});
-CREATE (:tag:skill:hard {id:'jQuery Mobile',uuid:'358b281e-15b2-4c4d-b357-c3dd3b534043'});
-CREATE (:tag:skill:hard {id:'PDF.js',uuid:'8c49f8b4-be86-4092-a83b-3b375589755a'});
-CREATE (:tag:skill:hard {id:'underscore',uuid:'2a2fc213-6490-48da-9ef2-fcfba85a24aa'});
-CREATE (:tag:skill:hard {id:'Markdown',uuid:'2aa6cffa-4976-47a7-84ac-3f3e3acf0ec7'});
-CREATE (:tag:skill:hard {id:'Socket.io',uuid:'533507bd-08ca-4c4e-8838-7eaf9aa1a983'});
-CREATE (:tag:skill:hard {id:'Google API',uuid:'45c4f8f1-06e5-4832-b017-963be9d2454d'});
-CREATE (:tag:skill:hard {id:'Build systems',uuid:'66fb4c17-5506-45e6-bdf4-83c397d273c6'});
-CREATE (:tag:skill:hard {id:'CoffeeScript',uuid:'484c9c8c-84fe-4bd3-9479-45413dedb05c'});
-CREATE (:tag:skill:hard {id:'Typescript',uuid:'8efaa9db-4d4a-43f7-86b7-4e27df70af77'});
-CREATE (:tag:skill:hard {id:'LESS',uuid:'fc2f80c5-0e66-4169-8cd0-9cc1ad9fc6f6'});
-CREATE (:tag:skill:hard {id:'SASS',uuid:'9611fd35-3a21-40d7-aace-520227b9a761'});
-CREATE (:tag:skill:hard {id:'Multimedia Development',uuid:'656bdf07-b6d1-4690-8ac1-96db40a4bf06'});
-CREATE (:tag:skill:hard {id:'­-',uuid:'d17de956-cc85-4338-988e-5e75a3135f3d'});
-CREATE (:tag:skill:hard {id:'Adobe Flash',uuid:'30ae024d-fcee-4690-850e-5939a3fe292a'});
-CREATE (:tag:skill:hard {id:'Adobe Flex',uuid:'a9e66490-3997-49cd-8d48-26de4bd3710a'});
-CREATE (:tag:skill:hard {id:'ActionScript 2.0',uuid:'b8f7e646-2682-4057-a508-d52f8fad8f06'});
-CREATE (:tag:skill:hard {id:'ActionScript 3.0',uuid:'a083ebf9-e974-4ffb-8893-1b05a72ac614'});
-CREATE (:tag:skill:hard {id:'JavaScript',uuid:'b96816eb-20ee-404c-8040-d48c44e52354'});
-CREATE (:tag:skill:hard {id:'dz.js',uuid:'d39f8c8e-8e42-43b8-8ca2-a01776039df6'});
-CREATE (:tag:skill:hard {id:'create.js',uuid:'47cd4e71-51b8-4ffb-8e08-3a33b220ffcd'});
-CREATE (:tag:skill:hard {id:'Backend',uuid:'e47046c2-4dd2-48c5-9404-5e8c07a8ceaa'});
-CREATE (:tag:skill:hard {id:'PHP',uuid:'6df6e5c3-f7da-4ebb-9f93-75b3477aff36'});
-CREATE (:tag:skill:hard {id:'.NET',uuid:'2cf28fe4-8104-47f4-992a-3bb970dee802'});
-CREATE (:tag:skill:hard {id:'ASP.NET MVC',uuid:'c83ade9c-2ff3-4776-a45e-08d3af514222'});
-CREATE (:tag:skill:hard {id:'Base One Foundation Component Library',uuid:'5b72157a-56b6-4d89-8793-2dc6e615f842'});
-CREATE (:tag:skill:hard {id:'Component-based Scalable Logical Architecture',uuid:'0dee07c7-a3a9-4214-b65b-2cc1191b8368'});
-CREATE (:tag:skill:hard {id:'MonoRail',uuid:'def62d0c-f311-4a1c-ad19-efff9ebbc1fc'});
-CREATE (:tag:skill:hard {id:'OpenRasta',uuid:'dc4a7340-8e14-401b-90f7-fab1f01f0d6e'});
-CREATE (:tag:skill:hard {id:'Nancy',uuid:'a6c89190-1995-45ef-9c64-4f5140a5d2fe'});
-CREATE (:tag:skill:hard {id:'node.js',uuid:'2581371b-ab9f-4348-a2b0-258960553f03'});
-CREATE (:tag:skill:hard {id:'Java',uuid:'d4522ab4-cb08-4ed0-a15a-7bf7db01e15b'});
-CREATE (:tag:skill:hard {id:'Core',uuid:'f297276e-394d-43bc-b95c-bccce5adb2e4'});
-CREATE (:tag:skill:hard {id:'Java6',uuid:'40efe8c9-8f89-4724-85fe-1a41320be0ce'});
-CREATE (:tag:skill:hard {id:'Java7',uuid:'7cbd53c5-5fd9-452b-849a-68b512c59e9c'});
-CREATE (:tag:skill:hard {id:'Java8',uuid:'90c5776c-6e94-4ab3-8812-c160cbabb538'});
-CREATE (:tag:skill:hard {id:'OOP',uuid:'165cca72-f263-4c70-b8cd-f08887a27e74'});
-CREATE (:tag:skill:hard {id:'Collections',uuid:'3b7e8bd0-780e-4cb1-a57b-3636f7a76814'});
-CREATE (:tag:skill:hard {id:'Concurrency',uuid:'7b9af110-fa18-4f06-a998-7a2914ac7426'});
-CREATE (:tag:skill:hard {id:'Apache Axis',uuid:'a4b7c1c4-07ea-4259-9cae-936050545104'});
-CREATE (:tag:skill:hard {id:'Apache Axis2',uuid:'e225f876-fc96-443c-853c-5dea2b3e0599'});
-CREATE (:tag:skill:hard {id:'Apache CXF',uuid:'199694fa-8030-4d63-9bb7-872fd760d8a0'});
-CREATE (:tag:skill:hard {id:'GlassFish',uuid:'3de3a0e7-d7d7-4e6c-ae1a-5349da1756a1'});
-CREATE (:tag:skill:hard {id:'Apache Click',uuid:'805a7092-eb12-4c53-88ed-41cc7d16685d'});
-CREATE (:tag:skill:hard {id:'Apache OFBiz',uuid:'41729794-dd82-47fd-b558-44a22a49d94f'});
-CREATE (:tag:skill:hard {id:'Apache Shale',uuid:'4af98386-38dd-4e5e-a429-a05f5535fc8a'});
-CREATE (:tag:skill:hard {id:'Apache Sling',uuid:'e3e7254f-b154-4032-8837-bb0ddeeb5d14'});
-CREATE (:tag:skill:hard {id:'Apache Struts 2',uuid:'0e71787b-529e-4242-b89e-2543ad82fbd8'});
-CREATE (:tag:skill:hard {id:'Apache Tapestry',uuid:'3ede7dc8-a4f0-4918-a76c-5a40be68c785'});
-CREATE (:tag:skill:hard {id:'Apache Wicket',uuid:'d7a46f2f-8307-4451-b726-8131825af0ff'});
-CREATE (:tag:skill:hard {id:'AppFuse',uuid:'46c3f363-9a1c-4718-a7a8-cf2d01e625c2'});
-CREATE (:tag:skill:hard {id:'Eclipse RAP',uuid:'49797756-fc04-422c-9880-3cb384892b47'});
-CREATE (:tag:skill:hard {id:'FormEngine',uuid:'56eaa85a-baf5-49b9-803c-61e9ef5ff136'});
-CREATE (:tag:skill:hard {id:'Grails',uuid:'32be6a6b-430e-4e5c-9b23-20e0946f99ec'});
-CREATE (:tag:skill:hard {id:'Google Web Toolkit',uuid:'3bb3b954-fae5-4cd7-be61-4f3a9e494b5e'});
-CREATE (:tag:skill:hard {id:'Hamlets',uuid:'42784f5b-b2d4-490b-95a9-19816ab5c394'});
-CREATE (:tag:skill:hard {id:'ItsNat',uuid:'41449902-e380-436e-9e93-2bbc959de0a0'});
-CREATE (:tag:skill:hard {id:'JavaServer Faces',uuid:'79d517ce-d82e-4746-ad4d-67abf9e4e8b8'});
-CREATE (:tag:skill:hard {id:'JBoss Seam',uuid:'f10c9eb5-de06-4c09-8366-233151df1f70'});
-CREATE (:tag:skill:hard {id:'Jspx-bay',uuid:'49013f0b-4431-4669-abb3-3650e5fa46a4'});
-CREATE (:tag:skill:hard {id:'JVx',uuid:'5e0bd25b-a640-4a95-9471-491f84f22235'});
-CREATE (:tag:skill:hard {id:'OpenLaszlo',uuid:'5dc41903-f249-49a6-82b3-c7ad74022f19'});
-CREATE (:tag:skill:hard {id:'OpenXava',uuid:'7a10627b-c15c-43e8-a23e-a80d1d20dd09'});
-CREATE (:tag:skill:hard {id:'Oracle ADF',uuid:'fdc613fb-bd4f-4d2a-9176-c739e6826816'});
-CREATE (:tag:skill:hard {id:'Play!',uuid:'4cad4b21-ae56-4676-94c0-9a436ffc97af'});
-CREATE (:tag:skill:hard {id:'RIFE',uuid:'81146e8b-73a2-4770-9f11-adbe51c25ec4'});
-CREATE (:tag:skill:hard {id:'Spring',uuid:'24db11fe-919f-427d-bb5d-30f7a8dbd88e'});
-CREATE (:tag:skill:hard {id:'Stripes',uuid:'b3df10c7-6633-4052-ba8a-9105fc8672ab'});
-CREATE (:tag:skill:hard {id:'ThinWire',uuid:'3e669fea-d81c-403d-acbf-6fcac3f303c1'});
-CREATE (:tag:skill:hard {id:'Vaadin',uuid:'f4444dec-725c-4b4c-9be8-49c363ec0f78'});
-CREATE (:tag:skill:hard {id:'Vraptor',uuid:'386b37b3-4dc3-429c-b48a-d23e4f065d3b'});
-CREATE (:tag:skill:hard {id:'Wavemaker',uuid:'6d52b44b-e88a-4c54-b7b5-dd404b2699e5'});
-CREATE (:tag:skill:hard {id:'WebObjects',uuid:'4dea6153-29e2-44d5-a1bb-1865fd27852a'});
-CREATE (:tag:skill:hard {id:'WebWork',uuid:'632dc4b5-2e19-4696-9389-f80c660d53bf'});
-CREATE (:tag:skill:hard {id:'Ze Framework',uuid:'14daf808-e4aa-4882-857a-d24a7eb8c4e4'});
-CREATE (:tag:skill:hard {id:'ZK',uuid:'6ed20897-966b-43dc-acaf-d6c9efc6da6c'});
-CREATE (:tag:skill:hard {id:'ztemplates',uuid:'269fb9f2-9cf8-4432-90f2-de2599e1854e'});
-CREATE (:tag:skill:hard {id:'JSF',uuid:'e46c5e93-566b-4697-9848-d60a4a910fde'});
-CREATE (:tag:skill:hard {id:'Mojarra',uuid:'4bec2ff8-d41b-4380-a3b8-318849fc630a'});
-CREATE (:tag:skill:hard {id:'MyFaces',uuid:'b937e3bf-c970-4c75-873d-228d6abdebeb'});
-CREATE (:tag:skill:hard {id:'Tomahawk',uuid:'3f318919-48b8-4d78-bcc6-deb7de9fafe0'});
-CREATE (:tag:skill:hard {id:'IceFaces',uuid:'da2c5368-5476-4242-aab7-e5924b266fab'});
-CREATE (:tag:skill:hard {id:'RichFaces',uuid:'4bf32aed-be96-4d42-9652-71fa422a498d'});
-CREATE (:tag:skill:hard {id:'PrimeFaces',uuid:'70f3e929-4275-4c59-91f8-195473179eb8'});
-CREATE (:tag:skill:hard {id:'SmartGWT',uuid:'1a200d34-6dd5-44a7-b852-7b7a5dc106e2'});
-CREATE (:tag:skill:hard {id:'GXT',uuid:'85b0b075-8749-4c52-ae04-c0bf7f12e9ca'});
-CREATE (:tag:skill:hard {id:'Errai',uuid:'f0a85e7e-a7bf-4ef9-aace-609ff919add4'});
-CREATE (:tag:skill:hard {id:'Apache Struts 1',uuid:'75bf3b85-27da-4391-a5ad-9f02341f1503'});
-CREATE (:tag:skill:hard {id:'ORM',uuid:'772a1489-de47-4f2a-b2cb-17e2551c7837'});
-CREATE (:tag:skill:hard {id:'Hibernate',uuid:'b4b4b87d-edbd-4ed5-9ab4-665dd1e1d7a2'});
-CREATE (:tag:skill:hard {id:'JDBC',uuid:'9b4a3032-0633-4859-90e2-0e19dab11737'});
-CREATE (:tag:skill:hard {id:'Spring JDBC Template',uuid:'de949569-1f9e-4fd6-b34e-ada09f9f3810'});
-CREATE (:tag:skill:hard {id:'Eclipse Link',uuid:'51f6fd2d-6d2f-4013-9902-b2d851957b02'});
-CREATE (:tag:skill:hard {id:'MyBatis',uuid:'418f9b1c-40e9-4aaa-879b-34196b31338a'});
-CREATE (:tag:skill:hard {id:'JOOQ',uuid:'5fcce522-e7d3-4819-ad4d-d268f5a26f6b'});
-CREATE (:tag:skill:hard {id:'JVM languages',uuid:'00cdf99a-19ea-41fb-862b-1e0d8fcb8b38'});
-CREATE (:tag:skill:hard {id:'Scala',uuid:'4fc310c1-9ba1-4972-bc53-01c4c4947721'});
-CREATE (:tag:skill:hard {id:'Groovy',uuid:'e053ce97-9672-4617-affc-d5ce9c8f2c28'});
-CREATE (:tag:skill:hard {id:'Closure',uuid:'b44390ab-05b3-490d-9d0d-79492699feed'});
-CREATE (:tag:skill:hard {id:'Kotlin',uuid:'ce5df592-d0eb-4cb9-9aaa-e5c765d4ba6b'});
-CREATE (:tag:skill:hard {id:'Ceylon',uuid:'2a09a5b8-85f9-4de6-8648-f056f2c689af'});
-CREATE (:tag:skill:hard {id:'Xtend',uuid:'17af7f98-3643-44da-b9f2-a64aa6d37b8f'});
-CREATE (:tag:skill:hard {id:'Rhino',uuid:'80e890d1-e3ae-468c-939f-25e2911d5446'});
-CREATE (:tag:skill:hard {id:'Nashorn',uuid:'d27249b4-e396-4e2e-94d8-4a8ebe03dbb3'});
-CREATE (:tag:skill:hard {id:'Jython',uuid:'4c750de6-07f1-4320-9a41-e6c45c4d2ea3'});
-CREATE (:tag:skill:hard {id:'JRuby',uuid:'fd4c9c71-1f99-42b5-a7ee-1cb3ae78daf7'});
-CREATE (:tag:skill:hard {id:'WebServices',uuid:'a18ebbc7-b044-4c53-a3b4-07fa1aa7999d'});
-CREATE (:tag:skill:hard {id:'JAX-WS',uuid:'aac568ed-a4f5-48b3-a3e9-c1b5b411035d'});
-CREATE (:tag:skill:hard {id:'JAX-RS',uuid:'c295a2d7-d25e-44c2-a7e2-c7f08c3acc7e'});
-CREATE (:tag:skill:hard {id:'JAX-RPC',uuid:'82530d19-c55c-4eda-9dee-06be88d5a32a'});
-CREATE (:tag:skill:hard {id:'SAAJ',uuid:'0879a0fb-6fa3-4e79-93ef-bf59e42c75f8'});
-CREATE (:tag:skill:hard {id:'XML',uuid:'3101c802-96c7-4386-b228-480da8ad3cfc'});
-CREATE (:tag:skill:hard {id:'JAXP',uuid:'c4be43f5-64cc-4b03-9f2d-c99ba8b49225'});
-CREATE (:tag:skill:hard {id:'DOM',uuid:'3cb863bc-c453-4572-bd97-b17a6dc34101'});
-CREATE (:tag:skill:hard {id:'SAX',uuid:'a36975ae-4f55-491c-a802-8b7438305a80'});
-CREATE (:tag:skill:hard {id:'StAX',uuid:'1a14a3f6-0946-4d1d-913f-3a1429b0e49d'});
-CREATE (:tag:skill:hard {id:'XSLT',uuid:'64439a46-900d-4e17-aa31-260067a8e3ad'});
-CREATE (:tag:skill:hard {id:'JAXR',uuid:'37929526-080e-4a1a-a18a-c1a3a3d878db'});
-CREATE (:tag:skill:hard {id:'JAXB',uuid:'7e513742-cbf1-4c2f-b059-b000d6a2fff0'});
-CREATE (:tag:skill:hard {id:'Perl',uuid:'f555e652-b2b7-4c1c-bc04-de4db8b6b17e'});
-CREATE (:tag:skill:hard {id:'Catalyst',uuid:'8000f44b-2bfc-4a34-bf8d-8f073ea3e595'});
-CREATE (:tag:skill:hard {id:'Dancer',uuid:'00e445e3-6943-47fe-8836-ddbc0e967d94'});
-CREATE (:tag:skill:hard {id:'Mason',uuid:'8fb86c01-d1ce-44ec-b5b9-d6713b06ca6f'});
-CREATE (:tag:skill:hard {id:'Maypole',uuid:'da229bed-54b0-4e2d-aa2b-b43e05c217c2'});
-CREATE (:tag:skill:hard {id:'Mojolicious',uuid:'31034bab-9e8d-41af-ab5a-906e3efdd350'});
-CREATE (:tag:skill:hard {id:'Ruby',uuid:'9837e370-a507-4d2d-ba42-27618003ccae'});
-CREATE (:tag:skill:hard {id:'Camping',uuid:'efc0ce8a-4f7b-4869-a617-dc84a94f4901'});
-CREATE (:tag:skill:hard {id:'Padrino',uuid:'346789c7-4a1a-4755-a0fc-308204d00124'});
-CREATE (:tag:skill:hard {id:'Ruby on Rails',uuid:'ebd58ec7-ab3a-40a3-82dc-966a8e25de50'});
-CREATE (:tag:skill:hard {id:'Ramaze',uuid:'bfaf77b8-feaa-4546-ae96-774434e6d868'});
-CREATE (:tag:skill:hard {id:'Sinatra',uuid:'b64819d4-715f-4ae6-9a08-bf71c47a086d'});
-CREATE (:tag:skill:hard {id:'Merb',uuid:'e505c1c0-1fe0-4012-a96f-214b79700abe'});
-CREATE (:tag:skill:hard {id:'PureMVC',uuid:'f6ca5e5b-e81f-4173-9ce1-62a61e17d8eb'});
-CREATE (:tag:skill:hard {id:'Python',uuid:'7f10684c-10f4-48e0-bfba-fb14628dc48c'});
-CREATE (:tag:skill:hard {id:'Pyramid',uuid:'5034624a-8521-42e4-b763-53e442c47944'});
-CREATE (:tag:skill:hard {id:'BlueBream',uuid:'6fd4e98d-c9ce-489a-866c-7f01db9b042d'});
-CREATE (:tag:skill:hard {id:'CherryPy',uuid:'c20b04b3-18b5-4b96-b621-c453d5056b2b'});
-CREATE (:tag:skill:hard {id:'CubicWeb',uuid:'ce6bd0de-fb4c-479b-9067-3299420996e9'});
-CREATE (:tag:skill:hard {id:'Django',uuid:'90ce0f62-9f1c-40d9-8e62-f62ec7b15fe5'});
-CREATE (:tag:skill:hard {id:'Flask',uuid:'b1f7311e-d126-4550-ae56-9eb2531d47fa'});
-CREATE (:tag:skill:hard {id:'Grok',uuid:'2c37107c-9fe3-4064-bb0c-2968934e709b'});
-CREATE (:tag:skill:hard {id:'Nagare',uuid:'de26b752-8790-4f16-8583-69224bfa42d9'});
-CREATE (:tag:skill:hard {id:'Pyjamas',uuid:'6bd6955c-4a3d-4bae-8a65-d865f3fc9bd1'});
-CREATE (:tag:skill:hard {id:'Pylons',uuid:'509e9e7d-4355-496f-964d-6b5189a00378'});
-CREATE (:tag:skill:hard {id:'TACTIC',uuid:'c0f220bd-6e73-473a-b188-6a0e48e20598'});
-CREATE (:tag:skill:hard {id:'Tornado',uuid:'4fc4ae01-1c1a-4362-8885-0c23698cf93d'});
-CREATE (:tag:skill:hard {id:'TurboGears',uuid:'102885d4-445a-47c6-b496-7a9dad0782db'});
-CREATE (:tag:skill:hard {id:'web2py',uuid:'f8e29a96-e431-48a3-89cf-4391817fb973'});
-CREATE (:tag:skill:hard {id:'Webware',uuid:'70cc45c8-f6d2-4663-abe2-0303432065b7'});
-CREATE (:tag:skill:hard {id:'Zope 2',uuid:'4837389a-150b-450e-97b4-022ab5fc9293'});
-CREATE (:tag:skill:hard {id:'Lift',uuid:'0fcf5a3b-0c5f-4538-a763-469dd06e6b9a'});
-CREATE (:tag:skill:hard {id:'Scalatra',uuid:'3405b687-dee2-40bc-bbb7-63e916c0ef85'});
-CREATE (:tag:skill:hard {id:'ColdFusion',uuid:'a377f628-bed0-4a2c-8f2f-40b8a4ea3e9e'});
-CREATE (:tag:skill:hard {id:'CFWheels',uuid:'cec87c5f-c94b-4eb6-94d8-be7f5ccf2839'});
-CREATE (:tag:skill:hard {id:'ColdBox Platform',uuid:'e7296901-d2c6-48e9-b787-b86c7d8fa858'});
-CREATE (:tag:skill:hard {id:'ColdSpring',uuid:'2fe75283-ae47-4050-9463-39c0ce05be16'});
-CREATE (:tag:skill:hard {id:'Fusebox',uuid:'8712cac8-7def-42ab-b4a8-d50542e3ec17'});
-CREATE (:tag:skill:hard {id:'FW/1',uuid:'22f96ce0-ef60-47dc-9218-333509552f8e'});
-CREATE (:tag:skill:hard {id:'Mach-II',uuid:'c9edd928-8b69-4d2f-a484-50a4e9e4bf2f'});
-CREATE (:tag:skill:hard {id:'Model-Glue',uuid:'67db4a2e-c2f8-4d61-bbef-2fc9974ef180'});
-CREATE (:tag:skill:hard {id:'Haskell',uuid:'7f49c07f-2560-4f72-acb0-252e0a118f42'});
-CREATE (:tag:skill:hard {id:'Happstack',uuid:'a47761e3-c541-4a82-b5bc-bd1d3bc06210'});
-CREATE (:tag:skill:hard {id:'Snapp',uuid:'126849f4-0f33-4e42-ad0c-d24f9e4d27f2'});
-CREATE (:tag:skill:hard {id:'Yesod',uuid:'2709f6f8-0f8a-4161-a663-f294ec243c03'});
-CREATE (:tag:skill:hard {id:'CMS',uuid:'3eec1c89-64fc-4935-918b-566e7194d60c'});
-CREATE (:tag:skill:hard {id:'PHP (CMS)',uuid:'3c822341-6f6a-419c-bc41-965dc721b10c'});
-CREATE (:tag:skill:hard {id:'Wordpress',uuid:'48a004f3-d7a3-4667-9688-28d8a726d74b'});
-CREATE (:tag:skill:hard {id:'AdaptCMS',uuid:'66e8be41-1ea1-415c-94dd-78d8084e8a80'});
-CREATE (:tag:skill:hard {id:'Atutor',uuid:'79c8f993-d7a9-4243-81fd-565b80f60ff2'});
-CREATE (:tag:skill:hard {id:'b2evolution',uuid:'31218e14-fa8c-4a44-8ec2-ab3613ba2f4a'});
-CREATE (:tag:skill:hard {id:'Bedita',uuid:'35852c81-4f83-478c-9f6c-dce5737a25bd'});
-CREATE (:tag:skill:hard {id:'Chevereto',uuid:'59ab41cf-0d43-48a2-9305-472839cc5cf5'});
-CREATE (:tag:skill:hard {id:'CMSimple',uuid:'12ce6d47-0398-4602-a2ac-2a0cf1d05782'});
-CREATE (:tag:skill:hard {id:'concrete5',uuid:'90bd25a2-f97e-4206-bc36-030e9af58224'});
-CREATE (:tag:skill:hard {id:'Contao',uuid:'68d79326-7766-4be9-883e-41935e3fe72c'});
-CREATE (:tag:skill:hard {id:'Cotonti',uuid:'6d72964c-7156-4451-9b43-da3a8332217e'});
-CREATE (:tag:skill:hard {id:'Directus',uuid:'de02bee7-fb9a-48bb-ad07-79d072132706'});
-CREATE (:tag:skill:hard {id:'Dokuwiki',uuid:'b9160871-704a-4bd0-8ec0-c031d05f6c6a'});
-CREATE (:tag:skill:hard {id:'Dotclear',uuid:'3020fd3c-a24d-4647-8b5f-77d63c8f41f2'});
-CREATE (:tag:skill:hard {id:'Drupal',uuid:'62cfb95d-386c-406c-a532-7584a5b89ecb'});
-CREATE (:tag:skill:hard {id:'DynPG',uuid:'76472161-a0b2-4ed4-960b-0f338ef1bde9'});
-CREATE (:tag:skill:hard {id:'Exponent CMS',uuid:'d6b79061-f23c-4f29-ac2c-b9ff9dbf2da3'});
-CREATE (:tag:skill:hard {id:'eZ Publish',uuid:'96f65264-9198-4817-a0b2-8ae2aca0ec36'});
-CREATE (:tag:skill:hard {id:'Geeklog',uuid:'19a710aa-661e-40af-8955-711c7db9ac11'});
-CREATE (:tag:skill:hard {id:'GetSimple CMS',uuid:'e62cfe09-80f9-40a0-9ec5-c8dee6b97571'});
-CREATE (:tag:skill:hard {id:'Habari',uuid:'5d11e8f4-4391-4750-9d75-57e0f26269ff'});
-CREATE (:tag:skill:hard {id:'ImpressCMS',uuid:'cf7b7333-d269-4cbc-af99-300efa13fce4'});
-CREATE (:tag:skill:hard {id:'ImpressPages',uuid:'373147ad-3bef-47fe-9f29-700b8ea9e378'});
-CREATE (:tag:skill:hard {id:'Jamroom',uuid:'7bf83f61-4603-4cbc-9fb3-dbe3070605ba'});
-CREATE (:tag:skill:hard {id:'Joomla!',uuid:'3a53eb12-2380-41e3-836a-14c3501692bf'});
-CREATE (:tag:skill:hard {id:'Kajona',uuid:'84371133-7848-4055-80c8-178f3fc87232'});
-CREATE (:tag:skill:hard {id:'Magento',uuid:'dd44d76f-1e3a-4c99-9450-acb9a5a67c83'});
-CREATE (:tag:skill:hard {id:'Mambo',uuid:'b6460aab-a156-479b-9d21-379f81bd66bf'});
-CREATE (:tag:skill:hard {id:'MediaWiki',uuid:'e2572d8d-219b-4a7e-815d-ba922b147cdf'});
-CREATE (:tag:skill:hard {id:'MiaCMS',uuid:'7e17e190-e87e-4d6a-87f4-2fc71bac8f07'});
-CREATE (:tag:skill:hard {id:'Midgard CMS',uuid:'85682820-42c6-4295-8c0f-584063ef2c33'});
-CREATE (:tag:skill:hard {id:'MODX',uuid:'70da0589-7a92-4c3c-970d-086eda3c3be0'});
-CREATE (:tag:skill:hard {id:'Moodle',uuid:'d395c9fe-5b66-453f-a539-b5945647b7ef'});
-CREATE (:tag:skill:hard {id:'Novius OS',uuid:'d3d291f8-331b-478a-a9f0-298bd10f60ec'});
-CREATE (:tag:skill:hard {id:'Nucleus CMS',uuid:'b3d41e49-fb8a-4da0-b873-aae5425489f5'});
-CREATE (:tag:skill:hard {id:'Ocportal',uuid:'82137832-258c-46d3-a4a8-87941de49458'});
-CREATE (:tag:skill:hard {id:'Opencart',uuid:'60160f81-f584-406e-9024-bcde18f18f54'});
-CREATE (:tag:skill:hard {id:'papaya CMS',uuid:'aa4fd520-12a8-439b-be19-d72d66a6589d'});
-CREATE (:tag:skill:hard {id:'Phire CMS',uuid:'76fcb26a-1b3f-44cc-a686-536a43ec03fc'});
-CREATE (:tag:skill:hard {id:'PHP-Fusion',uuid:'1cd2b8b0-7caf-4847-b12b-a0216e743a8a'});
-CREATE (:tag:skill:hard {id:'PHP-Nuke',uuid:'011398a3-611e-4b50-a5b2-cad532e872d2'});
-CREATE (:tag:skill:hard {id:'phpWebLog',uuid:'4069805a-1954-4485-84d5-68beb052b711'});
-CREATE (:tag:skill:hard {id:'phpWebSite',uuid:'7270be6a-72a8-4bf5-ae4f-298e24adb316'});
-CREATE (:tag:skill:hard {id:'phpWiki',uuid:'d7844039-dc52-4baa-8475-68142ad22e6a'});
-CREATE (:tag:skill:hard {id:'Pico',uuid:'0c771c04-5397-4ca3-86c4-50a103450d26'});
-CREATE (:tag:skill:hard {id:'pimcore',uuid:'7dd9a435-631b-43c3-9342-583c776338ca'});
-CREATE (:tag:skill:hard {id:'PivotX',uuid:'c09f9fd6-46ce-43e0-a931-3d1728468789'});
-CREATE (:tag:skill:hard {id:'PixieCMS',uuid:'140833bb-0e84-4fa5-909f-184bb0ca7f0b'});
-CREATE (:tag:skill:hard {id:'Prestashop',uuid:'347250fc-36b4-4061-a3eb-d41a770640fd'});
-CREATE (:tag:skill:hard {id:'ProcessWire',uuid:'d27828e2-167c-499b-b97a-51d2efc5bf1b'});
-CREATE (:tag:skill:hard {id:'RavenNuke CMS',uuid:'8be9add8-6954-42ca-bd90-225e21f4b130'});
-CREATE (:tag:skill:hard {id:'SMW+',uuid:'88366448-eb79-4c65-be6d-bfc9069df903'});
-CREATE (:tag:skill:hard {id:'Serendipity',uuid:'447cbe17-1201-4e93-a89f-0edbee1a00dc'});
-CREATE (:tag:skill:hard {id:'SilverStripe',uuid:'ea5d91ed-8e64-4955-9b41-68641a2161ec'});
-CREATE (:tag:skill:hard {id:'SPIP',uuid:'584b55ef-a6bd-456e-854b-4b5e2c9621bf'});
-CREATE (:tag:skill:hard {id:'TangoCMS',uuid:'95ea6043-2591-40ea-8a3d-b7716ccb542e'});
-CREATE (:tag:skill:hard {id:'Textpattern',uuid:'91c30c75-1432-4d27-ba0b-699ba5c07b1d'});
-CREATE (:tag:skill:hard {id:'Tiki Wiki CMS Groupware',uuid:'45f74d94-f05a-42dd-98b7-8e751a945fc5'});
-CREATE (:tag:skill:hard {id:'Tribiq CMS',uuid:'6eeeae6a-0895-4c40-ae5b-ac2cea4a8076'});
-CREATE (:tag:skill:hard {id:'TYPO3',uuid:'8828d7c1-deba-410b-9e40-a3762d3c1f55'});
-CREATE (:tag:skill:hard {id:'u5cms',uuid:'0f0fc9fc-9787-48d2-9a86-9cb662dd77b3'});
-CREATE (:tag:skill:hard {id:'Wolf CMS',uuid:'ce445c26-3f6b-4b00-a7eb-b4bb163202ae'});
-CREATE (:tag:skill:hard {id:'Xaraya',uuid:'4cd8a90a-5123-465d-a5df-8772259ce1da'});
-CREATE (:tag:skill:hard {id:'XOOPS',uuid:'2cfd4dad-8005-4662-82b7-016854fc9f47'});
-CREATE (:tag:skill:hard {id:'Zikula',uuid:'e36b1c82-10e7-4c18-824d-72082619ae49'});
-CREATE (:tag:skill:hard {id:'Python (CMS)',uuid:'3fc0edda-bea2-45d1-acec-e2c8bac45023'});
-CREATE (:tag:skill:hard {id:'Django-cms',uuid:'5fdb7c01-d727-43f8-a5de-a5c335f208ab'});
-CREATE (:tag:skill:hard {id:'MoinMoin',uuid:'0bca5d4e-77f2-4483-9ba0-4e44430ce3b2'});
-CREATE (:tag:skill:hard {id:'Plone',uuid:'d4adbfc9-16cd-4ef7-bf23-7f5a4bbe00bd'});
-CREATE (:tag:skill:hard {id:'Ruby on Rails (CMS)',uuid:'bcdcfd5c-edef-446c-9d3f-29168533bea0'});
-CREATE (:tag:skill:hard {id:'BrowserCMS',uuid:'b34b0018-d6e2-4e83-ba9f-8b9612f522c8'});
-CREATE (:tag:skill:hard {id:'Flagship Docs',uuid:'1450ae52-4d28-4a12-a5df-00a72afe760b'});
-CREATE (:tag:skill:hard {id:'Radiant',uuid:'d0189abe-06ad-48fc-bd3b-9700d7da37fe'});
-CREATE (:tag:skill:hard {id:'Refinery CMS',uuid:'f4e8f131-33bb-4629-8e17-b9cce1623d6a'});
-CREATE (:tag:skill:hard {id:'Typo',uuid:'c4b0898f-b3cf-4159-aa25-a2625d6402cb'});
-CREATE (:tag:skill:hard {id:'CFML (CMS)',uuid:'f786e408-da15-4ec7-aa57-dfd09c7907cf'});
-CREATE (:tag:skill:hard {id:'Mura CMS',uuid:'93340d63-7aee-4054-a9f8-110212f66502'});
-CREATE (:tag:skill:hard {id:'FarCry CMS',uuid:'7ddd9039-00a7-413d-bf59-221e4116838d'});
-CREATE (:tag:skill:hard {id:'Perl (CMS)',uuid:'e138c14b-ae2f-4f12-a596-f8e9bfb7ad56'});
-CREATE (:tag:skill:hard {id:'blosxom',uuid:'ceedd3e0-bee1-4c16-865a-ae9218a15bd0'});
-CREATE (:tag:skill:hard {id:'Bricolage',uuid:'bac05702-c301-4134-9a37-b0f49b77d3b7'});
-CREATE (:tag:skill:hard {id:'Cyclone3',uuid:'ab92e8b6-7d0b-4783-812d-aecc8f897b87'});
-CREATE (:tag:skill:hard {id:'Eprints',uuid:'a8266aff-f22d-4f86-b689-844aa47290f5'});
-CREATE (:tag:skill:hard {id:'Foswiki',uuid:'3690ac5e-bfe5-4c03-8357-a4e575edd478'});
-CREATE (:tag:skill:hard {id:'Ikiwiki',uuid:'4c888594-918d-413a-8588-44e2aa820304'});
-CREATE (:tag:skill:hard {id:'Movable Type Open Source',uuid:'9301330c-1937-4eed-90e7-9ec26f13702f'});
-CREATE (:tag:skill:hard {id:'Twiki',uuid:'712ce648-956c-4833-8bb9-982d96af6f82'});
-CREATE (:tag:skill:hard {id:'WebGUI',uuid:'4eb6dcdf-7fb4-4435-9e0d-fe048ff601e5'});
-CREATE (:tag:skill:hard {id:'ASP.NET (CMS)',uuid:'e7686848-1476-4a45-b335-4b3014a79a38'});
-CREATE (:tag:skill:hard {id:'Composite C1',uuid:'749e3a21-b7b7-40d7-b210-2450dc836543'});
-CREATE (:tag:skill:hard {id:'DotNetNuke',uuid:'34769697-92d6-458f-bb30-c69dee51fc9c'});
-CREATE (:tag:skill:hard {id:'mojoPortal',uuid:'d75f6c86-3405-4bf7-a50a-0d59990b2653'});
-CREATE (:tag:skill:hard {id:'Orchard Project',uuid:'a0d7934a-9d87-4aeb-8356-e8d41a0d8491'});
-CREATE (:tag:skill:hard {id:'Umbraco',uuid:'9aa46f09-3698-4365-96fc-bed303fd0e34'});
-CREATE (:tag:skill:hard {id:'EpiServer',uuid:'6e874801-0e09-433a-ac8c-ce147799dffa'});
-CREATE (:tag:skill:hard {id:'Kentico',uuid:'80aa0422-071d-4488-9b9d-f7c3e69ba5e2'});
-CREATE (:tag:skill:hard {id:'Kooboo CMS',uuid:'a7970308-e74b-4824-972a-55107fd45b7c'});
-CREATE (:tag:skill:hard {id:'Yendo',uuid:'c6a16ebc-4bbc-49f5-ad02-b55c9a42b8f9'});
-CREATE (:tag:skill:hard {id:'Sitefinity',uuid:'4ba86d10-2a82-4d91-b8d2-b9ab65f52345'});
-CREATE (:tag:skill:hard {id:'Java (CMS)',uuid:'feb572a3-7c97-4a1b-a472-cd47508311bc'});
-CREATE (:tag:skill:hard {id:'Apache Roller',uuid:'1e57b26d-9cb5-4b48-8a2d-212d78568745'});
-CREATE (:tag:skill:hard {id:'OpenCms',uuid:'f500b90b-e30e-4c2b-a342-be957d43d948'});
-CREATE (:tag:skill:hard {id:'Ametys CMS',uuid:'6a64d29c-5bc9-46f5-a8bf-9d9cfd47c583'});
-CREATE (:tag:skill:hard {id:'Liferay',uuid:'6e27968f-f1ba-47ff-935c-0029aeaf58b4'});
-CREATE (:tag:skill:hard {id:'eXo Platform',uuid:'719e8f93-200a-4676-8bf1-1a2c9c3b983f'});
-CREATE (:tag:skill:hard {id:'Dspace',uuid:'649e8d22-972d-4133-bcd4-cbeb32d4cc70'});
-CREATE (:tag:skill:hard {id:'Enonic',uuid:'12fb5785-024d-442a-a16a-5b0db8f1c9fb'});
-CREATE (:tag:skill:hard {id:'Fedora Commons',uuid:'fc1b42e1-788f-4195-a226-23e3c21049b2'});
-CREATE (:tag:skill:hard {id:'Dotcms',uuid:'b973f6cc-2a56-4643-b46a-a9d440848fc0'});
-CREATE (:tag:skill:hard {id:'LogicalDOC',uuid:'b9be252a-f3b8-4abe-9696-66271ae1fbc3'});
-CREATE (:tag:skill:hard {id:'Nuxeo EP',uuid:'24e97c20-cf15-496b-bba5-e119e31938c1'});
-CREATE (:tag:skill:hard {id:'Alfresco Community Edition',uuid:'edd0cbea-0a0c-428f-bc4e-6c33185329de'});
-CREATE (:tag:skill:hard {id:'Magnolia',uuid:'4bb4412a-2fc3-4f94-be91-4869f5a55332'});
-CREATE (:tag:skill:hard {id:'Hippo CMS',uuid:'bc62a636-99e6-4193-9aa3-9622955b30cd'});
-CREATE (:tag:skill:hard {id:'VosaoCMS',uuid:'91b9e4d0-f9d4-414d-bcda-284cbb30d779'});
-CREATE (:tag:skill:hard {id:'Yanel',uuid:'b5c3b816-5cf9-4335-8e0e-9941c5399255'});
-CREATE (:tag:skill:hard {id:'OpenWGA',uuid:'2037cf48-c3e1-4218-a0a8-1fd24c3e8d7a'});
-CREATE (:tag:skill:hard {id:'Jahia Community Distribution',uuid:'2ffa1fcc-03ce-4e7c-93de-83199cffc800'});
-CREATE (:tag:skill:hard {id:'OpenKM',uuid:'e27065df-73f1-4a00-819c-abbdae2b8a08'});
-CREATE (:tag:skill:hard {id:'Thingamablog',uuid:'f9268e48-3acb-4c98-869b-36b2a3b0fef3'});
-CREATE (:tag:skill:hard {id:'RIA',uuid:'29cf0580-4da3-44c0-90d2-dd8dec09965e'});
-CREATE (:tag:skill:hard {id:'.NET (RIA)',uuid:'9f4f53d4-87bd-4265-93c9-1ea433690c10'});
-CREATE (:tag:skill:hard {id:'Silverlight',uuid:'049770e1-48d6-4473-b8f2-087bd0be4597'});
-CREATE (:tag:skill:hard {id:'Java (RIA)',uuid:'509d11fa-dbdb-4bcc-9956-dee47e926320'});
-CREATE (:tag:skill:hard {id:'JavaFX',uuid:'fce9e620-fd56-40dd-bfb9-1e430dfd11c3'});
-CREATE (:tag:skill:hard {id:'Java applet',uuid:'bdbbdd05-fe85-4a42-aecd-64a4288ac197'});
-CREATE (:tag:skill:hard {id:'Action script (RIA)',uuid:'4d4ecef3-cec5-4c4b-b9a6-83d064edef8b'});
-CREATE (:tag:skill:hard {id:'Apache Flex',uuid:'287eb192-f46a-472c-96f8-3e6675d89c3d'});
-CREATE (:tag:skill:hard {id:'Common Practicies',uuid:'c48df67e-761c-40a4-926d-18d9443d2202'});
-CREATE (:tag:skill:hard {id:'XML Schema',uuid:'9c1bcecb-59a7-484b-a381-715163fa31ac'});
-CREATE (:tag:skill:hard {id:'Xpath',uuid:'033aaeaf-6aaf-48fe-a637-a80ef08e91bb'});
-CREATE (:tag:skill:hard {id:'Application development(desktop+mobile)',uuid:'fa5fb941-0ce5-4980-8a4a-fb6a6304dec9'});
-CREATE (:tag:skill:hard {id:'Android',uuid:'d899dde7-1c7e-433b-968c-674cd8d3135d'});
-CREATE (:tag:skill:hard {id:'SDK',uuid:'20b829e6-a2f9-4dc3-a4bb-1788cc722534'});
-CREATE (:tag:skill:hard {id:'NDK',uuid:'60e4c19d-8013-4208-a07f-5d5fffcf5bac'});
-CREATE (:tag:skill:hard {id:'Communications',uuid:'af12311f-db23-43ed-a551-e06ab0370e8d'});
-CREATE (:tag:skill:hard {id:'Java SE',uuid:'71556c6d-aa79-4a06-a776-bb4a51b3f875'});
-CREATE (:tag:skill:hard {id:'Swing',uuid:'089a9c00-db14-48f7-9466-7e8f779b3eda'});
-CREATE (:tag:skill:hard {id:'AWT',uuid:'228bd9f7-85ad-4e71-97b9-164224853489'});
-CREATE (:tag:skill:hard {id:'Java2D',uuid:'73fa226e-53cd-41f7-b383-f66ca5371112'});
-CREATE (:tag:skill:hard {id:'CORBA',uuid:'b6ff46d0-11cf-440e-bd4f-4d0d1dcc0c8a'});
-CREATE (:tag:skill:hard {id:'Java Plug-In',uuid:'99746cf7-1441-4672-93a0-623125bced64'});
-CREATE (:tag:skill:hard {id:'Java Web Start / JNLP',uuid:'0f3c7040-654e-4546-a448-54f3d92151ff'});
-CREATE (:tag:skill:hard {id:'Java 3D',uuid:'682a1b10-9488-4cb0-a00e-c8b8958d3fca'});
-CREATE (:tag:skill:hard {id:'Java Sound',uuid:'2123ceb7-5105-4b48-b73f-a96c83f5ac9b'});
-CREATE (:tag:skill:hard {id:'JOGL',uuid:'f67611d4-fff9-410f-a728-407038f10330'});
-CREATE (:tag:skill:hard {id:'JAI',uuid:'17c274e9-8599-4b30-aea2-aa65c03069e0'});
-CREATE (:tag:skill:hard {id:'Internationalization',uuid:'d7a9f011-cd69-4bce-beb6-ea85ddbe30c5'});
-CREATE (:tag:skill:hard {id:'JavaHelp System',uuid:'99440862-c6ae-4cc6-82b0-a85c1a64a503'});
-CREATE (:tag:skill:hard {id:'JDIC',uuid:'4b2c4388-9a7c-45fd-9441-0cb981e12909'});
-CREATE (:tag:skill:hard {id:'NetBeans',uuid:'023ed8a6-f57f-4663-843e-a2bd2124edeb'});
-CREATE (:tag:skill:hard {id:'Java EE',uuid:'a8ffec09-18f6-4729-889e-1b73dd262bc0'});
-CREATE (:tag:skill:hard {id:'Servlet',uuid:'5f651266-b0e6-4619-a675-0ae06d2fad95'});
-CREATE (:tag:skill:hard {id:'Websocket',uuid:'43a05573-59d3-407d-bf1d-03b67e47db63'});
-CREATE (:tag:skill:hard {id:'Faces',uuid:'4fbc98be-35e2-4f83-8813-18c07e735a7e'});
-CREATE (:tag:skill:hard {id:'CDI',uuid:'2df32972-050d-4005-a561-fcbc0e6bfce9'});
-CREATE (:tag:skill:hard {id:'EJB',uuid:'cf4ba0de-22f9-469c-8fa4-f36d6d54bb14'});
-CREATE (:tag:skill:hard {id:'JPA',uuid:'20ec81f5-77ca-4e63-b3f2-074dd475cafd'});
-CREATE (:tag:skill:hard {id:'JTA',uuid:'5fd6b37e-453a-46b4-a66b-7bcfe742d89e'});
-CREATE (:tag:skill:hard {id:'JASPIC',uuid:'8033382e-8d6c-4091-bc74-662c60c6f18b'});
-CREATE (:tag:skill:hard {id:'Concurrent',uuid:'6f1a721a-4c44-4da2-850f-aac8f2c22da5'});
-CREATE (:tag:skill:hard {id:'JMS',uuid:'fb746378-4c9f-4463-aeb1-45d08c084e2b'});
-CREATE (:tag:skill:hard {id:'Batch',uuid:'0526f170-f79c-498c-adcb-cbbc4be4a07c'});
-CREATE (:tag:skill:hard {id:'JCA',uuid:'483214bf-ca36-4160-bb00-6bf889df7774'});
-CREATE (:tag:skill:hard {id:'JSP',uuid:'d4c68902-2825-40ff-9524-e9f06a0af222'});
-CREATE (:tag:skill:hard {id:'JSTL',uuid:'2256c38a-deed-40a1-91e8-6ef9a37e3e36'});
-CREATE (:tag:skill:hard {id:'JNDI',uuid:'704d165c-3375-4dbd-98fc-23c43560e995'});
-CREATE (:tag:skill:hard {id:'JAAS',uuid:'37598176-3b04-49e9-8df1-287ff238469f'});
-CREATE (:tag:skill:hard {id:'JavaMail',uuid:'16608b88-83a9-49ab-9d93-a534715d2e8a'});
-CREATE (:tag:skill:hard {id:'JACC',uuid:'1c7cba1f-f6e5-442a-902f-e752ee74b0a4'});
-CREATE (:tag:skill:hard {id:'JAF',uuid:'8ff8f508-5c49-4b7f-8950-4241d16bb70b'});
-CREATE (:tag:skill:hard {id:'App servers',uuid:'537c3ed5-fe31-40b0-a73f-25e551cafdfa'});
-CREATE (:tag:skill:hard {id:'Glassfish',uuid:'b6b72b5c-521f-490c-99ed-d70c690fe907'});
-CREATE (:tag:skill:hard {id:'Jboss',uuid:'02a3badd-e28b-4c70-9ed2-3b2133e6de81'});
-CREATE (:tag:skill:hard {id:'WebLogic',uuid:'3ce81401-e336-47c5-a957-faf4e2259933'});
-CREATE (:tag:skill:hard {id:'WebSphere',uuid:'acc0846c-b440-469f-b397-1c1ed3b2397c'});
-CREATE (:tag:skill:hard {id:'Tomcat',uuid:'1847ad5f-14a8-4db0-b27c-76d73b8acfac'});
-CREATE (:tag:skill:hard {id:'Jetty',uuid:'611a8a80-b8cf-49e7-8873-ffbf4efdb13a'});
-CREATE (:tag:skill:hard {id:'Apache TomEE',uuid:'c8357d9a-ba1d-4c91-a7d7-2dc59fba853a'});
-CREATE (:tag:skill:hard {id:'WildFly',uuid:'bf3807fd-292f-4dc3-9e3a-9f2be707e505'});
-CREATE (:tag:skill:hard {id:'Apache Geronimo',uuid:'3a85d130-e01b-4bd0-bf17-0501e0b09f93'});
-CREATE (:tag:skill:hard {id:'Enhydra Enterprise',uuid:'b630d4c5-87fa-4ae6-bd06-1c633ef8c8e8'});
-CREATE (:tag:skill:hard {id:'JOnAS',uuid:'529d9f11-1185-4371-9553-187eeff132cc'});
-CREATE (:tag:skill:hard {id:'Resin',uuid:'cd132e98-bbb3-4dfb-b088-b2cb9f07d42f'});
-CREATE (:tag:skill:hard {id:'Apache OpenEJB',uuid:'1fed61b9-1c80-428d-abce-c7d5a55d862d'});
-CREATE (:tag:skill:hard {id:'C++',uuid:'fa103ba8-87e6-4111-8175-15ae6642b811'});
-CREATE (:tag:skill:hard {id:'Windows',uuid:'5ccd2b79-d834-451f-b6fe-e6dedb1b72f1'});
-CREATE (:tag:skill:hard {id:'MFC',uuid:'f7c1edc2-8f15-470b-be0c-00a35d9867d0'});
-CREATE (:tag:skill:hard {id:'VCL',uuid:'9ce9994d-b495-4be9-afe7-4a5d79bcf825'});
-CREATE (:tag:skill:hard {id:'GDI+',uuid:'c92a90ca-415d-4b3d-bd21-260d72adbda5'});
-CREATE (:tag:skill:hard {id:'COM',uuid:'c44d4f54-d9c5-4f7b-9357-d394324d818d'});
-CREATE (:tag:skill:hard {id:'WinAPI',uuid:'29750844-e1ff-46c7-90fc-db0763db1a06'});
-CREATE (:tag:skill:hard {id:'ATL',uuid:'3cbd4f9d-bf39-406d-a680-d17c2b5dd032'});
-CREATE (:tag:skill:hard {id:'ActiveX',uuid:'95a02c62-682e-4da6-b5d2-fdd3d0300b59'});
-CREATE (:tag:skill:hard {id:'Sharepoint',uuid:'c16397e5-6843-4b3d-84d6-c60140637d6e'});
-CREATE (:tag:skill:hard {id:'Linux',uuid:'3bc9392b-dce7-4929-8006-2a614bcd6ef2'});
-CREATE (:tag:skill:hard {id:'Frameworks',uuid:'f39782ba-1ec9-4df9-9ebc-2721175459ab'});
-CREATE (:tag:skill:hard {id:'C++ Builder',uuid:'c9fe16a8-8fc7-448b-b882-3efde9691350'});
-CREATE (:tag:skill:hard {id:'Qt',uuid:'071efc40-f686-4234-a848-c1e531666f36'});
-CREATE (:tag:skill:hard {id:'Libraries',uuid:'1a32986f-db95-421a-85a8-8768671c73a3'});
-CREATE (:tag:skill:hard {id:'Boost',uuid:'f5c9fa81-7e68-4e66-b35c-157b58a2535d'});
-CREATE (:tag:skill:hard {id:'STL',uuid:'7eaed0f6-04af-4b47-8b3e-10931219163b'});
-CREATE (:tag:skill:hard {id:'KDE',uuid:'bf3a8bfd-bd94-43c3-9b92-b8ebe1c6a351'});
-CREATE (:tag:skill:hard {id:'Compilers',uuid:'c84213fc-ae2e-42d4-9968-5add2d8ab13a'});
-CREATE (:tag:skill:hard {id:'GCC',uuid:'b2078452-f505-44a6-899e-8f5db4770b93'});
-CREATE (:tag:skill:hard {id:'Microsoft Visual C++',uuid:'297573f2-2b9b-4ae7-8bf5-bd6075f0c3fb'});
-CREATE (:tag:skill:hard {id:'Clang',uuid:'4f6e96fb-26fd-4f75-9702-1abd8f20edb5'});
-CREATE (:tag:skill:hard {id:'Intel C++ Compiler',uuid:'89544097-55ad-4e3c-8dba-174a01a37c57'});
-CREATE (:tag:skill:hard {id:'Presentation',uuid:'e7c21d32-df54-441e-8ebf-a8e6db1f0dda'});
-CREATE (:tag:skill:hard {id:'Windows Forms',uuid:'50ee7aca-0829-4b5e-89c7-bd0596246518'});
-CREATE (:tag:skill:hard {id:'WPF',uuid:'93733653-db58-4e49-9c3b-b505c5ece594'});
-CREATE (:tag:skill:hard {id:'Communication',uuid:'4751fe98-36b4-4ecf-8a40-cd95d66e3bb8'});
-CREATE (:tag:skill:hard {id:'WCF',uuid:'46e19f8d-f610-4f19-9863-4440ddef486d'});
-CREATE (:tag:skill:hard {id:'Sockets',uuid:'60c4922a-bb42-4e91-88ab-654be9af5e70'});
-CREATE (:tag:skill:hard {id:'Languages',uuid:'583b8f6e-4a71-4e0f-bdb1-fd9c05ae25b6'});
-CREATE (:tag:skill:hard {id:'C#',uuid:'76be97d8-9e90-447e-aa30-bdf0467dc07e'});
-CREATE (:tag:skill:hard {id:'VB',uuid:'8538756b-1af4-45cb-b90d-5415f5af85f6'});
-CREATE (:tag:skill:hard {id:'F#',uuid:'af7e840d-d156-4191-a9db-47d6978207ac'});
-CREATE (:tag:skill:hard {id:'Objective-C',uuid:'868f691a-43bc-4cf2-bf57-ee9d26103451'});
-CREATE (:tag:skill:hard {id:'GCD',uuid:'f532b202-dfb1-4314-8622-1e66a3361416'});
-CREATE (:tag:skill:hard {id:'Open GL ES',uuid:'5a5640a7-ce8e-46ca-b905-1ad4bc4824c4'});
-CREATE (:tag:skill:hard {id:'AVFoundation',uuid:'832b3743-e384-40d8-b3be-018bf0302c20'});
-CREATE (:tag:skill:hard {id:'CoreData',uuid:'eea4d1de-eebc-44ea-97fe-589563c2019e'});
-CREATE (:tag:skill:hard {id:'CoreGraphics',uuid:'f022a586-fbf8-46bb-99e0-c418dde09972'});
-CREATE (:tag:skill:hard {id:'CoreMotion',uuid:'bea7949a-7037-499c-a41d-d0fb2ee4b850'});
-CREATE (:tag:skill:hard {id:'UIKit',uuid:'cd49b0c5-245a-4cb9-bc4f-bbf23fed5421'});
-CREATE (:tag:skill:hard {id:'QuartzCore',uuid:'8bd17574-454d-4b3b-8a46-829c028bb059'});
-CREATE (:tag:skill:hard {id:'Cocoa Touch Layer',uuid:'8ac41b38-1bf0-4cc9-b974-c2336fad0f7c'});
-CREATE (:tag:skill:hard {id:'Media Layer',uuid:'174cf696-74d9-484c-98d9-e9e0187872b7'});
-CREATE (:tag:skill:hard {id:'Embedded',uuid:'fe300f0a-f34e-43a0-975d-48f6e5a6dfd6'});
-CREATE (:tag:skill:hard {id:'Language',uuid:'8ae3fedd-fab4-4f60-ac6a-3533f5ecc077'});
-CREATE (:tag:skill:hard {id:'C',uuid:'743d1940-a8f4-4e14-979d-01e2b57f293a'});
-CREATE (:tag:skill:hard {id:'GTK+',uuid:'40fb3b5a-c679-4112-8b90-b1f5a54d9402'});
-CREATE (:tag:skill:hard {id:'Scripting',uuid:'61e1227f-58c9-4fe3-b318-40d26817e8ae'});
-CREATE (:tag:skill:hard {id:'Shell',uuid:'45677732-80e1-4819-877a-885f14aa7cbe'});
-CREATE (:tag:skill:hard {id:'Bash',uuid:'0f0d09d1-1520-4c2a-8deb-95b3a19cdde6'});
-CREATE (:tag:skill:hard {id:'Target OS',uuid:'8ae1d5e0-c4cc-449f-93fe-3c5aa4ef66ca'});
-CREATE (:tag:skill:hard {id:'No_OS',uuid:'f0c32cff-55a6-4b37-a806-c597322755fd'});
-CREATE (:tag:skill:hard {id:'RTOS',uuid:'f3ee6812-65be-45ae-ac15-2ea5524fd31a'});
-CREATE (:tag:skill:hard {id:'MQX',uuid:'7032cea2-b28b-4b5b-a7db-a12a30836874'});
-CREATE (:tag:skill:hard {id:'VxWorks',uuid:'7440e143-308a-421e-9b1c-0588573553af'});
-CREATE (:tag:skill:hard {id:'QNX',uuid:'d847fe6c-3006-485b-aa3c-2acb27532421'});
-CREATE (:tag:skill:hard {id:'FreeRTOS',uuid:'b244b1f6-226a-4d9b-8a05-37d0d1f5f44c'});
-CREATE (:tag:skill:hard {id:'ThreadX',uuid:'a3b3e904-6578-4b16-8942-63d4e6d188f2'});
-CREATE (:tag:skill:hard {id:'Platforms',uuid:'63e5b2e0-a5e7-4c1a-913a-d693ee19c58e'});
-CREATE (:tag:skill:hard {id:'ARM',uuid:'1d3d5589-4af2-4790-930d-7852b8b3dc7b'});
-CREATE (:tag:skill:hard {id:'MIPS',uuid:'080529ab-cfa2-4491-9cd4-944b1f14709e'});
-CREATE (:tag:skill:hard {id:'AVR',uuid:'2e1aca14-e3ef-4119-bff5-1eaa5eca6f6a'});
-CREATE (:tag:skill:hard {id:'x86',uuid:'b7b0f4bc-6550-485c-93c2-3356ccb11c8d'});
-CREATE (:tag:skill:hard {id:'Technologies',uuid:'34b82a51-3d61-4a5e-bb7c-5aa1227ae394'});
-CREATE (:tag:skill:hard {id:'Multimedia',uuid:'8e6ee6c4-fe6e-42e5-b624-48d93625fb98'});
-CREATE (:tag:skill:hard {id:'Audio',uuid:'980364d7-86e7-45a4-b837-ae344e1b305e'});
-CREATE (:tag:skill:hard {id:'OSS',uuid:'2606ea0f-07da-402d-967e-0b1388c527ea'});
-CREATE (:tag:skill:hard {id:'ALSA',uuid:'7a89c8fd-e5b7-42a0-bca6-8d983360cdeb'});
-CREATE (:tag:skill:hard {id:'H264',uuid:'b7012182-e390-40f2-979e-fe9e0fb4d16d'});
-CREATE (:tag:skill:hard {id:'AC3',uuid:'582b1cab-45a2-477c-9c49-7e192afc26c8'});
-CREATE (:tag:skill:hard {id:'Video',uuid:'30e0ee80-0d03-49ac-9fee-c1a20639deb6'});
-CREATE (:tag:skill:hard {id:'FB',uuid:'8df59144-b023-4302-b18a-13777990cec7'});
-CREATE (:tag:skill:hard {id:'V4L2',uuid:'4247014d-3272-44c0-bca9-b4571fe5b545'});
-CREATE (:tag:skill:hard {id:'Networking',uuid:'f47bc238-b7f3-4853-bad3-696ff2a35071'});
-CREATE (:tag:skill:hard {id:'WiFi',uuid:'789d0b16-adc3-41b1-80a6-7212949711db'});
-CREATE (:tag:skill:hard {id:'Ethernet',uuid:'e1a280ff-778e-4724-a2dc-f6a6b2ed0677'});
-CREATE (:tag:skill:hard {id:'Bluetooth',uuid:'b403cc96-6461-4f3b-9b16-e796c6846f03'});
-CREATE (:tag:skill:hard {id:'TCP/IP',uuid:'d648739b-701e-4ece-8309-ee3ebfcd568d'});
-CREATE (:tag:skill:hard {id:'L2',uuid:'62953e2d-b76f-4829-8605-90cef3d588e8'});
-CREATE (:tag:skill:hard {id:'L3',uuid:'780baeef-a977-4a87-87b7-62b230fe3483'});
-CREATE (:tag:skill:hard {id:'IPSec',uuid:'2117d953-23ab-4158-9348-67e2d6080ba3'});
-CREATE (:tag:skill:hard {id:'Device Drivers',uuid:'90637994-5730-4975-8bfe-a4855191acbb'});
-CREATE (:tag:skill:hard {id:'Bus Drivers',uuid:'5068cba4-3b97-4552-a368-662d31559e73'});
-CREATE (:tag:skill:hard {id:'USB',uuid:'40fa0f24-d29d-44e9-bad1-abda3627f274'});
-CREATE (:tag:skill:hard {id:'PCI',uuid:'e916acdb-cc0b-4509-99e0-bc93dbafa5c4'});
-CREATE (:tag:skill:hard {id:'I2C',uuid:'1245478a-6e21-45b3-9a14-ad8a7241c31f'});
-CREATE (:tag:skill:hard {id:'SPI',uuid:'e60d0ee2-eeeb-4d7c-95fd-9e69d04888d6'});
-CREATE (:tag:skill:hard {id:'CAN',uuid:'134d9b4e-557b-4e82-b71e-015cc806a2f9'});
-CREATE (:tag:skill:hard {id:'CEC',uuid:'a78731bb-1df4-4f4a-b565-7cf9e71a6d37'});
-CREATE (:tag:skill:hard {id:'TTY',uuid:'07c100bf-f28f-43e6-b31d-a0054ff080ca'});
-CREATE (:tag:skill:hard {id:'Network Drivers',uuid:'bdd112e2-a2d2-44e0-942b-6c4cad738e37'});
-CREATE (:tag:skill:hard {id:'DHCP',uuid:'315daf35-511c-48e9-9570-ed7e554b38e4'});
-CREATE (:tag:skill:hard {id:'BLE',uuid:'aff65fc0-e1b7-4095-b00d-2e0acda5d419'});
-CREATE (:tag:skill:hard {id:'Storage Drivers',uuid:'a9b6c6a0-3c24-4668-91bd-38bb5271c86d'});
-CREATE (:tag:skill:hard {id:'HDD',uuid:'867a489d-451a-4db0-9a18-79f69f3374f9'});
-CREATE (:tag:skill:hard {id:'Flash Memory Drivers',uuid:'6d77a102-95ab-44a5-978e-41a3941bdd99'});
-CREATE (:tag:skill:hard {id:'NOR',uuid:'53f7eddc-918f-42a9-ae86-c86a009d930e'});
-CREATE (:tag:skill:hard {id:'NAND',uuid:'6fe94df6-1891-454a-8361-121299cb1be0'});
-CREATE (:tag:skill:hard {id:'File System Drivers',uuid:'b457ec5d-1f29-4d7d-b0c7-85f10d5790d1'});
-CREATE (:tag:skill:hard {id:'EXT3',uuid:'f5f590a2-2994-4248-b633-a95d98b857ea'});
-CREATE (:tag:skill:hard {id:'EXT4',uuid:'ff832c04-70a9-4688-847d-832f3400ff6b'});
-CREATE (:tag:skill:hard {id:'cramfs',uuid:'7d3c9bb7-5c43-41ef-981d-dda33b8f743a'});
-CREATE (:tag:skill:hard {id:'squashfs',uuid:'86ad2c09-d8bf-4d6f-a25a-2ffd83a2b07d'});
-CREATE (:tag:skill:hard {id:'FAT',uuid:'11a1cfb9-3c60-43fc-8a74-5d02819de5b2'});
-CREATE (:tag:skill:hard {id:'FAT32',uuid:'867586d2-d47f-4d5d-8739-9118e55fca32'});
-CREATE (:tag:skill:hard {id:'Multimedia Drivers',uuid:'7fdb134e-8de4-44ea-aefa-e14b6a95888c'});
-CREATE (:tag:skill:hard {id:'HDMI',uuid:'bb237293-b42a-445a-a773-f126a2729afa'});
-CREATE (:tag:skill:hard {id:'HDCP',uuid:'206935eb-ef7d-4cc2-acfc-97572ae4564c'});
-CREATE (:tag:skill:hard {id:'FB (Framebuffer)',uuid:'27834a1f-d699-4c82-8b62-dd34ac41917b'});
-CREATE (:tag:skill:hard {id:'Cryptography',uuid:'aaa5becd-9491-42b7-82db-2072585c479f'});
-CREATE (:tag:skill:hard {id:'OpenSSL',uuid:'78162dcd-4e92-4410-9796-abdf8df881d3'});
-CREATE (:tag:skill:hard {id:'Mocana',uuid:'8efb4216-63e7-47e8-a8c9-8fc4f3942a9d'});
-CREATE (:tag:skill:hard {id:'DRM',uuid:'99c7a49c-e54e-46f0-903e-6fbef2913ee3'});
-CREATE (:tag:skill:hard {id:'PlayReady',uuid:'0d534ff3-2a70-43ce-89b6-dcceef3c67fe'});
-CREATE (:tag:skill:hard {id:'WideVine',uuid:'d2b6a236-6c1e-4674-90ed-83b6d11092e0'});
-CREATE (:tag:skill:hard {id:'OpenDRM',uuid:'a0759584-7a77-42aa-bdf7-668dfe14e436'});
-CREATE (:tag:skill:hard {id:'Unit Testing',uuid:'c9fa542c-aca3-4277-8421-76932ee3450e'});
-CREATE (:tag:skill:hard {id:'Boost Test Library',uuid:'390f9bcd-78fb-4f55-aa8d-44a9022ea1a4'});
-CREATE (:tag:skill:hard {id:'CppUnit',uuid:'c6adc07a-b959-455e-83b9-c16b2881d923'});
-CREATE (:tag:skill:hard {id:'Google Test',uuid:'29e7812e-a45b-494b-bbdd-61ed882f014c'});
-CREATE (:tag:skill:hard {id:'QtTest',uuid:'47236ee5-16e5-49a3-b2ae-ce1bc046bca1'});
-CREATE (:tag:skill:hard {id:'.Net',uuid:'bc468e25-3f22-4642-a244-ff2b0ca97a46'});
-CREATE (:tag:skill:hard {id:'NCover',uuid:'cfe3d662-c7fd-4532-8760-2b921bf8bccc'});
-CREATE (:tag:skill:hard {id:'nUnit',uuid:'76177bea-9372-4697-9b9e-4d7334515856'});
-CREATE (:tag:skill:hard {id:'Logging',uuid:'08d254e7-f6a8-4f14-a49e-3a63f0b238e9'});
-CREATE (:tag:skill:hard {id:'Java Script',uuid:'f57ad011-16eb-49e6-8459-3bcd76ff5a7e'});
-CREATE (:tag:skill:hard {id:'Intel',uuid:'2a2004b7-a11a-43b0-b9cc-ef6ef8adac45'});
-CREATE (:tag:skill:hard {id:'Winston',uuid:'f50781ac-ac39-4b3a-808e-e9da374298ce'});
-CREATE (:tag:skill:hard {id:'log4cpp',uuid:'b2853c22-89fc-4404-96d3-413465a2698f'});
-CREATE (:tag:skill:hard {id:'Apache log4cxx',uuid:'b6104943-590b-4887-94ba-c5f310270744'});
-CREATE (:tag:skill:hard {id:'Log4Qt',uuid:'6fe0e131-98ee-4eb9-8ad0-9fdd69c303b8'});
-CREATE (:tag:skill:hard {id:'log4net',uuid:'f4fbdff8-a52d-41ca-b144-084a493501e5'});
-CREATE (:tag:skill:hard {id:'Log4J',uuid:'1c2ff7e0-b17b-418d-9aa4-1e1b46430dd2'});
-CREATE (:tag:skill:hard {id:'SLF4J',uuid:'ec37e9ea-85d9-40eb-8fc4-097340433098'});
-CREATE (:tag:skill:hard {id:'Logback',uuid:'a666369b-fa40-4d88-8205-bb404e193c29'});
-CREATE (:tag:skill:hard {id:'Apache Commons Logging',uuid:'73628190-5089-40e8-bde9-16848ff449ae'});
-CREATE (:tag:skill:hard {id:'tinnylog',uuid:'b0f9dcd9-0dcd-40ef-a7bd-93da4f11eb9e'});
-CREATE (:tag:skill:hard {id:'Java Logging API',uuid:'045bc91a-16a9-4088-a323-dfa27a5c96a2'});
-CREATE (:tag:skill:hard {id:'QA',uuid:'b61aeacb-29c7-4790-a246-f759e0aa5f59'});
-CREATE (:tag:skill:hard {id:'Software Test Automation',uuid:'4d0bd52c-e888-4601-8808-c3b94a293663'});
-CREATE (:tag:skill:hard {id:'Functional Testing',uuid:'261a6e6e-cf7c-4689-ad51-a87c9e9ba8ee'});
-CREATE (:tag:skill:hard {id:'Desktop',uuid:'47c16c8d-14c3-4f79-8cc6-8a6f58e24314'});
-CREATE (:tag:skill:hard {id:'MS Windows',uuid:'22b166a7-d821-47c2-991e-aff93e39de7e'});
-CREATE (:tag:skill:hard {id:'Test Complete',uuid:'848724e6-b165-4624-9eca-6a59843d73d6'});
-CREATE (:tag:skill:hard {id:'HP Solutions',uuid:'2e744bbc-290c-4cd9-916a-0394db84690f'});
-CREATE (:tag:skill:hard {id:'Rational Solutions',uuid:'c090573f-f61b-4f12-825b-e3502a92128f'});
-CREATE (:tag:skill:hard {id:'Mac OS',uuid:'f76fc9cb-2f77-4449-8a9b-ac3f2d0a7910'});
-CREATE (:tag:skill:hard {id:'*nix',uuid:'5dd919c2-aa83-461c-84cb-c5556f414b80'});
-CREATE (:tag:skill:hard {id:'Web Applications',uuid:'0f7395ac-f9fe-471b-9656-44baf1d7ce6d'});
-CREATE (:tag:skill:hard {id:'Selenium',uuid:'5dd1dfd2-7e73-47e6-9181-224fef65ae15'});
-CREATE (:tag:skill:hard {id:'JMeter',uuid:'4bd03fcd-2838-4018-9529-cb81b66fffb1'});
-CREATE (:tag:skill:hard {id:'Web Services',uuid:'0c44ee1e-5b3b-423e-aad0-243c63883786'});
-CREATE (:tag:skill:hard {id:'SoapUI',uuid:'958082d7-36e0-4e81-b861-b9a4f49cc827'});
-CREATE (:tag:skill:hard {id:'Mobile',uuid:'e3713cdc-e85c-4340-a085-88d7f4b52471'});
-CREATE (:tag:skill:hard {id:'iOS',uuid:'b1415846-85a0-4a13-a9b1-1c47ae1662ff'});
-CREATE (:tag:skill:hard {id:'Win Mobile',uuid:'32bd2b0d-9c65-4709-86f2-03cf79214a6a'});
-CREATE (:tag:skill:hard {id:'Compatibility Testing',uuid:'4ff1a381-6ac7-4f80-875f-6a26aab2c99d'});
-CREATE (:tag:skill:hard {id:'UI Testing',uuid:'1b5ec361-1b9c-4250-9f7e-236487673668'});
-CREATE (:tag:skill:hard {id:'API Testing',uuid:'9875c5fb-8ed8-49c0-8cf1-fffff22cae04'});
-CREATE (:tag:skill:hard {id:'Installation and Configuration Testing',uuid:'0f9c781c-70aa-4292-9967-e005920a8af6'});
-CREATE (:tag:skill:hard {id:'Performance Testing',uuid:'a77ab0c2-1d92-44b2-8cfa-65becc3974df'});
-CREATE (:tag:skill:hard {id:'Globalization and Localization Testing',uuid:'69d4a365-0ee1-4e15-a24e-dcd89216fc75'});
-CREATE (:tag:skill:hard {id:'Usability Testing',uuid:'678bec0a-b822-45bf-95ee-fa632a84346c'});
-CREATE (:tag:skill:hard {id:'Security Testing',uuid:'bc46cefa-7578-4531-8f32-4785978cfc71'});
-CREATE (:tag:skill:hard {id:'Software Testing (Manual)',uuid:'159cf30c-d8af-479a-81f6-01f6190beae8'});
-CREATE (:tag:skill:hard {id:'Test Methodology',uuid:'dccfb1fa-339b-48b8-a52e-1207efbccaac'});
-CREATE (:tag:skill:hard {id:'White Box',uuid:'e0943df1-1992-4c0a-8178-fd8d604891f0'});
-CREATE (:tag:skill:hard {id:'Code Coverage',uuid:'fd9b5d73-0ae7-43d4-9d0d-65163dd7b147'});
-CREATE (:tag:skill:hard {id:'Fault Injection testing',uuid:'8476b641-4653-4439-8695-71d0c69555fc'});
-CREATE (:tag:skill:hard {id:'Mutations testing',uuid:'fa132781-39ee-4f9d-b2ec-4df4063a823c'});
-CREATE (:tag:skill:hard {id:'Loop testing',uuid:'0c6fe7a6-5113-4684-810b-3f430ebefd4e'});
-CREATE (:tag:skill:hard {id:'Grey Box',uuid:'ed78af61-9cd5-419c-afc3-15ca78935970'});
-CREATE (:tag:skill:hard {id:'Black Box',uuid:'d808e582-34e2-4401-be7a-6242116db26e'});
-CREATE (:tag:skill:hard {id:'Functional testing',uuid:'8fd14c51-b135-4b2b-986a-1de313cb1d00'});
-CREATE (:tag:skill:hard {id:'Regression testing',uuid:'98a74e43-fbc3-41c9-8c4d-d1a7f5dacf7a'});
-CREATE (:tag:skill:hard {id:'Test Strategy',uuid:'661d655f-200d-44f6-9ed4-007bb0fc5abe'});
-CREATE (:tag:skill:hard {id:'Test Driven development',uuid:'9a1f8e10-fd1b-4f10-b8ff-bca569161faf'});
-CREATE (:tag:skill:hard {id:'Keyword Driven development',uuid:'1e5161fe-8d00-47ad-bfe5-d8d3a99598c1'});
-CREATE (:tag:skill:hard {id:'Behaviour driven development',uuid:'63d8834c-f3f6-4c9d-b806-429427ba77b4'});
-CREATE (:tag:skill:hard {id:'Model Based testing',uuid:'984da4f4-9c96-4451-8a16-6fdc07fa826d'});
-CREATE (:tag:skill:hard {id:'Testing Types',uuid:'869566f5-af4f-4b94-b065-f35c4a779882'});
-CREATE (:tag:skill:hard {id:'Acceptance testing',uuid:'a49cce89-e28f-4267-8668-36e040f62c29'});
-CREATE (:tag:skill:hard {id:'Smoke testing',uuid:'22bb2024-fd40-416f-9eb9-81217049f0fb'});
-CREATE (:tag:skill:hard {id:'GUI testing',uuid:'7b57fc3a-d0a2-46d7-9020-e77f80cba4a1'});
-CREATE (:tag:skill:hard {id:'Installation testing',uuid:'b5253bc4-7f90-44da-817b-48169940ad22'});
-CREATE (:tag:skill:hard {id:'Compatibility testing',uuid:'53ce626e-56ad-409d-80e0-4fa5aa89f34b'});
-CREATE (:tag:skill:hard {id:'Usability testing',uuid:'bd453a79-dd8f-4a45-ab68-8b95e7e31846'});
-CREATE (:tag:skill:hard {id:'Requirements testing',uuid:'3968a6eb-89d8-49e7-b283-de85ebc6c655'});
-CREATE (:tag:skill:hard {id:'Performance testing',uuid:'35ce8294-c4c7-4712-ae8b-ba421f1d94d6'});
-CREATE (:tag:skill:hard {id:'Load testing',uuid:'06f50b80-1c1e-4e1e-ba30-546368db04b1'});
-CREATE (:tag:skill:hard {id:'Stress testing',uuid:'3b04d632-c77a-4052-b94c-f9146999f9df'});
-CREATE (:tag:skill:hard {id:'Reliability and Continuous operating testing',uuid:'d58b58cd-affa-4fce-a371-3c9cebac737b'});
-CREATE (:tag:skill:hard {id:'Security testing',uuid:'bd46d45d-32a9-4a76-af30-2f8dcf1e1095'});
-CREATE (:tag:skill:hard {id:'Localization testing',uuid:'1101a577-382f-453d-befc-1a147ab12ab4'});
-CREATE (:tag:skill:hard {id:'Test Management',uuid:'1c20bcc9-5f44-43d6-a0a7-81f3161fd7cb'});
-CREATE (:tag:skill:hard {id:'Test Plan',uuid:'9229c1d6-b558-4b74-add6-b2eb6deffa64'});
-CREATE (:tag:skill:hard {id:'Test Development',uuid:'70dd6999-1fa1-4d79-b957-44b07be0b9ed'});
-CREATE (:tag:skill:hard {id:'Test Design',uuid:'9e70fb39-0f27-4587-8722-e173d8550ef9'});
-CREATE (:tag:skill:hard {id:'Test Case development',uuid:'dfcb057a-f83c-408f-8210-ebb6a83025ee'});
-CREATE (:tag:skill:hard {id:'Classes of Equivalence',uuid:'41c2ce57-5011-4693-b08d-ae5bcc3d6ee5'});
-CREATE (:tag:skill:hard {id:'Mobile Testing',uuid:'8b2fad4c-a1e0-400f-8a14-d9cadd2f87a0'});
-CREATE (:tag:skill:hard {id:'J2ME',uuid:'f541cd8b-4b51-4653-bf7f-c8bd967bcab3'});
-CREATE (:tag:skill:hard {id:'Blackberry',uuid:'9792fdb2-43e6-41c7-9f71-c81dd98e3cd1'});
-CREATE (:tag:skill:hard {id:'Windows Phone',uuid:'97cdd464-1d0b-4987-b18b-58a420896a15'});
-CREATE (:tag:skill:hard {id:'WinCE and Windows Mobile',uuid:'698dda1a-7308-4bf2-8701-3eb4d1aee440'});
-CREATE (:tag:skill:hard {id:'QA Automation',uuid:'f6e368af-87fb-49de-a0ca-51f93344f20b'});
-CREATE (:tag:skill:hard {id:'Programming Language',uuid:'eed07923-68d7-4c8a-bfa4-e801639d483c'});
-CREATE (:tag:skill:hard {id:'Visual Basic',uuid:'57888ecf-6551-4c1b-84b5-9109697a405e'});
-CREATE (:tag:skill:hard {id:'Windows Shell and powershell',uuid:'9ceae4e2-44a1-4a32-a706-b34be77ac25d'});
-CREATE (:tag:skill:hard {id:'Linux shell - bash',uuid:'e37ccc4a-cb7e-44a3-bfad-2f778dbc5949'});
-CREATE (:tag:skill:hard {id:'Programming and Design Patterns',uuid:'241fb13b-ec1a-4c00-9218-46d5b04a5304'});
-CREATE (:tag:skill:hard {id:'PageObject',uuid:'f8e41090-ad64-4987-b28a-6b1a90a478b2'});
-CREATE (:tag:skill:hard {id:'Front Controller',uuid:'84ed4f62-61cc-4511-92d2-79551880be69'});
-CREATE (:tag:skill:hard {id:'Factory',uuid:'00867a3d-9828-487a-a75a-01aa6654ece5'});
-CREATE (:tag:skill:hard {id:'Singleton',uuid:'5d2b48b4-1523-4fc1-856c-156ef1482a42'});
-CREATE (:tag:skill:hard {id:'DB',uuid:'3ab91cd6-fc12-44ba-9b9b-ad01c667335a'});
-CREATE (:tag:skill:hard {id:'SQL',uuid:'3e16a7d5-370e-42f9-bfce-ee4041ea0b5f'});
-CREATE (:tag:skill:hard {id:'Oracle',uuid:'ab651ea0-aae5-4d86-a8e1-154ebf2782d4'});
-CREATE (:tag:skill:hard {id:'MySQL',uuid:'970d737b-bd3a-4661-8a69-f2473099e748'});
-CREATE (:tag:skill:hard {id:'PostgreSQL',uuid:'40c8f03e-2189-4382-b1b9-ca8037b0161f'});
-CREATE (:tag:skill:hard {id:'4th Dimension',uuid:'bf129762-239e-4b3e-bff9-dd6cb775ea6b'});
-CREATE (:tag:skill:hard {id:'Altibase',uuid:'ea0e9a4d-e564-403c-9925-ced5bbdaf020'});
-CREATE (:tag:skill:hard {id:'Apache Derby',uuid:'8d487199-b550-4a3e-a695-816567491c33'});
-CREATE (:tag:skill:hard {id:'Clustrix',uuid:'61db91f8-f9ad-43d6-8f10-08cf8e034435'});
-CREATE (:tag:skill:hard {id:'CUBRID',uuid:'016defc1-ce03-4e22-83cc-9224605e4a58'});
-CREATE (:tag:skill:hard {id:'DB2',uuid:'e1ff6745-a79d-4b99-8503-e5e9cfc6bbae'});
-CREATE (:tag:skill:hard {id:'EXASolution',uuid:'c8474cf3-205a-4328-a976-16943c213d72'});
-CREATE (:tag:skill:hard {id:'EnterpriseDB ',uuid:'c4acc8fb-0149-44d2-95ce-853052c00ee9'});
-CREATE (:tag:skill:hard {id:'Firebird',uuid:'837edf64-e85f-4bbe-bbb7-2eed38fa9f91'});
-CREATE (:tag:skill:hard {id:'HSQLDB',uuid:'9802d732-5896-4c98-8cbf-2a7ed53e324e'});
-CREATE (:tag:skill:hard {id:'H2',uuid:'954b7e63-6123-4416-a4f1-5d0ff9f1515f'});
-CREATE (:tag:skill:hard {id:'Informix Dynamic Server',uuid:'120cd0fd-a8a6-4e5f-8f77-39b394084fc0'});
-CREATE (:tag:skill:hard {id:'Ingres',uuid:'fd60993e-d21d-4a70-85a7-afeb6b789929'});
-CREATE (:tag:skill:hard {id:'MariaDB',uuid:'a6b45e03-7ac8-4974-933a-045ce0fc9727'});
-CREATE (:tag:skill:hard {id:'Microsoft SQL Server',uuid:'0f3d4992-72ef-4708-a753-471e6ed1c753'});
-CREATE (:tag:skill:hard {id:'MonetDB',uuid:'81e28eae-884d-4387-b25c-3e3c5204b73f'});
-CREATE (:tag:skill:hard {id:'Oracle Rdb',uuid:'f05781d9-a34e-4294-bb69-0db0d576eef8'});
-CREATE (:tag:skill:hard {id:'Pervasive PSQL',uuid:'8d690b06-670d-4d3e-8685-ced51ca2907e'});
-CREATE (:tag:skill:hard {id:'Polyhedra DBMS',uuid:'b535ec48-0e4e-4a2f-8af4-019658643604'});
-CREATE (:tag:skill:hard {id:'SQLite',uuid:'0dc7843d-728d-4843-b26b-bc98986be41e'});
-CREATE (:tag:skill:hard {id:'NoSQL',uuid:'2ad52ad7-2f42-4d00-a1da-26b795682a80'});
-CREATE (:tag:skill:hard {id:'Coherence',uuid:'2c4abb89-71d5-47c8-9d91-0c2570185b58'});
-CREATE (:tag:skill:hard {id:'eXtreme Scale',uuid:'0caa4d71-0cb1-4171-b0de-f52b1d8118f3'});
-CREATE (:tag:skill:hard {id:'GigaSpaces',uuid:'0b22f991-60b6-4224-9c11-23ecb4292494'});
-CREATE (:tag:skill:hard {id:'GemFire',uuid:'2ff6cd64-225b-4c0c-964d-68d9d0c9ad0e'});
-CREATE (:tag:skill:hard {id:'Hazelcast',uuid:'b113a0b1-52b8-4444-bd70-86b03a336471'});
-CREATE (:tag:skill:hard {id:'Jboss cache',uuid:'709d8eff-a634-41c2-ab81-057592cbf819'});
-CREATE (:tag:skill:hard {id:'Memacached',uuid:'9826f584-aae2-44c8-b687-145411d9811e'});
-CREATE (:tag:skill:hard {id:'Repcached',uuid:'22baf6fe-af81-4a0b-8399-8e05ea744b86'});
-CREATE (:tag:skill:hard {id:'Terracotta',uuid:'83bd47bd-2553-45cd-8038-2111b126003d'});
-CREATE (:tag:skill:hard {id:'Velocity',uuid:'6b2d9131-4bc6-4d33-8716-6dcbe85011c5'});
-CREATE (:tag:skill:hard {id:'Clusterpoint',uuid:'22dcc0d2-6579-4f6b-b320-3f5f33077a74'});
-CREATE (:tag:skill:hard {id:'Couchbase',uuid:'e47d6fca-35c6-4e8f-b7b2-8c4b35058c59'});
-CREATE (:tag:skill:hard {id:'MarkLogic',uuid:'14768a6d-c1b3-4349-9621-eccb6f0c89af'});
-CREATE (:tag:skill:hard {id:'XMS-databases',uuid:'cda8b068-0a26-4f09-915a-64acb52bbb03'});
-CREATE (:tag:skill:hard {id:'Redis',uuid:'18099433-b6bf-4c37-83ed-48bb713d369a'});
-CREATE (:tag:skill:hard {id:'Flare',uuid:'e9553f68-a98e-4bab-92a1-8100c5e04c8b'});
-CREATE (:tag:skill:hard {id:'Keyspace',uuid:'78bf373d-6b09-4553-b246-527078b37549'});
-CREATE (:tag:skill:hard {id:'RAMCloud',uuid:'bd3639c5-d9b9-4223-a947-8772a03d2951'});
-CREATE (:tag:skill:hard {id:'SchemaFree',uuid:'7d86333b-f6ab-4b08-8956-6beaa99c7260'});
-CREATE (:tag:skill:hard {id:'DovetailDB',uuid:'e5da52ee-a93a-4fd0-91a6-3324fa736bf8'});
-CREATE (:tag:skill:hard {id:'Dynamo',uuid:'fd757ece-836f-4b6d-886c-a4c7baaa30ab'});
-CREATE (:tag:skill:hard {id:'Riak',uuid:'5ab3b1bf-95ee-41e3-a2ea-a1014a00974e'});
-CREATE (:tag:skill:hard {id:'MotionDB',uuid:'ff076f0c-4e43-4f17-9c7a-60092c879395'});
-CREATE (:tag:skill:hard {id:'Voldemort',uuid:'a25f16f4-17ae-48e9-96e1-3517b85ad73e'});
-CREATE (:tag:skill:hard {id:'SubRecord',uuid:'a0e90455-2f74-4c7f-90ec-eda93db0aa5d'});
-CREATE (:tag:skill:hard {id:'Actord',uuid:'7bfdf084-ee7e-4d33-aafe-e79d25363374'});
-CREATE (:tag:skill:hard {id:'FoundationDB',uuid:'c8a96676-7443-45ca-9a02-df85f82bcb18'});
-CREATE (:tag:skill:hard {id:'Lightcloud',uuid:'8a992dce-23da-405d-aee1-aace5e760c28'});
-CREATE (:tag:skill:hard {id:'MemacacheDB',uuid:'9b28a1ad-4ed2-48ad-b059-35835e103cc6'});
-CREATE (:tag:skill:hard {id:'Scalaris',uuid:'2e5e03db-9e6f-4c00-9aa3-eb60689b6a91'});
-CREATE (:tag:skill:hard {id:'NMDB',uuid:'4e8c7ec4-1db0-4cf8-b7e3-f0c4c6cfed3e'});
-CREATE (:tag:skill:hard {id:'DB40',uuid:'1ace1062-f25b-4e58-9e49-2be747bb6ba4'});
-CREATE (:tag:skill:hard {id:'Perst',uuid:'c194cb64-e9a8-49e0-9970-5fafa75ce1dd'});
-CREATE (:tag:skill:hard {id:'Shoal',uuid:'0a102881-697e-42dd-89d9-05f401f33a8d'});
-CREATE (:tag:skill:hard {id:'ZopeDB',uuid:'4ea56a42-c748-48fc-931b-2d3a3956d850'});
-CREATE (:tag:skill:hard {id:'ApacheRiver',uuid:'340163b2-bfd3-46d2-bbb8-21015c61b6ad'});
-CREATE (:tag:skill:hard {id:'Coord',uuid:'4a1f0fa0-c056-4a2c-9e92-10c36175ecaf'});
-CREATE (:tag:skill:hard {id:'BigTable',uuid:'6cddb688-6273-4e47-af27-845cb8bf140c'});
-CREATE (:tag:skill:hard {id:'Cassandra',uuid:'2a8c36f3-84bf-48f9-a231-cdbfedc99c89'});
-CREATE (:tag:skill:hard {id:'Druid',uuid:'79d87a34-a27b-4cb9-99ea-c0efe884a15f'});
-CREATE (:tag:skill:hard {id:'Hbase',uuid:'bdae7ff6-64a3-461d-8626-a851ccb4497e'});
-CREATE (:tag:skill:hard {id:'Hypertable',uuid:'bd7e62fc-b319-4884-a46b-3ab2bc9b9004'});
-CREATE (:tag:skill:hard {id:'Qbase',uuid:'ce3f9c6a-0318-4f6e-9ceb-cedf09ed0599'});
-CREATE (:tag:skill:hard {id:'OpenNeptune',uuid:'9b3e8615-b35f-448e-82b3-83a4d5093e26'});
-CREATE (:tag:skill:hard {id:'Berkeley DB',uuid:'36ead394-e003-4e3f-9060-302424e3b040'});
-CREATE (:tag:skill:hard {id:'Neo4J',uuid:'330430c0-e978-4874-a533-24240fae523d'});
-CREATE (:tag:skill:hard {id:'UI Design/Usability',uuid:'4c026976-4c9c-497f-ac48-8de04621a464'});
-CREATE (:tag:skill:hard {id:'User Experience Design',uuid:'b8b912bd-8923-4a2a-a838-6c42b6847b86'});
-CREATE (:tag:skill:hard {id:'Graphic Design',uuid:'682724c2-92a4-43fe-9af6-9cfe87c6b02b'});
-CREATE (:tag:skill:hard {id:'Prototyping',uuid:'4ab8bcb6-0fa2-4e3e-ab6a-cbc3e47527ee'});
-CREATE (:tag:skill:hard {id:'Wireframes',uuid:'1e3c912e-f043-4d9c-8cbb-eea29942971f'});
-CREATE (:tag:skill:hard {id:'UI Design',uuid:'9774dc7d-b046-4b12-8e66-a8bc8471c79f'});
-CREATE (:tag:skill:hard {id:'Balsamiq Studio',uuid:'b425165f-2437-4ed3-a1ab-8d1da4c184cb'});
-CREATE (:tag:skill:hard {id:'Axure PRO',uuid:'259d09cd-f464-463b-9a17-78c9ef822966'});
-CREATE (:tag:skill:hard {id:'Flash',uuid:'4a15a424-2173-4959-915c-9ba904a46f18'});
-CREATE (:tag:skill:hard {id:'InDesign',uuid:'5cfe8adb-8838-4aaa-9fc1-05c8e1224d4d'});
-CREATE (:tag:skill:hard {id:'After Effects',uuid:'559ac2dc-4093-4039-8377-3a6c600adbbd'});
-CREATE (:tag:skill:hard {id:'Illustrator',uuid:'4a6c77c1-5411-4f24-91d0-d0ed9731b41e'});
-CREATE (:tag:skill:hard {id:'Photoshop',uuid:'0a0a7871-ba94-45aa-9ac1-d79a28fc63c5'});
-CREATE (:tag:skill:hard {id:'DreamWeaver',uuid:'376c0405-b6ad-4a66-a12a-860ec662d590'});
-CREATE (:tag:skill:hard {id:'Usability Expert',uuid:'9f98a397-ec75-42d8-96c3-80bb042736f7'});
-CREATE (:tag:skill:hard {id:'Management',uuid:'aa5d6004-7841-4f62-8ec9-c5eebfced361'});
-CREATE (:tag:skill:hard {id:'Project Management',uuid:'2ff6dbda-6415-4ab4-83a9-3e9f1c6ee85a'});
-CREATE (:tag:skill:hard {id:'Project Planning',uuid:'0cb4e606-fdf2-47ca-bf47-9c2ba1737115'});
-CREATE (:tag:skill:hard {id:'Scope Management',uuid:'f66e724d-9675-402e-9679-cb5f7433568d'});
-CREATE (:tag:skill:hard {id:'Time Management',uuid:'5607e02f-030f-4f3b-ba32-9af8ac81dd9b'});
-CREATE (:tag:skill:hard {id:'Cost Management',uuid:'d55e3cf3-26bb-45ef-b8bd-8799a5fa7bc2'});
-CREATE (:tag:skill:hard {id:'Quality Management',uuid:'c872f328-7bb3-40c8-ab53-9445a6c48bba'});
-CREATE (:tag:skill:hard {id:'Human Resource Management',uuid:'48a3a11c-62f4-4dca-9622-29e8f1473dec'});
-CREATE (:tag:skill:hard {id:'Communications Management',uuid:'35bcd54f-7ed5-4c8a-aab7-bf97ddbbed8f'});
-CREATE (:tag:skill:hard {id:'Risk Management',uuid:'08c24838-8ade-402c-842d-e21d3c2bb7eb'});
-CREATE (:tag:skill:hard {id:'Procurement Management',uuid:'dfbbaed1-4082-46b6-b97a-a80e366fbb48'});
-CREATE (:tag:skill:hard {id:'Project Contract Types',uuid:'b61cfc0d-332e-4984-8356-6186f6a8486a'});
-CREATE (:tag:skill:hard {id:'Fixed Bid',uuid:'5558b3b1-ab07-4cdd-8556-296f53e02857'});
-CREATE (:tag:skill:hard {id:'Retainer (Time and Material)',uuid:'331755cb-c366-4087-b35a-80eeebfe5f90'});
-CREATE (:tag:skill:hard {id:'Hourly',uuid:'b2613687-d3a7-44f7-9c0a-894bb021680e'});
-CREATE (:tag:skill:hard {id:'Project Ownership Types',uuid:'e54a2ab5-e39b-4762-8bdd-0236a470d72a'});
-CREATE (:tag:skill:hard {id:'Outsourcing',uuid:'dd848983-b0b9-47ac-b394-a821bdc4b277'});
-CREATE (:tag:skill:hard {id:'Full ownership',uuid:'fded61cf-3204-40af-ac6e-8f2e93bd12e1'});
-CREATE (:tag:skill:hard {id:'Team augmentation',uuid:'0e028708-0afd-4f93-8752-cf3bc6360a11'});
-CREATE (:tag:skill:hard {id:'Outstaffing',uuid:'be290b59-aba9-4215-bce5-475262766a52'});
-CREATE (:tag:skill:hard {id:'Business Analysis',uuid:'e74349a9-f13a-4c97-80d5-a0cbe8861589'});
-CREATE (:tag:skill:hard {id:'Reqirements development',uuid:'bc175402-86b0-4685-ade1-32a25ea49325'});
-CREATE (:tag:skill:hard {id:'Requirenents elicitation (gathering)',uuid:'e56a72f4-62ff-4ba5-8e18-3265155a44ea'});
-CREATE (:tag:skill:hard {id:'Brainstorming',uuid:'016b5221-9d0b-4377-9364-87118dc9dec1'});
-CREATE (:tag:skill:hard {id:'Document Analysis',uuid:'1304c75a-5f55-4833-a993-66e012dd28fe'});
-CREATE (:tag:skill:hard {id:'Focus Groups Analysis',uuid:'cdcf7543-0282-4e6d-85dd-2990271eab3e'});
-CREATE (:tag:skill:hard {id:'Interface Analysis',uuid:'20744c87-a6e4-48e0-bf7c-f0340dc97d92'});
-CREATE (:tag:skill:hard {id:'Interviews',uuid:'d44c4aaf-41cf-448a-929a-9179ae0788cb'});
-CREATE (:tag:skill:hard {id:'Observation',uuid:'6dbafce5-d411-4633-a646-c921f6931a51'});
-CREATE (:tag:skill:hard {id:'Requirements Workshops',uuid:'04b867c5-7652-4886-b153-b1553b41a331'});
-CREATE (:tag:skill:hard {id:'Survey/Questionnaire',uuid:'a0bbb487-c287-446f-838b-6c92593d8b32'});
-CREATE (:tag:skill:hard {id:'Requirements analysis',uuid:'86af41e4-cafa-4a6e-ac0a-aade377c5f80'});
-CREATE (:tag:skill:hard {id:'Context Data Flow Diagramming',uuid:'e830b6c9-13e8-4fc1-b499-764760c43530'});
-CREATE (:tag:skill:hard {id:'Root Cause Analysis',uuid:'7091c314-4a47-49e1-a573-75887a8a97c4'});
-CREATE (:tag:skill:hard {id:'Workflow Modeling',uuid:'c629f639-f739-4dd4-9a6a-76116691506a'});
-CREATE (:tag:skill:hard {id:'Use Case Modeling',uuid:'8543329b-170b-490f-9c64-a3a96b70a3be'});
-CREATE (:tag:skill:hard {id:'Process Decomposition Diagram',uuid:'38c0b1f1-7ee2-47db-a855-329694d25340'});
-CREATE (:tag:skill:hard {id:'Entity Relationship Diagram',uuid:'12103997-7a9a-4e61-a010-59a2796be956'});
-CREATE (:tag:skill:hard {id:'UML notation',uuid:'0c9c124d-d32e-4f0e-97a9-29b76ef14f59'});
-CREATE (:tag:skill:hard {id:'IDEFx notations',uuid:'36bc3c07-063c-4376-8ec9-6975c8820a7d'});
-CREATE (:tag:skill:hard {id:'BPM notation',uuid:'30e32227-5e4a-4756-b8d5-fa9494b6ec2f'});
-CREATE (:tag:skill:hard {id:'Gap Analysis',uuid:'a2c362c5-9e7f-4b00-aa9d-c29304041975'});
-CREATE (:tag:skill:hard {id:'Requirements specification',uuid:'2a98c289-a591-40d7-9428-1402b6270594'});
-CREATE (:tag:skill:hard {id:'Vision and Scope',uuid:'1319498e-7fc8-4863-b4c7-39201563678a'});
-CREATE (:tag:skill:hard {id:'Software Requirement Specification',uuid:'9d33563d-b88b-400d-98ce-9c4d5add52e2'});
-CREATE (:tag:skill:hard {id:'Business Requirements Specification',uuid:'6c37855a-bf21-4420-b30d-8e8f6736abd2'});
-CREATE (:tag:skill:hard {id:'Functional Requirements Specification',uuid:'d3bb8e79-5de2-40bd-a9d5-6672b13a0675'});
-CREATE (:tag:skill:hard {id:'Requirements validation',uuid:'3e80022f-3d60-4634-9593-5a931ff6b068'});
-CREATE (:tag:skill:hard {id:'Test-Case Driven Inspection',uuid:'fba156b4-0cf3-449b-84d9-9c3bc0d3ae60'});
-CREATE (:tag:skill:hard {id:'Requirements prototyping',uuid:'8fe515c9-ee60-4db1-a38d-f56b72f21154'});
-CREATE (:tag:skill:hard {id:'Peer review',uuid:'7829c7bf-8002-4701-8b30-2d85cdf01d8e'});
-CREATE (:tag:skill:hard {id:'Requirement management',uuid:'0db5325b-4d6b-49d2-b4ca-22bd5ea75775'});
-CREATE (:tag:skill:hard {id:'Traceability',uuid:'35495fe8-c609-4e32-be00-85bd7c025cdc'});
-CREATE (:tag:skill:hard {id:'Requirements Traceability Matrix',uuid:'13b9bf89-ff9d-4877-8ce7-810ae29cb535'});
-CREATE (:tag:skill:hard {id:'Impact Analysis',uuid:'5178553a-bf3b-42d2-8e0e-bdd633bbab3c'});
-CREATE (:tag:skill:hard {id:'Change Management',uuid:'98bd8d06-37fc-4b0e-bc7b-7caf90239189'});
-CREATE (:tag:skill:hard {id:'Change Curve Model',uuid:'e8751ae2-98f7-4137-bde0-5e31b5ea94ca'});
-CREATE (:tag:skill:hard {id:'McKinsey 7S Framework',uuid:'207b6102-1fc0-474a-93bd-26583ec0af3a'});
-CREATE (:tag:skill:hard {id:'SIPOC diagram',uuid:'d9f198b0-48c3-4849-bd06-ff67149bd1d0'});
-CREATE (:tag:skill:hard {id:'Stakeholder Analysis Matrix',uuid:'fddff5b9-11ef-4263-a141-a58adcacb5d7'});
-CREATE (:tag:skill:hard {id:'Risk Assessment Matrix',uuid:'846867af-3e1a-40e6-9f5f-18dc7e383488'});
-CREATE (:tag:skill:hard {id:'Technical Writing',uuid:'094ac651-ce04-4e22-82af-b50dc7d096d2'});
-CREATE (:tag:skill:hard {id:'Robohelp',uuid:'79ca5479-639e-4fcd-8a3c-403b0ba1f703'});
-CREATE (:tag:skill:hard {id:'Madcap Flare',uuid:'e2874d4d-587e-45b6-9bb6-71c0bbd1aa3b'});
-CREATE (:tag:skill:hard {id:'Athor-it',uuid:'a624d5f5-fb27-4f77-8894-5ec54482f9bb'});
-CREATE (:tag:skill:hard {id:'Help And Manual',uuid:'db4a5807-5243-429a-8e54-4abcea03ac3a'});
-CREATE (:tag:skill:hard {id:'Snagit',uuid:'9a8dd2c6-c554-4d91-81d4-75b2762a40b0'});
-CREATE (:tag:skill:hard {id:'Visio',uuid:'ce9d2ac7-d223-4637-bdec-fcde1f26f1fa'});
-CREATE (:tag:skill:hard {id:'SmartDraw',uuid:'44625fb0-ec32-43af-885e-6df636420293'});
-CREATE (:tag:skill:hard {id:'FrameMaker',uuid:'65c925ed-997a-4748-9706-a4be04c54d06'});
-CREATE (:tag:skill:hard {id:'MS-Word',uuid:'d65d4d4b-485b-47bc-8f7f-908b0795250c'});
-CREATE (:tag:skill:hard {id:'Interleaf',uuid:'ada314ae-2679-460f-84de-ff632bb895b7'});
-CREATE (:tag:skill:hard {id:'IT',uuid:'3d75aca3-4baf-410e-b254-3a2976746305'});
-CREATE (:tag:skill:hard {id:'HRMS SAP Team',uuid:'1bf2252b-6ff8-4be8-b063-1b25dafa0f79'});
-CREATE (:tag:skill:hard {id:'IT Support',uuid:'cf0e3358-9d58-4539-af15-c5babdfd3c18'});
-CREATE (:tag:skill:hard {id:'Virtualization Engineer',uuid:'2b077eb3-48b1-44e9-9256-5d0dba892231'});
-CREATE (:tag:skill:hard {id:'Nagios',uuid:'806993e2-60be-407b-9b74-950495562dab'});
-CREATE (:tag:skill:hard {id:'Expect',uuid:'c1ec2054-5661-4774-a252-1b5d78bdaf4c'});
-CREATE (:tag:skill:hard {id:'BIND',uuid:'2d2590dd-52c0-46bf-896a-57c22d218183'});
-CREATE (:tag:skill:hard {id:'TinyDNS',uuid:'58f3c618-db43-4f3f-897e-bd4a8cd56cb1'});
-CREATE (:tag:skill:hard {id:'vsftp',uuid:'22895a56-c848-429e-8237-0e9784cb89ab'});
-CREATE (:tag:skill:hard {id:'Samba',uuid:'930e82fd-b9f8-4f46-a885-7bb2373fedb1'});
-CREATE (:tag:skill:hard {id:'NFS',uuid:'fd01310a-474d-4d75-a215-cd7e3d87abe5'});
-CREATE (:tag:skill:hard {id:'Network',uuid:'bff15617-2751-472e-a80e-f8243f568465'});
-CREATE (:tag:skill:hard {id:'ZigBee',uuid:'b5d0fa41-f923-4a1b-8ef7-23724648ac4e'});
-CREATE (:tag:skill:hard {id:'VoIP-SIP',uuid:'2c3f0002-1a65-42e9-8ab1-891682e685c6'});
-CREATE (:tag:skill:hard {id:'VoIP-IAX2',uuid:'f11f2859-c877-41fd-bb4e-09cc7b7083a7'});
-CREATE (:tag:skill:hard {id:'VoIP-MGCP',uuid:'93f8323c-7ecc-4054-a556-41c9130dfebe'});
-CREATE (:tag:skill:hard {id:'VoIP-SCTP',uuid:'20f6af88-cd94-4599-ada0-38a0b9f0c04b'});
-CREATE (:tag:skill:hard {id:'VoIP-SCCP',uuid:'216d71b0-eb19-4cf4-9c4a-5a56d0c37de4'});
-CREATE (:tag:skill:hard {id:'BGP',uuid:'fd9a7030-bd47-4289-af09-b199a8fb182f'});
-CREATE (:tag:skill:hard {id:'IS-IS',uuid:'f8babec1-f8e6-42ac-b24b-0f5b088426c8'});
-CREATE (:tag:skill:hard {id:'OSPF',uuid:'d4a0a105-ce95-4b02-99f0-7b7e1498a9c1'});
-CREATE (:tag:skill:hard {id:'MPLS and Signaling',uuid:'4d10444b-b31f-4752-857d-01b59cf7619e'});
-CREATE (:tag:skill:hard {id:'Traffic load balancing',uuid:'0a04e3b4-8268-4d95-bbf1-fca2e3d9bcab'});
-CREATE (:tag:skill:hard {id:'Billing Mediation',uuid:'fbc42573-bd33-46df-a9ae-b5a821ff87f2'});
-CREATE (:tag:skill:hard {id:'IP Multimedia Subsystem (IMS)',uuid:'e92753a6-4552-40a6-b52d-c00caa543f0d'});
-CREATE (:tag:skill:hard {id:'Network management system (NMS)',uuid:'02432de6-730d-42fc-be5f-ccddea491c14'});
-CREATE (:tag:skill:hard {id:'RADIUS protocol',uuid:'5de6bdd4-304c-4093-a53b-5e28a79f539b'});
-CREATE (:tag:skill:hard {id:'RTP/RTCP',uuid:'f23637e6-cd89-4d9f-8fb1-df5991afb173'});
-CREATE (:tag:skill:hard {id:'SNMP',uuid:'fcf1557d-0b9b-47a6-a8e1-42f482c03fbf'});
-CREATE (:tag:skill:hard {id:'SS7',uuid:'c6c46a6c-365d-4dec-9a66-cff77a08ebfd'});
-CREATE (:tag:skill:hard {id:'Wi-Fi',uuid:'78dc303a-404a-4da6-bedc-bc7a7bcede95'});
-CREATE (:tag:skill:hard {id:'OS-Administrator',uuid:'0e3a22c0-e517-4edb-869e-4d298fd783ef'});
-CREATE (:tag:skill:hard {id:'CentOS',uuid:'ebc56e7b-c1aa-4f11-9e43-00c35cb18aa0'});
-CREATE (:tag:skill:hard {id:'Cisco IOS',uuid:'f9628650-e5eb-4e17-ae47-f28f342159e0'});
-CREATE (:tag:skill:hard {id:'IBM AIX',uuid:'0d305902-8ff7-44ef-bb6e-f33c94dcb98b'});
-CREATE (:tag:skill:hard {id:'UNIX',uuid:'6abee9db-12d2-4346-b4c4-ac4d8e5e8e55'});
-CREATE (:tag:skill:hard {id:'HP-UX',uuid:'3312de78-69dc-4be1-ae37-65a4e9148753'});
-CREATE (:tag:skill:hard {id:'MP-RAS',uuid:'f375d281-6a65-471d-baed-775a84ada4a8'});
-CREATE (:tag:skill:hard {id:'Solaris',uuid:'46f18e98-390d-483e-b57f-835d44090f36'});
-CREATE (:tag:skill:hard {id:'z/OS',uuid:'2595b6f7-8e1a-4828-8254-735751daa3c3'});
-CREATE (:tag:skill:hard {id:'IXP XXXX',uuid:'5ac7119b-64dc-4eb2-b7c1-b882d419ac9e'});
-CREATE (:tag:skill:hard {id:'Bejerman',uuid:'379eb321-782c-46ea-a154-c0dd9b528a18'});
-CREATE (:tag:skill:hard {id:'OS Administrator',uuid:'2d92f07d-b06c-4eeb-be25-d27ad9c2f7d2'});
-CREATE (:tag:skill:hard {id:'Common areas',uuid:'488ed66a-f95a-4466-b48b-0fb44f90d401'});
-CREATE (:tag:skill:hard {id:'Processes',uuid:'f83b3cc5-d6c4-45e8-a97d-df0319079946'});
-CREATE (:tag:skill:hard {id:'Waterfall',uuid:'db9dc8bc-253a-45b8-ad7e-014263adfca7'});
-CREATE (:tag:skill:hard {id:'Iterative',uuid:'cd293f3b-9069-4fb6-ab06-c5f8c1638c4a'});
-CREATE (:tag:skill:hard {id:'Agile',uuid:'a5aaed1c-afbd-4e56-a863-70710c6c08f3'});
-CREATE (:tag:skill:hard {id:'Scrum',uuid:'fba21ec2-d98d-4025-95f5-469dc42474c2'});
-CREATE (:tag:skill:hard {id:'XP',uuid:'4f58e949-3f59-4c94-9877-dc7893d2e3aa'});
-CREATE (:tag:skill:hard {id:'Kanban',uuid:'e6d3ca00-a9af-4cb2-9282-dd171717fe0b'});
-CREATE (:tag:skill:hard {id:'RUP',uuid:'fb6cf50b-4b4f-4dc1-a459-4938c0de5658'});
-CREATE (:tag:skill:hard {id:'RAD',uuid:'d302d490-dddb-4751-acfa-17ccfd3514d7'});
-CREATE (:tag:skill:hard {id:'OS',uuid:'178267c2-f571-4f27-aa94-18557f370382'});
-CREATE (:tag:skill:hard {id:'Windows XP',uuid:'1acf631a-eb2d-4e9f-9831-fc1911fdc49b'});
-CREATE (:tag:skill:hard {id:'Windows 7',uuid:'527b6929-5417-433e-976c-afea97d2dce2'});
-CREATE (:tag:skill:hard {id:'Windows 8',uuid:'d5cf5f7d-cd5d-4f7d-8bde-be9427a690aa'});
-CREATE (:tag:skill:hard {id:'OS 390',uuid:'0b2e1e7c-b8fd-4d26-8d60-fc1e0b8f6b4c'});
-CREATE (:tag:skill:hard {id:'AS / 400',uuid:'06fda0cb-357d-4972-b1db-33199c2e8650'});
-CREATE (:tag:skill:hard {id:'MVS',uuid:'9c53cff0-879b-4d0b-b56c-d373c70f8c22'});
-CREATE (:tag:skill:hard {id:'BSD',uuid:'690454db-56f2-410b-af46-30184a43fa06'});
-CREATE (:tag:skill:hard {id:'FreeBSD',uuid:'1774e9c1-5abb-40d5-9744-96703433c34b'});
-CREATE (:tag:skill:hard {id:'MacOS X',uuid:'5aaf24a5-f18e-4e9b-8aa9-083f4743d9bf'});
-CREATE (:tag:skill:hard {id:'Tools',uuid:'17395ace-8eb6-4811-be8b-8ddc51d30ab7'});
-CREATE (:tag:skill:hard {id:'Issue Tracking',uuid:'0e5ab27f-c634-422e-9ab8-dff4f186530b'});
-CREATE (:tag:skill:hard {id:'JIRA',uuid:'e0b6d480-02f0-490e-966c-9845699c4c61'});
-CREATE (:tag:skill:hard {id:'RedMine',uuid:'9e4471c7-3c00-4068-83bb-c7f18243242e'});
-CREATE (:tag:skill:hard {id:'Mantis',uuid:'5a23d5a3-41e2-4033-be2d-b7ad003996ab'});
-CREATE (:tag:skill:hard {id:'ClearQuest',uuid:'0c5c5f3c-2259-461e-aee5-446c62f8812b'});
-CREATE (:tag:skill:hard {id:'Version Control',uuid:'109bcec0-2e87-480d-beee-462835357c50'});
-CREATE (:tag:skill:hard {id:'Mercurial',uuid:'ffe16d67-cb3e-4aee-8628-64b58c14de4d'});
-CREATE (:tag:skill:hard {id:'Git',uuid:'350f35d1-c377-45c6-ab4d-b9c9b8ca34c3'});
-CREATE (:tag:skill:hard {id:'GitHub',uuid:'becae49e-8a78-4d22-a14d-3419a7f4f074'});
-CREATE (:tag:skill:hard {id:'CVS',uuid:'e4118efb-9f61-4ecf-aac5-5187bfb080db'});
-CREATE (:tag:skill:hard {id:'SVN',uuid:'db0f304a-398a-4267-a133-bf0c0b0743dd'});
-CREATE (:tag:skill:hard {id:'Perforce',uuid:'3601e2b6-5776-41c4-a2c3-4115961acc0d'});
-CREATE (:tag:skill:hard {id:'LibreSource',uuid:'b48dac9f-3893-4c90-9958-57107f9e4670'});
-CREATE (:tag:skill:hard {id:'Bazaar',uuid:'6492bb9b-f36c-485a-a6f8-0f1ceb5f5a9c'});
-CREATE (:tag:skill:hard {id:'Version Management System',uuid:'caaff754-f666-48ec-b505-0776b1d6d370'});
-CREATE (:tag:skill:hard {id:'PVCS',uuid:'17e0818f-79c7-4022-a3f4-0659e73d58d1'});
-CREATE (:tag:skill:hard {id:'TFS',uuid:'abb17474-f559-4f9f-a2a0-45cfc13ba8e0'});
-CREATE (:tag:skill:hard {id:'Changeman',uuid:'f32293d0-82ed-47f9-aa23-252e87b9f45f'});
-CREATE (:tag:skill:hard {id:'Endevor',uuid:'c8892a5a-3b3e-439b-8f2a-27428230b452'});
-CREATE (:tag:skill:hard {id:'IDE',uuid:'98af233d-6669-4b37-92d0-4e38bdb19e46'});
-CREATE (:tag:skill:hard {id:'Visual Studio 2008',uuid:'f8fcd949-6406-45ef-b976-2ea589a7279e'});
-CREATE (:tag:skill:hard {id:'Visual Studio 2010',uuid:'980b704f-ffb8-470a-bb2e-c692cfdc40c5'});
-CREATE (:tag:skill:hard {id:'Visual Studio 2012',uuid:'eddd36a6-71d8-448d-b7de-4711ccc6276b'});
-CREATE (:tag:skill:hard {id:'Eclipse',uuid:'ea9e6864-4dbe-4d02-9d43-20c9b6aeb335'});
-CREATE (:tag:skill:hard {id:'CodeGear RAD Studio',uuid:'0d6c17f3-fc09-437d-bf68-344b5a2e343d'});
-CREATE (:tag:skill:hard {id:'IntelliJ IDEA',uuid:'7c8b5fc4-23a8-41f7-9a31-f728f7745669'});
-CREATE (:tag:skill:hard {id:'PyCharm',uuid:'c7bbe6f7-7a41-4700-8a98-8414a28bf7e5'});
-CREATE (:tag:skill:hard {id:'Emacs',uuid:'9bc1afba-5a1c-4cfd-95e2-dadef2ddd0c6'});
-CREATE (:tag:skill:hard {id:'Embarcadero RAD Studio',uuid:'3935e407-b44a-457e-a0da-86d21a0ee026'});
-CREATE (:tag:skill:hard {id:'Qt Creator',uuid:'a3845007-5d3c-4421-b90c-bef5696f1a0b'});
-CREATE (:tag:skill:hard {id:'XCode',uuid:'3554ca77-cd0b-43f9-a8a7-3e4e4b90aae9'});
-CREATE (:tag:skill:hard {id:'Sprint Tool Suite',uuid:'1a5d42aa-5f6f-45bb-b825-13ef3d86cff1'});
-CREATE (:tag:skill:hard {id:'JDeveloper',uuid:'6e4e5998-a972-4ad5-bbb1-d13dd1cf6713'});
-CREATE (:tag:skill:hard {id:'Profiling',uuid:'5a8be153-729b-4357-8687-170983a71e82'});
-CREATE (:tag:skill:hard {id:'Intel Vtune',uuid:'dbc9127d-20e9-4a61-856e-825c17b59f39'});
-CREATE (:tag:skill:hard {id:'TBD',uuid:'61d3abad-813f-49c6-8452-e3d09a0cdc3b'});
-CREATE (:tag:skill:hard {id:'Productivity',uuid:'c71e5a69-77e4-451f-a2d1-ce8a84f552a4'});
-CREATE (:tag:skill:hard {id:'ReSharper',uuid:'a21693dd-1002-4d25-a12f-25d8c2209ab5'});
-CREATE (:tag:skill:hard {id:'VisualAssist',uuid:'843213c0-fe68-45e5-9549-1c8f920cffbd'});
-CREATE (:tag:skill:hard {id:'FxCop',uuid:'c0345506-0234-4aa0-9780-79396d290043'});
-CREATE (:tag:skill:hard {id:'StyleCop',uuid:'4aaf5524-c169-4006-8c0b-4bfb8168f80d'});
-CREATE (:tag:skill:hard {id:'NDepend',uuid:'48c13082-24ea-450c-ba45-72cccbc85f52'});
-CREATE (:tag:skill:hard {id:'DevExpress',uuid:'b11aa2ca-c229-4619-9c74-53274883c774'});
-CREATE (:tag:skill:hard {id:'Build Automation',uuid:'6bc5bb59-e65e-4b0a-8688-7ea691d12505'});
-CREATE (:tag:skill:hard {id:'Hudson/Jenkins',uuid:'7ca1fdb4-7f2f-4982-94ff-4c969b9c73cb'});
-CREATE (:tag:skill:hard {id:'Bamboo',uuid:'2eb7ca77-02c4-47fc-b9fc-fa54fcc938da'});
-CREATE (:tag:skill:hard {id:'RTC',uuid:'b24c7824-443c-421d-aea7-869f180d3f01'});
-CREATE (:tag:skill:hard {id:'Teamcity',uuid:'bf46b97c-fef8-4adb-a979-b3dd32a8e349'});
-CREATE (:tag:skill:hard {id:'CruiseControl',uuid:'78e6b472-0d5a-43c8-9a56-63b76db6a929'});
-CREATE (:tag:skill:hard {id:'BuildBot',uuid:'6c65cf81-f24f-418a-bd3e-d9adf545e9ee'});
-CREATE (:tag:skill:hard {id:'Travis CI',uuid:'47054a37-230b-4b7f-84dd-3654173dca35'});
-CREATE (:tag:skill:hard {id:'AnthillPro',uuid:'ca6091b9-4cc8-46cd-9ebe-a433933f3d0d'});
-CREATE (:tag:skill:hard {id:'Automated BuildStudio',uuid:'b11041ab-33d1-4838-ae63-d069e76b54dd'});
-CREATE (:tag:skill:hard {id:'Apache Continuum',uuid:'aee2f674-440e-4199-b893-469f77f5f321'});
-CREATE (:tag:skill:hard {id:'BuildIT',uuid:'a71de66a-b927-4d04-a550-264ae3da5037'});
-CREATE (:tag:skill:hard {id:'Buildout',uuid:'0d188893-b702-45b6-b16d-3ea6c834732d'});
-CREATE (:tag:skill:hard {id:'CABIE',uuid:'7d4f0c72-8784-4aa6-8ced-a04e28144a36'});
-CREATE (:tag:skill:hard {id:'Cascade',uuid:'39961ca4-be69-4b99-be9b-317f6e0e7d91'});
-CREATE (:tag:skill:hard {id:'FinalBuilder',uuid:'c3334476-6185-4b1c-b0fc-913afbdab19c'});
-CREATE (:tag:skill:hard {id:'BuildTool',uuid:'f3b64b22-0243-4e56-a42b-c8be65a17a4f'});
-CREATE (:tag:skill:hard {id:'Maven',uuid:'e5ed1020-26fc-4e5b-851d-fa83bde80942'});
-CREATE (:tag:skill:hard {id:'Ant',uuid:'95b48e60-97f1-4854-bd8d-dcf982edcb88'});
-CREATE (:tag:skill:hard {id:'Ivvy',uuid:'26cd9d41-7028-453c-8d03-e91cc84ef90c'});
-CREATE (:tag:skill:hard {id:'Gradle',uuid:'ff0f89e6-ea02-4f9d-b206-687a7b1c507a'});
-CREATE (:tag:skill:hard {id:'SBT',uuid:'95a55498-6ee4-474d-b18c-f0092c5e4fca'});
-CREATE (:tag:skill:hard {id:'Code Analysis Tools',uuid:'5989283c-6b2e-4033-bebd-4a73798a04ec'});
-CREATE (:tag:skill:hard {id:'PVS-Studio / CppCat',uuid:'efc1fa76-3f4a-4279-8ef9-ef4bf0acb064'});
-CREATE (:tag:skill:hard {id:'CppCheck',uuid:'b3c5b703-3126-41a6-b313-b7008d062ba8'});
-CREATE (:tag:skill:hard {id:'CppDepend',uuid:'f0bf09ee-a097-449a-baf9-510cc64b6a93'});
-CREATE (:tag:skill:hard {id:'Lint / PC-Lint',uuid:'4e271cc7-e764-4d42-a55c-a0bb90e3a063'});
-CREATE (:tag:skill:hard {id:'SonarCube',uuid:'aff2a318-b7ee-413b-96de-81e250dc8468'});
-CREATE (:tag:skill:hard {id:'FindBugs',uuid:'33aeb63c-b75b-4e72-9d2c-e077bc8b9fd4'});
-CREATE (:tag:skill:hard {id:'Checkstyle',uuid:'711feb61-69a6-4692-a3bd-2e1a2c5c9cdd'});
-CREATE (:tag:skill:hard {id:'PMD',uuid:'248392a5-dc5b-4c46-af67-99fb06ce7655'});
-CREATE (:tag:skill:hard {id:'Cobetura',uuid:'1311569c-0d11-4f69-9a94-debfa11a36c9'});
-CREATE (:tag:skill:hard {id:'JDepend',uuid:'977e47fb-6c35-457b-8a98-4d46a30a63b2'});
-CREATE (:tag:skill:hard {id:'Coverity',uuid:'d5ea4710-f5ac-45ad-a2f1-a4fe14766041'});
-CREATE (:tag:skill:hard {id:'AgileJ StructureViews',uuid:'0161ea09-737a-4bb7-93e6-a4a63b699181'});
-CREATE (:tag:skill:hard {id:'GrammaTech CodeSonar',uuid:'476efaf8-8ba0-4adb-9dd8-31cd8e8ef8c4'});
-CREATE (:tag:skill:hard {id:'Jtest',uuid:'1d2c5a88-60a5-4a9b-98be-18ad37e2dfb5'});
-CREATE (:tag:skill:hard {id:'SemmleCode',uuid:'4d89f4a2-2eac-4783-a3e8-97cf6cc35de9'});
-CREATE (:tag:skill:hard {id:'ObjectWeb ASM',uuid:'db2e46ed-d88d-4d03-ada4-56dc658a8f26'});
-CREATE (:tag:skill:hard {id:'SonarJ',uuid:'196efb63-79d8-4530-8f41-e8eda2813a4f'});
-CREATE (:tag:skill:hard {id:'Soot',uuid:'19a0689f-4703-4d81-b15e-390486efa976'});
-CREATE (:tag:skill:hard {id:'Squale',uuid:'abac6193-13d5-4900-8944-821e46efd7e9'});
-CREATE (:tag:skill:hard {id:'SonarQube',uuid:'4e314ce1-2219-43ae-a492-8e0d3ff18d3e'});
-CREATE (:tag:skill:hard {id:'ThreadSafe',uuid:'bf709599-8177-4d7d-930e-0da2ed270848'});
-CREATE (:tag:skill:hard {id:'LDRA Testbed',uuid:'bc8dd01f-036c-420a-a96b-320af1c4202d'});
-CREATE (:tag:skill:hard {id:'Google CodePro Analytix',uuid:'b99d71dd-34cb-483d-815b-360e25c41921'});
-CREATE (:tag:skill:hard {id:'-- debuggers, memory debuggers, merge tools, etc',uuid:'c9d860d2-32b4-42b7-9d99-869986bf449f'});
-CREATE (:tag:skill:hard {id:'Management and Planning',uuid:'53777d94-905a-4dcf-bc69-e062bb10bfac'});
-CREATE (:tag:skill:hard {id:'Basecamp',uuid:'03b8f404-9925-407e-abed-22caca58356d'});
-CREATE (:tag:skill:hard {id:'Microsoft Project',uuid:'37f73358-c87c-44f7-9c51-5657ffe2d147'});
-CREATE (:tag:skill:hard {id:'Microsoft SharePoint Server',uuid:'afa521cb-5b2c-4f80-be9b-fb35e179f261'});
-CREATE (:tag:skill:hard {id:'Microsoft Team Foundation Server',uuid:'28f089c1-5b18-433d-ab7b-ea0b2e5475dc'});
-CREATE (:tag:skill:hard {id:'Agile/Scrum',uuid:'61b4d85f-3f74-4359-9b91-14704611746e'});
-CREATE (:tag:skill:hard {id:'Jira/Greenhopper',uuid:'18f412d3-3999-492e-a6ea-a4fc227fd295'});
-CREATE (:tag:skill:hard {id:'Version One',uuid:'bc593f27-9d52-4bc3-bdc7-f81a10630285'});
-CREATE (:tag:skill:hard {id:'Microsoft TFS 2010',uuid:'c028b095-d179-48eb-91a3-57a46e21bf99'});
-CREATE (:tag:skill:hard {id:'Microsoft TFS 2012/2013',uuid:'a621704b-55ce-49e0-a6ba-24cd276925aa'});
-CREATE (:tag:skill:hard {id:'Rally',uuid:'a59f2ee5-ae84-46b4-ba99-7004d418a7ed'});
-CREATE (:tag:skill:hard {id:'IBM Rational team Concert',uuid:'e46df42f-ff51-4233-8ed3-521248cb5866'});
-CREATE (:tag:skill:hard {id:'Target Process',uuid:'0b97296a-c9ca-4228-a4fa-c0da9450e3ff'});
-CREATE (:tag:skill:hard {id:'Diagraming/Modelling',uuid:'0e1e11e9-39a6-491e-9d4b-2251deb1f9a6'});
-CREATE (:tag:skill:hard {id:'MS Visio',uuid:'85bbe7db-4235-4881-a30c-2e82da53e179'});
-CREATE (:tag:skill:hard {id:'BizAgi Process Modeler',uuid:'858525cf-6f20-4e47-9e66-7b22f10976cc'});
-CREATE (:tag:skill:hard {id:'IBM Rational RequisitePro',uuid:'23eec4bc-3f78-4d17-8d2d-af85edb23f8d'});
-CREATE (:tag:skill:hard {id:'Altova UModel',uuid:'59ec5cea-e230-4e71-93ca-8297de1889bd'});
-CREATE (:tag:skill:hard {id:'ERwin/BPwin',uuid:'7de59621-1f2c-41c1-87b4-3712f9d5167e'});
-CREATE (:tag:skill:hard {id:'Bonita BPM',uuid:'72c0d520-ab92-4a1a-8820-0dfe0783981c'});
-CREATE (:tag:skill:hard {id:'ARIS',uuid:'77b4f7fc-c7b0-481a-97d6-b9b0478980be'});
-CREATE (:tag:skill:hard {id:'ADD FROM DEV',uuid:'8b7072d8-228b-415a-9a91-391b242336b1'});
-CREATE (:tag:skill:hard {id:'Prototyping/UI Design',uuid:'70017dba-60c4-42cf-8a86-ec493ee5d3e7'});
-CREATE (:tag:skill:hard {id:'Requirements Management',uuid:'001f7f3d-b114-45e3-819b-2277f6e6ef1f'});
-CREATE (:tag:skill:hard {id:'IBM Rational DOORS',uuid:'290081aa-8bf5-4da5-87df-c299c5e196ce'});
-CREATE (:tag:skill:hard {id:'Blueprint Requirements Center',uuid:'ce080909-0bd9-4781-943f-a718eb5142b3'});
-CREATE (:tag:skill:hard {id:'CaseComplete',uuid:'7d19afb5-e28f-4906-8610-a449afb52d62'});
-CREATE (:tag:skill:hard {id:'JAMA',uuid:'a569ce15-40e8-423d-87c5-d276f96a4182'});
-CREATE (:tag:skill:hard {id:'TIBCO ActiveMatrix',uuid:'97e62cb5-b658-49c9-9904-f4fd29606a77'});
-CREATE (:tag:skill:hard {id:'Enterprise Architect',uuid:'cd571322-613f-4924-9964-e22e84235213'});
-CREATE (:tag:skill:hard {id:'CaliberRM',uuid:'0c0c2820-5197-4f5a-ae55-9567b4250f54'});
-CREATE (:tag:skill:hard {id:'Domain (Vertical)',uuid:'6d1c7c61-1604-4a66-82e8-fc73e76d9989'});
-CREATE (:tag:skill:hard {id:'OSS/BSS SW',uuid:'d4db3c01-9929-46a4-be4f-ec75ebeac47f'});
-CREATE (:tag:skill:hard {id:'VAS/SDP SW',uuid:'f308716f-10f2-43b2-8cc1-bcf69e62b981'});
-CREATE (:tag:skill:hard {id:'VoIP/UC SW',uuid:'1990b9df-7402-47a5-9a33-f3fe048a4fe1'});
-CREATE (:tag:skill:hard {id:'DTV/IPTV SW',uuid:'8d5a5345-9365-4482-8218-64827758e718'});
-CREATE (:tag:skill:hard {id:'M2M SW',uuid:'04e4258b-818a-48d3-a982-9758e47caa7f'});
-CREATE (:tag:skill:hard {id:'Wireless NE',uuid:'02c70669-a0ed-4d25-bb69-e54780367b43'});
-CREATE (:tag:skill:hard {id:'Wireline NE',uuid:'64c14732-aa35-4a99-ab5f-fb36d60e090e'});
-CREATE (:tag:skill:hard {id:'Mobile Devices',uuid:'b6eac58c-e862-4173-816b-27fb712b7242'});
-CREATE (:tag:skill:hard {id:'Comm Modules',uuid:'6ec55787-dafb-409f-bfbd-b25f416fddd9'});
-CREATE (:tag:skill:hard {id:'Semiconductors',uuid:'a9b7b0db-a4ed-492d-adcd-2c6e6e8305fb'});
-CREATE (:tag:skill:hard {id:'Wireless Service',uuid:'09a50f58-1675-4544-8ed7-9e5762bf387e'});
-CREATE (:tag:skill:hard {id:'Wireline Service',uuid:'f03deb85-2d81-49aa-8720-7a5d4bed236c'});
-CREATE (:tag:skill:hard {id:'Hosting Service',uuid:'0d1e81f0-7e29-4974-a50e-7a2027a1ddfe'});
-CREATE (:tag:skill:hard {id:'TV Service',uuid:'624b895d-90ca-4b48-a6c9-8c6e44e19e3d'});
-CREATE (:tag:skill:hard {id:'High Tech',uuid:'c54fc509-36ee-4f27-99d2-183514ba3d36'});
-CREATE (:tag:skill:hard {id:'IT Management',uuid:'587f4c57-1cda-44a1-ac5a-c1a71bad4634'});
-CREATE (:tag:skill:hard {id:'Security Management Software',uuid:'361653a2-b0c5-4339-8e44-fe6f5cf2d349'});
-CREATE (:tag:skill:hard {id:'SCM',uuid:'a8c4bd65-c006-4576-a10b-3f6450eeae15'});
-CREATE (:tag:skill:hard {id:'CRM',uuid:'e5e5cab2-f271-48b8-a021-b11f12b796a3'});
-CREATE (:tag:skill:hard {id:'BPM',uuid:'d1ee71a6-0664-4690-81f8-090077d1f3ba'});
-CREATE (:tag:skill:hard {id:'ERP',uuid:'cad58d6b-76cc-42d4-81f0-3a402d8ddd98'});
-CREATE (:tag:skill:hard {id:'BI/Analytics',uuid:'9cc4d15d-332c-4643-969b-c80206f73f4b'});
-CREATE (:tag:skill:hard {id:'Collaboration',uuid:'5c3db118-3736-489d-a995-8a55be18822a'});
-CREATE (:tag:skill:hard {id:'Computer HW and Peripherals',uuid:'04722029-d1d4-4b22-bbeb-99e706a83c34'});
-CREATE (:tag:skill:hard {id:'Application Development and Deployment Tools',uuid:'b4058e29-2bee-4502-ba8a-7372dda435de'});
-CREATE (:tag:skill:hard {id:'System Infrastructure Software',uuid:'249acec8-d548-4ee2-baae-6867dec7ed5b'});
-CREATE (:tag:skill:hard {id:'Cloud Infrastructure',uuid:'2fcc18a0-03d8-4ad0-99df-a7eadac171bd'});
-CREATE (:tag:skill:hard {id:'Retail & eCommerce',uuid:'5c8b0127-265d-44af-ae39-39a098e26a83'});
-CREATE (:tag:skill:hard {id:'Payment Systems',uuid:'33e74630-f90e-492f-810f-ed9a3307bde7'});
-CREATE (:tag:skill:hard {id:'Operational SW',uuid:'fd96dae1-70ff-4a27-a8d3-f7f69c1a3389'});
-CREATE (:tag:skill:hard {id:'eCommerce Platforms',uuid:'4b931aec-820c-46ab-9995-1b8bd4a95efd'});
-CREATE (:tag:skill:hard {id:'Media & Entertainment',uuid:'25a7370b-4d83-4c43-b5b8-57d3a2ab23c3'});
-CREATE (:tag:skill:hard {id:'Content Creation',uuid:'2ca6ac2c-3cf7-4da1-9980-7fd4b00808a9'});
-CREATE (:tag:skill:hard {id:'Gaming',uuid:'779283a0-b4bc-429d-86a2-dcfc2a96192b'});
-CREATE (:tag:skill:hard {id:'Content Management',uuid:'b723d68e-55a6-4287-aa08-b99687a0e1d7'});
-CREATE (:tag:skill:hard {id:'Media Delivery & Consumption',uuid:'a3fee9eb-3e49-45a5-b5a2-cfbf724f407b'});
-CREATE (:tag:skill:hard {id:'Social Networking Platforms',uuid:'55bdb7da-9098-4713-9bf0-d00238f3015b'});
-CREATE (:tag:skill:hard {id:'Consumer Electronics',uuid:'9a252f74-b86d-4ebd-b65b-2f49522123c2'});
-CREATE (:tag:skill:hard {id:'Digital Advertising',uuid:'1b12df4f-4a8d-4173-85ce-e531d3114671'});
-CREATE (:tag:skill:hard {id:'Finance',uuid:'2e7f4f98-98e9-4b67-9689-5ed43292b290'});
-CREATE (:tag:skill:hard {id:'Banking',uuid:'3f2d58dd-4c55-446a-9606-4ff102702a19'});
-CREATE (:tag:skill:hard {id:'Payment Cards',uuid:'56cb5aa1-79f0-4874-884c-f9536725ef33'});
-CREATE (:tag:skill:hard {id:'Investment Management',uuid:'fe474d2b-f9ab-4572-9d85-241f2c3af9d4'});
-CREATE (:tag:skill:hard {id:'Investment Banking',uuid:'b737db88-6c21-440d-9834-4a256b77745c'});
-CREATE (:tag:skill:hard {id:'Retail Brokerage',uuid:'3f6da794-b288-48c6-86fe-4933e74acb10'});
-CREATE (:tag:skill:hard {id:'Insurance',uuid:'a8c62abe-6f97-4de9-91e0-bfe6bdcad142'});
-CREATE (:tag:skill:hard {id:'Employee Benefits',uuid:'b0feac5f-a8bb-45d1-b799-4f28e75cb35f'});
-CREATE (:tag:skill:hard {id:'PFM',uuid:'d397ca55-fc5a-410f-b6ee-da98201dc981'});
-CREATE (:tag:skill:hard {id:'Healthcare',uuid:'093ebd90-0d14-4649-b61a-53eb59e15560'});
-CREATE (:tag:skill:hard {id:'Monitoring',uuid:'184937cb-02aa-49c6-9e7b-f644b7010047'});
-CREATE (:tag:skill:hard {id:'Imaging',uuid:'257685d5-dea4-4077-8295-a85bc3f9e816'});
-CREATE (:tag:skill:hard {id:'Therapy',uuid:'41e0c1b2-4999-495d-be97-3ab9f6e146b3'});
-CREATE (:tag:skill:hard {id:'Laboratory',uuid:'00776064-1690-4fcf-abe9-01b08a9dba20'});
-CREATE (:tag:skill:hard {id:'Automated dispensing machines',uuid:'3d7d0980-84bc-4d67-a5e9-9879b312248a'});
-CREATE (:tag:skill:hard {id:'EHR',uuid:'e5acb4cf-b857-4e69-8615-8814eb00f143'});
-CREATE (:tag:skill:hard {id:'Interoperability',uuid:'1838e49e-d808-48b5-b1f9-feb4c3bd91c3'});
-CREATE (:tag:skill:hard {id:'CIS (Clinical Info Systems)',uuid:'0cc3d7eb-c802-434a-bebc-d007eb3923e7'});
-CREATE (:tag:skill:hard {id:'Clinical Decision Support & Ref',uuid:'61b33966-60fd-45d4-b9e3-2149eb302db1'});
-CREATE (:tag:skill:hard {id:'Revenue Cycle Management',uuid:'13427abd-7453-4abc-b1e4-b28c10bc1c5b'});
-CREATE (:tag:skill:hard {id:'Process Management',uuid:'a98fa349-16c6-4b6e-8cbd-69e456e307b1'});
-CREATE (:tag:skill:hard {id:'Compliance & Regulatory SW',uuid:'4d214d52-b40d-42d9-9ad6-06eb4f579f02'});
-CREATE (:tag:skill:hard {id:'Asset Management',uuid:'32c8a1a9-52e4-4409-99d3-3afcd1501d66'});
-CREATE (:tag:skill:hard {id:'Airspace',uuid:'b900e1d3-075d-41f7-a393-1ff693fb8f43'});
-CREATE (:tag:skill:hard {id:'Geoinformatics',uuid:'f3408c3d-fb68-4fc6-99df-08cb78cac3ae'});
-CREATE (:tag:skill:hard {id:'Heavy Industry',uuid:'b0df3626-e13d-467c-8518-d5df40ffe7e2'});
-CREATE (:tag:skill:hard {id:'Jurisprudence',uuid:'924b0149-5452-4782-ac96-9971ea6657bc'});
-CREATE (:tag:skill:hard {id:'Military',uuid:'9fa851ad-550c-43b0-84ff-e6ed3ee9fcea'});
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'Development' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Development' })
-MATCH (child:tag:skill:hard { id:'Security' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Development' })
-MATCH (child:tag:skill:hard { id:'Cloud' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud' })
-MATCH (child:tag:skill:hard { id:'Cloud technologies' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud technologies' })
-MATCH (child:tag:skill:hard { id:'IaaS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IaaS' })
-MATCH (child:tag:skill:hard { id:'Amazon Web Service (AWS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IaaS' })
-MATCH (child:tag:skill:hard { id:'Microsoft Azure' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IaaS' })
-MATCH (child:tag:skill:hard { id:'Google Compute Engine (GCE)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IaaS' })
-MATCH (child:tag:skill:hard { id:'OpenStack' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud technologies' })
-MATCH (child:tag:skill:hard { id:'PaaS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PaaS' })
-MATCH (child:tag:skill:hard { id:'Force.com' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PaaS' })
-MATCH (child:tag:skill:hard { id:'Apache Stratos' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PaaS' })
-MATCH (child:tag:skill:hard { id:'Microsoft Azure' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PaaS' })
-MATCH (child:tag:skill:hard { id:'Amazone BeansTalk' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PaaS' })
-MATCH (child:tag:skill:hard { id:'Heroku' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud technologies' })
-MATCH (child:tag:skill:hard { id:'SaaS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SaaS' })
-MATCH (child:tag:skill:hard { id:'Apprenda' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SaaS' })
-MATCH (child:tag:skill:hard { id:'Google Apps' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SaaS' })
-MATCH (child:tag:skill:hard { id:'Salesforce' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SaaS' })
-MATCH (child:tag:skill:hard { id:'Cisco WebEx' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SaaS' })
-MATCH (child:tag:skill:hard { id:'Citrix GoToMeeting' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud' })
-MATCH (child:tag:skill:hard { id:'Cloud Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud Services' })
-MATCH (child:tag:skill:hard { id:'Data Service' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Service' })
-MATCH (child:tag:skill:hard { id:'SQL Database' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL Database' })
-MATCH (child:tag:skill:hard { id:'Amazon Relational Database Service (RDS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL Database' })
-MATCH (child:tag:skill:hard { id:'Azure SQL Database' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL Database' })
-MATCH (child:tag:skill:hard { id:'Google Cloud SQL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Service' })
-MATCH (child:tag:skill:hard { id:'NoSQL Database' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL Database' })
-MATCH (child:tag:skill:hard { id:'CouchDB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL Database' })
-MATCH (child:tag:skill:hard { id:'Oracle NoSQL Database' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL Database' })
-MATCH (child:tag:skill:hard { id:'MongoDB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL Database' })
-MATCH (child:tag:skill:hard { id:'Solr' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL Database' })
-MATCH (child:tag:skill:hard { id:'Amazon DynamoDB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL Database' })
-MATCH (child:tag:skill:hard { id:'Microsoft Azure DocumentDB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Service' })
-MATCH (child:tag:skill:hard { id:'Graph Database' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Graph Database' })
-MATCH (child:tag:skill:hard { id:'MapGraph' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Graph Database' })
-MATCH (child:tag:skill:hard { id:'Neo4j' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Graph Database' })
-MATCH (child:tag:skill:hard { id:'IBM System G Native Store' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Graph Database' })
-MATCH (child:tag:skill:hard { id:'Oracle Spatial and Graph' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Graph Database' })
-MATCH (child:tag:skill:hard { id:'OrientDB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Graph Database' })
-MATCH (child:tag:skill:hard { id:'VertexDB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud Services' })
-MATCH (child:tag:skill:hard { id:'Message Queue / AMQP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Message Queue / AMQP' })
-MATCH (child:tag:skill:hard { id:'RabbitMQ' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Message Queue / AMQP' })
-MATCH (child:tag:skill:hard { id:'Amazon Simple Queue Service' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Message Queue / AMQP' })
-MATCH (child:tag:skill:hard { id:'StormMQ' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Message Queue / AMQP' })
-MATCH (child:tag:skill:hard { id:'IronMQ' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud Services' })
-MATCH (child:tag:skill:hard { id:'CDN' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CDN' })
-MATCH (child:tag:skill:hard { id:'Amazon CloudFront' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CDN' })
-MATCH (child:tag:skill:hard { id:'Azure CDN' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CDN' })
-MATCH (child:tag:skill:hard { id:'CloudFlare' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud Services' })
-MATCH (child:tag:skill:hard { id:'Storage' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'Amazon Glacier' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'Amazon Simple Storage Service (S3)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'Amazon Elastic Block Store' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'Azure Blob Storage Service' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'Azure Table Storage Service' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'Google Storage service' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'DropBox' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage' })
-MATCH (child:tag:skill:hard { id:'OneDrive' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cloud' })
-MATCH (child:tag:skill:hard { id:'Data Analysis' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Analysis' })
-MATCH (child:tag:skill:hard { id:'Data Mining' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Mining' })
-MATCH (child:tag:skill:hard { id:'SAS Enterprise Miner' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Mining' })
-MATCH (child:tag:skill:hard { id:'Microsoft Analysis Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Mining' })
-MATCH (child:tag:skill:hard { id:'IBM SPSS Modeler' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Mining' })
-MATCH (child:tag:skill:hard { id:'Oracle Data Mining' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Analysis' })
-MATCH (child:tag:skill:hard { id:'Business Intelligence' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Business Intelligence' })
-MATCH (child:tag:skill:hard { id:'SAP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Business Intelligence' })
-MATCH (child:tag:skill:hard { id:'Jaspersoft' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Analysis' })
-MATCH (child:tag:skill:hard { id:'Map Reduce' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Map Reduce' })
-MATCH (child:tag:skill:hard { id:'Couchdb' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Map Reduce' })
-MATCH (child:tag:skill:hard { id:'MongoDB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Map Reduce' })
-MATCH (child:tag:skill:hard { id:'Infinispan' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Map Reduce' })
-MATCH (child:tag:skill:hard { id:'Amazon Elastic MapReduce' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Map Reduce' })
-MATCH (child:tag:skill:hard { id:'Apache Spark' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Map Reduce' })
-MATCH (child:tag:skill:hard { id:'Hadoop, Apache' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Map Reduce' })
-MATCH (child:tag:skill:hard { id:'Apache Storm' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Data Analysis' })
-MATCH (child:tag:skill:hard { id:'OLAP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OLAP' })
-MATCH (child:tag:skill:hard { id:'Microsoft Analysis Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OLAP' })
-MATCH (child:tag:skill:hard { id:'SAS OLAP Server' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OLAP' })
-MATCH (child:tag:skill:hard { id:'IBM Cognos' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OLAP' })
-MATCH (child:tag:skill:hard { id:'Jedox OLAP Server' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Development' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Front-End' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'HTML/CSS frameworks' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'HTML5 Boilerplate' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'HTML KickStart' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Montage HTML5 Framework' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Sproutcore' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'DHTMLX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'YAML' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Kube' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Bootstrap' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Foundation' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Semantic UI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Uikit' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Skeleton' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'960 Grid System' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'G5Framework' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Blueprint' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Metro UI CSS 2.0' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Toast' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Gumby' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Responsive' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Columnal' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'HTML/CSS frameworks' })
-MATCH (child:tag:skill:hard { id:'Susy' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'CSS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'CSS3' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'HTML' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'HTML5' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'Javascript' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'jQuery' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'GWT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'ProcessingJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'AngularJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'AtomsJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'Dojo' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'ExtJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'CreateJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'KnockoutJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'BackboneJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'RequireJS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'Ember' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'Sencha Touch' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'jQuery UI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'jQuery Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'PDF.js' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'underscore' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'Markdown' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'Socket.io' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'Google API' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Javascript' })
-MATCH (child:tag:skill:hard { id:'Build systems' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'CoffeeScript' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'Typescript' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'LESS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Front-End' })
-MATCH (child:tag:skill:hard { id:'SASS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Multimedia Development' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Multimedia Development' })
-MATCH (child:tag:skill:hard { id:'­-' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'­-' })
-MATCH (child:tag:skill:hard { id:'Adobe Flash' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'­-' })
-MATCH (child:tag:skill:hard { id:'Adobe Flex' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'­-' })
-MATCH (child:tag:skill:hard { id:'ActionScript 2.0' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'­-' })
-MATCH (child:tag:skill:hard { id:'ActionScript 3.0' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Multimedia Development' })
-MATCH (child:tag:skill:hard { id:'JavaScript' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JavaScript' })
-MATCH (child:tag:skill:hard { id:'dz.js' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JavaScript' })
-MATCH (child:tag:skill:hard { id:'create.js' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Backend' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'PHP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'ASP.NET MVC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'Base One Foundation Component Library' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'Component-based Scalable Logical Architecture' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'MonoRail' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'OpenRasta' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'Nancy' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'JavaScript' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JavaScript' })
-MATCH (child:tag:skill:hard { id:'node.js' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Core' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Core' })
-MATCH (child:tag:skill:hard { id:'Java6' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Core' })
-MATCH (child:tag:skill:hard { id:'Java7' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Core' })
-MATCH (child:tag:skill:hard { id:'Java8' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Core' })
-MATCH (child:tag:skill:hard { id:'OOP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Core' })
-MATCH (child:tag:skill:hard { id:'Collections' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Core' })
-MATCH (child:tag:skill:hard { id:'Concurrency' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Axis' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Axis2' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache CXF' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'GlassFish' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Click' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache OFBiz' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Shale' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Sling' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Struts 2' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Tapestry' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Wicket' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'AppFuse' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Eclipse RAP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'FormEngine' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Grails' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Google Web Toolkit' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Hamlets' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'ItsNat' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'JavaServer Faces' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'JBoss Seam' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Jspx-bay' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'JVx' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'OpenLaszlo' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'OpenXava' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Oracle ADF' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Play!' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'RIFE' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Spring' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Stripes' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'ThinWire' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Vaadin' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Vraptor' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Wavemaker' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'WebObjects' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'WebWork' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Ze Framework' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'ZK' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'ztemplates' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'JSF' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JSF' })
-MATCH (child:tag:skill:hard { id:'Mojarra' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JSF' })
-MATCH (child:tag:skill:hard { id:'MyFaces' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JSF' })
-MATCH (child:tag:skill:hard { id:'Tomahawk' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JSF' })
-MATCH (child:tag:skill:hard { id:'IceFaces' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JSF' })
-MATCH (child:tag:skill:hard { id:'RichFaces' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JSF' })
-MATCH (child:tag:skill:hard { id:'PrimeFaces' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'GWT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'GWT' })
-MATCH (child:tag:skill:hard { id:'SmartGWT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'GWT' })
-MATCH (child:tag:skill:hard { id:'Vaadin' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'GWT' })
-MATCH (child:tag:skill:hard { id:'GXT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'GWT' })
-MATCH (child:tag:skill:hard { id:'Errai' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Struts 1' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'ORM' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ORM' })
-MATCH (child:tag:skill:hard { id:'Hibernate' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ORM' })
-MATCH (child:tag:skill:hard { id:'JDBC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ORM' })
-MATCH (child:tag:skill:hard { id:'Spring JDBC Template' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ORM' })
-MATCH (child:tag:skill:hard { id:'Eclipse Link' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ORM' })
-MATCH (child:tag:skill:hard { id:'MyBatis' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ORM' })
-MATCH (child:tag:skill:hard { id:'JOOQ' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'JVM languages' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Scala' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Groovy' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Closure' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Kotlin' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Ceylon' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Xtend' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Rhino' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Nashorn' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'Jython' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JVM languages' })
-MATCH (child:tag:skill:hard { id:'JRuby' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'WebServices' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'WebServices' })
-MATCH (child:tag:skill:hard { id:'JAX-WS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'WebServices' })
-MATCH (child:tag:skill:hard { id:'JAX-RS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'WebServices' })
-MATCH (child:tag:skill:hard { id:'JAX-RPC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'WebServices' })
-MATCH (child:tag:skill:hard { id:'SAAJ' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'WebServices' })
-MATCH (child:tag:skill:hard { id:'XML' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'XML' })
-MATCH (child:tag:skill:hard { id:'JAXP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JAXP' })
-MATCH (child:tag:skill:hard { id:'DOM' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JAXP' })
-MATCH (child:tag:skill:hard { id:'SAX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'JAXP' })
-MATCH (child:tag:skill:hard { id:'StAX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'XML' })
-MATCH (child:tag:skill:hard { id:'XSLT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'XML' })
-MATCH (child:tag:skill:hard { id:'JAXR' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'XML' })
-MATCH (child:tag:skill:hard { id:'JAXB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'Perl' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl' })
-MATCH (child:tag:skill:hard { id:'Catalyst' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl' })
-MATCH (child:tag:skill:hard { id:'Dancer' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl' })
-MATCH (child:tag:skill:hard { id:'Mason' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl' })
-MATCH (child:tag:skill:hard { id:'Maypole' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl' })
-MATCH (child:tag:skill:hard { id:'Mojolicious' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'Ruby' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby' })
-MATCH (child:tag:skill:hard { id:'Camping' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby' })
-MATCH (child:tag:skill:hard { id:'Padrino' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby' })
-MATCH (child:tag:skill:hard { id:'Ruby on Rails' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby' })
-MATCH (child:tag:skill:hard { id:'Ramaze' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby' })
-MATCH (child:tag:skill:hard { id:'Sinatra' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby' })
-MATCH (child:tag:skill:hard { id:'Merb' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby' })
-MATCH (child:tag:skill:hard { id:'PureMVC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'Python' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Pyramid' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'BlueBream' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'CherryPy' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'CubicWeb' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Django' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Flask' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Grok' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Nagare' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Pyjamas' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Pylons' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'TACTIC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Tornado' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'TurboGears' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'web2py' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Webware' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python' })
-MATCH (child:tag:skill:hard { id:'Zope 2' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'Scala' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Scala' })
-MATCH (child:tag:skill:hard { id:'Play!' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Scala' })
-MATCH (child:tag:skill:hard { id:'Lift' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Scala' })
-MATCH (child:tag:skill:hard { id:'Scalatra' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'ColdFusion' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ColdFusion' })
-MATCH (child:tag:skill:hard { id:'CFWheels' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ColdFusion' })
-MATCH (child:tag:skill:hard { id:'ColdBox Platform' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ColdFusion' })
-MATCH (child:tag:skill:hard { id:'ColdSpring' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ColdFusion' })
-MATCH (child:tag:skill:hard { id:'Fusebox' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ColdFusion' })
-MATCH (child:tag:skill:hard { id:'FW/1' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ColdFusion' })
-MATCH (child:tag:skill:hard { id:'Mach-II' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ColdFusion' })
-MATCH (child:tag:skill:hard { id:'Model-Glue' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Backend' })
-MATCH (child:tag:skill:hard { id:'Haskell' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Haskell' })
-MATCH (child:tag:skill:hard { id:'Happstack' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Haskell' })
-MATCH (child:tag:skill:hard { id:'Snapp' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Haskell' })
-MATCH (child:tag:skill:hard { id:'Yesod' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CMS' })
-MATCH (child:tag:skill:hard { id:'PHP (CMS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Wordpress' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'AdaptCMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Atutor' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'b2evolution' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Bedita' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Chevereto' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'CMSimple' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'concrete5' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Contao' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Cotonti' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Directus' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Dokuwiki' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Dotclear' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Drupal' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'DynPG' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Exponent CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'eZ Publish' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Geeklog' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'GetSimple CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Habari' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'ImpressCMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'ImpressPages' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Jamroom' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Joomla!' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Kajona' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Magento' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Mambo' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'MediaWiki' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'MiaCMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Midgard CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'MODX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Moodle' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Novius OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Nucleus CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Ocportal' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Opencart' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'papaya CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Phire CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'PHP-Fusion' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'PHP-Nuke' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'phpWebLog' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'phpWebSite' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'phpWiki' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Pico' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'pimcore' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'PivotX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'PixieCMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Prestashop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'ProcessWire' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'RavenNuke CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'SMW+' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Serendipity' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'SilverStripe' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'SPIP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'TangoCMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Textpattern' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Tiki Wiki CMS Groupware' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Tribiq CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'TYPO3' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'u5cms' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Wolf CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Xaraya' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'XOOPS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'PHP (CMS)' })
-MATCH (child:tag:skill:hard { id:'Zikula' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CMS' })
-MATCH (child:tag:skill:hard { id:'Python (CMS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python (CMS)' })
-MATCH (child:tag:skill:hard { id:'Django-cms' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python (CMS)' })
-MATCH (child:tag:skill:hard { id:'MoinMoin' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Python (CMS)' })
-MATCH (child:tag:skill:hard { id:'Plone' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CMS' })
-MATCH (child:tag:skill:hard { id:'Ruby on Rails (CMS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby on Rails (CMS)' })
-MATCH (child:tag:skill:hard { id:'BrowserCMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby on Rails (CMS)' })
-MATCH (child:tag:skill:hard { id:'Flagship Docs' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby on Rails (CMS)' })
-MATCH (child:tag:skill:hard { id:'Radiant' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby on Rails (CMS)' })
-MATCH (child:tag:skill:hard { id:'Refinery CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Ruby on Rails (CMS)' })
-MATCH (child:tag:skill:hard { id:'Typo' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CMS' })
-MATCH (child:tag:skill:hard { id:'CFML (CMS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CFML (CMS)' })
-MATCH (child:tag:skill:hard { id:'Mura CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CFML (CMS)' })
-MATCH (child:tag:skill:hard { id:'FarCry CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CMS' })
-MATCH (child:tag:skill:hard { id:'Perl (CMS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'blosxom' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'Bricolage' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'Cyclone3' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'Eprints' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'Foswiki' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'Ikiwiki' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'Movable Type Open Source' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'Twiki' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Perl (CMS)' })
-MATCH (child:tag:skill:hard { id:'WebGUI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CMS' })
-MATCH (child:tag:skill:hard { id:'ASP.NET (CMS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'Composite C1' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'DotNetNuke' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'mojoPortal' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'Orchard Project' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'Umbraco' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'EpiServer' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'Kentico' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'Kooboo CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'Yendo' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'ASP.NET (CMS)' })
-MATCH (child:tag:skill:hard { id:'Sitefinity' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'CMS' })
-MATCH (child:tag:skill:hard { id:'Java (CMS)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Apache Roller' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'OpenCms' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Ametys CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Liferay' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'eXo Platform' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Dspace' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Enonic' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Fedora Commons' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Dotcms' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'LogicalDOC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Nuxeo EP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Alfresco Community Edition' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Magnolia' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Hippo CMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'VosaoCMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Yanel' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'OpenWGA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Jahia Community Distribution' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'OpenKM' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (CMS)' })
-MATCH (child:tag:skill:hard { id:'Thingamablog' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'RIA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RIA' })
-MATCH (child:tag:skill:hard { id:'.NET (RIA)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET (RIA)' })
-MATCH (child:tag:skill:hard { id:'Silverlight' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RIA' })
-MATCH (child:tag:skill:hard { id:'Java (RIA)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (RIA)' })
-MATCH (child:tag:skill:hard { id:'JavaFX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java (RIA)' })
-MATCH (child:tag:skill:hard { id:'Java applet' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RIA' })
-MATCH (child:tag:skill:hard { id:'Action script (RIA)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Action script (RIA)' })
-MATCH (child:tag:skill:hard { id:'Adobe Flash' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Action script (RIA)' })
-MATCH (child:tag:skill:hard { id:'Apache Flex' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Common Practicies' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Common Practicies' })
-MATCH (child:tag:skill:hard { id:'­-' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'­-' })
-MATCH (child:tag:skill:hard { id:'XML Schema' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'­-' })
-MATCH (child:tag:skill:hard { id:'XSLT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'­-' })
-MATCH (child:tag:skill:hard { id:'Xpath' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Development' })
-MATCH (child:tag:skill:hard { id:'Application development(desktop+mobile)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Application development(desktop+mobile)' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Android' })
-MATCH (child:tag:skill:hard { id:'SDK' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Android' })
-MATCH (child:tag:skill:hard { id:'NDK' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Android' })
-MATCH (child:tag:skill:hard { id:'Communications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Java SE' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'Swing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'AWT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'Java2D' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'CORBA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'Java Plug-In' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'Java Web Start / JNLP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'Java 3D' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'Java Sound' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'JOGL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'JAI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'Internationalization' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'JavaHelp System' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java SE' })
-MATCH (child:tag:skill:hard { id:'JDIC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'NetBeans' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Java EE' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'Servlet' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'Websocket' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'Faces' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'CDI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'EJB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JPA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JTA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JASPIC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'Concurrent' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JMS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'Batch' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JCA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JSP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JSTL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JSF' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JNDI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JAAS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JavaMail' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JACC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JAF' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'JAX-WS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java EE' })
-MATCH (child:tag:skill:hard { id:'StAX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'App servers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Glassfish' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Jboss' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'WebLogic' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'WebSphere' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Tomcat' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Jetty' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Apache TomEE' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'WildFly' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Apache Geronimo' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Enhydra Enterprise' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'JOnAS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Resin' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'App servers' })
-MATCH (child:tag:skill:hard { id:'Apache OpenEJB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Application development(desktop+mobile)' })
-MATCH (child:tag:skill:hard { id:'C++' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'MFC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'VCL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'GDI+' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'COM' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'WinAPI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'ATL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'ActiveX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'Sharepoint' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Linux' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Frameworks' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'C++ Builder' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'Qt' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Libraries' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Libraries' })
-MATCH (child:tag:skill:hard { id:'Boost' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Libraries' })
-MATCH (child:tag:skill:hard { id:'STL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Libraries' })
-MATCH (child:tag:skill:hard { id:'KDE' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Compilers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compilers' })
-MATCH (child:tag:skill:hard { id:'GCC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compilers' })
-MATCH (child:tag:skill:hard { id:'Microsoft Visual C++' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compilers' })
-MATCH (child:tag:skill:hard { id:'Clang' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compilers' })
-MATCH (child:tag:skill:hard { id:'Intel C++ Compiler' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Application development(desktop+mobile)' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'Presentation' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Presentation' })
-MATCH (child:tag:skill:hard { id:'Windows Forms' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Presentation' })
-MATCH (child:tag:skill:hard { id:'WPF' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Presentation' })
-MATCH (child:tag:skill:hard { id:'GDI+' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'Communication' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communication' })
-MATCH (child:tag:skill:hard { id:'WCF' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communication' })
-MATCH (child:tag:skill:hard { id:'Sockets' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.NET' })
-MATCH (child:tag:skill:hard { id:'Languages' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Languages' })
-MATCH (child:tag:skill:hard { id:'C#' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Languages' })
-MATCH (child:tag:skill:hard { id:'VB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Languages' })
-MATCH (child:tag:skill:hard { id:'F#' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Languages' })
-MATCH (child:tag:skill:hard { id:'C++' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Application development(desktop+mobile)' })
-MATCH (child:tag:skill:hard { id:'Objective-C' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Objective-C' })
-MATCH (child:tag:skill:hard { id:'Frameworks' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'GCD' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'Open GL ES' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'Foundation' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'AVFoundation' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'CoreData' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'CoreGraphics' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'CoreMotion' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'UIKit' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'QuartzCore' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'Cocoa Touch Layer' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Frameworks' })
-MATCH (child:tag:skill:hard { id:'Media Layer' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Development' })
-MATCH (child:tag:skill:hard { id:'Embedded' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Embedded' })
-MATCH (child:tag:skill:hard { id:'Language' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Language' })
-MATCH (child:tag:skill:hard { id:'C' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Language' })
-MATCH (child:tag:skill:hard { id:'C++' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'STL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'GTK+' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Qt' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Language' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Language' })
-MATCH (child:tag:skill:hard { id:'Scripting' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Scripting' })
-MATCH (child:tag:skill:hard { id:'Shell' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Scripting' })
-MATCH (child:tag:skill:hard { id:'Bash' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Scripting' })
-MATCH (child:tag:skill:hard { id:'Python' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Scripting' })
-MATCH (child:tag:skill:hard { id:'Perl' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Embedded' })
-MATCH (child:tag:skill:hard { id:'Target OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Target OS' })
-MATCH (child:tag:skill:hard { id:'Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Target OS' })
-MATCH (child:tag:skill:hard { id:'Linux' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Target OS' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Target OS' })
-MATCH (child:tag:skill:hard { id:'No_OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Target OS' })
-MATCH (child:tag:skill:hard { id:'RTOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'MQX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'VxWorks' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'QNX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'FreeRTOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'ThreadX' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Embedded' })
-MATCH (child:tag:skill:hard { id:'Platforms' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Platforms' })
-MATCH (child:tag:skill:hard { id:'ARM' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Platforms' })
-MATCH (child:tag:skill:hard { id:'MIPS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Platforms' })
-MATCH (child:tag:skill:hard { id:'AVR' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Platforms' })
-MATCH (child:tag:skill:hard { id:'x86' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Embedded' })
-MATCH (child:tag:skill:hard { id:'Technologies' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technologies' })
-MATCH (child:tag:skill:hard { id:'Multimedia' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Multimedia' })
-MATCH (child:tag:skill:hard { id:'Audio' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Audio' })
-MATCH (child:tag:skill:hard { id:'OSS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Audio' })
-MATCH (child:tag:skill:hard { id:'ALSA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Audio' })
-MATCH (child:tag:skill:hard { id:'H264' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Audio' })
-MATCH (child:tag:skill:hard { id:'AC3' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Multimedia' })
-MATCH (child:tag:skill:hard { id:'Video' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Video' })
-MATCH (child:tag:skill:hard { id:'FB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Video' })
-MATCH (child:tag:skill:hard { id:'V4L2' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Video' })
-MATCH (child:tag:skill:hard { id:'H264' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Video' })
-MATCH (child:tag:skill:hard { id:'AC3' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technologies' })
-MATCH (child:tag:skill:hard { id:'Networking' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Networking' })
-MATCH (child:tag:skill:hard { id:'WiFi' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Networking' })
-MATCH (child:tag:skill:hard { id:'Ethernet' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Networking' })
-MATCH (child:tag:skill:hard { id:'Bluetooth' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Networking' })
-MATCH (child:tag:skill:hard { id:'TCP/IP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'TCP/IP' })
-MATCH (child:tag:skill:hard { id:'L2' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'TCP/IP' })
-MATCH (child:tag:skill:hard { id:'L3' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'TCP/IP' })
-MATCH (child:tag:skill:hard { id:'Sockets' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'TCP/IP' })
-MATCH (child:tag:skill:hard { id:'IPSec' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technologies' })
-MATCH (child:tag:skill:hard { id:'Device Drivers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Device Drivers' })
-MATCH (child:tag:skill:hard { id:'Bus Drivers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Bus Drivers' })
-MATCH (child:tag:skill:hard { id:'USB' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Bus Drivers' })
-MATCH (child:tag:skill:hard { id:'PCI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Bus Drivers' })
-MATCH (child:tag:skill:hard { id:'I2C' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Bus Drivers' })
-MATCH (child:tag:skill:hard { id:'SPI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Bus Drivers' })
-MATCH (child:tag:skill:hard { id:'CAN' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Bus Drivers' })
-MATCH (child:tag:skill:hard { id:'CEC' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Bus Drivers' })
-MATCH (child:tag:skill:hard { id:'TTY' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Device Drivers' })
-MATCH (child:tag:skill:hard { id:'Network Drivers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network Drivers' })
-MATCH (child:tag:skill:hard { id:'WiFi' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network Drivers' })
-MATCH (child:tag:skill:hard { id:'Ethernet' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network Drivers' })
-MATCH (child:tag:skill:hard { id:'Bluetooth' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network Drivers' })
-MATCH (child:tag:skill:hard { id:'DHCP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network Drivers' })
-MATCH (child:tag:skill:hard { id:'BLE' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Device Drivers' })
-MATCH (child:tag:skill:hard { id:'Storage Drivers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage Drivers' })
-MATCH (child:tag:skill:hard { id:'HDD' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Storage Drivers' })
-MATCH (child:tag:skill:hard { id:'Flash Memory Drivers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Flash Memory Drivers' })
-MATCH (child:tag:skill:hard { id:'NOR' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Flash Memory Drivers' })
-MATCH (child:tag:skill:hard { id:'NAND' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Device Drivers' })
-MATCH (child:tag:skill:hard { id:'File System Drivers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'File System Drivers' })
-MATCH (child:tag:skill:hard { id:'EXT3' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'File System Drivers' })
-MATCH (child:tag:skill:hard { id:'EXT4' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'File System Drivers' })
-MATCH (child:tag:skill:hard { id:'cramfs' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'File System Drivers' })
-MATCH (child:tag:skill:hard { id:'squashfs' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'File System Drivers' })
-MATCH (child:tag:skill:hard { id:'FAT' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'File System Drivers' })
-MATCH (child:tag:skill:hard { id:'FAT32' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Device Drivers' })
-MATCH (child:tag:skill:hard { id:'Multimedia Drivers' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Multimedia Drivers' })
-MATCH (child:tag:skill:hard { id:'HDMI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Multimedia Drivers' })
-MATCH (child:tag:skill:hard { id:'HDCP' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Multimedia Drivers' })
-MATCH (child:tag:skill:hard { id:'FB (Framebuffer)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technologies' })
-MATCH (child:tag:skill:hard { id:'Cryptography' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cryptography' })
-MATCH (child:tag:skill:hard { id:'OpenSSL' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cryptography' })
-MATCH (child:tag:skill:hard { id:'Mocana' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Cryptography' })
-MATCH (child:tag:skill:hard { id:'DRM' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'DRM' })
-MATCH (child:tag:skill:hard { id:'PlayReady' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'DRM' })
-MATCH (child:tag:skill:hard { id:'WideVine' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'DRM' })
-MATCH (child:tag:skill:hard { id:'OpenDRM' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Development' })
-MATCH (child:tag:skill:hard { id:'Unit Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Unit Testing' })
-MATCH (child:tag:skill:hard { id:'C++' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Boost Test Library' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'CppUnit' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Google Test' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'QtTest' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Unit Testing' })
-MATCH (child:tag:skill:hard { id:'.Net' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.Net' })
-MATCH (child:tag:skill:hard { id:'NCover' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.Net' })
-MATCH (child:tag:skill:hard { id:'nUnit' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Development' })
-MATCH (child:tag:skill:hard { id:'Logging' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Logging' })
-MATCH (child:tag:skill:hard { id:'Java Script' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java Script' })
-MATCH (child:tag:skill:hard { id:'Intel' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java Script' })
-MATCH (child:tag:skill:hard { id:'Winston' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Logging' })
-MATCH (child:tag:skill:hard { id:'C++' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'log4cpp' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Apache log4cxx' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'C++' })
-MATCH (child:tag:skill:hard { id:'Log4Qt' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Logging' })
-MATCH (child:tag:skill:hard { id:'.Net' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'.Net' })
-MATCH (child:tag:skill:hard { id:'log4net' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Logging' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Log4J' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'SLF4J' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Logback' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Apache Commons Logging' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'tinnylog' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Java' })
-MATCH (child:tag:skill:hard { id:'Java Logging API' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'QA' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Software Test Automation' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'Functional Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Functional Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Functional Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Selenium' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'JMeter' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Selenium' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'SoapUI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'JMeter' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Functional Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'Compatibility Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compatibility Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compatibility Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Selenium' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'JMeter' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Selenium' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'SoapUI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'JMeter' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compatibility Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'UI Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Selenium' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'API Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'API Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'API Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'API Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'Installation and Configuration Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Installation and Configuration Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Installation and Configuration Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Installation and Configuration Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'Performance Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Performance Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'MS Windows' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Performance Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Selenium' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Applications' })
-MATCH (child:tag:skill:hard { id:'JMeter' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'.NET' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Java' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Selenium' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Test Complete' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'HP Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'Rational Solutions' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'SoapUI' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web Services' })
-MATCH (child:tag:skill:hard { id:'JMeter' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Performance Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'Globalization and Localization Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Globalization and Localization Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Globalization and Localization Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Globalization and Localization Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'Usability Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Usability Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Usability Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Usability Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Test Automation' })
-MATCH (child:tag:skill:hard { id:'Security Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Security Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Security Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Security Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Software Testing (Manual)' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Testing (Manual)' })
-MATCH (child:tag:skill:hard { id:'Functional Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Functional Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Functional Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Functional Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Testing (Manual)' })
-MATCH (child:tag:skill:hard { id:'Compatibility Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compatibility Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compatibility Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Compatibility Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Testing (Manual)' })
-MATCH (child:tag:skill:hard { id:'UI Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Testing (Manual)' })
-MATCH (child:tag:skill:hard { id:'Installation and Configuration Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Installation and Configuration Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Installation and Configuration Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Installation and Configuration Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Testing (Manual)' })
-MATCH (child:tag:skill:hard { id:'Globalization and Localization Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Globalization and Localization Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Globalization and Localization Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Globalization and Localization Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Testing (Manual)' })
-MATCH (child:tag:skill:hard { id:'Usability Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Usability Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Usability Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Usability Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Software Testing (Manual)' })
-MATCH (child:tag:skill:hard { id:'Security Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Security Testing' })
-MATCH (child:tag:skill:hard { id:'Desktop' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'MS Windows' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'Mac OS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Desktop' })
-MATCH (child:tag:skill:hard { id:'*nix' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Security Testing' })
-MATCH (child:tag:skill:hard { id:'Web' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Applications' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Web' })
-MATCH (child:tag:skill:hard { id:'Web Services' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Security Testing' })
-MATCH (child:tag:skill:hard { id:'Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile' })
-MATCH (child:tag:skill:hard { id:'Win Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Test Methodology' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Methodology' })
-MATCH (child:tag:skill:hard { id:'White Box' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'White Box' })
-MATCH (child:tag:skill:hard { id:'API Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'White Box' })
-MATCH (child:tag:skill:hard { id:'Code Coverage' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'White Box' })
-MATCH (child:tag:skill:hard { id:'Fault Injection testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'White Box' })
-MATCH (child:tag:skill:hard { id:'Mutations testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'White Box' })
-MATCH (child:tag:skill:hard { id:'Loop testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'White Box' })
-MATCH (child:tag:skill:hard { id:'Unit Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Methodology' })
-MATCH (child:tag:skill:hard { id:'Grey Box' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Methodology' })
-MATCH (child:tag:skill:hard { id:'Black Box' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Black Box' })
-MATCH (child:tag:skill:hard { id:'Functional testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Black Box' })
-MATCH (child:tag:skill:hard { id:'Regression testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Test Strategy' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Strategy' })
-MATCH (child:tag:skill:hard { id:'Test Driven development' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Strategy' })
-MATCH (child:tag:skill:hard { id:'Keyword Driven development' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Strategy' })
-MATCH (child:tag:skill:hard { id:'Behaviour driven development' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Strategy' })
-MATCH (child:tag:skill:hard { id:'Model Based testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Testing Types' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Functional testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Acceptance testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Smoke testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'GUI testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Installation testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Compatibility testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Usability testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Regression testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Requirements testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Performance testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Load testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Stress testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Reliability and Continuous operating testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Security testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Testing Types' })
-MATCH (child:tag:skill:hard { id:'Localization testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Test Management' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Management' })
-MATCH (child:tag:skill:hard { id:'Test Plan' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Management' })
-MATCH (child:tag:skill:hard { id:'Test Management' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Test Development' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Development' })
-MATCH (child:tag:skill:hard { id:'Test Design' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Development' })
-MATCH (child:tag:skill:hard { id:'Test Case development' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Test Development' })
-MATCH (child:tag:skill:hard { id:'Classes of Equivalence' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'Mobile Testing' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile Testing' })
-MATCH (child:tag:skill:hard { id:'Android' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile Testing' })
-MATCH (child:tag:skill:hard { id:'iOS' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile Testing' })
-MATCH (child:tag:skill:hard { id:'J2ME' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile Testing' })
-MATCH (child:tag:skill:hard { id:'Blackberry' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile Testing' })
-MATCH (child:tag:skill:hard { id:'Windows Phone' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Mobile Testing' })
-MATCH (child:tag:skill:hard { id:'WinCE and Windows Mobile' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA' })
-MATCH (child:tag:skill:hard { id:'QA Automation' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA Automation' })
-MATCH (child:tag:skill:hard { id:'Programming Language' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'C#' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'C++' })
-CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'Visual Basic' })
+CREATE (:tag:skill:hard {uuid:'4a1920de-fe02-44ec-b325-24b16223932b',name:'Role Profile'});
+CREATE (:tag:skill:hard {uuid:'bba525f4-ecd1-4575-a135-88a605c0424d',name:'Development'});
+CREATE (:tag:skill:hard {uuid:'28d4edda-dcc1-4284-99bf-4c99a9df351e',name:'Security'});
+CREATE (:tag:skill:hard {uuid:'5127221b-9830-4a9d-a183-87bdba1092a4',name:'Cloud'});
+CREATE (:tag:skill:hard {uuid:'c171e004-d5d4-4ef0-9675-1442e786695a',name:'Cloud technologies'});
+CREATE (:tag:skill:hard {uuid:'3ea820c1-31aa-4151-bf1d-ad720841d4bb',name:'IaaS'});
+CREATE (:tag:skill:hard {uuid:'53bc3d77-15f3-4f99-bb37-890c10da3197',name:'Amazon Web Service (AWS)'});
+CREATE (:tag:skill:hard {uuid:'84875fbc-d3cd-489e-8baa-caa74b3aed91',name:'Microsoft Azure'});
+CREATE (:tag:skill:hard {uuid:'5683f968-0e8b-46cc-a7df-e2150e52247c',name:'Google Compute Engine (GCE)'});
+CREATE (:tag:skill:hard {uuid:'322408e8-5239-48a7-aceb-9b423b367b76',name:'OpenStack'});
+CREATE (:tag:skill:hard {uuid:'38afa84d-d907-4de1-9cef-69a70837250b',name:'PaaS'});
+CREATE (:tag:skill:hard {uuid:'03b36caa-a29c-4218-bad0-73854fbec63e',name:'Force.com'});
+CREATE (:tag:skill:hard {uuid:'2bae84d8-18f4-4244-b08f-2979d4f3e825',name:'Apache Stratos'});
+CREATE (:tag:skill:hard {uuid:'20457683-e3a9-43b9-bea9-5d5121180d97',name:'Amazone BeansTalk'});
+CREATE (:tag:skill:hard {uuid:'c5eb9a2b-4e0b-48e5-8b63-859e08ff074a',name:'Heroku'});
+CREATE (:tag:skill:hard {uuid:'591cb3e8-d2df-4aa6-9b9b-c20db9f79dbb',name:'SaaS'});
+CREATE (:tag:skill:hard {uuid:'138f65fd-e622-47a1-9dc3-c842df8d9420',name:'Apprenda'});
+CREATE (:tag:skill:hard {uuid:'3541614f-10e6-4530-9337-981ee7d26641',name:'Google Apps'});
+CREATE (:tag:skill:hard {uuid:'889b2e0e-96f7-4ebc-838e-19c3a8d56e88',name:'Salesforce'});
+CREATE (:tag:skill:hard {uuid:'9710a9aa-52c2-42d1-a9e0-ae16376a9b49',name:'Cisco WebEx'});
+CREATE (:tag:skill:hard {uuid:'1059b747-5ff5-4e4a-b9be-2979567ed62b',name:'Citrix GoToMeeting'});
+CREATE (:tag:skill:hard {uuid:'bcbe3dd7-4b77-4c47-8e66-fdbbeec9cdec',name:'Cloud Services'});
+CREATE (:tag:skill:hard {uuid:'59f7f74d-5b90-4f5c-ab01-fbf4cd36ca70',name:'Data Service'});
+CREATE (:tag:skill:hard {uuid:'30e7952a-cae0-4ea9-a46a-d5edc4d5c578',name:'SQL Database'});
+CREATE (:tag:skill:hard {uuid:'6991003f-2f87-4b7f-8f47-d198ae6f66c6',name:'Amazon Relational Database Service (RDS)'});
+CREATE (:tag:skill:hard {uuid:'6c9b7cfa-c7b3-438a-8e2f-ec2b6e45a579',name:'Azure SQL Database'});
+CREATE (:tag:skill:hard {uuid:'2debc52c-229b-4b10-a134-7842b5677ba2',name:'Google Cloud SQL'});
+CREATE (:tag:skill:hard {uuid:'48782425-1c86-4420-862f-3ff0b985429b',name:'NoSQL Database'});
+CREATE (:tag:skill:hard {uuid:'00747e14-16b5-4b11-828f-579d609a6bff',name:'CouchDB'});
+CREATE (:tag:skill:hard {uuid:'5282e19f-4760-4a02-b954-feea7e9235f3',name:'Oracle NoSQL Database'});
+CREATE (:tag:skill:hard {uuid:'132222cc-0499-4b29-b675-9bc4091d73e8',name:'MongoDB'});
+CREATE (:tag:skill:hard {uuid:'b392cc63-da04-45a0-ae5c-771fa02159c3',name:'Solr'});
+CREATE (:tag:skill:hard {uuid:'b12e2901-bb96-411f-bc49-fbf0e8ff7d85',name:'Amazon DynamoDB'});
+CREATE (:tag:skill:hard {uuid:'fcac0f68-d697-4ecb-8440-6085fc5c6794',name:'Microsoft Azure DocumentDB'});
+CREATE (:tag:skill:hard {uuid:'673c4f2b-9560-4afb-bbf6-dd8b2658c7e7',name:'Graph Database'});
+CREATE (:tag:skill:hard {uuid:'9d5ce574-a889-4fa6-9356-a2327189ebc9',name:'MapGraph'});
+CREATE (:tag:skill:hard {uuid:'5d385a50-32fe-47e9-897a-b47a965d3ca3',name:'Neo4j'});
+CREATE (:tag:skill:hard {uuid:'00d55462-35e2-430e-af15-e2ac6658aa93',name:'IBM System G Native Store'});
+CREATE (:tag:skill:hard {uuid:'aadcbd3d-4ef9-47ec-b699-879f165adb3d',name:'Oracle Spatial and Graph'});
+CREATE (:tag:skill:hard {uuid:'03a71be0-06ef-419f-9bbc-425a33004656',name:'OrientDB'});
+CREATE (:tag:skill:hard {uuid:'5fbe2b16-493d-426a-adcd-2eacbef5072e',name:'VertexDB'});
+CREATE (:tag:skill:hard {uuid:'e1e34259-7ba6-4034-baae-ba9677b12a46',name:'Message Queue / AMQP'});
+CREATE (:tag:skill:hard {uuid:'8e957da6-a3ad-42b9-87f2-c3bfb86a2f1e',name:'RabbitMQ'});
+CREATE (:tag:skill:hard {uuid:'f4d17802-a047-44fb-810b-01ad599a326d',name:'Amazon Simple Queue Service'});
+CREATE (:tag:skill:hard {uuid:'31eb8272-d496-482f-be7d-5e5f0a53c274',name:'StormMQ'});
+CREATE (:tag:skill:hard {uuid:'364873da-2a50-48b8-9e70-01c59565b142',name:'IronMQ'});
+CREATE (:tag:skill:hard {uuid:'b557ff29-08d7-4812-822c-a63457f2400c',name:'CDN'});
+CREATE (:tag:skill:hard {uuid:'ebdbec49-5a1c-40d5-b929-9fd18cd5a927',name:'Amazon CloudFront'});
+CREATE (:tag:skill:hard {uuid:'bcd63fa7-53c1-4723-acff-b3e5f43c00d8',name:'Azure CDN'});
+CREATE (:tag:skill:hard {uuid:'46662c6c-ea9e-469c-bef4-deea66e67479',name:'CloudFlare'});
+CREATE (:tag:skill:hard {uuid:'903fd2f5-ee5f-4823-a2bd-f41f32fc0a61',name:'Storage'});
+CREATE (:tag:skill:hard {uuid:'eaa424b1-af76-408a-9cc1-160bb8b7b71a',name:'Amazon Glacier'});
+CREATE (:tag:skill:hard {uuid:'e7fa1432-7f8b-4b42-a1a6-2d24453bd92c',name:'Amazon Simple Storage Service (S3)'});
+CREATE (:tag:skill:hard {uuid:'6642ebc4-977e-4769-af51-f55fa0c6474c',name:'Amazon Elastic Block Store'});
+CREATE (:tag:skill:hard {uuid:'76d82864-16a1-48a0-a837-abd85ff8ba2f',name:'Azure Blob Storage Service'});
+CREATE (:tag:skill:hard {uuid:'90fc01fe-0e09-4b80-acc8-84bc90d90420',name:'Azure Table Storage Service'});
+CREATE (:tag:skill:hard {uuid:'9c9c974b-455c-4286-b856-dd150a23fe44',name:'Google Storage service'});
+CREATE (:tag:skill:hard {uuid:'4b9d0ce5-72ef-4693-aefa-171b1b31b200',name:'DropBox'});
+CREATE (:tag:skill:hard {uuid:'0f8688f3-514f-4bb2-a3e5-be8fa892c103',name:'OneDrive'});
+CREATE (:tag:skill:hard {uuid:'1a9d0423-5dc2-4a4e-9455-a8ad1b76694f',name:'Data Analysis'});
+CREATE (:tag:skill:hard {uuid:'afee2036-a0e1-4f0d-8075-ed3d5c237d4a',name:'Data Mining'});
+CREATE (:tag:skill:hard {uuid:'ddcda476-7ea1-456b-874d-a5da79ebc717',name:'SAS Enterprise Miner'});
+CREATE (:tag:skill:hard {uuid:'ceec8a3e-da3c-453b-be6e-837ca93b02f9',name:'Microsoft Analysis Services'});
+CREATE (:tag:skill:hard {uuid:'9b8c77f9-4cd1-4ba7-a58c-2cd36c18f0e2',name:'IBM SPSS Modeler'});
+CREATE (:tag:skill:hard {uuid:'8bed10ee-fa7e-4273-8f03-998ccf3e9322',name:'Oracle Data Mining'});
+CREATE (:tag:skill:hard {uuid:'7c04cd17-9e0f-4113-a7f2-f5f5595fc93e',name:'Business Intelligence'});
+CREATE (:tag:skill:hard {uuid:'e8410d15-173d-41ef-9912-a27de1beb716',name:'SAP'});
+CREATE (:tag:skill:hard {uuid:'32f783b6-4d10-420f-bb41-d8096d3932c4',name:'Jaspersoft'});
+CREATE (:tag:skill:hard {uuid:'fa4f2fe2-96c9-45d7-b957-5e5048ebfefb',name:'Map Reduce'});
+CREATE (:tag:skill:hard {uuid:'30583bca-4a2d-4284-ab30-7b12a793f8e8',name:'Couchdb'});
+CREATE (:tag:skill:hard {uuid:'6dc7c8f9-36d8-45b5-bbc8-4c86b249e02a',name:'Infinispan'});
+CREATE (:tag:skill:hard {uuid:'6ce53199-c62e-4e02-bf87-63998de36587',name:'Amazon Elastic MapReduce'});
+CREATE (:tag:skill:hard {uuid:'98e275b6-bee6-4f2d-b9ea-cffffe7ab4a3',name:'Apache Spark'});
+CREATE (:tag:skill:hard {uuid:'c92b8b39-b095-4511-b5e7-df49a7b03b75',name:'Hadoop, Apache'});
+CREATE (:tag:skill:hard {uuid:'fc52d824-4ebe-4728-ae04-c2028947bb8c',name:'Apache Storm'});
+CREATE (:tag:skill:hard {uuid:'50d8b78e-c27f-45a7-b32c-80498aa26c7c',name:'OLAP'});
+CREATE (:tag:skill:hard {uuid:'011eb705-c0a6-4857-8c64-a51bdc73de57',name:'SAS OLAP Server'});
+CREATE (:tag:skill:hard {uuid:'98a6f1b6-6712-4826-a838-8c25cefa369e',name:'IBM Cognos'});
+CREATE (:tag:skill:hard {uuid:'daed749f-f8cd-4538-900b-cbd8befcc267',name:'Jedox OLAP Server'});
+CREATE (:tag:skill:hard {uuid:'a39feb21-e148-4196-be8a-e5adc59f7f6b',name:'Web'});
+CREATE (:tag:skill:hard {uuid:'68783bed-eb1c-482e-8f5e-bc68c9a29677',name:'Front-End'});
+CREATE (:tag:skill:hard {uuid:'fa627ba0-aa69-406f-a289-15d1f38c441a',name:'HTML/CSS frameworks'});
+CREATE (:tag:skill:hard {uuid:'5a696452-5e4e-4bc7-a2c8-20b525716567',name:'HTML5 Boilerplate'});
+CREATE (:tag:skill:hard {uuid:'74228514-ea18-46dc-9abe-bc82ce993559',name:'HTML KickStart'});
+CREATE (:tag:skill:hard {uuid:'3f23917c-0f0f-43ba-b557-e134eec00aea',name:'Montage HTML5 Framework'});
+CREATE (:tag:skill:hard {uuid:'454b137a-829c-469a-966f-b867855f591b',name:'Sproutcore'});
+CREATE (:tag:skill:hard {uuid:'84a70303-e7d7-48b0-a534-c4372db88735',name:'DHTMLX'});
+CREATE (:tag:skill:hard {uuid:'dbf95983-72df-4e6e-b74e-f8ef4815e943',name:'YAML'});
+CREATE (:tag:skill:hard {uuid:'4e1cec34-4ace-4cbb-9505-a0bdc0b09f10',name:'Kube'});
+CREATE (:tag:skill:hard {uuid:'1784580d-9273-46c0-86ce-c957a7cf3830',name:'Bootstrap'});
+CREATE (:tag:skill:hard {uuid:'9391d5fe-bb11-4285-898c-6c146b7b8c8e',name:'Foundation'});
+CREATE (:tag:skill:hard {uuid:'ab0dc2dd-9c0f-48d2-bd13-c6815d7eeb03',name:'Semantic UI'});
+CREATE (:tag:skill:hard {uuid:'84c8cfbb-4718-4347-a590-c97e9e1aaf84',name:'Uikit'});
+CREATE (:tag:skill:hard {uuid:'2ce03ce8-c937-465a-89f7-c885cacc3f16',name:'Skeleton'});
+CREATE (:tag:skill:hard {uuid:'fd5a9220-68c5-441d-8b8d-343f6b2ac43a',name:'960 Grid System'});
+CREATE (:tag:skill:hard {uuid:'0422c9f2-97c7-461c-b303-501ab79d64fe',name:'G5Framework'});
+CREATE (:tag:skill:hard {uuid:'50a5f53d-71da-4899-8531-20d1d3b973fb',name:'Blueprint'});
+CREATE (:tag:skill:hard {uuid:'126d740d-87c8-4b39-8db3-e7dfaa381b78',name:'Metro UI CSS 2.0'});
+CREATE (:tag:skill:hard {uuid:'82162c71-10b7-40a8-b33b-fb31a8ccf8a4',name:'Toast'});
+CREATE (:tag:skill:hard {uuid:'70493e59-9844-47d2-a4a8-74bef8f78065',name:'Gumby'});
+CREATE (:tag:skill:hard {uuid:'ab3d346a-d72f-460c-bfab-8c38cb78fecd',name:'Responsive'});
+CREATE (:tag:skill:hard {uuid:'172b7381-19a0-49bb-8114-44feb372ffc2',name:'Columnal'});
+CREATE (:tag:skill:hard {uuid:'9079c407-9a29-4c0c-b22b-dd1c53c7ad09',name:'Susy'});
+CREATE (:tag:skill:hard {uuid:'7e7cdae9-6b65-43b2-b822-52ed664ca720',name:'CSS'});
+CREATE (:tag:skill:hard {uuid:'874e1014-14f5-4517-aed7-48798deb1686',name:'CSS3'});
+CREATE (:tag:skill:hard {uuid:'8cfe39ef-ec99-4d9d-b89c-9ea66b7ff043',name:'HTML'});
+CREATE (:tag:skill:hard {uuid:'2b5e2633-18ce-45ef-8d1d-c3a3d4c575c3',name:'HTML5'});
+CREATE (:tag:skill:hard {uuid:'ac6f36be-c439-48ad-a1e0-ac87e4573773',name:'Javascript'});
+CREATE (:tag:skill:hard {uuid:'18f28ab9-db69-45c0-ac22-4f906cbc101a',name:'jQuery'});
+CREATE (:tag:skill:hard {uuid:'0e8cf100-20b4-41b0-9e12-16ba28c1c799',name:'GWT'});
+CREATE (:tag:skill:hard {uuid:'3d1c6f3b-f61e-4a22-bbf7-a851bd0b6eb3',name:'ProcessingJS'});
+CREATE (:tag:skill:hard {uuid:'b7c5890c-056e-4dd3-b5f3-c3646afdb67b',name:'AngularJS'});
+CREATE (:tag:skill:hard {uuid:'0528a504-c178-4707-af0f-cc8886cb1b71',name:'AtomsJS'});
+CREATE (:tag:skill:hard {uuid:'253a9149-cdf1-42c0-83b8-59e059e28c47',name:'Dojo'});
+CREATE (:tag:skill:hard {uuid:'7246754f-0df3-4f42-9469-d97ab88555e7',name:'ExtJS'});
+CREATE (:tag:skill:hard {uuid:'776487c6-984f-4683-9df1-15c1a0db3eeb',name:'CreateJS'});
+CREATE (:tag:skill:hard {uuid:'2567abbf-4e5e-41e5-b181-26d499057b43',name:'KnockoutJS'});
+CREATE (:tag:skill:hard {uuid:'fb2ff020-c335-4b23-aa16-3d74efb7825e',name:'BackboneJS'});
+CREATE (:tag:skill:hard {uuid:'23c5d2fd-d992-4611-91e0-195e34db98d5',name:'RequireJS'});
+CREATE (:tag:skill:hard {uuid:'5a33f47d-8905-452f-84db-1457e6c12606',name:'Ember'});
+CREATE (:tag:skill:hard {uuid:'bfb774ff-f236-4d46-bcff-6b86d2905c9c',name:'Sencha Touch'});
+CREATE (:tag:skill:hard {uuid:'8852ac09-04bb-4a65-ad8a-7293f59e4bd4',name:'jQuery UI'});
+CREATE (:tag:skill:hard {uuid:'e2a0181a-9f0c-4aaf-95a7-219b71a51be9',name:'jQuery Mobile'});
+CREATE (:tag:skill:hard {uuid:'2c4ee611-4b79-4f75-8388-2fd734687c17',name:'PDF.js'});
+CREATE (:tag:skill:hard {uuid:'83731177-39e0-4fc8-82dd-671f09051c4c',name:'underscore'});
+CREATE (:tag:skill:hard {uuid:'f738084b-4e60-4295-91d8-45ee053bbcf7',name:'Markdown'});
+CREATE (:tag:skill:hard {uuid:'37ba525e-86ca-4e1f-bdc8-0511bc680074',name:'Socket.io'});
+CREATE (:tag:skill:hard {uuid:'d2b609fe-b688-4920-abd3-b93810e67901',name:'Google API'});
+CREATE (:tag:skill:hard {uuid:'459bc157-6e26-4610-a70e-815fea89a6c2',name:'Build systems'});
+CREATE (:tag:skill:hard {uuid:'ddf73ff9-a832-4f27-8f08-3336f9cab674',name:'CoffeeScript'});
+CREATE (:tag:skill:hard {uuid:'ebb3bf7c-19df-44bf-af62-411f58181ec6',name:'Typescript'});
+CREATE (:tag:skill:hard {uuid:'690f9436-d900-4ca6-a29d-51b6df086c04',name:'LESS'});
+CREATE (:tag:skill:hard {uuid:'2be44ae9-f0c4-4478-841e-0ba8aa7c4d94',name:'SASS'});
+CREATE (:tag:skill:hard {uuid:'989dc00c-0fad-4d2d-8f68-ac542fbaa1c2',name:'Multimedia Development'});
+CREATE (:tag:skill:hard {uuid:'ed13bd6c-aabe-446f-bea9-9344caeff385',name:'­-'});
+CREATE (:tag:skill:hard {uuid:'718bdaab-70a1-4890-ac47-25330a7c58bf',name:'Adobe Flash'});
+CREATE (:tag:skill:hard {uuid:'13bf4ca8-7c9b-473d-a7fe-bd88a16ba185',name:'Adobe Flex'});
+CREATE (:tag:skill:hard {uuid:'0101e100-0ace-4a97-8f18-80ac2131c841',name:'ActionScript 2.0'});
+CREATE (:tag:skill:hard {uuid:'42193853-4580-4a1d-9787-9288d1b11bb8',name:'ActionScript 3.0'});
+CREATE (:tag:skill:hard {uuid:'9b9c7487-fd7f-497c-b7b2-6a363e5cf5aa',name:'JavaScript'});
+CREATE (:tag:skill:hard {uuid:'817b74db-49d7-4532-98d9-dc21fe22fee7',name:'dz.js'});
+CREATE (:tag:skill:hard {uuid:'eb992d1f-aaa5-4ceb-8a40-70be280cb01e',name:'create.js'});
+CREATE (:tag:skill:hard {uuid:'baa2c2a4-1ee0-46ed-b591-4398c2892ce2',name:'Backend'});
+CREATE (:tag:skill:hard {uuid:'88be19eb-f4df-4376-813a-4c1417fd114f',name:'PHP'});
+CREATE (:tag:skill:hard {uuid:'146633dc-48dd-4100-961f-f2b6552359d4',name:'.NET'});
+CREATE (:tag:skill:hard {uuid:'f1bd5388-1e24-4155-aa1a-6912295c786f',name:'ASP.NET MVC'});
+CREATE (:tag:skill:hard {uuid:'3a6b2336-94dd-4181-bfc6-9509e0957449',name:'Base One Foundation Component Library'});
+CREATE (:tag:skill:hard {uuid:'47156314-83df-4f6e-8d17-2000f5546ec0',name:'Component-based Scalable Logical Architecture'});
+CREATE (:tag:skill:hard {uuid:'061d9d76-b140-49f0-ac1f-94a3f45aaa9c',name:'MonoRail'});
+CREATE (:tag:skill:hard {uuid:'71cdd001-4dd7-4c24-9e52-78ff47e5e45a',name:'OpenRasta'});
+CREATE (:tag:skill:hard {uuid:'62dc0cb1-89ae-4797-947e-a6877f0d2eaf',name:'Nancy'});
+CREATE (:tag:skill:hard {uuid:'50b3739a-d78f-4fad-b551-a2ab0d53fb02',name:'node.js'});
+CREATE (:tag:skill:hard {uuid:'106e6830-8308-4103-a486-27190e75c341',name:'Java'});
+CREATE (:tag:skill:hard {uuid:'713ba3c2-2ab9-4c6a-9b70-28657368e543',name:'Core'});
+CREATE (:tag:skill:hard {uuid:'a56415fa-d486-4541-ad8c-1be830f5c636',name:'Java6'});
+CREATE (:tag:skill:hard {uuid:'5d4525d4-4afa-420d-b4d6-c4c8d449ae2f',name:'Java7'});
+CREATE (:tag:skill:hard {uuid:'71af323c-a009-45f7-87c0-1a7ab37b8b87',name:'Java8'});
+CREATE (:tag:skill:hard {uuid:'a7d94649-6d2d-49e5-9f17-cc8a625b9731',name:'OOP'});
+CREATE (:tag:skill:hard {uuid:'4c06913e-189a-43e2-9a9d-293871bc58ab',name:'Collections'});
+CREATE (:tag:skill:hard {uuid:'5c4df15e-c1bb-40d3-bf20-2079278713e2',name:'Concurrency'});
+CREATE (:tag:skill:hard {uuid:'61336efc-ed7c-468d-bd2d-8da447f60a99',name:'Apache Axis'});
+CREATE (:tag:skill:hard {uuid:'c896394d-b2f6-42e0-b2cb-ec16c7e4576c',name:'Apache Axis2'});
+CREATE (:tag:skill:hard {uuid:'c60bd5f1-1061-4aca-a418-d25c7c34417e',name:'Apache CXF'});
+CREATE (:tag:skill:hard {uuid:'05772188-ea1e-49f9-8f6d-841c8536d2c2',name:'GlassFish'});
+CREATE (:tag:skill:hard {uuid:'903cc710-8321-46c1-88d4-f0e676b1f8bc',name:'Apache Click'});
+CREATE (:tag:skill:hard {uuid:'ee06d4b5-5984-4154-8844-914688f9725b',name:'Apache OFBiz'});
+CREATE (:tag:skill:hard {uuid:'6ecb52f2-cab7-40c7-8f7a-b2c31ed28fc8',name:'Apache Shale'});
+CREATE (:tag:skill:hard {uuid:'60ab3d2c-accb-4b51-afbb-39b0dfc273dc',name:'Apache Sling'});
+CREATE (:tag:skill:hard {uuid:'442645bd-8742-46fe-ac7a-5dde10755052',name:'Apache Struts 2'});
+CREATE (:tag:skill:hard {uuid:'b93e3202-5c4b-4601-a166-9f5c95758816',name:'Apache Tapestry'});
+CREATE (:tag:skill:hard {uuid:'b10e3803-21c9-4569-b3b1-94792bf14196',name:'Apache Wicket'});
+CREATE (:tag:skill:hard {uuid:'116a49cb-76f2-41ad-9411-a6e05f5872f3',name:'AppFuse'});
+CREATE (:tag:skill:hard {uuid:'aab12ac1-74be-4a3c-8301-9e89a0fccd82',name:'Eclipse RAP'});
+CREATE (:tag:skill:hard {uuid:'81c0d0ed-e4c6-4e9c-be35-260386fa29a4',name:'FormEngine'});
+CREATE (:tag:skill:hard {uuid:'592bed57-5640-4aed-8e41-2c5ec99c7e52',name:'Grails'});
+CREATE (:tag:skill:hard {uuid:'8ab00815-5f42-4dd0-942b-606caffaa8b3',name:'Google Web Toolkit'});
+CREATE (:tag:skill:hard {uuid:'d6fe9b15-dee0-4ccf-85a8-48bd7e4e72cf',name:'Hamlets'});
+CREATE (:tag:skill:hard {uuid:'aa67b953-0141-46f9-9c20-97cec44ca95a',name:'ItsNat'});
+CREATE (:tag:skill:hard {uuid:'9e8c1701-8dc6-4fa9-a252-5e9165335549',name:'JavaServer Faces'});
+CREATE (:tag:skill:hard {uuid:'f7de0fae-ca8d-4ada-979f-c8e0f5079da3',name:'JBoss Seam'});
+CREATE (:tag:skill:hard {uuid:'87d3058e-c6a6-480c-b230-e0342d5af8d4',name:'Jspx-bay'});
+CREATE (:tag:skill:hard {uuid:'151276c2-153f-400c-b5a3-fe1ff108e3fc',name:'JVx'});
+CREATE (:tag:skill:hard {uuid:'98ff5967-fb7e-4bd4-a767-a82099aeae94',name:'OpenLaszlo'});
+CREATE (:tag:skill:hard {uuid:'444132f0-bc18-4876-87e6-96712ee4bca6',name:'OpenXava'});
+CREATE (:tag:skill:hard {uuid:'236193fa-25b4-481c-9114-ff74907faf55',name:'Oracle ADF'});
+CREATE (:tag:skill:hard {uuid:'27d4fa20-29e3-41bb-9317-d9e905efa92a',name:'Play!'});
+CREATE (:tag:skill:hard {uuid:'d1a00f5b-7b2f-4b88-b5c5-d64a8f2cbd50',name:'RIFE'});
+CREATE (:tag:skill:hard {uuid:'af5ff913-b062-4a9d-b437-ad4c7dd7d1a9',name:'Spring'});
+CREATE (:tag:skill:hard {uuid:'462343b4-69e6-4283-b150-caba2d96f6bf',name:'Stripes'});
+CREATE (:tag:skill:hard {uuid:'a8190151-7673-459d-805d-c886f039f267',name:'ThinWire'});
+CREATE (:tag:skill:hard {uuid:'598baefb-9461-4948-953e-cf57ce15a108',name:'Vaadin'});
+CREATE (:tag:skill:hard {uuid:'efc3d9b8-533b-4c3d-b386-915981ec505f',name:'Vraptor'});
+CREATE (:tag:skill:hard {uuid:'cbad138e-e38a-45af-89ea-0f0e4ead7377',name:'Wavemaker'});
+CREATE (:tag:skill:hard {uuid:'62dc1d57-13de-4932-973b-3ec0e09aeb64',name:'WebObjects'});
+CREATE (:tag:skill:hard {uuid:'7454a7be-913a-4304-9e40-7842fda0162d',name:'WebWork'});
+CREATE (:tag:skill:hard {uuid:'1b3cecc7-047c-4d04-9123-4bd382c25c61',name:'Ze Framework'});
+CREATE (:tag:skill:hard {uuid:'8c1b56d3-1c53-4d90-b4ad-7fb32ebb34b7',name:'ZK'});
+CREATE (:tag:skill:hard {uuid:'569df99d-0674-40e9-9d53-4f5ee60ccde7',name:'ztemplates'});
+CREATE (:tag:skill:hard {uuid:'c709cca7-e039-46ea-aca8-14ea740f4b8f',name:'JSF'});
+CREATE (:tag:skill:hard {uuid:'b62bf6ed-c8f0-4ee8-b09a-148303952802',name:'Mojarra'});
+CREATE (:tag:skill:hard {uuid:'5cc06b5a-a3d3-47f1-bf12-534e47d23cd5',name:'MyFaces'});
+CREATE (:tag:skill:hard {uuid:'ac8dd22b-9237-4dea-b21f-101cb4241905',name:'Tomahawk'});
+CREATE (:tag:skill:hard {uuid:'d69e72b5-aa23-4e82-bcd1-6f4155444b7d',name:'IceFaces'});
+CREATE (:tag:skill:hard {uuid:'d1f6fa91-f658-4556-9fa3-cd45442bd507',name:'RichFaces'});
+CREATE (:tag:skill:hard {uuid:'fc8835dc-78b4-4f05-8099-8b0c19294e0c',name:'PrimeFaces'});
+CREATE (:tag:skill:hard {uuid:'a2fae44e-aa10-44fb-9e9f-bfad340da3c9',name:'SmartGWT'});
+CREATE (:tag:skill:hard {uuid:'a7f64701-3b8e-4a84-8230-e2710d151c68',name:'GXT'});
+CREATE (:tag:skill:hard {uuid:'7a1bda9e-566c-4b62-9bac-df5d35c96be1',name:'Errai'});
+CREATE (:tag:skill:hard {uuid:'4ae3703c-f788-47c4-9923-a03ad98ed298',name:'Apache Struts 1'});
+CREATE (:tag:skill:hard {uuid:'018dd4e7-bbf5-4f85-990e-68d07af563b0',name:'ORM'});
+CREATE (:tag:skill:hard {uuid:'b440f7ad-7894-40a9-b4ba-7157e8b41d0c',name:'Hibernate'});
+CREATE (:tag:skill:hard {uuid:'6ffd3df0-e3e6-4080-aa08-be06b776a84d',name:'JDBC'});
+CREATE (:tag:skill:hard {uuid:'4447cd39-ab72-49ad-8a3c-3e5b964ee797',name:'Spring JDBC Template'});
+CREATE (:tag:skill:hard {uuid:'7e20af2f-e0c4-47cd-94cf-dd5c0171b874',name:'Eclipse Link'});
+CREATE (:tag:skill:hard {uuid:'7984d49d-6dd3-4c04-b181-7457bcc2b2d1',name:'MyBatis'});
+CREATE (:tag:skill:hard {uuid:'2e5c90a4-852e-4607-afd1-489e16c2ab96',name:'JOOQ'});
+CREATE (:tag:skill:hard {uuid:'71268a67-de67-4078-9549-7c62a03faa8a',name:'JVM languages'});
+CREATE (:tag:skill:hard {uuid:'bd40d4e4-ef62-47ed-a20c-6cb93bfb7193',name:'Scala'});
+CREATE (:tag:skill:hard {uuid:'c655435e-a787-475c-ba90-e7a457abaf78',name:'Groovy'});
+CREATE (:tag:skill:hard {uuid:'c0e97d3c-69b0-411a-aefa-2f749513b082',name:'Closure'});
+CREATE (:tag:skill:hard {uuid:'d0ba992c-6597-46d0-8c64-a36c2cb0a941',name:'Kotlin'});
+CREATE (:tag:skill:hard {uuid:'d42e86c5-2e8b-4f61-bdcf-79f61c3d2619',name:'Ceylon'});
+CREATE (:tag:skill:hard {uuid:'b2b99a7e-f563-4be4-8046-eb14aad22848',name:'Xtend'});
+CREATE (:tag:skill:hard {uuid:'9683633a-b407-4af1-98de-c4a1f478830c',name:'Rhino'});
+CREATE (:tag:skill:hard {uuid:'361ed311-16ce-477e-8dad-cd351354bc95',name:'Nashorn'});
+CREATE (:tag:skill:hard {uuid:'49193dde-0199-49de-8010-c5af4da3fbb4',name:'Jython'});
+CREATE (:tag:skill:hard {uuid:'e999017b-8e77-44a5-b849-4ec098ae2917',name:'JRuby'});
+CREATE (:tag:skill:hard {uuid:'25a8495a-3e7e-421c-ba65-b5040389d34d',name:'WebServices'});
+CREATE (:tag:skill:hard {uuid:'98b903f6-e234-4b24-a867-9d7f6d99a31c',name:'JAX-WS'});
+CREATE (:tag:skill:hard {uuid:'85e3a913-4dc6-4796-9ceb-7b9fb88abcbc',name:'JAX-RS'});
+CREATE (:tag:skill:hard {uuid:'e643be19-0d27-461a-a631-aa3b19287c26',name:'JAX-RPC'});
+CREATE (:tag:skill:hard {uuid:'e62c0102-0212-48b1-a112-617115c289c2',name:'SAAJ'});
+CREATE (:tag:skill:hard {uuid:'971aba03-e4bd-497b-a2bc-a468a3b9e455',name:'XML'});
+CREATE (:tag:skill:hard {uuid:'b28443cb-af66-40e5-923a-42f00b40daa1',name:'JAXP'});
+CREATE (:tag:skill:hard {uuid:'f845ae7e-7b35-491c-ad56-48949c1774f6',name:'DOM'});
+CREATE (:tag:skill:hard {uuid:'3086cb1c-0423-42fe-97d9-8c4da8d246c6',name:'SAX'});
+CREATE (:tag:skill:hard {uuid:'a6c48801-4ec8-404e-950b-dba71fd5efcb',name:'StAX'});
+CREATE (:tag:skill:hard {uuid:'04b60db5-2e42-4b4d-a99e-8008c35bd498',name:'XSLT'});
+CREATE (:tag:skill:hard {uuid:'8eadcfca-35c8-4e9e-95b4-24ed9b00db27',name:'JAXR'});
+CREATE (:tag:skill:hard {uuid:'3c079628-32b8-4510-8679-657aae014ec4',name:'JAXB'});
+CREATE (:tag:skill:hard {uuid:'3681786e-e368-4fd3-a9f2-06753f1146fe',name:'Perl'});
+CREATE (:tag:skill:hard {uuid:'096543d9-8b0b-4567-b07d-f8dea1ba75b3',name:'Catalyst'});
+CREATE (:tag:skill:hard {uuid:'1b111cde-c36d-4580-af91-2cce9df78ab6',name:'Dancer'});
+CREATE (:tag:skill:hard {uuid:'cbb448f6-549c-4e57-a94d-b37863e26b4c',name:'Mason'});
+CREATE (:tag:skill:hard {uuid:'f7009002-3b29-4f20-b7ec-d5484a9de2d5',name:'Maypole'});
+CREATE (:tag:skill:hard {uuid:'e43c6e68-cb30-4a0e-89a5-21e85dffe735',name:'Mojolicious'});
+CREATE (:tag:skill:hard {uuid:'a6e58274-a977-451e-a148-92c479574a30',name:'Ruby'});
+CREATE (:tag:skill:hard {uuid:'50c53d5a-9547-4478-91a1-e2d7aecc93c4',name:'Camping'});
+CREATE (:tag:skill:hard {uuid:'58850a1b-656c-420f-916b-2af8b81d0bac',name:'Padrino'});
+CREATE (:tag:skill:hard {uuid:'414e1904-8f2d-4067-9d1d-989322cccc39',name:'Ruby on Rails'});
+CREATE (:tag:skill:hard {uuid:'0ad0a62a-cfb3-4a68-b3bd-757ea41b4842',name:'Ramaze'});
+CREATE (:tag:skill:hard {uuid:'f3fe32b9-e27f-426d-a522-437bdad42c77',name:'Sinatra'});
+CREATE (:tag:skill:hard {uuid:'f9735f79-1f1f-43b4-aff7-cf9c8bbcdc94',name:'Merb'});
+CREATE (:tag:skill:hard {uuid:'a68f8608-2bbc-433f-a5f6-c0f69bc76114',name:'PureMVC'});
+CREATE (:tag:skill:hard {uuid:'d690bf3c-c917-4fa0-ab33-8501901da5af',name:'Python'});
+CREATE (:tag:skill:hard {uuid:'2073bc33-cb12-4e01-b7b9-aea917577218',name:'Pyramid'});
+CREATE (:tag:skill:hard {uuid:'b1a6b702-dacf-4760-88ec-cc7e1aa9b964',name:'BlueBream'});
+CREATE (:tag:skill:hard {uuid:'09479442-207a-4862-9892-b4d788ab8385',name:'CherryPy'});
+CREATE (:tag:skill:hard {uuid:'2453bb21-018a-4721-8978-82c363ce7172',name:'CubicWeb'});
+CREATE (:tag:skill:hard {uuid:'1b1d004d-cd4e-4b79-b739-641a26b41ab7',name:'Django'});
+CREATE (:tag:skill:hard {uuid:'123b164f-7561-41dc-8050-2f7a45b26e56',name:'Flask'});
+CREATE (:tag:skill:hard {uuid:'275f78a1-719c-47bc-b78e-a5c4c0466f8a',name:'Grok'});
+CREATE (:tag:skill:hard {uuid:'abf4756a-833e-468a-aa9e-d9ab74ad2413',name:'Nagare'});
+CREATE (:tag:skill:hard {uuid:'1b42c6ff-78c5-40c3-a56e-314273ebbf9a',name:'Pyjamas'});
+CREATE (:tag:skill:hard {uuid:'d181ed98-4b6e-48c5-89d7-11d9155b4308',name:'Pylons'});
+CREATE (:tag:skill:hard {uuid:'4c6da0f3-ba00-400f-ab9f-c6d459ab9012',name:'TACTIC'});
+CREATE (:tag:skill:hard {uuid:'23b4dee6-7a9d-4c94-92ca-51843948ed10',name:'Tornado'});
+CREATE (:tag:skill:hard {uuid:'9d1984ea-bb93-4015-a369-92a0154c43dc',name:'TurboGears'});
+CREATE (:tag:skill:hard {uuid:'7b7dd54b-e764-4d29-a698-af8914bb63af',name:'web2py'});
+CREATE (:tag:skill:hard {uuid:'b3ad5c84-47c4-404e-84f8-e77192a8393c',name:'Webware'});
+CREATE (:tag:skill:hard {uuid:'ef16294d-c7b8-46a5-a2ae-47aa91e253f7',name:'Zope 2'});
+CREATE (:tag:skill:hard {uuid:'4fd04170-9b4f-4cfc-b69f-59f3ae2419c8',name:'Lift'});
+CREATE (:tag:skill:hard {uuid:'86ece9a3-ab2e-4839-a573-19e39906c9b0',name:'Scalatra'});
+CREATE (:tag:skill:hard {uuid:'f945e92b-78cd-4f10-a27c-3d2c6eb0cd3e',name:'ColdFusion'});
+CREATE (:tag:skill:hard {uuid:'5bef4b4d-10ab-48ff-8fc3-a21597182f9c',name:'CFWheels'});
+CREATE (:tag:skill:hard {uuid:'85427b79-e515-4158-9cd4-7638cc6e70d4',name:'ColdBox Platform'});
+CREATE (:tag:skill:hard {uuid:'3f80644b-387f-415f-87da-3d37faa59937',name:'ColdSpring'});
+CREATE (:tag:skill:hard {uuid:'e21d330b-f38d-455d-b5a4-6f839d0b8bf2',name:'Fusebox'});
+CREATE (:tag:skill:hard {uuid:'74752e9f-cde7-4f23-809f-f431f083fecc',name:'FW/1'});
+CREATE (:tag:skill:hard {uuid:'c34fbf7e-cee7-4409-803c-0e50e81e5c2f',name:'Mach-II'});
+CREATE (:tag:skill:hard {uuid:'8b86f7da-aa63-42e2-9a1b-62e72c9e4e0b',name:'Model-Glue'});
+CREATE (:tag:skill:hard {uuid:'a681bdaf-0278-41f1-8d3c-ff0c89ad9160',name:'Haskell'});
+CREATE (:tag:skill:hard {uuid:'52be70e9-3d64-4fe9-a888-2a77328ce1f1',name:'Happstack'});
+CREATE (:tag:skill:hard {uuid:'3256afb8-b634-45e5-9b6b-0254358ef32e',name:'Snapp'});
+CREATE (:tag:skill:hard {uuid:'e4973236-b87f-498b-8b71-46919f158b1d',name:'Yesod'});
+CREATE (:tag:skill:hard {uuid:'33cb0a2e-94e4-49ec-9f92-c58f7e29cb04',name:'CMS'});
+CREATE (:tag:skill:hard {uuid:'70df24de-0e01-470a-8926-3b53f5d91f71',name:'PHP (CMS)'});
+CREATE (:tag:skill:hard {uuid:'4ea6d1ce-8949-4c26-982c-09352d21aff5',name:'Wordpress'});
+CREATE (:tag:skill:hard {uuid:'c3451c77-8b1b-4571-9223-7296488c0aed',name:'AdaptCMS'});
+CREATE (:tag:skill:hard {uuid:'2b4b55be-dc4f-4df2-a033-ab920670ac0e',name:'Atutor'});
+CREATE (:tag:skill:hard {uuid:'5d33a1ec-00c7-49e8-a44c-7ed7fc932e5c',name:'b2evolution'});
+CREATE (:tag:skill:hard {uuid:'d5355f79-c4e7-4105-a39f-7880bfff46e5',name:'Bedita'});
+CREATE (:tag:skill:hard {uuid:'4296d24f-8a07-419b-a4ec-8b43cb196743',name:'Chevereto'});
+CREATE (:tag:skill:hard {uuid:'5be1d397-c947-497d-9b82-c33f1553b904',name:'CMSimple'});
+CREATE (:tag:skill:hard {uuid:'bd289eb7-59a0-4c7e-9c8e-ac201570104c',name:'concrete5'});
+CREATE (:tag:skill:hard {uuid:'df24b96b-e714-46ec-90e3-9914d29ad653',name:'Contao'});
+CREATE (:tag:skill:hard {uuid:'ffafb249-f0a3-482f-ad31-34a9bf8fb38d',name:'Cotonti'});
+CREATE (:tag:skill:hard {uuid:'3f0d681b-0076-4c54-897f-ae7b19390f80',name:'Directus'});
+CREATE (:tag:skill:hard {uuid:'503936ce-38ea-492e-ba40-31e5b830bf15',name:'Dokuwiki'});
+CREATE (:tag:skill:hard {uuid:'23d96642-547a-4b55-9142-6d9ed14b4945',name:'Dotclear'});
+CREATE (:tag:skill:hard {uuid:'ce04833e-e17f-40e9-bec7-18899e6f293d',name:'Drupal'});
+CREATE (:tag:skill:hard {uuid:'28a1a8d8-963b-4ba2-8905-ddf8170eff56',name:'DynPG'});
+CREATE (:tag:skill:hard {uuid:'2ffd1c30-338b-4902-8db5-6c72cb16c8bb',name:'Exponent CMS'});
+CREATE (:tag:skill:hard {uuid:'0d76b254-ba25-4fb2-a53f-24f076e5c36c',name:'eZ Publish'});
+CREATE (:tag:skill:hard {uuid:'6aea2065-f53a-4a5f-b726-180034a6c0ad',name:'Geeklog'});
+CREATE (:tag:skill:hard {uuid:'636c13bb-4cc0-42d4-8c93-3b79c9c5a49e',name:'GetSimple CMS'});
+CREATE (:tag:skill:hard {uuid:'9216ec15-b866-4384-a46e-50f34dbe9820',name:'Habari'});
+CREATE (:tag:skill:hard {uuid:'3d38c470-e76a-4db1-8d77-e2c93845eb77',name:'ImpressCMS'});
+CREATE (:tag:skill:hard {uuid:'40fad94d-2e53-41bb-a1f9-4f1164b74c4a',name:'ImpressPages'});
+CREATE (:tag:skill:hard {uuid:'2792631c-455d-47b0-9623-8c4f34f84f3f',name:'Jamroom'});
+CREATE (:tag:skill:hard {uuid:'168dc9ca-df73-47a2-8d91-2f20e3b6f4f7',name:'Joomla!'});
+CREATE (:tag:skill:hard {uuid:'c89ca3a2-333d-464e-910d-639c60ea53b0',name:'Kajona'});
+CREATE (:tag:skill:hard {uuid:'6ee86555-4ccb-4cf0-8da0-d57dc053cc59',name:'Magento'});
+CREATE (:tag:skill:hard {uuid:'8649a447-9afd-4766-82de-2f415f00d165',name:'Mambo'});
+CREATE (:tag:skill:hard {uuid:'9b64e5d5-6eac-441e-9823-fed5ddc1cff7',name:'MediaWiki'});
+CREATE (:tag:skill:hard {uuid:'d8bd1848-d9c7-4569-8378-8a63dfe39d28',name:'MiaCMS'});
+CREATE (:tag:skill:hard {uuid:'28507786-b0a2-4c49-816c-642585b14f2c',name:'Midgard CMS'});
+CREATE (:tag:skill:hard {uuid:'c0f575c2-a288-4dfa-8a79-33ce6031161f',name:'MODX'});
+CREATE (:tag:skill:hard {uuid:'97b0d281-8995-42c5-b804-cc463fb7c13c',name:'Moodle'});
+CREATE (:tag:skill:hard {uuid:'49d5d1da-a1d6-49d0-84da-2b41e3b69250',name:'Novius OS'});
+CREATE (:tag:skill:hard {uuid:'ab663352-feb9-4d9e-ab41-98c18ce98ed0',name:'Nucleus CMS'});
+CREATE (:tag:skill:hard {uuid:'ce8457e8-53c6-4d7f-a4df-ed8e204c7fc5',name:'Ocportal'});
+CREATE (:tag:skill:hard {uuid:'0a2faaaa-ac03-4fb9-a272-d43e38b4e529',name:'Opencart'});
+CREATE (:tag:skill:hard {uuid:'afc3aa3c-f569-49b8-8104-18ac230a050c',name:'papaya CMS'});
+CREATE (:tag:skill:hard {uuid:'412b09bb-3858-4e9f-8160-61f8d0d215bc',name:'Phire CMS'});
+CREATE (:tag:skill:hard {uuid:'1f9b67e7-b197-4afa-8301-8b11a1563247',name:'PHP-Fusion'});
+CREATE (:tag:skill:hard {uuid:'2881a850-8428-4490-b24b-ad76493f441c',name:'PHP-Nuke'});
+CREATE (:tag:skill:hard {uuid:'8381ce70-2246-430f-aace-09565e6a18d5',name:'phpWebLog'});
+CREATE (:tag:skill:hard {uuid:'9e354129-aa11-4872-bdb1-d49b424cde81',name:'phpWebSite'});
+CREATE (:tag:skill:hard {uuid:'8ef1fa9f-c2b3-468b-b602-7de2fb8aa2ca',name:'phpWiki'});
+CREATE (:tag:skill:hard {uuid:'e9053dcf-05bd-41ed-9afc-1c246ba87f4f',name:'Pico'});
+CREATE (:tag:skill:hard {uuid:'d6455569-85ba-4bc1-9089-c80052e584c1',name:'pimcore'});
+CREATE (:tag:skill:hard {uuid:'d3f1dfff-0fae-42ce-b070-5a7949b104dc',name:'PivotX'});
+CREATE (:tag:skill:hard {uuid:'ad73d9ff-81a8-4f60-8a73-755cbbe7bc73',name:'PixieCMS'});
+CREATE (:tag:skill:hard {uuid:'7a9921cf-9f88-42b8-9819-cc9350e42e7b',name:'Prestashop'});
+CREATE (:tag:skill:hard {uuid:'dc2563e3-7fa5-4003-93e8-d671f4e0228a',name:'ProcessWire'});
+CREATE (:tag:skill:hard {uuid:'4fa32636-635b-4dea-98d4-f5657da47972',name:'RavenNuke CMS'});
+CREATE (:tag:skill:hard {uuid:'99c4f417-f195-405f-8976-0a38f89c7557',name:'SMW+'});
+CREATE (:tag:skill:hard {uuid:'66c7573a-7840-43b3-8d45-17da809ec39f',name:'Serendipity'});
+CREATE (:tag:skill:hard {uuid:'91e5930e-be3a-4299-944e-b344ccd60bfb',name:'SilverStripe'});
+CREATE (:tag:skill:hard {uuid:'39fda9fc-392d-4c26-8667-91fe2f78f501',name:'SPIP'});
+CREATE (:tag:skill:hard {uuid:'6238ad11-d94d-4467-ac4b-9b06dcb027d9',name:'TangoCMS'});
+CREATE (:tag:skill:hard {uuid:'bd27195f-a8a0-4060-bc2f-ea1fcffc5a1f',name:'Textpattern'});
+CREATE (:tag:skill:hard {uuid:'8db03738-0c6e-467b-9d42-e6214195fcbb',name:'Tiki Wiki CMS Groupware'});
+CREATE (:tag:skill:hard {uuid:'6ad57e01-6f03-4302-8058-fc8e34d49939',name:'Tribiq CMS'});
+CREATE (:tag:skill:hard {uuid:'5294fe6f-31f2-4235-824d-f625ace19872',name:'TYPO3'});
+CREATE (:tag:skill:hard {uuid:'ebc963b4-0b18-4a3a-a768-aff011578005',name:'u5cms'});
+CREATE (:tag:skill:hard {uuid:'24ef45f3-3a62-4a7e-8f55-1504aea82009',name:'Wolf CMS'});
+CREATE (:tag:skill:hard {uuid:'c47f5f09-7cc9-4d59-9001-ec64112f1a16',name:'Xaraya'});
+CREATE (:tag:skill:hard {uuid:'50b7f2a3-8feb-4fe7-bc54-23f3a729f2c7',name:'XOOPS'});
+CREATE (:tag:skill:hard {uuid:'10d2874c-0e11-4700-be0f-779f4ee5467f',name:'Zikula'});
+CREATE (:tag:skill:hard {uuid:'2e8086cf-1beb-47aa-8eba-e91f23f13538',name:'Python (CMS)'});
+CREATE (:tag:skill:hard {uuid:'743bcca1-3818-4dec-9ba4-9e9044bb34b1',name:'Django-cms'});
+CREATE (:tag:skill:hard {uuid:'a0ada4bf-ad6f-4308-a412-c0a507b188fa',name:'MoinMoin'});
+CREATE (:tag:skill:hard {uuid:'3ab11981-5485-49ad-a07d-3b6cfc968923',name:'Plone'});
+CREATE (:tag:skill:hard {uuid:'51fd1a0d-7290-463e-9255-b0130fe2e41d',name:'Ruby on Rails (CMS)'});
+CREATE (:tag:skill:hard {uuid:'4af3febb-937e-4850-b88a-f50d72e54e44',name:'BrowserCMS'});
+CREATE (:tag:skill:hard {uuid:'801fc363-c74d-48de-ab05-554cb332ad23',name:'Flagship Docs'});
+CREATE (:tag:skill:hard {uuid:'23ad4d1f-06a2-4e90-a314-7a9cba56b5f8',name:'Radiant'});
+CREATE (:tag:skill:hard {uuid:'8bcd0447-47e7-44f1-ae66-f9dfc9e0beba',name:'Refinery CMS'});
+CREATE (:tag:skill:hard {uuid:'85816931-a889-450f-91e9-f7c5500bd3ba',name:'Typo'});
+CREATE (:tag:skill:hard {uuid:'f0c1767c-da41-4070-a865-5aaa6674b1f0',name:'CFML (CMS)'});
+CREATE (:tag:skill:hard {uuid:'6b5c7fbe-c687-43ee-804e-4d6a00604260',name:'Mura CMS'});
+CREATE (:tag:skill:hard {uuid:'6d88074f-a915-4b05-b405-5fbcd4ee8f50',name:'FarCry CMS'});
+CREATE (:tag:skill:hard {uuid:'d4df6638-6a35-4015-8b79-11e87d40b132',name:'Perl (CMS)'});
+CREATE (:tag:skill:hard {uuid:'ea213f61-7dc4-438a-bb14-4201fef77892',name:'blosxom'});
+CREATE (:tag:skill:hard {uuid:'e5a29fa0-3fa3-4f00-93cf-44a1057a8cf1',name:'Bricolage'});
+CREATE (:tag:skill:hard {uuid:'fca5855a-8904-4b30-8458-f42000a5c483',name:'Cyclone3'});
+CREATE (:tag:skill:hard {uuid:'6dd7a38b-a16f-4b10-a0a1-3ad0b003183c',name:'Eprints'});
+CREATE (:tag:skill:hard {uuid:'0d71cc96-eb7f-431d-84de-c03b73546fdf',name:'Foswiki'});
+CREATE (:tag:skill:hard {uuid:'ca2766a4-b8b8-4acf-b65f-d73b9267e1ff',name:'Ikiwiki'});
+CREATE (:tag:skill:hard {uuid:'8172c31d-2f40-4678-99c4-ed89c49e4551',name:'Movable Type Open Source'});
+CREATE (:tag:skill:hard {uuid:'535eb2f9-3258-4acb-9ec7-878cb88b2283',name:'Twiki'});
+CREATE (:tag:skill:hard {uuid:'71927992-99a9-4539-a1e2-bf15c4ff854d',name:'WebGUI'});
+CREATE (:tag:skill:hard {uuid:'b4bb1fbc-8246-41d2-a167-642bf7b01be3',name:'ASP.NET (CMS)'});
+CREATE (:tag:skill:hard {uuid:'537ad4c2-610d-4ef7-93cf-8342bcdb9638',name:'Composite C1'});
+CREATE (:tag:skill:hard {uuid:'9d9f51c9-390b-497c-bdf8-5a30f6f5c2b5',name:'DotNetNuke'});
+CREATE (:tag:skill:hard {uuid:'3a8e6897-aaf8-4ce1-9a28-ede83fd15d31',name:'mojoPortal'});
+CREATE (:tag:skill:hard {uuid:'943a56a3-0791-4b4a-8fe2-17c2bf446f71',name:'Orchard Project'});
+CREATE (:tag:skill:hard {uuid:'5283169c-8a14-44e4-8d7f-999fe629e83f',name:'Umbraco'});
+CREATE (:tag:skill:hard {uuid:'37ef802a-540d-4b19-aceb-ddcb9f17c9aa',name:'EpiServer'});
+CREATE (:tag:skill:hard {uuid:'8abc1df2-bfbb-42ea-813c-840b6d81f685',name:'Kentico'});
+CREATE (:tag:skill:hard {uuid:'eec657bc-5205-4266-afe0-09096f7b55e2',name:'Kooboo CMS'});
+CREATE (:tag:skill:hard {uuid:'73948f99-15c3-42be-94f8-119c1db4436a',name:'Yendo'});
+CREATE (:tag:skill:hard {uuid:'dd4253e8-963b-4481-bce3-5c6c30aa8d8c',name:'Sitefinity'});
+CREATE (:tag:skill:hard {uuid:'cdb2fc40-761a-4cfb-aa30-2382ae0d30b8',name:'Java (CMS)'});
+CREATE (:tag:skill:hard {uuid:'69a0af6a-851f-47f3-8b3a-b43abc5e745a',name:'Apache Roller'});
+CREATE (:tag:skill:hard {uuid:'07bfd029-a589-4e48-b3c0-43da13eba922',name:'OpenCms'});
+CREATE (:tag:skill:hard {uuid:'30c3d7a9-12ea-4c78-b08c-641dbcd01cf6',name:'Ametys CMS'});
+CREATE (:tag:skill:hard {uuid:'edfc98ef-33e3-457c-81da-83d24a4decc4',name:'Liferay'});
+CREATE (:tag:skill:hard {uuid:'8ba692af-ff11-4dac-99be-52f113dc9cba',name:'eXo Platform'});
+CREATE (:tag:skill:hard {uuid:'2694f87e-d60e-4b52-93e8-99beba360500',name:'Dspace'});
+CREATE (:tag:skill:hard {uuid:'b438a638-6a44-420d-9c20-fd8c133c10d4',name:'Enonic'});
+CREATE (:tag:skill:hard {uuid:'e62e5830-1a91-441e-8a19-c2e069a4ffad',name:'Fedora Commons'});
+CREATE (:tag:skill:hard {uuid:'5eb6b14b-d3d5-4e53-bd59-f516f92a2bc3',name:'Dotcms'});
+CREATE (:tag:skill:hard {uuid:'d24c8083-33f9-489d-93d7-ba60a0f18e0c',name:'LogicalDOC'});
+CREATE (:tag:skill:hard {uuid:'bb0f6caf-22cc-489b-aedb-56c7f60c8024',name:'Nuxeo EP'});
+CREATE (:tag:skill:hard {uuid:'4822d567-987c-4006-81ee-65d2275436ab',name:'Alfresco Community Edition'});
+CREATE (:tag:skill:hard {uuid:'a940e555-fb04-4791-a119-a3380be5300e',name:'Magnolia'});
+CREATE (:tag:skill:hard {uuid:'3860caad-4e1b-4f11-b250-03123b0187b8',name:'Hippo CMS'});
+CREATE (:tag:skill:hard {uuid:'07ec5046-ed53-49b9-beca-ce65607c4aff',name:'VosaoCMS'});
+CREATE (:tag:skill:hard {uuid:'2ac0665b-d778-4c95-9404-32bf1d1bedae',name:'Yanel'});
+CREATE (:tag:skill:hard {uuid:'17ceac46-bff5-45a7-b69f-508987189546',name:'OpenWGA'});
+CREATE (:tag:skill:hard {uuid:'44e9234b-9b09-42ea-962f-8c55b046284c',name:'Jahia Community Distribution'});
+CREATE (:tag:skill:hard {uuid:'fafc607f-ebf3-4c41-8520-d5ac6c2a16fd',name:'OpenKM'});
+CREATE (:tag:skill:hard {uuid:'3a8d4fe0-72b9-4e43-80c5-d93c4bc57ac7',name:'Thingamablog'});
+CREATE (:tag:skill:hard {uuid:'70971962-ae20-4c16-9b29-4df3887896dc',name:'RIA'});
+CREATE (:tag:skill:hard {uuid:'813c0d8c-35a2-454f-a027-7e182fdf1bfc',name:'.NET (RIA)'});
+CREATE (:tag:skill:hard {uuid:'bd6c5812-11a5-4f36-835a-bacf74e5f7d3',name:'Silverlight'});
+CREATE (:tag:skill:hard {uuid:'40b28edf-14c8-43ab-a444-35a79ebaae91',name:'Java (RIA)'});
+CREATE (:tag:skill:hard {uuid:'8395aa24-9334-45ab-8b99-e6935f0f20c3',name:'JavaFX'});
+CREATE (:tag:skill:hard {uuid:'9e9e8696-2e05-41e5-8831-181e7c5f0bde',name:'Java applet'});
+CREATE (:tag:skill:hard {uuid:'3d0c0aea-7190-44ee-9cc4-706eae3264a6',name:'Action script (RIA)'});
+CREATE (:tag:skill:hard {uuid:'9f96acff-2fcf-4ce4-99c2-986918f81d22',name:'Apache Flex'});
+CREATE (:tag:skill:hard {uuid:'7ef736ed-68ae-4e46-a07b-68faf7aae3eb',name:'Common Practicies'});
+CREATE (:tag:skill:hard {uuid:'9e5e7a3c-8b7b-4377-a48f-1c66c0913442',name:'XML Schema'});
+CREATE (:tag:skill:hard {uuid:'1c09d3a1-d780-44aa-beb9-8f672bc2a8e5',name:'Xpath'});
+CREATE (:tag:skill:hard {uuid:'3562a6cc-2227-4261-93be-28d1296fd4c3',name:'Application development(desktop+mobile)'});
+CREATE (:tag:skill:hard {uuid:'e41927da-6004-4b3f-ad40-0db479578af8',name:'Android'});
+CREATE (:tag:skill:hard {uuid:'0c8e5ce4-cf01-4f7a-a6f2-637c9b031a8e',name:'SDK'});
+CREATE (:tag:skill:hard {uuid:'4d35e4b4-37a3-4d6a-8431-a12948edc9da',name:'NDK'});
+CREATE (:tag:skill:hard {uuid:'4c4bc90e-feff-456c-b1c6-3cabe83449c2',name:'Communications'});
+CREATE (:tag:skill:hard {uuid:'d0c140ba-39b8-48b3-8a88-aa8a7fdf0d6f',name:'Java SE'});
+CREATE (:tag:skill:hard {uuid:'7c53b6c4-500d-4bf7-9ab8-1b166405865f',name:'Swing'});
+CREATE (:tag:skill:hard {uuid:'832f4c58-aab7-496f-a0f0-f35455bf3cf4',name:'AWT'});
+CREATE (:tag:skill:hard {uuid:'0f90681c-504f-404b-8e67-359b9c212847',name:'Java2D'});
+CREATE (:tag:skill:hard {uuid:'264f4998-48c3-4239-849f-92e821991d51',name:'CORBA'});
+CREATE (:tag:skill:hard {uuid:'95e42d55-d563-4733-b6a1-c1fc033ea8d8',name:'Java Plug-In'});
+CREATE (:tag:skill:hard {uuid:'b0aef46e-a49f-4125-a3d1-e5f58a567281',name:'Java Web Start / JNLP'});
+CREATE (:tag:skill:hard {uuid:'09922943-1b13-48e0-b4a1-62899e8e8b33',name:'Java 3D'});
+CREATE (:tag:skill:hard {uuid:'0e456278-0f46-42f0-9ba2-819a53136735',name:'Java Sound'});
+CREATE (:tag:skill:hard {uuid:'46faff26-983d-43b6-91cd-2b5cc5891ae6',name:'JOGL'});
+CREATE (:tag:skill:hard {uuid:'c352a720-a16f-4a71-a576-d1731756805d',name:'JAI'});
+CREATE (:tag:skill:hard {uuid:'86e345a8-e7ce-42ec-8d75-3babde941d43',name:'Internationalization'});
+CREATE (:tag:skill:hard {uuid:'a764c059-3f86-4e81-a298-d909b19633f5',name:'JavaHelp System'});
+CREATE (:tag:skill:hard {uuid:'95f63186-5ae8-41a9-aece-b4a83c97178a',name:'JDIC'});
+CREATE (:tag:skill:hard {uuid:'93dc27ea-14a6-472d-941f-195312fefaa2',name:'NetBeans'});
+CREATE (:tag:skill:hard {uuid:'a4ed60d1-88cb-4cb1-974e-76d84a128a89',name:'Java EE'});
+CREATE (:tag:skill:hard {uuid:'1fcd6527-cd99-458e-aab7-55ddfc50aff9',name:'Servlet'});
+CREATE (:tag:skill:hard {uuid:'5a6fe08e-4dba-4313-b5c7-accf0df38f0c',name:'Websocket'});
+CREATE (:tag:skill:hard {uuid:'ea252847-e0df-457d-a2b6-a52fc9316e16',name:'Faces'});
+CREATE (:tag:skill:hard {uuid:'45d8070a-a037-4bfa-8db6-14bec0d54ff4',name:'CDI'});
+CREATE (:tag:skill:hard {uuid:'a3bd9ce9-5780-427b-8324-6c20fcef47b5',name:'EJB'});
+CREATE (:tag:skill:hard {uuid:'7b2d8837-d7a7-4e51-96a2-b0e32ba6b93c',name:'JPA'});
+CREATE (:tag:skill:hard {uuid:'dfdc2540-57b8-46c1-8325-31164e463a1b',name:'JTA'});
+CREATE (:tag:skill:hard {uuid:'297d102a-c98d-44fb-b676-7b002e7d8549',name:'JASPIC'});
+CREATE (:tag:skill:hard {uuid:'b89214e4-8020-40e9-8f0c-5a3240bdd324',name:'Concurrent'});
+CREATE (:tag:skill:hard {uuid:'958bd454-7d27-4700-88a0-72a318037f38',name:'JMS'});
+CREATE (:tag:skill:hard {uuid:'53877f16-5491-477c-95c1-5b404a0115b6',name:'Batch'});
+CREATE (:tag:skill:hard {uuid:'52d20fe3-cb4f-4901-8feb-97ea2a0a3ed4',name:'JCA'});
+CREATE (:tag:skill:hard {uuid:'e567bad7-b36a-4f63-87c2-e0fb3976d925',name:'JSP'});
+CREATE (:tag:skill:hard {uuid:'97251a1e-8d71-4cc2-b75a-d433f8a3e2b2',name:'JSTL'});
+CREATE (:tag:skill:hard {uuid:'922f0d5c-47fa-418d-8714-840bbf74d380',name:'JNDI'});
+CREATE (:tag:skill:hard {uuid:'c50166e7-8664-4c53-b8f0-88da50965317',name:'JAAS'});
+CREATE (:tag:skill:hard {uuid:'91350fdc-95cb-4597-b9ca-71315a1ba663',name:'JavaMail'});
+CREATE (:tag:skill:hard {uuid:'c59b9c6e-ac5d-4012-8034-bc1cc1f03112',name:'JACC'});
+CREATE (:tag:skill:hard {uuid:'c7fc8d04-3dd6-4717-97f8-a7c25ea82250',name:'JAF'});
+CREATE (:tag:skill:hard {uuid:'8f3d8070-3a1e-454d-a348-0fcd5305ff46',name:'App servers'});
+CREATE (:tag:skill:hard {uuid:'88d0bf11-1aba-4da7-b0e0-5f0828f4edd0',name:'Glassfish'});
+CREATE (:tag:skill:hard {uuid:'979ebe82-8cfb-4e69-a9e1-876c769e0d02',name:'Jboss'});
+CREATE (:tag:skill:hard {uuid:'0ab0abb9-41e7-4e2e-843f-2944a2982b2f',name:'WebLogic'});
+CREATE (:tag:skill:hard {uuid:'0f1d00e6-2820-433d-97fa-30204593760b',name:'WebSphere'});
+CREATE (:tag:skill:hard {uuid:'68303a93-9ec5-4164-a0e5-ebac9df673b9',name:'Tomcat'});
+CREATE (:tag:skill:hard {uuid:'bf140085-e72f-4027-b748-48f843b8abec',name:'Jetty'});
+CREATE (:tag:skill:hard {uuid:'a884b4b3-c1db-41c3-b790-095ab0a08317',name:'Apache TomEE'});
+CREATE (:tag:skill:hard {uuid:'a60cd84c-d257-4cda-90e4-92ddf0fc8281',name:'WildFly'});
+CREATE (:tag:skill:hard {uuid:'69d5819f-1e71-4fa0-abda-6416569e389c',name:'Apache Geronimo'});
+CREATE (:tag:skill:hard {uuid:'57ca03da-ede5-4602-8833-854de6dbfed7',name:'Enhydra Enterprise'});
+CREATE (:tag:skill:hard {uuid:'ce48585a-d5d8-4d30-80f0-28f695bf2460',name:'JOnAS'});
+CREATE (:tag:skill:hard {uuid:'0faad768-279c-4684-8acd-472e8c1318a1',name:'Resin'});
+CREATE (:tag:skill:hard {uuid:'f6e436b1-c949-4270-be74-de48b32a94cf',name:'Apache OpenEJB'});
+CREATE (:tag:skill:hard {uuid:'027755a9-3b32-4a1c-a85b-76628b009c21',name:'C++'});
+CREATE (:tag:skill:hard {uuid:'9c4b7923-2dae-40ad-bfa1-a87ee39cd7bc',name:'Windows'});
+CREATE (:tag:skill:hard {uuid:'b4fefaec-4546-4b5c-af1e-61d6c74b27a2',name:'MFC'});
+CREATE (:tag:skill:hard {uuid:'f0454542-075a-45eb-8020-84e29e24b829',name:'VCL'});
+CREATE (:tag:skill:hard {uuid:'bfcde710-e870-4fa8-9790-deb15cbcd6c8',name:'GDI+'});
+CREATE (:tag:skill:hard {uuid:'0b7cdbbf-604a-4139-a0c5-1e4282c71499',name:'COM'});
+CREATE (:tag:skill:hard {uuid:'29f8304e-d7a7-41ee-8df3-eb2d4d8541c7',name:'WinAPI'});
+CREATE (:tag:skill:hard {uuid:'b5d17336-59a3-47a8-9dfe-9dd845f55a99',name:'ATL'});
+CREATE (:tag:skill:hard {uuid:'f7774127-1d23-4671-b84d-6bac64a9ff79',name:'ActiveX'});
+CREATE (:tag:skill:hard {uuid:'d170b5b2-3d69-4a01-acf0-49e6a566ad8a',name:'Sharepoint'});
+CREATE (:tag:skill:hard {uuid:'903a07a9-5d32-40aa-8cd1-b157d1bb37bf',name:'Linux'});
+CREATE (:tag:skill:hard {uuid:'354c3aa3-9df9-49cd-bd26-fd8c136241ca',name:'Frameworks'});
+CREATE (:tag:skill:hard {uuid:'652ed5ac-0f94-40c5-bd86-e505e3824959',name:'C++ Builder'});
+CREATE (:tag:skill:hard {uuid:'af2e76b9-097f-48c2-8301-1c1df6cfe0d9',name:'Qt'});
+CREATE (:tag:skill:hard {uuid:'8294eeb0-dfe1-41ef-b7a9-e4d603f5456b',name:'Libraries'});
+CREATE (:tag:skill:hard {uuid:'ff3538ad-ca06-4270-a25c-0965980126f2',name:'Boost'});
+CREATE (:tag:skill:hard {uuid:'8f23ca13-4b02-4417-818d-59c022b30657',name:'STL'});
+CREATE (:tag:skill:hard {uuid:'97885f16-8794-44c3-96b7-b6362c38058d',name:'KDE'});
+CREATE (:tag:skill:hard {uuid:'cf7d98fa-43a3-47cf-8e35-40e82c8578cd',name:'Compilers'});
+CREATE (:tag:skill:hard {uuid:'7a34f108-03ac-436f-80fa-1f9836e61eb1',name:'GCC'});
+CREATE (:tag:skill:hard {uuid:'4f3347c0-4399-4ba0-ba1f-7c510ae10355',name:'Microsoft Visual C++'});
+CREATE (:tag:skill:hard {uuid:'ef335429-f7fc-4688-8f2a-8ca011722354',name:'Clang'});
+CREATE (:tag:skill:hard {uuid:'ca4d87da-1c9f-4fbd-b9a2-244c21fc3473',name:'Intel C++ Compiler'});
+CREATE (:tag:skill:hard {uuid:'5e73c7f7-221b-4b59-863c-cb4b00740d33',name:'Presentation'});
+CREATE (:tag:skill:hard {uuid:'ec81326a-02e7-4ec1-ad52-ad9c69bfeb02',name:'Windows Forms'});
+CREATE (:tag:skill:hard {uuid:'5534141a-cfea-42c4-b690-d2adad78e0e6',name:'WPF'});
+CREATE (:tag:skill:hard {uuid:'9b016caf-81bd-44ed-96a5-59661fbbf6af',name:'Communication'});
+CREATE (:tag:skill:hard {uuid:'ce9055f0-52ad-47c1-94f6-850beca8c54c',name:'WCF'});
+CREATE (:tag:skill:hard {uuid:'510d902d-49ca-4d7a-a12e-b5e5ae7c6ded',name:'Sockets'});
+CREATE (:tag:skill:hard {uuid:'2f422959-1333-4886-887a-b5c6c3aafa8b',name:'Languages'});
+CREATE (:tag:skill:hard {uuid:'0cde5cea-49d3-49c3-b88a-2bfe5c0b519c',name:'C#'});
+CREATE (:tag:skill:hard {uuid:'d0b4f882-d12a-4970-af85-c065de08e6cb',name:'VB'});
+CREATE (:tag:skill:hard {uuid:'a63ecc8a-182c-4a74-9559-829c542113d0',name:'F#'});
+CREATE (:tag:skill:hard {uuid:'fe363f77-7502-401b-8436-806622a88e01',name:'Objective-C'});
+CREATE (:tag:skill:hard {uuid:'2c6e2192-3651-40d9-84cb-00a04c8bf490',name:'GCD'});
+CREATE (:tag:skill:hard {uuid:'3f2f6c5c-6e9d-42f0-be88-e3014654c10c',name:'Open GL ES'});
+CREATE (:tag:skill:hard {uuid:'69720a36-63e9-4ce1-86f0-eefcd96d3b1e',name:'AVFoundation'});
+CREATE (:tag:skill:hard {uuid:'801a90bc-ef76-48e8-bed8-69759b024b85',name:'CoreData'});
+CREATE (:tag:skill:hard {uuid:'cabf3631-02a3-4930-b452-1786df0101e1',name:'CoreGraphics'});
+CREATE (:tag:skill:hard {uuid:'5e59e7fa-e93c-4e0f-9068-94bc7d4e172d',name:'CoreMotion'});
+CREATE (:tag:skill:hard {uuid:'cd6d5d66-dbdb-42a7-93ff-fac5d869446e',name:'UIKit'});
+CREATE (:tag:skill:hard {uuid:'1c1dbd94-49b9-41e0-88e9-a55796159411',name:'QuartzCore'});
+CREATE (:tag:skill:hard {uuid:'1cb4049f-87ed-4a4c-8598-110ebda5d98e',name:'Cocoa Touch Layer'});
+CREATE (:tag:skill:hard {uuid:'ccfb1ab5-c333-4fd5-a200-4d1d97a6dc33',name:'Media Layer'});
+CREATE (:tag:skill:hard {uuid:'c6cd1120-dac3-4393-b6a4-575026dfba79',name:'Embedded'});
+CREATE (:tag:skill:hard {uuid:'8a0173b6-0950-4c84-b157-adaba59bd4bb',name:'Language'});
+CREATE (:tag:skill:hard {uuid:'218b05c6-b5c9-47c4-98e8-2188ecc8c45f',name:'C'});
+CREATE (:tag:skill:hard {uuid:'2d061d17-a790-4e64-8f12-dcbf85bd895f',name:'GTK+'});
+CREATE (:tag:skill:hard {uuid:'3c9edaaf-fce0-424f-ae45-29234e15698f',name:'Scripting'});
+CREATE (:tag:skill:hard {uuid:'d37ac737-49f3-46e3-8254-8a729890a408',name:'Shell'});
+CREATE (:tag:skill:hard {uuid:'8f7a419b-350b-45e3-88ec-e347eba1db24',name:'Bash'});
+CREATE (:tag:skill:hard {uuid:'a9fc5a17-8639-48ea-bdc5-5286d5716f67',name:'Target OS'});
+CREATE (:tag:skill:hard {uuid:'5a111d5c-2aea-4200-bc54-7228963264c0',name:'No_OS'});
+CREATE (:tag:skill:hard {uuid:'666e9f01-e2ed-465b-80d0-90a3fa05d485',name:'RTOS'});
+CREATE (:tag:skill:hard {uuid:'926fa922-b9f6-45e5-8858-d5710b88fc05',name:'MQX'});
+CREATE (:tag:skill:hard {uuid:'13ccb4a2-654a-4cf5-8531-3a5c1c319310',name:'VxWorks'});
+CREATE (:tag:skill:hard {uuid:'6f1868a5-66dc-4be5-bf37-fbb520321b2c',name:'QNX'});
+CREATE (:tag:skill:hard {uuid:'10f8cce3-c7f3-44c1-9e15-e3cc4bb09007',name:'FreeRTOS'});
+CREATE (:tag:skill:hard {uuid:'ec8c8525-47d3-4e03-bc0c-2d86bc32f65f',name:'ThreadX'});
+CREATE (:tag:skill:hard {uuid:'072c8a75-de90-49fd-874a-368cb7242d37',name:'Platforms'});
+CREATE (:tag:skill:hard {uuid:'4ab48ae7-a1a2-4c93-967e-d672f53fd15b',name:'ARM'});
+CREATE (:tag:skill:hard {uuid:'784558ee-597e-4326-bc4e-658d8be3fbc1',name:'MIPS'});
+CREATE (:tag:skill:hard {uuid:'3698288c-b4c1-44b7-bdbc-64f946050d76',name:'AVR'});
+CREATE (:tag:skill:hard {uuid:'e2e8dffe-f158-47b6-bbc7-b9041840dfa9',name:'x86'});
+CREATE (:tag:skill:hard {uuid:'8c28b86f-8286-4aab-911b-a7191143bed3',name:'Technologies'});
+CREATE (:tag:skill:hard {uuid:'7eced489-b8d6-4553-8811-0b30a45281de',name:'Multimedia'});
+CREATE (:tag:skill:hard {uuid:'1f55d223-362f-4635-8310-6c31f065f44f',name:'Audio'});
+CREATE (:tag:skill:hard {uuid:'038699f3-64f5-483d-8448-0f61c8e071f0',name:'OSS'});
+CREATE (:tag:skill:hard {uuid:'e835bbe1-8bc2-4fc6-bcc1-f5048dd99e3d',name:'ALSA'});
+CREATE (:tag:skill:hard {uuid:'544e93c1-b87f-4946-9729-a3865cc348f5',name:'H264'});
+CREATE (:tag:skill:hard {uuid:'b9ab9677-454f-4755-a638-4ff4e1088b6c',name:'AC3'});
+CREATE (:tag:skill:hard {uuid:'688342f1-4855-4b06-879c-95dd45a51255',name:'Video'});
+CREATE (:tag:skill:hard {uuid:'80455b47-75a5-4109-8332-b91c2368c93d',name:'FB'});
+CREATE (:tag:skill:hard {uuid:'e7f4d032-c3f2-4b24-8e1c-48a1bb0de1c1',name:'V4L2'});
+CREATE (:tag:skill:hard {uuid:'c3e30d52-5bde-4621-8d1a-249641ec8009',name:'Networking'});
+CREATE (:tag:skill:hard {uuid:'c4b66bf3-5b09-4132-a7eb-d1b809ac2fcd',name:'WiFi'});
+CREATE (:tag:skill:hard {uuid:'4bd8f787-020f-4554-9887-7f5ca3987d6d',name:'Ethernet'});
+CREATE (:tag:skill:hard {uuid:'508a9efd-e596-42e6-aae9-a7332e81d9fb',name:'Bluetooth'});
+CREATE (:tag:skill:hard {uuid:'345b539b-30c7-4b45-8813-7cd8715bd818',name:'TCP/IP'});
+CREATE (:tag:skill:hard {uuid:'c937ae86-6674-4fc6-8d4b-a4abd5ca4376',name:'L2'});
+CREATE (:tag:skill:hard {uuid:'47610397-dd39-4332-baa6-8ab565490311',name:'L3'});
+CREATE (:tag:skill:hard {uuid:'7c2e7e12-18e0-4bd3-8241-ac444112c6bb',name:'IPSec'});
+CREATE (:tag:skill:hard {uuid:'bd8b9253-88a0-42e2-abc3-a11df3675684',name:'Device Drivers'});
+CREATE (:tag:skill:hard {uuid:'d8dc3130-c5e8-4300-b5ea-c21f755236f6',name:'Bus Drivers'});
+CREATE (:tag:skill:hard {uuid:'11c6773b-bd4f-438b-bb9f-6e7ac9d518f2',name:'USB'});
+CREATE (:tag:skill:hard {uuid:'f782cc17-b2a8-4e36-95dc-0aacd933e2d5',name:'PCI'});
+CREATE (:tag:skill:hard {uuid:'6d29e980-baf9-4e4f-96ac-47ebb043793b',name:'I2C'});
+CREATE (:tag:skill:hard {uuid:'c454e7ca-9083-4032-84d5-baa5bc22e5af',name:'SPI'});
+CREATE (:tag:skill:hard {uuid:'032b6617-cfd8-4f99-8e3d-b846e87cb024',name:'CAN'});
+CREATE (:tag:skill:hard {uuid:'1bb409dc-7221-40f6-bef8-22566bc35f76',name:'CEC'});
+CREATE (:tag:skill:hard {uuid:'b1f24467-b010-48a7-86b5-285aac1c515a',name:'TTY'});
+CREATE (:tag:skill:hard {uuid:'372a7db8-f13c-4eb5-ad7d-1e2d2889bf16',name:'Network Drivers'});
+CREATE (:tag:skill:hard {uuid:'23db5cce-2230-4823-b423-16a86d264e3a',name:'DHCP'});
+CREATE (:tag:skill:hard {uuid:'118566dc-53f4-4e1d-aae6-b37024f15ee1',name:'BLE'});
+CREATE (:tag:skill:hard {uuid:'083ca080-8616-45f0-9b79-600dea98a12d',name:'Storage Drivers'});
+CREATE (:tag:skill:hard {uuid:'c857c835-ed6d-4fb4-a1cf-ffac72ea5ca2',name:'HDD'});
+CREATE (:tag:skill:hard {uuid:'58264dca-5be2-43f4-b8f8-264b16cd3b44',name:'Flash Memory Drivers'});
+CREATE (:tag:skill:hard {uuid:'7173583c-19ed-4fd9-a78f-465b58bbd07e',name:'NOR'});
+CREATE (:tag:skill:hard {uuid:'bceb439f-2d84-4ea8-9c8c-e55d62d3e66d',name:'NAND'});
+CREATE (:tag:skill:hard {uuid:'b82e3cea-4727-4a01-9bcc-e3218fdf7054',name:'File System Drivers'});
+CREATE (:tag:skill:hard {uuid:'b8ee2035-9a66-427a-82fc-6a433045e8d5',name:'EXT3'});
+CREATE (:tag:skill:hard {uuid:'b7f2fe94-8d6f-4db2-9a8e-9dc3b7e9be54',name:'EXT4'});
+CREATE (:tag:skill:hard {uuid:'c0514006-9196-40b9-a0ab-66df3c4cc96a',name:'cramfs'});
+CREATE (:tag:skill:hard {uuid:'c19acbde-8b4e-49c3-bc50-49444c059f77',name:'squashfs'});
+CREATE (:tag:skill:hard {uuid:'dc6f3077-5ca9-4021-b27a-f8169f92f8b5',name:'FAT'});
+CREATE (:tag:skill:hard {uuid:'9b70ddc7-bd78-4906-a069-60d904d02594',name:'FAT32'});
+CREATE (:tag:skill:hard {uuid:'88aa3064-a02a-4786-91fc-6e520b97e88c',name:'Multimedia Drivers'});
+CREATE (:tag:skill:hard {uuid:'f29bd8d0-87cd-464f-af54-33d8a96bcd8a',name:'HDMI'});
+CREATE (:tag:skill:hard {uuid:'e21230a6-1d58-4a5c-aa16-05fd681b1fd0',name:'HDCP'});
+CREATE (:tag:skill:hard {uuid:'7a1454a8-c718-4437-95e4-1d2b89f5f70a',name:'FB (Framebuffer)'});
+CREATE (:tag:skill:hard {uuid:'f0e46c46-55da-4f11-8da7-e09cfa89ab01',name:'Cryptography'});
+CREATE (:tag:skill:hard {uuid:'a1224903-7858-469c-b8da-b0df49fd74fb',name:'OpenSSL'});
+CREATE (:tag:skill:hard {uuid:'e9fff013-eb92-4a16-a78d-02a27f227285',name:'Mocana'});
+CREATE (:tag:skill:hard {uuid:'e8335bf3-dd16-4cb8-a186-3e3c8967162a',name:'DRM'});
+CREATE (:tag:skill:hard {uuid:'2d4b8f93-3fd2-4e7b-b33e-f3cb7badbf2e',name:'PlayReady'});
+CREATE (:tag:skill:hard {uuid:'c9e86127-babf-40ae-b9da-81e26c9a7f46',name:'WideVine'});
+CREATE (:tag:skill:hard {uuid:'82eb33f7-0773-4b31-8294-d7cb01266686',name:'OpenDRM'});
+CREATE (:tag:skill:hard {uuid:'04b4c53b-aa5b-4f8c-9d4f-30d88a228cc0',name:'Unit Testing'});
+CREATE (:tag:skill:hard {uuid:'c43fe53f-02e4-4d8c-9585-c8a734a79da2',name:'Boost Test Library'});
+CREATE (:tag:skill:hard {uuid:'163431d1-982d-470b-a917-086f685e1fcf',name:'CppUnit'});
+CREATE (:tag:skill:hard {uuid:'0e6bffef-098c-4c5c-b582-7a6941dcfbfb',name:'Google Test'});
+CREATE (:tag:skill:hard {uuid:'7dbb55bc-3857-4cac-8588-dba18442ea2b',name:'QtTest'});
+CREATE (:tag:skill:hard {uuid:'b70e5c2e-c892-4192-b33b-9fa1eafc4fa7',name:'.Net'});
+CREATE (:tag:skill:hard {uuid:'8b91beaa-3748-48a1-962b-57761b5f2d2c',name:'NCover'});
+CREATE (:tag:skill:hard {uuid:'9b0c9e1b-70e3-48b1-be51-9031be01f4e8',name:'nUnit'});
+CREATE (:tag:skill:hard {uuid:'7a542be4-a420-45be-9675-56b4f746a6a5',name:'Logging'});
+CREATE (:tag:skill:hard {uuid:'56361a47-5e11-4440-8934-e7044cbc029d',name:'Java Script'});
+CREATE (:tag:skill:hard {uuid:'ab9ae68c-2f26-4d21-aa21-25324b16a45d',name:'Intel'});
+CREATE (:tag:skill:hard {uuid:'397f4471-d3c5-481a-88dc-19132fbcde94',name:'Winston'});
+CREATE (:tag:skill:hard {uuid:'7d1e5f9e-dfa7-4bbe-ad49-20f8672bbba9',name:'log4cpp'});
+CREATE (:tag:skill:hard {uuid:'d299cc5f-6620-41ad-8db2-e9d8d9c9006e',name:'Apache log4cxx'});
+CREATE (:tag:skill:hard {uuid:'68fa21d5-6f66-42ca-aa26-2a34db683858',name:'Log4Qt'});
+CREATE (:tag:skill:hard {uuid:'ea58ec20-1583-40a5-9507-0a369b9264f8',name:'log4net'});
+CREATE (:tag:skill:hard {uuid:'db5109e6-f864-4642-8d7c-d5b8fcdc7954',name:'Log4J'});
+CREATE (:tag:skill:hard {uuid:'590099c4-addb-4bb2-93bf-dc266edc4a72',name:'SLF4J'});
+CREATE (:tag:skill:hard {uuid:'9c650d52-14eb-4923-ba3f-dc588bfa1b83',name:'Logback'});
+CREATE (:tag:skill:hard {uuid:'1c47845a-ff7a-4afd-84a5-7812a186d779',name:'Apache Commons Logging'});
+CREATE (:tag:skill:hard {uuid:'8463e83c-1380-410a-9b48-e7355da619e0',name:'tinnylog'});
+CREATE (:tag:skill:hard {uuid:'403a612d-293a-4e7b-b702-4920067274d9',name:'Java Logging API'});
+CREATE (:tag:skill:hard {uuid:'69278942-dc9c-45e9-bbee-96f8be919698',name:'QA'});
+CREATE (:tag:skill:hard {uuid:'225ff3c5-eeb7-4848-8b63-08344dd13456',name:'Software Test Automation'});
+CREATE (:tag:skill:hard {uuid:'b1e22675-cdfa-4751-9d62-409f814b92e8',name:'Functional Testing'});
+CREATE (:tag:skill:hard {uuid:'6b4e2d7e-ce4e-4b63-9cfb-69b191f806e5',name:'Desktop'});
+CREATE (:tag:skill:hard {uuid:'1cdae070-94c5-463a-8077-9258859388c2',name:'MS Windows'});
+CREATE (:tag:skill:hard {uuid:'42c206bc-c507-4eec-94a3-860ac6e3574f',name:'Test Complete'});
+CREATE (:tag:skill:hard {uuid:'032b5b8d-59b2-442a-9f2a-5339fdf56b1f',name:'HP Solutions'});
+CREATE (:tag:skill:hard {uuid:'5b6d28f8-6941-44cb-9ef1-4e0a2f19f498',name:'Rational Solutions'});
+CREATE (:tag:skill:hard {uuid:'9b851b11-f462-4a53-a822-772526db08b1',name:'Mac OS'});
+CREATE (:tag:skill:hard {uuid:'95ef1af2-8775-4fce-a240-7e21a229f4a6',name:'*nix'});
+CREATE (:tag:skill:hard {uuid:'fa60b1d0-4fd5-45cb-a420-df75be8ff96d',name:'Web Applications'});
+CREATE (:tag:skill:hard {uuid:'19a1d290-a1a5-4fae-b704-9039855bdc76',name:'Selenium'});
+CREATE (:tag:skill:hard {uuid:'16569ade-1ffc-4f43-9db3-9379d9b1176e',name:'JMeter'});
+CREATE (:tag:skill:hard {uuid:'c4e093a4-0a71-424b-98c6-e4ecee2301d6',name:'Web Services'});
+CREATE (:tag:skill:hard {uuid:'af6934b6-f7ec-48ee-978c-7cfb6e42838e',name:'SoapUI'});
+CREATE (:tag:skill:hard {uuid:'35a6c0b3-490b-4ec0-9aa5-eca64d30d6e7',name:'Mobile'});
+CREATE (:tag:skill:hard {uuid:'fecc8289-5c14-4831-9b4d-04a42cc460f3',name:'iOS'});
+CREATE (:tag:skill:hard {uuid:'4f259725-2353-479e-acd3-88ca382c48dc',name:'Win Mobile'});
+CREATE (:tag:skill:hard {uuid:'75490729-5c84-4af7-b8ef-200b39311e42',name:'Compatibility Testing'});
+CREATE (:tag:skill:hard {uuid:'0b05f54a-a034-4be3-9830-60bd42a4e4e6',name:'UI Testing'});
+CREATE (:tag:skill:hard {uuid:'97f58e99-bd92-4e07-9966-af7b6b90d019',name:'API Testing'});
+CREATE (:tag:skill:hard {uuid:'0c5ddb49-e72c-48b6-a937-acdac491dcce',name:'Installation and Configuration Testing'});
+CREATE (:tag:skill:hard {uuid:'35a78b00-e0dd-403e-b43a-a3098a2f38f8',name:'Performance Testing'});
+CREATE (:tag:skill:hard {uuid:'20206f92-9f87-46bd-902c-cb4118d6c946',name:'Globalization and Localization Testing'});
+CREATE (:tag:skill:hard {uuid:'53268046-9e72-4b8f-9a6e-95b4ef109f50',name:'Usability Testing'});
+CREATE (:tag:skill:hard {uuid:'44898c90-3ead-4770-b6f4-1c9014f6a967',name:'Security Testing'});
+CREATE (:tag:skill:hard {uuid:'053e6450-745d-4bba-bfa8-d69392e3bd96',name:'Software Testing (Manual)'});
+CREATE (:tag:skill:hard {uuid:'54b49dae-66aa-4656-81c3-1f2f53d04b5e',name:'Test Methodology'});
+CREATE (:tag:skill:hard {uuid:'05701e8e-556a-49df-b93f-a6d19e653c88',name:'White Box'});
+CREATE (:tag:skill:hard {uuid:'88b067b8-7a47-4bbb-a7f9-7e066d09bcf5',name:'Code Coverage'});
+CREATE (:tag:skill:hard {uuid:'67049c5e-172f-40c7-b31d-486b1e9e173b',name:'Fault Injection testing'});
+CREATE (:tag:skill:hard {uuid:'d162dde4-094f-47b8-a1af-c129314b0b23',name:'Mutations testing'});
+CREATE (:tag:skill:hard {uuid:'ca1bbbb5-c78d-4f1c-8f20-146c79e710ac',name:'Loop testing'});
+CREATE (:tag:skill:hard {uuid:'2ed04802-22e3-45a5-8d25-a2bbbf384b28',name:'Grey Box'});
+CREATE (:tag:skill:hard {uuid:'f6b235b6-d76d-4275-bd7e-8463dce63941',name:'Black Box'});
+CREATE (:tag:skill:hard {uuid:'b0a8b3ee-116c-4594-83d4-038fae5d299e',name:'Functional testing'});
+CREATE (:tag:skill:hard {uuid:'7cd37740-d843-457d-b68b-b9e48175dbcf',name:'Regression testing'});
+CREATE (:tag:skill:hard {uuid:'98455b7a-68b7-44e9-a519-5f2e98545d4c',name:'Test Strategy'});
+CREATE (:tag:skill:hard {uuid:'395d598c-4c01-4533-982e-0c4db99f3baa',name:'Test Driven development'});
+CREATE (:tag:skill:hard {uuid:'bcf00761-f417-4ac3-b288-73e28977b2da',name:'Keyword Driven development'});
+CREATE (:tag:skill:hard {uuid:'74b9bad0-ac86-4b05-9988-509abfaabfb7',name:'Behaviour driven development'});
+CREATE (:tag:skill:hard {uuid:'25a427ff-6e75-4e6c-b5b5-a24be0969b32',name:'Model Based testing'});
+CREATE (:tag:skill:hard {uuid:'d4a58fc1-f39c-43b8-81c0-94fe3cbd3608',name:'Testing Types'});
+CREATE (:tag:skill:hard {uuid:'ff1dcf44-21a6-4492-b57a-384f5b261ea7',name:'Acceptance testing'});
+CREATE (:tag:skill:hard {uuid:'42c2d6d7-8960-423e-b55d-5a0d9649ff5e',name:'Smoke testing'});
+CREATE (:tag:skill:hard {uuid:'b929fb8f-8257-4c62-b391-c8df5caae5ce',name:'GUI testing'});
+CREATE (:tag:skill:hard {uuid:'51c475ed-f040-4d13-9edf-882d4cd0ff51',name:'Installation testing'});
+CREATE (:tag:skill:hard {uuid:'14f12650-9ea3-4226-8109-34fba82874bc',name:'Compatibility testing'});
+CREATE (:tag:skill:hard {uuid:'13ac6873-bc61-4d76-bbe8-cb26f985dbcb',name:'Usability testing'});
+CREATE (:tag:skill:hard {uuid:'5dcbbebf-d28d-4c2a-b177-5ef936322e10',name:'Requirements testing'});
+CREATE (:tag:skill:hard {uuid:'25d7a504-6273-4e6a-81f5-d67bade14328',name:'Performance testing'});
+CREATE (:tag:skill:hard {uuid:'110dc8ff-b732-4c82-abc7-8e0029b529bc',name:'Load testing'});
+CREATE (:tag:skill:hard {uuid:'847a01c7-1fc7-4a3a-9f9d-55ae12877028',name:'Stress testing'});
+CREATE (:tag:skill:hard {uuid:'bd84ca62-f0cb-47a6-aa2d-550a0c25cba0',name:'Reliability and Continuous operating testing'});
+CREATE (:tag:skill:hard {uuid:'19078d78-fa32-4e41-8c61-7aec512f32bb',name:'Security testing'});
+CREATE (:tag:skill:hard {uuid:'624e5a59-f071-49fa-8289-a8c42cefcfc7',name:'Localization testing'});
+CREATE (:tag:skill:hard {uuid:'b92ec95d-31b5-4153-9db2-b8aebf43aa42',name:'Test Management'});
+CREATE (:tag:skill:hard {uuid:'2a7d2e82-a680-4a04-a4ba-e45b5579e714',name:'Test Plan'});
+CREATE (:tag:skill:hard {uuid:'bc953979-97ce-4241-a802-d4f45a7dc371',name:'Test Development'});
+CREATE (:tag:skill:hard {uuid:'da3830ac-f20c-4b61-b333-38722aceb108',name:'Test Design'});
+CREATE (:tag:skill:hard {uuid:'f4b63b17-840b-46a5-a0d5-51c98abaa1b1',name:'Test Case development'});
+CREATE (:tag:skill:hard {uuid:'0b1c131c-d9e2-4a21-9b16-510f489967c0',name:'Classes of Equivalence'});
+CREATE (:tag:skill:hard {uuid:'3ddad9ab-b50f-4eac-a3b2-63875412c2de',name:'Mobile Testing'});
+CREATE (:tag:skill:hard {uuid:'c19c4a48-b04a-4fff-a5ed-fc555060d04a',name:'J2ME'});
+CREATE (:tag:skill:hard {uuid:'22c6bc0a-1bba-4f4f-abc5-7e601508516d',name:'Blackberry'});
+CREATE (:tag:skill:hard {uuid:'74f0e56a-18a5-490f-acf6-95f839f456e5',name:'Windows Phone'});
+CREATE (:tag:skill:hard {uuid:'6c465203-f273-4192-a7dd-6bc02fec8732',name:'WinCE and Windows Mobile'});
+CREATE (:tag:skill:hard {uuid:'e2b183c4-dbe1-474f-b64c-d7597f125f4f',name:'QA Automation'});
+CREATE (:tag:skill:hard {uuid:'23e414f2-3f82-4286-95dd-da896293a815',name:'Programming Language'});
+CREATE (:tag:skill:hard {uuid:'877d3b91-4077-4c32-b060-72f6b4995580',name:'Visual Basic'});
+CREATE (:tag:skill:hard {uuid:'c5139547-51b8-4534-a903-b7b0a493d745',name:'Windows Shell and powershell'});
+CREATE (:tag:skill:hard {uuid:'68670ee1-70f2-4c91-be3a-c0585c7f0264',name:'Linux shell - bash'});
+CREATE (:tag:skill:hard {uuid:'6af0d6ba-59d2-4604-930e-afddb6cfdc45',name:'Programming and Design Patterns'});
+CREATE (:tag:skill:hard {uuid:'790d056e-8ec9-4327-9e5f-aaa0d41d2df0',name:'PageObject'});
+CREATE (:tag:skill:hard {uuid:'67f41e81-b41a-4beb-bdcf-afdded6369bf',name:'Front Controller'});
+CREATE (:tag:skill:hard {uuid:'2f0647fc-b5e7-47b0-b4a7-7f1fa7b4fef8',name:'Factory'});
+CREATE (:tag:skill:hard {uuid:'e27cf0c1-16e8-49af-b8a4-7e8057f68ed7',name:'Singleton'});
+CREATE (:tag:skill:hard {uuid:'f9c7053e-f9ad-4d16-99f4-d4f5fd4cb800',name:'DB'});
+CREATE (:tag:skill:hard {uuid:'dcb50bb8-d186-4ae4-b9bf-aeb1a13fbabc',name:'SQL'});
+CREATE (:tag:skill:hard {uuid:'c762400b-eac4-4ce2-8124-d3cc8553d76e',name:'Oracle'});
+CREATE (:tag:skill:hard {uuid:'0720335a-f749-473a-9327-66f78f3ed372',name:'MySQL'});
+CREATE (:tag:skill:hard {uuid:'70a9237f-b029-408f-b6ee-26f4f3d5344d',name:'PostgreSQL'});
+CREATE (:tag:skill:hard {uuid:'474a5e9a-95be-4226-9081-8f00a2390658',name:'4th Dimension'});
+CREATE (:tag:skill:hard {uuid:'15c91c9b-7924-4632-b58e-0d2599844b64',name:'Altibase'});
+CREATE (:tag:skill:hard {uuid:'07dc6522-b0c9-4b03-9e7b-961119367d34',name:'Apache Derby'});
+CREATE (:tag:skill:hard {uuid:'212f48ae-7e33-49db-88ed-df867f7f8d68',name:'Clustrix'});
+CREATE (:tag:skill:hard {uuid:'c8d36c9d-7bc8-4402-a106-a0838feebd7f',name:'CUBRID'});
+CREATE (:tag:skill:hard {uuid:'fcd91138-932a-4c6d-9487-145148a72b8d',name:'DB2'});
+CREATE (:tag:skill:hard {uuid:'c2fc05a7-2658-4342-9c03-18ea414f3df2',name:'EXASolution'});
+CREATE (:tag:skill:hard {uuid:'6271cbff-df2c-4fe2-86bc-c8b58f00a77f',name:'EnterpriseDB '});
+CREATE (:tag:skill:hard {uuid:'ea9dab80-5e3f-4f94-a7aa-9d108e899b69',name:'Firebird'});
+CREATE (:tag:skill:hard {uuid:'04629d9b-06e1-4c7b-b619-a198af12dda7',name:'HSQLDB'});
+CREATE (:tag:skill:hard {uuid:'e7eb0635-7c7c-4ff7-9079-496f9dd5449b',name:'H2'});
+CREATE (:tag:skill:hard {uuid:'b8855faa-ea94-4a52-91f9-0b12786a07e9',name:'Informix Dynamic Server'});
+CREATE (:tag:skill:hard {uuid:'feaf1def-d278-4ced-b8de-539854311d84',name:'Ingres'});
+CREATE (:tag:skill:hard {uuid:'0cd4a12d-63ee-431a-ad46-7dad8b15f8ef',name:'MariaDB'});
+CREATE (:tag:skill:hard {uuid:'bcd2cb24-a503-4a7d-b227-be2bbe8b3d7b',name:'Microsoft SQL Server'});
+CREATE (:tag:skill:hard {uuid:'949320e0-d611-4e7b-85a8-20430ac1a3a3',name:'MonetDB'});
+CREATE (:tag:skill:hard {uuid:'da514335-717a-4f25-b749-c9dfb41d9d8f',name:'Oracle Rdb'});
+CREATE (:tag:skill:hard {uuid:'2b6f1109-407b-4108-be01-6c1f00c7f1e3',name:'Pervasive PSQL'});
+CREATE (:tag:skill:hard {uuid:'0d781546-9f91-4f6d-b963-5ab82a3f4028',name:'Polyhedra DBMS'});
+CREATE (:tag:skill:hard {uuid:'189efa06-7a73-473e-94a1-cd9242efcc84',name:'SQLite'});
+CREATE (:tag:skill:hard {uuid:'1956b277-c7da-4558-b06f-24dd003eed6a',name:'NoSQL'});
+CREATE (:tag:skill:hard {uuid:'455eda1d-0f7e-4ecc-9097-d5fdbb659d39',name:'Coherence'});
+CREATE (:tag:skill:hard {uuid:'13b693ab-fdb9-4db7-a3de-6bdfb5878908',name:'eXtreme Scale'});
+CREATE (:tag:skill:hard {uuid:'bc278234-c30f-4d50-b071-9727d8203955',name:'GigaSpaces'});
+CREATE (:tag:skill:hard {uuid:'790a8302-5bb1-4735-be4c-b429f7a0528a',name:'GemFire'});
+CREATE (:tag:skill:hard {uuid:'d8be0a58-c571-4691-97ce-fa734d4b4417',name:'Hazelcast'});
+CREATE (:tag:skill:hard {uuid:'3d17adb6-103f-4845-a739-bc8595873e1c',name:'Jboss cache'});
+CREATE (:tag:skill:hard {uuid:'d40b5b5f-ef9d-4256-ac2c-170682fb3ed4',name:'Memacached'});
+CREATE (:tag:skill:hard {uuid:'c3e9eb37-dda6-4cd0-a37f-db0696d957fa',name:'Repcached'});
+CREATE (:tag:skill:hard {uuid:'bb7fd1b1-bf06-4b18-87c2-970ad18cea74',name:'Terracotta'});
+CREATE (:tag:skill:hard {uuid:'43c5c04f-4f68-4a72-a54a-6d4e4d4827e9',name:'Velocity'});
+CREATE (:tag:skill:hard {uuid:'a732db99-06f3-454e-941d-1e3aa670155a',name:'Clusterpoint'});
+CREATE (:tag:skill:hard {uuid:'99954277-8e18-4bb8-b8f6-394903f12834',name:'Couchbase'});
+CREATE (:tag:skill:hard {uuid:'c849a6a1-c868-4e1a-8a23-9fd3623e6b08',name:'MarkLogic'});
+CREATE (:tag:skill:hard {uuid:'66a94348-7814-4963-b380-bbc127e814d5',name:'XMS-databases'});
+CREATE (:tag:skill:hard {uuid:'bdbc3094-efa5-4351-8772-1ef0f0d86e32',name:'Redis'});
+CREATE (:tag:skill:hard {uuid:'85751ee7-b2d2-433a-8d77-461d53c710fd',name:'Flare'});
+CREATE (:tag:skill:hard {uuid:'504e2ae6-08a1-4433-960e-68264eecab69',name:'Keyspace'});
+CREATE (:tag:skill:hard {uuid:'fdbc9769-7eb0-4fd9-9fd4-e4034efea5ae',name:'RAMCloud'});
+CREATE (:tag:skill:hard {uuid:'de36fae0-e976-45c9-ba75-50f64018cdb1',name:'SchemaFree'});
+CREATE (:tag:skill:hard {uuid:'d9b8688d-7a43-4499-a4a2-e1973f61e3f3',name:'DovetailDB'});
+CREATE (:tag:skill:hard {uuid:'eb357e39-8164-4183-8824-8f9cc5020ad1',name:'Dynamo'});
+CREATE (:tag:skill:hard {uuid:'8b6746ca-44f3-4f38-83a8-e1f7a41deef9',name:'Riak'});
+CREATE (:tag:skill:hard {uuid:'c716fffa-0685-439a-b397-96a6c4833dfb',name:'MotionDB'});
+CREATE (:tag:skill:hard {uuid:'b3f2248e-d243-4a8e-817d-27f077a6a653',name:'Voldemort'});
+CREATE (:tag:skill:hard {uuid:'2aafbfa8-490d-4bdb-9e37-20986f33cfeb',name:'SubRecord'});
+CREATE (:tag:skill:hard {uuid:'a0228193-8c9b-43c5-b32c-b8ed83926702',name:'Actord'});
+CREATE (:tag:skill:hard {uuid:'159ce79a-d069-4f8b-8a99-0a39f262fbdf',name:'FoundationDB'});
+CREATE (:tag:skill:hard {uuid:'d37a6177-b209-484c-8759-db93454a2d6d',name:'Lightcloud'});
+CREATE (:tag:skill:hard {uuid:'35481f0b-1618-4eb0-b27f-df43fe4c7ef8',name:'MemacacheDB'});
+CREATE (:tag:skill:hard {uuid:'d1f34e46-01e5-406a-a5fb-6fefdf2c4fe1',name:'Scalaris'});
+CREATE (:tag:skill:hard {uuid:'af9d535f-8698-4047-b82c-349620ff2f0a',name:'NMDB'});
+CREATE (:tag:skill:hard {uuid:'b1ce87be-88b2-4466-a41c-5c8613259ce3',name:'DB40'});
+CREATE (:tag:skill:hard {uuid:'2ad583f4-8c09-4fa7-aaef-2a7aee538016',name:'Perst'});
+CREATE (:tag:skill:hard {uuid:'1f6fe2c9-49ff-433c-baae-babc364e7768',name:'Shoal'});
+CREATE (:tag:skill:hard {uuid:'f08a62a6-997c-479b-8bc7-10c1b9a57ecb',name:'ZopeDB'});
+CREATE (:tag:skill:hard {uuid:'151e0cf0-2b55-4e8e-8750-8f2a9b009eb1',name:'ApacheRiver'});
+CREATE (:tag:skill:hard {uuid:'81541d3f-914e-41c6-8a06-86bf7245f8e9',name:'Coord'});
+CREATE (:tag:skill:hard {uuid:'bf1ef858-8a81-4ede-a311-5850d7f02edf',name:'BigTable'});
+CREATE (:tag:skill:hard {uuid:'dbe036be-9b5f-4e65-9cbc-e8af935e8a37',name:'Cassandra'});
+CREATE (:tag:skill:hard {uuid:'f6f73ad4-269b-4f11-8bbb-3df4ff363b34',name:'Druid'});
+CREATE (:tag:skill:hard {uuid:'0da0c105-2fd0-4171-a504-54ceef6c2b17',name:'Hbase'});
+CREATE (:tag:skill:hard {uuid:'9b24a093-30c9-47bd-abab-5d92ed396f96',name:'Hypertable'});
+CREATE (:tag:skill:hard {uuid:'2ac219b5-075a-41a4-b804-5a3d25857e3c',name:'Qbase'});
+CREATE (:tag:skill:hard {uuid:'5f04eb7c-bd85-4023-85a8-9ef7d0aa0056',name:'OpenNeptune'});
+CREATE (:tag:skill:hard {uuid:'d947fcc1-0cd9-4173-91ec-f1750ae74771',name:'Berkeley DB'});
+CREATE (:tag:skill:hard {uuid:'53f51520-3ddd-4c8b-9c58-6df82f8aabfd',name:'Neo4J'});
+CREATE (:tag:skill:hard {uuid:'e283a855-e244-4121-9785-3ddfa553d296',name:'UI Design/Usability'});
+CREATE (:tag:skill:hard {uuid:'3130a0f2-4e6d-44ed-bae7-8c02441729a2',name:'User Experience Design'});
+CREATE (:tag:skill:hard {uuid:'5f71ef43-b2b1-4de6-a070-dee524471814',name:'Graphic Design'});
+CREATE (:tag:skill:hard {uuid:'51a44621-80e9-42d8-84e8-3a8603665bc3',name:'Prototyping'});
+CREATE (:tag:skill:hard {uuid:'ba642a14-3d3e-43f3-8dd3-c7a92658069c',name:'Wireframes'});
+CREATE (:tag:skill:hard {uuid:'b0bf1d04-4c28-49f4-9176-95831089d203',name:'UI Design'});
+CREATE (:tag:skill:hard {uuid:'0cd7cb18-4a87-4ec7-8466-cc5084cb5647',name:'Balsamiq Studio'});
+CREATE (:tag:skill:hard {uuid:'8ace0a3e-8adb-404e-adf6-92ce14f299ef',name:'Axure PRO'});
+CREATE (:tag:skill:hard {uuid:'24104b64-5216-409b-86be-b0b95e897dbc',name:'Flash'});
+CREATE (:tag:skill:hard {uuid:'c97d0f61-7110-48eb-80c8-e25f075e89db',name:'InDesign'});
+CREATE (:tag:skill:hard {uuid:'03dbb3fe-afb9-4e42-93a0-24f99b274823',name:'After Effects'});
+CREATE (:tag:skill:hard {uuid:'a52c77ac-7278-4477-9ca5-d3caf0df22e0',name:'Illustrator'});
+CREATE (:tag:skill:hard {uuid:'5d7bab87-5a53-4f70-9e45-9b46c358cf60',name:'Photoshop'});
+CREATE (:tag:skill:hard {uuid:'181857a0-ba8c-452c-b03a-d617ad47f2fe',name:'DreamWeaver'});
+CREATE (:tag:skill:hard {uuid:'d41a60ba-adac-4cfd-b81f-5a80e83b648e',name:'Usability Expert'});
+CREATE (:tag:skill:hard {uuid:'376d84d0-91bf-4db4-baad-9be28400366d',name:'Management'});
+CREATE (:tag:skill:hard {uuid:'be8e3686-5868-47d7-a474-3b20ea01e88d',name:'Project Management'});
+CREATE (:tag:skill:hard {uuid:'548f3e74-d13f-4a04-b488-cdeace9cb303',name:'Project Planning'});
+CREATE (:tag:skill:hard {uuid:'aeb55a73-88fa-4e77-ab78-4da705a26a28',name:'Scope Management'});
+CREATE (:tag:skill:hard {uuid:'779fc571-a8fa-41a7-86a6-9950b20f49d9',name:'Time Management'});
+CREATE (:tag:skill:hard {uuid:'07958dce-5618-4a48-b890-afdb234129ac',name:'Cost Management'});
+CREATE (:tag:skill:hard {uuid:'09785cda-7b8d-45f6-aca0-26d93f8a6515',name:'Quality Management'});
+CREATE (:tag:skill:hard {uuid:'29df1541-f429-415e-a252-a83bf6ea3854',name:'Human Resource Management'});
+CREATE (:tag:skill:hard {uuid:'9daed108-bedb-4944-94fb-3afb493cfb95',name:'Communications Management'});
+CREATE (:tag:skill:hard {uuid:'5e2a5c54-9284-4b90-8f71-7537a4973a0f',name:'Risk Management'});
+CREATE (:tag:skill:hard {uuid:'bb84814f-f54d-46a8-9b1f-612384740c98',name:'Procurement Management'});
+CREATE (:tag:skill:hard {uuid:'8e9b37b1-b4c9-4454-b6bf-e66137e6ed8b',name:'Project Contract Types'});
+CREATE (:tag:skill:hard {uuid:'1efe808e-0c21-4164-a5da-a2515d3ab5e0',name:'Fixed Bid'});
+CREATE (:tag:skill:hard {uuid:'1c6d9140-78c3-45d0-9982-ea357b6d1ea2',name:'Retainer (Time and Material)'});
+CREATE (:tag:skill:hard {uuid:'5e8b578d-1d53-4d46-b66b-2593efe301a9',name:'Hourly'});
+CREATE (:tag:skill:hard {uuid:'c3d2117e-dc77-4959-a964-fd6a9b744585',name:'Project Ownership Types'});
+CREATE (:tag:skill:hard {uuid:'30c845be-0ddb-45df-aaca-e3600014e998',name:'Outsourcing'});
+CREATE (:tag:skill:hard {uuid:'4144e820-f074-4eec-8a42-9419fe092236',name:'Full ownership'});
+CREATE (:tag:skill:hard {uuid:'fbe86f18-70b8-4a1e-a97b-d9a25a4db32b',name:'Team augmentation'});
+CREATE (:tag:skill:hard {uuid:'6cc67680-16bf-4e5d-ac52-bc608e200e6d',name:'Outstaffing'});
+CREATE (:tag:skill:hard {uuid:'40d5dd1f-b53a-407e-80f8-b682eff584a8',name:'Business Analysis'});
+CREATE (:tag:skill:hard {uuid:'51774b6a-1a38-4e95-b0a2-ecccdbf871fd',name:'Reqirements development'});
+CREATE (:tag:skill:hard {uuid:'9d77e14e-8419-4ca1-bef5-e506c9e25190',name:'Requirenents elicitation (gathering)'});
+CREATE (:tag:skill:hard {uuid:'dd3da4d8-2a6a-4618-a556-490543ee1eba',name:'Brainstorming'});
+CREATE (:tag:skill:hard {uuid:'6ee7cc96-a1f8-4ce0-bf0d-e32d6b5fa71c',name:'Document Analysis'});
+CREATE (:tag:skill:hard {uuid:'cd47b783-14df-4eef-af14-94b2eba0f2a9',name:'Focus Groups Analysis'});
+CREATE (:tag:skill:hard {uuid:'fc095897-abf0-4cb4-8caf-370975fc5eb2',name:'Interface Analysis'});
+CREATE (:tag:skill:hard {uuid:'86ab2872-0f67-4fbc-9d7f-9cb5369d7e54',name:'Interviews'});
+CREATE (:tag:skill:hard {uuid:'ac2600aa-59f7-47f8-8db8-d96222707f15',name:'Observation'});
+CREATE (:tag:skill:hard {uuid:'8a2c9bbd-a6a8-493a-ac80-ae714299b1c8',name:'Requirements Workshops'});
+CREATE (:tag:skill:hard {uuid:'fb3c9992-9804-4f36-b2af-0d38f48d8e34',name:'Survey/Questionnaire'});
+CREATE (:tag:skill:hard {uuid:'a82a1c15-925d-4026-ba1b-6c0a010c6982',name:'Requirements analysis'});
+CREATE (:tag:skill:hard {uuid:'61b6a52c-b350-41ca-a02c-8302096c831e',name:'Context Data Flow Diagramming'});
+CREATE (:tag:skill:hard {uuid:'24e9b3c9-4a81-45f6-a900-b4c0b96eda6f',name:'Root Cause Analysis'});
+CREATE (:tag:skill:hard {uuid:'88e723ce-d4bf-4933-a0a3-24d3e64d316d',name:'Workflow Modeling'});
+CREATE (:tag:skill:hard {uuid:'230c6412-7e0d-4bd6-a079-d95ff2fd82a8',name:'Use Case Modeling'});
+CREATE (:tag:skill:hard {uuid:'82cb0e7b-65d9-4fa9-a18f-c90b0e57d287',name:'Process Decomposition Diagram'});
+CREATE (:tag:skill:hard {uuid:'1044aeff-fa0b-4397-b4e1-027d4ea9296d',name:'Entity Relationship Diagram'});
+CREATE (:tag:skill:hard {uuid:'3cbd17bc-bf5a-4f60-8dc2-36f42b2fc71d',name:'UML notation'});
+CREATE (:tag:skill:hard {uuid:'14d95b16-6f32-4e11-889c-00e028cc2281',name:'IDEFx notations'});
+CREATE (:tag:skill:hard {uuid:'ee05f94c-add6-4790-8ca3-6d80423bb98d',name:'BPM notation'});
+CREATE (:tag:skill:hard {uuid:'15225e9d-0585-47c7-b6be-484fca6846dd',name:'Gap Analysis'});
+CREATE (:tag:skill:hard {uuid:'01d1950b-0915-4ee9-8aee-74d4151e0848',name:'Requirements specification'});
+CREATE (:tag:skill:hard {uuid:'226de899-2f8e-43b4-963f-71479f58598b',name:'Vision and Scope'});
+CREATE (:tag:skill:hard {uuid:'d94824c2-bec7-446d-9801-2232c0fd634a',name:'Software Requirement Specification'});
+CREATE (:tag:skill:hard {uuid:'c41bbc35-9339-4f82-8441-519c8925c3c3',name:'Business Requirements Specification'});
+CREATE (:tag:skill:hard {uuid:'b96bf111-43df-4617-9e00-c8d0a5465e06',name:'Functional Requirements Specification'});
+CREATE (:tag:skill:hard {uuid:'e207d8a7-4bad-4f65-be3b-b6c3f8676a32',name:'Requirements validation'});
+CREATE (:tag:skill:hard {uuid:'f5cc0f5b-74ee-493b-80bd-57348148dc07',name:'Test-Case Driven Inspection'});
+CREATE (:tag:skill:hard {uuid:'9ec8711f-c862-4bba-a516-e3864ede193b',name:'Requirements prototyping'});
+CREATE (:tag:skill:hard {uuid:'1e4b049a-bea2-458e-a7d8-1d996bf91381',name:'Peer review'});
+CREATE (:tag:skill:hard {uuid:'464557b8-74a9-452e-9f75-c0179e155f91',name:'Requirement management'});
+CREATE (:tag:skill:hard {uuid:'b9dffdc5-f2f9-4c4b-8a60-5f78f5e75af1',name:'Traceability'});
+CREATE (:tag:skill:hard {uuid:'192a3441-4349-4dcb-b241-623c8facf5d7',name:'Requirements Traceability Matrix'});
+CREATE (:tag:skill:hard {uuid:'ad064c6c-0fd1-49d7-809e-d2de54683fb5',name:'Impact Analysis'});
+CREATE (:tag:skill:hard {uuid:'6ab75312-4b36-4e7e-a917-a5da98f87fd0',name:'Change Management'});
+CREATE (:tag:skill:hard {uuid:'01d4bea8-b68d-4334-9ad4-2bd1ab253cd7',name:'Change Curve Model'});
+CREATE (:tag:skill:hard {uuid:'66b87a60-3273-4afe-b2db-9502e9b319d0',name:'McKinsey 7S Framework'});
+CREATE (:tag:skill:hard {uuid:'79b0f06f-3c62-47c1-bf57-58a29756e0ca',name:'SIPOC diagram'});
+CREATE (:tag:skill:hard {uuid:'6239e887-cf30-414b-8077-3b5a93b778d8',name:'Stakeholder Analysis Matrix'});
+CREATE (:tag:skill:hard {uuid:'54981a99-9e0b-41b0-a51d-51a43f46e932',name:'Risk Assessment Matrix'});
+CREATE (:tag:skill:hard {uuid:'77cccb3b-0fdc-4dae-9368-a4066657ccce',name:'Technical Writing'});
+CREATE (:tag:skill:hard {uuid:'24df2cd5-d597-4d2d-ad96-63b3727c63c2',name:'Robohelp'});
+CREATE (:tag:skill:hard {uuid:'597fa4b0-8735-40a8-85f7-7ca83beaaa7f',name:'Madcap Flare'});
+CREATE (:tag:skill:hard {uuid:'b24fa7f2-ec87-4fa2-b2a1-d34a46c4de7a',name:'Athor-it'});
+CREATE (:tag:skill:hard {uuid:'9ad744dc-b431-4d67-a058-1595ac596345',name:'Help And Manual'});
+CREATE (:tag:skill:hard {uuid:'c0d0500e-6e7b-451e-abac-ae56a48ef747',name:'Snagit'});
+CREATE (:tag:skill:hard {uuid:'6ac2ac96-4600-4eaa-8605-90dd917bbfff',name:'Visio'});
+CREATE (:tag:skill:hard {uuid:'ab35d52d-a5d7-432d-b4aa-11b54114bfbb',name:'SmartDraw'});
+CREATE (:tag:skill:hard {uuid:'32e958b5-ede9-4ef4-8ea3-da4973776182',name:'FrameMaker'});
+CREATE (:tag:skill:hard {uuid:'e17ebd36-4b46-465d-8550-0d79d86e1fd9',name:'MS-Word'});
+CREATE (:tag:skill:hard {uuid:'d844e068-267a-43a2-938b-a2ef584d7d3b',name:'Interleaf'});
+CREATE (:tag:skill:hard {uuid:'76d34fbe-2136-439b-9eac-35e9ac2daedf',name:'IT'});
+CREATE (:tag:skill:hard {uuid:'6b434768-8c6d-4d45-9123-015e30e36dc8',name:'HRMS SAP Team'});
+CREATE (:tag:skill:hard {uuid:'3a8626cb-813b-49ba-b79d-8413761a74a3',name:'IT Support'});
+CREATE (:tag:skill:hard {uuid:'26203c82-7952-43e2-854c-8c508c495e4b',name:'Virtualization Engineer'});
+CREATE (:tag:skill:hard {uuid:'bad4fbf6-51d8-4021-95cf-57296cd2c998',name:'Nagios'});
+CREATE (:tag:skill:hard {uuid:'51421c7c-51db-447e-bbf9-f12ac119ca11',name:'Expect'});
+CREATE (:tag:skill:hard {uuid:'af0cd300-a3c3-4d10-9337-032268c89e9f',name:'BIND'});
+CREATE (:tag:skill:hard {uuid:'f159f30e-6543-4458-a91f-654d62a6501e',name:'TinyDNS'});
+CREATE (:tag:skill:hard {uuid:'922c7ba8-22e6-4047-aad7-26beaa5ba48b',name:'vsftp'});
+CREATE (:tag:skill:hard {uuid:'f9488a71-f440-4ae7-b715-9df7e428bd42',name:'Samba'});
+CREATE (:tag:skill:hard {uuid:'87fd22f5-616f-4e55-a45c-238898c21d17',name:'NFS'});
+CREATE (:tag:skill:hard {uuid:'f3654f4a-5b05-487f-9963-13061f4334ae',name:'Network'});
+CREATE (:tag:skill:hard {uuid:'cad38ebf-b233-444e-b272-f0ac14e3ba39',name:'ZigBee'});
+CREATE (:tag:skill:hard {uuid:'8014edb9-e0ae-464b-9647-f42c0db2bffd',name:'VoIP-SIP'});
+CREATE (:tag:skill:hard {uuid:'a0a368b0-3900-48e1-b5e6-dd1f9c9c5eee',name:'VoIP-IAX2'});
+CREATE (:tag:skill:hard {uuid:'ba3f4f25-0f81-49ba-be64-fc2626cc4406',name:'VoIP-MGCP'});
+CREATE (:tag:skill:hard {uuid:'3f9a437b-ab25-42af-9da4-05ae50706c08',name:'VoIP-SCTP'});
+CREATE (:tag:skill:hard {uuid:'e0345727-5c48-41ec-a474-42eede11a764',name:'VoIP-SCCP'});
+CREATE (:tag:skill:hard {uuid:'eb38ba5f-6896-4c72-b813-a2720d90b743',name:'BGP'});
+CREATE (:tag:skill:hard {uuid:'4311923a-913e-4bd1-ab25-cbefb0854ce7',name:'IS-IS'});
+CREATE (:tag:skill:hard {uuid:'b86fa52f-afe5-4797-90b9-86a5200bba46',name:'OSPF'});
+CREATE (:tag:skill:hard {uuid:'d3837a21-3bc2-4b49-80c8-c7439184d5b5',name:'MPLS and Signaling'});
+CREATE (:tag:skill:hard {uuid:'ba273168-5dfa-4928-8955-9ab37a71369f',name:'Traffic load balancing'});
+CREATE (:tag:skill:hard {uuid:'762e5fe9-0f32-4b55-a30e-277b4cead8bc',name:'Billing Mediation'});
+CREATE (:tag:skill:hard {uuid:'67d86fea-1be5-4efa-8ec5-4f1e41c1b2b0',name:'IP Multimedia Subsystem (IMS)'});
+CREATE (:tag:skill:hard {uuid:'3e720fc1-299c-47e0-a278-2b51619b5781',name:'Network management system (NMS)'});
+CREATE (:tag:skill:hard {uuid:'32e2e966-b135-4c9b-a377-0f62067088d4',name:'RADIUS protocol'});
+CREATE (:tag:skill:hard {uuid:'94476415-c6a0-4518-925b-e412bc23c8c3',name:'RTP/RTCP'});
+CREATE (:tag:skill:hard {uuid:'01d9d59b-e8dd-4dba-a440-e91b8f4bdb37',name:'SNMP'});
+CREATE (:tag:skill:hard {uuid:'178779db-7c83-4701-acb6-85d88f28af61',name:'SS7'});
+CREATE (:tag:skill:hard {uuid:'a63695b5-1068-4e7b-a0be-922fc4c2e233',name:'Wi-Fi'});
+CREATE (:tag:skill:hard {uuid:'3388a8db-390b-4210-8912-4dfd43a94652',name:'OS-Administrator'});
+CREATE (:tag:skill:hard {uuid:'b21e2cbc-fc86-4739-86f1-651c425d6dbd',name:'CentOS'});
+CREATE (:tag:skill:hard {uuid:'a6213759-a63a-4c67-9f0b-2a206c0c6c2f',name:'Cisco IOS'});
+CREATE (:tag:skill:hard {uuid:'9014b423-57a5-4184-9173-31921b88b60a',name:'IBM AIX'});
+CREATE (:tag:skill:hard {uuid:'46d3364d-9fdd-4658-912f-fb0c90d91d4f',name:'UNIX'});
+CREATE (:tag:skill:hard {uuid:'60f3ab13-06e9-42c7-b2ea-e0cab478bb5d',name:'HP-UX'});
+CREATE (:tag:skill:hard {uuid:'4ddc1876-a7f4-479f-91b5-a13618ca1f37',name:'MP-RAS'});
+CREATE (:tag:skill:hard {uuid:'88c4fd48-a588-42ae-847d-87d091b7aab0',name:'Solaris'});
+CREATE (:tag:skill:hard {uuid:'4e5a66a6-c964-46d5-9f94-02d67d0bbac3',name:'z/OS'});
+CREATE (:tag:skill:hard {uuid:'dbe03961-dad6-4a3c-a6df-f8808f2f8bf6',name:'IXP XXXX'});
+CREATE (:tag:skill:hard {uuid:'b4fceefd-105f-44cd-a44d-cddf7baf0ff4',name:'Bejerman'});
+CREATE (:tag:skill:hard {uuid:'881e7a4c-df69-4043-a53e-03bfe96d559f',name:'OS Administrator'});
+CREATE (:tag:skill:hard {uuid:'cec2968f-a807-468c-8338-e3661a0aa49d',name:'Common areas'});
+CREATE (:tag:skill:hard {uuid:'3468b526-c574-4488-87f4-38eb3750d075',name:'Processes'});
+CREATE (:tag:skill:hard {uuid:'7f034bf3-c5dd-4a20-9185-ca432aceb09f',name:'Waterfall'});
+CREATE (:tag:skill:hard {uuid:'25c000a9-56dd-4fb4-8b5c-a1239abce2d8',name:'Iterative'});
+CREATE (:tag:skill:hard {uuid:'e3987065-bada-49e1-b922-64e2c214fdc1',name:'Agile'});
+CREATE (:tag:skill:hard {uuid:'c6985165-edc5-4420-9a3a-ae4589bc6220',name:'Scrum'});
+CREATE (:tag:skill:hard {uuid:'5b07d469-d543-45ef-8e90-8e8431466e34',name:'XP'});
+CREATE (:tag:skill:hard {uuid:'8832fce8-fe12-4f79-8030-ba64148bf206',name:'Kanban'});
+CREATE (:tag:skill:hard {uuid:'1008a7f3-208d-434a-a887-da220011ff9d',name:'RUP'});
+CREATE (:tag:skill:hard {uuid:'bed6a5d3-4ffe-4a8f-bf68-f99ccd42bb9e',name:'RAD'});
+CREATE (:tag:skill:hard {uuid:'d37f26f1-b395-4add-a4c8-4aa7a3d2cf5a',name:'OS'});
+CREATE (:tag:skill:hard {uuid:'e19d0c29-21fe-4db4-b4af-40017cf9b165',name:'Windows XP'});
+CREATE (:tag:skill:hard {uuid:'95fb6ff9-c578-4f82-9cb0-ed3a46bd60b2',name:'Windows 7'});
+CREATE (:tag:skill:hard {uuid:'db0d3990-9400-47aa-a296-2b629622f3d9',name:'Windows 8'});
+CREATE (:tag:skill:hard {uuid:'68e5213c-b793-4583-a960-c1d31b857468',name:'OS 390'});
+CREATE (:tag:skill:hard {uuid:'4e70df9b-ec1f-48c6-bf04-15318fefd343',name:'AS / 400'});
+CREATE (:tag:skill:hard {uuid:'857ce4dd-8e4d-4633-83bf-9fa64570e40e',name:'MVS'});
+CREATE (:tag:skill:hard {uuid:'c87ac4c8-d7d7-4897-b38a-1e56a4455257',name:'BSD'});
+CREATE (:tag:skill:hard {uuid:'651af4a6-ded4-42dc-b1ba-1bd853328884',name:'FreeBSD'});
+CREATE (:tag:skill:hard {uuid:'481af0fc-8d98-436b-9c71-8c4fc53541e8',name:'MacOS X'});
+CREATE (:tag:skill:hard {uuid:'16b1f9f8-45a9-4752-a605-da0827774b4e',name:'Tools'});
+CREATE (:tag:skill:hard {uuid:'69e42cc4-dc70-4ed7-9e78-6f3edfa9f31a',name:'Issue Tracking'});
+CREATE (:tag:skill:hard {uuid:'c029e842-0fc6-46b6-aa98-ba2b3570553f',name:'JIRA'});
+CREATE (:tag:skill:hard {uuid:'b2d50a3c-a560-4d68-bba6-45f65f8a606a',name:'RedMine'});
+CREATE (:tag:skill:hard {uuid:'9624e291-0b08-4e77-89cc-c87bcab327d1',name:'Mantis'});
+CREATE (:tag:skill:hard {uuid:'730af8ce-66b3-4484-9481-690793da5733',name:'ClearQuest'});
+CREATE (:tag:skill:hard {uuid:'bf5d27c4-9b20-4d1d-b612-1221266beb27',name:'Version Control'});
+CREATE (:tag:skill:hard {uuid:'fbf8f7f1-be69-4c4e-8831-08a1aebe127d',name:'Mercurial'});
+CREATE (:tag:skill:hard {uuid:'4951aa3f-c88b-4778-a084-53fb1c1449ee',name:'Git'});
+CREATE (:tag:skill:hard {uuid:'3b42d1c3-9a94-4c5e-96c7-25e3b69c5efa',name:'GitHub'});
+CREATE (:tag:skill:hard {uuid:'012a1f41-8206-4a1c-a367-c194dab9c705',name:'CVS'});
+CREATE (:tag:skill:hard {uuid:'e8015885-43d3-4248-835f-234043e69bf0',name:'SVN'});
+CREATE (:tag:skill:hard {uuid:'7dba859c-ef1b-40da-bfa5-27c6809e455c',name:'Perforce'});
+CREATE (:tag:skill:hard {uuid:'1f86995c-39cb-4b45-a60c-8dc3954671e1',name:'LibreSource'});
+CREATE (:tag:skill:hard {uuid:'20f0a991-f2ea-4901-9818-583ddb3240d9',name:'Bazaar'});
+CREATE (:tag:skill:hard {uuid:'e6a5bf42-099e-4e80-a716-cb05657906d8',name:'Version Management System'});
+CREATE (:tag:skill:hard {uuid:'66f59d47-c9e6-450d-bb74-4a84d7505b94',name:'PVCS'});
+CREATE (:tag:skill:hard {uuid:'5535b197-0e60-4cf8-8d33-5192a5948184',name:'TFS'});
+CREATE (:tag:skill:hard {uuid:'3cea85c5-cb6c-43e9-857a-d1b8ea5d49c4',name:'Changeman'});
+CREATE (:tag:skill:hard {uuid:'40f47986-7c62-4c95-b3e4-7aa18d9e6d72',name:'Endevor'});
+CREATE (:tag:skill:hard {uuid:'f6c32c72-f378-4a1f-a451-4aab903f7d2d',name:'IDE'});
+CREATE (:tag:skill:hard {uuid:'da7317cb-fd73-4a92-8760-e404b66f1e1b',name:'Visual Studio 2008'});
+CREATE (:tag:skill:hard {uuid:'ecb7f0ea-c02d-494f-8637-d3bc77c42412',name:'Visual Studio 2010'});
+CREATE (:tag:skill:hard {uuid:'0a2fa3e3-2921-4611-b01d-d76781237f08',name:'Visual Studio 2012'});
+CREATE (:tag:skill:hard {uuid:'36ec6b1d-acb6-42eb-9d0a-2bf42497bdf7',name:'Eclipse'});
+CREATE (:tag:skill:hard {uuid:'5cd7481c-987c-4446-851d-023f24df32a6',name:'CodeGear RAD Studio'});
+CREATE (:tag:skill:hard {uuid:'0eaa3002-5305-4c2e-ad88-6b29d3ad253e',name:'IntelliJ IDEA'});
+CREATE (:tag:skill:hard {uuid:'94847575-9b9f-4f24-ae8f-fe5ec346be35',name:'PyCharm'});
+CREATE (:tag:skill:hard {uuid:'103f047f-1f79-4e9d-a593-5177f01c37c0',name:'Emacs'});
+CREATE (:tag:skill:hard {uuid:'f39a4a12-63b7-4856-b815-55061e2f4b52',name:'Embarcadero RAD Studio'});
+CREATE (:tag:skill:hard {uuid:'7c9329e5-966a-40a0-b336-e5d32fa4cf90',name:'Qt Creator'});
+CREATE (:tag:skill:hard {uuid:'a8399a0d-cb32-419d-9985-3c9951b2b6ae',name:'XCode'});
+CREATE (:tag:skill:hard {uuid:'65fe4431-b901-490c-b931-5354cf1b8c17',name:'Sprint Tool Suite'});
+CREATE (:tag:skill:hard {uuid:'b656abf6-ddb3-47a7-9a23-cb3387907f02',name:'JDeveloper'});
+CREATE (:tag:skill:hard {uuid:'03d049b9-8330-4e54-a63d-a16a2695b9d5',name:'Profiling'});
+CREATE (:tag:skill:hard {uuid:'407ab8d3-47f2-439e-80b8-862ba0e197da',name:'Intel Vtune'});
+CREATE (:tag:skill:hard {uuid:'19887867-b6e1-4d28-b6e2-0f2580e04cff',name:'TBD'});
+CREATE (:tag:skill:hard {uuid:'9498dfe9-a06a-4092-8ea8-1126ef9ecf06',name:'Productivity'});
+CREATE (:tag:skill:hard {uuid:'122b6569-173c-417f-b0ea-7a5bead158e1',name:'ReSharper'});
+CREATE (:tag:skill:hard {uuid:'3c39355a-ad7d-4243-aaca-100d40745a43',name:'VisualAssist'});
+CREATE (:tag:skill:hard {uuid:'f98894c2-cdc3-4ebe-90c8-ecaca6d24641',name:'FxCop'});
+CREATE (:tag:skill:hard {uuid:'4e495ab9-3525-4a3b-a13a-a216c9889b15',name:'StyleCop'});
+CREATE (:tag:skill:hard {uuid:'28288795-5c4f-47b7-873c-eb44bb66b822',name:'NDepend'});
+CREATE (:tag:skill:hard {uuid:'e261d979-fcfa-438b-ad90-60c6bdd9fb78',name:'DevExpress'});
+CREATE (:tag:skill:hard {uuid:'9e896bf9-0eb1-49e8-b800-df7796dc3e43',name:'Build Automation'});
+CREATE (:tag:skill:hard {uuid:'845a8db9-a850-4c5c-9b36-abcf8abf3a71',name:'Hudson/Jenkins'});
+CREATE (:tag:skill:hard {uuid:'3b3162fb-a852-4322-8bbe-c51457e51372',name:'Bamboo'});
+CREATE (:tag:skill:hard {uuid:'6813b442-eac6-42cf-932d-f4837faf7e16',name:'RTC'});
+CREATE (:tag:skill:hard {uuid:'68480009-cf92-4c16-b507-ccec387db566',name:'Teamcity'});
+CREATE (:tag:skill:hard {uuid:'0d2dc2c5-3595-4668-953b-95a347703c10',name:'CruiseControl'});
+CREATE (:tag:skill:hard {uuid:'3feb5c46-8176-4f2a-b092-9a7d93e3f450',name:'BuildBot'});
+CREATE (:tag:skill:hard {uuid:'f2dc9a2c-f4eb-4c57-9daa-6147f17dbe92',name:'Travis CI'});
+CREATE (:tag:skill:hard {uuid:'12483f8a-1808-4d2c-bd4f-00b8976f5240',name:'AnthillPro'});
+CREATE (:tag:skill:hard {uuid:'26075b02-a42c-4e98-a1f6-68bdb2198da4',name:'Automated BuildStudio'});
+CREATE (:tag:skill:hard {uuid:'5cc41d7f-0528-4735-b6d3-0ea7f843d6dd',name:'Apache Continuum'});
+CREATE (:tag:skill:hard {uuid:'a4417e82-8527-41a8-a7fc-c6a0da0f93c7',name:'BuildIT'});
+CREATE (:tag:skill:hard {uuid:'08a2ebd6-3f53-496f-8e1c-92c589e16972',name:'Buildout'});
+CREATE (:tag:skill:hard {uuid:'bae04c03-c4c2-4157-8e48-f2d9323d4918',name:'CABIE'});
+CREATE (:tag:skill:hard {uuid:'bfa6c961-0f6a-403c-8fba-962c5d2673bc',name:'Cascade'});
+CREATE (:tag:skill:hard {uuid:'191cc5cf-19bb-421c-8d61-9ca24fe3c1a1',name:'FinalBuilder'});
+CREATE (:tag:skill:hard {uuid:'98453eac-fcef-4e75-8f1e-4f080c020644',name:'BuildTool'});
+CREATE (:tag:skill:hard {uuid:'5265d1ed-8781-40ea-be1c-4140d990ea62',name:'Maven'});
+CREATE (:tag:skill:hard {uuid:'109f9991-8a59-44ee-94f5-2d2f000932ef',name:'Ant'});
+CREATE (:tag:skill:hard {uuid:'7d66d0ce-e665-4a4b-b72c-8f4db5bff04a',name:'Ivvy'});
+CREATE (:tag:skill:hard {uuid:'06254ced-17c2-4f4e-84f3-cc85354a5554',name:'Gradle'});
+CREATE (:tag:skill:hard {uuid:'60a7c9ff-1c1c-4e38-bd22-a10577517826',name:'SBT'});
+CREATE (:tag:skill:hard {uuid:'e1e4727a-fbda-4e99-af18-e366ff20de5f',name:'Code Analysis Tools'});
+CREATE (:tag:skill:hard {uuid:'f58622b9-2c06-4ab0-9b43-1c54fe574c6b',name:'PVS-Studio / CppCat'});
+CREATE (:tag:skill:hard {uuid:'801040f0-a416-4ae4-8066-88c38bed6a6f',name:'CppCheck'});
+CREATE (:tag:skill:hard {uuid:'973c21bb-106e-42e5-bdbf-22f645983e43',name:'CppDepend'});
+CREATE (:tag:skill:hard {uuid:'971e96a1-e4ec-4fe9-b55a-3d5e93f27ed1',name:'Lint / PC-Lint'});
+CREATE (:tag:skill:hard {uuid:'79881965-02ea-4d6a-9567-2a0a47819e87',name:'SonarCube'});
+CREATE (:tag:skill:hard {uuid:'5452f924-aaed-4c19-ab39-f88b85a1883d',name:'FindBugs'});
+CREATE (:tag:skill:hard {uuid:'e899dc4b-1c6b-4f3d-a4bb-a00a72fd1cfe',name:'Checkstyle'});
+CREATE (:tag:skill:hard {uuid:'94576590-d088-4a5c-9ca6-5a82962c8c38',name:'PMD'});
+CREATE (:tag:skill:hard {uuid:'84765c90-4227-4559-bb94-4a13da1f20f4',name:'Cobetura'});
+CREATE (:tag:skill:hard {uuid:'34f87dee-82f8-4742-9a26-c1fd58dbd478',name:'JDepend'});
+CREATE (:tag:skill:hard {uuid:'a9fd34e8-9d24-4c12-8a94-64abc9a49b02',name:'Coverity'});
+CREATE (:tag:skill:hard {uuid:'05fe5183-50fd-4adf-b6f0-24e2b8289773',name:'AgileJ StructureViews'});
+CREATE (:tag:skill:hard {uuid:'d4d14e1e-bbcb-4eb2-95d8-50a997c0992b',name:'GrammaTech CodeSonar'});
+CREATE (:tag:skill:hard {uuid:'ce4c43d0-b3f6-40fc-a02a-8b959830c242',name:'Jtest'});
+CREATE (:tag:skill:hard {uuid:'430f7811-0ed7-4fb7-b23c-14ba49a574c5',name:'SemmleCode'});
+CREATE (:tag:skill:hard {uuid:'87a2a2e0-ca24-4326-b7a7-1b98cc7d6a27',name:'ObjectWeb ASM'});
+CREATE (:tag:skill:hard {uuid:'d1ab99fe-2825-408b-b6b8-75c35088450a',name:'SonarJ'});
+CREATE (:tag:skill:hard {uuid:'04081a59-bcfa-4096-bac8-743d1f7a3efa',name:'Soot'});
+CREATE (:tag:skill:hard {uuid:'91da7a2d-ca16-4a05-ac64-42c5605ad993',name:'Squale'});
+CREATE (:tag:skill:hard {uuid:'6a11d565-7313-4dd9-86ef-6d2c958195d0',name:'SonarQube'});
+CREATE (:tag:skill:hard {uuid:'9eaede26-7fee-4d87-be3f-8c62163c7545',name:'ThreadSafe'});
+CREATE (:tag:skill:hard {uuid:'e4e62597-559e-4c44-9407-4557438804d4',name:'LDRA Testbed'});
+CREATE (:tag:skill:hard {uuid:'d42e3b45-291d-4205-8627-42fa93a00f93',name:'Google CodePro Analytix'});
+CREATE (:tag:skill:hard {uuid:'d9c4bac9-35c3-488f-8ab5-f3452954255c',name:'-- debuggers, memory debuggers, merge tools, etc'});
+CREATE (:tag:skill:hard {uuid:'4751bd20-1db3-46c9-afa1-060b9a47ae2f',name:'Management and Planning'});
+CREATE (:tag:skill:hard {uuid:'3a13bdd0-f3a7-4a3d-ad1b-29d3a816884c',name:'Basecamp'});
+CREATE (:tag:skill:hard {uuid:'df28cbe3-0a51-4f50-9eea-a7fdc28f83d2',name:'Microsoft Project'});
+CREATE (:tag:skill:hard {uuid:'b3c09516-f824-464a-ba58-a8fbdceff2bf',name:'Microsoft SharePoint Server'});
+CREATE (:tag:skill:hard {uuid:'93ffb07d-1048-40cb-a97e-fb50321d6dfb',name:'Microsoft Team Foundation Server'});
+CREATE (:tag:skill:hard {uuid:'4e436ab6-9793-479f-906c-615798fa4ec2',name:'Agile/Scrum'});
+CREATE (:tag:skill:hard {uuid:'91132c46-c0cd-4e67-8501-34c8175ff89b',name:'Jira/Greenhopper'});
+CREATE (:tag:skill:hard {uuid:'0a987d29-9e6b-4fad-bba0-8df393686316',name:'Version One'});
+CREATE (:tag:skill:hard {uuid:'0d1383e4-55a2-4e1f-9cf0-0a62b9e0ddc6',name:'Microsoft TFS 2010'});
+CREATE (:tag:skill:hard {uuid:'0983abdc-5cad-428a-b209-db708d43853b',name:'Microsoft TFS 2012/2013'});
+CREATE (:tag:skill:hard {uuid:'3f2dc3de-e555-48e8-a3d6-b04abf70b06e',name:'Rally'});
+CREATE (:tag:skill:hard {uuid:'51db5920-cf54-4859-9c3e-6e6ad387aaba',name:'IBM Rational team Concert'});
+CREATE (:tag:skill:hard {uuid:'b49bc67f-4542-4536-85f0-f8279176f1a7',name:'Target Process'});
+CREATE (:tag:skill:hard {uuid:'d94a8503-bd04-4650-bc4d-ca43a946e707',name:'Diagraming/Modelling'});
+CREATE (:tag:skill:hard {uuid:'fc44dd37-a493-49b3-a6b7-4aecafe71aa2',name:'MS Visio'});
+CREATE (:tag:skill:hard {uuid:'9a1245f9-76ce-4f2b-b640-e7902a9c646a',name:'BizAgi Process Modeler'});
+CREATE (:tag:skill:hard {uuid:'a2ca2062-2af7-46cf-9db3-dc2e191c6ca4',name:'IBM Rational RequisitePro'});
+CREATE (:tag:skill:hard {uuid:'668fc803-47df-4609-b1aa-e360184ca6da',name:'Altova UModel'});
+CREATE (:tag:skill:hard {uuid:'c783e795-7361-42ee-9b64-e8ad2778527d',name:'ERwin/BPwin'});
+CREATE (:tag:skill:hard {uuid:'24cb2d46-dd4c-4f4a-bb81-c91e1c97a131',name:'Bonita BPM'});
+CREATE (:tag:skill:hard {uuid:'6653a6bd-1c97-4ecf-b6c2-cbbc1dbb0ee6',name:'ARIS'});
+CREATE (:tag:skill:hard {uuid:'f6adea1a-f170-44f7-a50b-a68cb0a4a37e',name:'ADD FROM DEV'});
+CREATE (:tag:skill:hard {uuid:'729d7bd0-bd94-491e-ae1d-825e07fa32cf',name:'Prototyping/UI Design'});
+CREATE (:tag:skill:hard {uuid:'68677a7e-2318-4daa-bbd1-f744a0c15afc',name:'Requirements Management'});
+CREATE (:tag:skill:hard {uuid:'22fa29f0-5400-40cd-bde8-3c10833d870f',name:'IBM Rational DOORS'});
+CREATE (:tag:skill:hard {uuid:'87a14b82-738f-44c5-9024-772585c52d1f',name:'Blueprint Requirements Center'});
+CREATE (:tag:skill:hard {uuid:'4ecd028a-579f-464d-a6fa-711884334423',name:'CaseComplete'});
+CREATE (:tag:skill:hard {uuid:'dde0985f-6407-464f-87e9-b5785fd9341e',name:'JAMA'});
+CREATE (:tag:skill:hard {uuid:'6379f7fc-cd2c-4aba-8cb3-42633dca8d23',name:'TIBCO ActiveMatrix'});
+CREATE (:tag:skill:hard {uuid:'7fb56dca-d899-42e9-95e2-53c803ef5136',name:'Enterprise Architect'});
+CREATE (:tag:skill:hard {uuid:'7630d5c6-8266-4995-9042-a61a3308bb88',name:'CaliberRM'});
+CREATE (:tag:skill:hard {uuid:'ff24e653-2359-42a9-b555-e24a28a77ca2',name:'Domain (Vertical)'});
+CREATE (:tag:skill:hard {uuid:'86859354-6671-457c-94d7-6846bfaae74f',name:'OSS/BSS SW'});
+CREATE (:tag:skill:hard {uuid:'d2256dd3-af9c-49f9-bc69-18238918ca3d',name:'VAS/SDP SW'});
+CREATE (:tag:skill:hard {uuid:'8edb4409-f4df-4ce9-b288-372b5bf75915',name:'VoIP/UC SW'});
+CREATE (:tag:skill:hard {uuid:'05b38d70-2ad2-4299-8a26-4e136d6a7c0b',name:'DTV/IPTV SW'});
+CREATE (:tag:skill:hard {uuid:'1f92c1a3-b0a1-4547-a42c-cee542523683',name:'M2M SW'});
+CREATE (:tag:skill:hard {uuid:'1ad68591-9035-4795-ad80-6532a5492b77',name:'Wireless NE'});
+CREATE (:tag:skill:hard {uuid:'2e428e74-1fc1-4b70-918d-9e0a2565a113',name:'Wireline NE'});
+CREATE (:tag:skill:hard {uuid:'41e938b2-8f9e-4588-86bb-8569c01e6120',name:'Mobile Devices'});
+CREATE (:tag:skill:hard {uuid:'679af3bf-feca-490f-9900-553b8454ebca',name:'Comm Modules'});
+CREATE (:tag:skill:hard {uuid:'58fac5e0-9598-4414-8414-e3cbd9064f14',name:'Semiconductors'});
+CREATE (:tag:skill:hard {uuid:'1b8136b0-764a-4260-9cfb-d43187f73f6f',name:'Wireless Service'});
+CREATE (:tag:skill:hard {uuid:'f23c0788-158b-45f3-94d3-3f04af433d4f',name:'Wireline Service'});
+CREATE (:tag:skill:hard {uuid:'4f4f56cc-c7d1-437c-829c-2f29d8a5c4a4',name:'Hosting Service'});
+CREATE (:tag:skill:hard {uuid:'fe7aefb7-0327-4239-9ef4-376203214df8',name:'TV Service'});
+CREATE (:tag:skill:hard {uuid:'1863ce8d-044b-486f-85fc-b408853aefd2',name:'High Tech'});
+CREATE (:tag:skill:hard {uuid:'658f3097-6e77-4b2d-ac1b-f2996ea221aa',name:'IT Management'});
+CREATE (:tag:skill:hard {uuid:'e5908b88-051c-440b-b862-834bfba08864',name:'Security Management Software'});
+CREATE (:tag:skill:hard {uuid:'67c8ef5b-b189-4cb0-8f74-e2dc86612b14',name:'SCM'});
+CREATE (:tag:skill:hard {uuid:'03772b43-d976-4fbb-a150-6840c37c5d28',name:'CRM'});
+CREATE (:tag:skill:hard {uuid:'84e3057b-2249-4274-9aec-4c8e89d015de',name:'BPM'});
+CREATE (:tag:skill:hard {uuid:'576821be-3c93-4a50-8091-76090ca299d4',name:'ERP'});
+CREATE (:tag:skill:hard {uuid:'e1e59c60-bbe2-4829-898c-e11674d41580',name:'BI/Analytics'});
+CREATE (:tag:skill:hard {uuid:'89cdc31b-1c57-4d50-8ea4-77a05bd4791a',name:'Collaboration'});
+CREATE (:tag:skill:hard {uuid:'9658b2ee-2723-4be4-ba53-de90e700584d',name:'Computer HW and Peripherals'});
+CREATE (:tag:skill:hard {uuid:'c4f7e366-ca5d-4a0e-914f-408b5b27bf74',name:'Application Development and Deployment Tools'});
+CREATE (:tag:skill:hard {uuid:'418420d8-1624-46fa-9681-3f502f323a2d',name:'System Infrastructure Software'});
+CREATE (:tag:skill:hard {uuid:'5cd4c762-49d7-4fe0-be44-81cc26ee1583',name:'Cloud Infrastructure'});
+CREATE (:tag:skill:hard {uuid:'5053a367-5623-4f49-88bb-22a34f1fa847',name:'Retail & eCommerce'});
+CREATE (:tag:skill:hard {uuid:'69f8ebb6-524c-4a68-ad8f-f75944d03066',name:'Payment Systems'});
+CREATE (:tag:skill:hard {uuid:'b3046aa3-0909-4c22-a751-beebe391cab5',name:'Operational SW'});
+CREATE (:tag:skill:hard {uuid:'b7b07ad6-13f9-4b65-ab29-51bdd5c6758d',name:'eCommerce Platforms'});
+CREATE (:tag:skill:hard {uuid:'af1364ad-d0ce-417c-a09d-d62faa71104f',name:'Media & Entertainment'});
+CREATE (:tag:skill:hard {uuid:'d359e84e-fc15-4806-9de9-3c27b9118be1',name:'Content Creation'});
+CREATE (:tag:skill:hard {uuid:'17811dd1-3db9-4621-8569-aceb33039772',name:'Gaming'});
+CREATE (:tag:skill:hard {uuid:'82d81589-0916-4cc0-86e3-d741a498af13',name:'Content Management'});
+CREATE (:tag:skill:hard {uuid:'19ceed54-4f65-4331-8c7c-9564e8729d6b',name:'Media Delivery & Consumption'});
+CREATE (:tag:skill:hard {uuid:'9730f3f7-83cf-4a1f-a61f-cb2bbceb352d',name:'Social Networking Platforms'});
+CREATE (:tag:skill:hard {uuid:'16478611-4719-4917-93f3-df469406e906',name:'Consumer Electronics'});
+CREATE (:tag:skill:hard {uuid:'c141420b-e4b4-4e0e-bb61-46c122a6aac1',name:'Digital Advertising'});
+CREATE (:tag:skill:hard {uuid:'0f4f2586-3403-4d15-b8b0-3cb3bdc2b7c4',name:'Finance'});
+CREATE (:tag:skill:hard {uuid:'815bddaa-3c53-4b1b-b87e-41edc4adb15b',name:'Banking'});
+CREATE (:tag:skill:hard {uuid:'67e6794c-9dbe-4e05-9a6d-5cadec6d74f6',name:'Payment Cards'});
+CREATE (:tag:skill:hard {uuid:'e9e23bc2-a505-4a61-92af-8a2ad40d5f4c',name:'Investment Management'});
+CREATE (:tag:skill:hard {uuid:'1a5b8765-6626-4829-9619-3f02a7fa08ee',name:'Investment Banking'});
+CREATE (:tag:skill:hard {uuid:'fccdc6d5-cb6a-41d0-b880-c41854208b40',name:'Retail Brokerage'});
+CREATE (:tag:skill:hard {uuid:'582341e4-bf91-487f-b56a-0c6b65edf876',name:'Insurance'});
+CREATE (:tag:skill:hard {uuid:'d2c98e43-5685-4c72-8214-3b34e9167c2b',name:'Employee Benefits'});
+CREATE (:tag:skill:hard {uuid:'63d77dbc-cfee-43fe-85ff-bbb961869670',name:'PFM'});
+CREATE (:tag:skill:hard {uuid:'40944871-e5b6-42eb-b43c-e62de9b20542',name:'Healthcare'});
+CREATE (:tag:skill:hard {uuid:'57a2e1c3-e922-42a9-9927-a4e599355324',name:'Monitoring'});
+CREATE (:tag:skill:hard {uuid:'8fdcb2ef-74ca-439f-b249-49f359bf989c',name:'Imaging'});
+CREATE (:tag:skill:hard {uuid:'2639dd73-90ba-48e0-ad7a-9701cfeb541c',name:'Therapy'});
+CREATE (:tag:skill:hard {uuid:'d352c90c-582f-4826-bf25-93cebd5a49d8',name:'Laboratory'});
+CREATE (:tag:skill:hard {uuid:'e62921e1-7047-4bdf-a0e7-e344d68b1672',name:'Automated dispensing machines'});
+CREATE (:tag:skill:hard {uuid:'e8472e21-42c4-493d-8a53-77f4e347bea6',name:'EHR'});
+CREATE (:tag:skill:hard {uuid:'889932e1-f0c7-4f5b-81ed-4c5e49aca18f',name:'Interoperability'});
+CREATE (:tag:skill:hard {uuid:'90ea02d1-7d8d-4050-ab8b-20c2e6dd546f',name:'CIS (Clinical Info Systems)'});
+CREATE (:tag:skill:hard {uuid:'f42b1860-7bd0-4b6a-a7a5-2b634541f89d',name:'Clinical Decision Support & Ref'});
+CREATE (:tag:skill:hard {uuid:'94c3f40f-84a9-40f4-93c8-790bd1a724db',name:'Revenue Cycle Management'});
+CREATE (:tag:skill:hard {uuid:'0110f4ae-3edd-4067-8f97-e41983d06450',name:'Process Management'});
+CREATE (:tag:skill:hard {uuid:'6084247a-9b42-4915-b7c1-b34c844623eb',name:'Compliance & Regulatory SW'});
+CREATE (:tag:skill:hard {uuid:'9f18fe18-1983-47ae-8c82-f4f53179073c',name:'Asset Management'});
+CREATE (:tag:skill:hard {uuid:'56c0689a-fea7-45ce-a8a3-08f7bad3998f',name:'Airspace'});
+CREATE (:tag:skill:hard {uuid:'7902cbbd-e138-4f52-b146-8dc388276084',name:'Geoinformatics'});
+CREATE (:tag:skill:hard {uuid:'1c96f196-ef7a-4296-921b-11de4edcccc9',name:'Heavy Industry'});
+CREATE (:tag:skill:hard {uuid:'144ef41f-5753-47ec-b2a0-498d549999ed',name:'Jurisprudence'});
+CREATE (:tag:skill:hard {uuid:'78c9dfe9-b44e-45ad-98a7-23751aa62451',name:'Military'});
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'Development' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Development' })
+MATCH (child:tag:skill:hard { name:'Security' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Development' })
+MATCH (child:tag:skill:hard { name:'Cloud' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud' })
+MATCH (child:tag:skill:hard { name:'Cloud technologies' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud technologies' })
+MATCH (child:tag:skill:hard { name:'IaaS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'IaaS' })
+MATCH (child:tag:skill:hard { name:'Amazon Web Service (AWS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'IaaS' })
+MATCH (child:tag:skill:hard { name:'Microsoft Azure' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'IaaS' })
+MATCH (child:tag:skill:hard { name:'Google Compute Engine (GCE)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'IaaS' })
+MATCH (child:tag:skill:hard { name:'OpenStack' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud technologies' })
+MATCH (child:tag:skill:hard { name:'PaaS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PaaS' })
+MATCH (child:tag:skill:hard { name:'Force.com' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PaaS' })
+MATCH (child:tag:skill:hard { name:'Apache Stratos' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PaaS' })
+MATCH (child:tag:skill:hard { name:'Microsoft Azure' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PaaS' })
+MATCH (child:tag:skill:hard { name:'Amazone BeansTalk' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PaaS' })
+MATCH (child:tag:skill:hard { name:'Heroku' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud technologies' })
+MATCH (child:tag:skill:hard { name:'SaaS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SaaS' })
+MATCH (child:tag:skill:hard { name:'Apprenda' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SaaS' })
+MATCH (child:tag:skill:hard { name:'Google Apps' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SaaS' })
+MATCH (child:tag:skill:hard { name:'Salesforce' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SaaS' })
+MATCH (child:tag:skill:hard { name:'Cisco WebEx' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SaaS' })
+MATCH (child:tag:skill:hard { name:'Citrix GoToMeeting' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud' })
+MATCH (child:tag:skill:hard { name:'Cloud Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud Services' })
+MATCH (child:tag:skill:hard { name:'Data Service' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Service' })
+MATCH (child:tag:skill:hard { name:'SQL Database' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SQL Database' })
+MATCH (child:tag:skill:hard { name:'Amazon Relational Database Service (RDS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SQL Database' })
+MATCH (child:tag:skill:hard { name:'Azure SQL Database' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'SQL Database' })
+MATCH (child:tag:skill:hard { name:'Google Cloud SQL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Service' })
+MATCH (child:tag:skill:hard { name:'NoSQL Database' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'NoSQL Database' })
+MATCH (child:tag:skill:hard { name:'CouchDB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'NoSQL Database' })
+MATCH (child:tag:skill:hard { name:'Oracle NoSQL Database' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'NoSQL Database' })
+MATCH (child:tag:skill:hard { name:'MongoDB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'NoSQL Database' })
+MATCH (child:tag:skill:hard { name:'Solr' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'NoSQL Database' })
+MATCH (child:tag:skill:hard { name:'Amazon DynamoDB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'NoSQL Database' })
+MATCH (child:tag:skill:hard { name:'Microsoft Azure DocumentDB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Service' })
+MATCH (child:tag:skill:hard { name:'Graph Database' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Graph Database' })
+MATCH (child:tag:skill:hard { name:'MapGraph' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Graph Database' })
+MATCH (child:tag:skill:hard { name:'Neo4j' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Graph Database' })
+MATCH (child:tag:skill:hard { name:'IBM System G Native Store' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Graph Database' })
+MATCH (child:tag:skill:hard { name:'Oracle Spatial and Graph' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Graph Database' })
+MATCH (child:tag:skill:hard { name:'OrientDB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Graph Database' })
+MATCH (child:tag:skill:hard { name:'VertexDB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud Services' })
+MATCH (child:tag:skill:hard { name:'Message Queue / AMQP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Message Queue / AMQP' })
+MATCH (child:tag:skill:hard { name:'RabbitMQ' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Message Queue / AMQP' })
+MATCH (child:tag:skill:hard { name:'Amazon Simple Queue Service' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Message Queue / AMQP' })
+MATCH (child:tag:skill:hard { name:'StormMQ' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Message Queue / AMQP' })
+MATCH (child:tag:skill:hard { name:'IronMQ' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud Services' })
+MATCH (child:tag:skill:hard { name:'CDN' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CDN' })
+MATCH (child:tag:skill:hard { name:'Amazon CloudFront' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CDN' })
+MATCH (child:tag:skill:hard { name:'Azure CDN' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CDN' })
+MATCH (child:tag:skill:hard { name:'CloudFlare' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud Services' })
+MATCH (child:tag:skill:hard { name:'Storage' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'Amazon Glacier' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'Amazon Simple Storage Service (S3)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'Amazon Elastic Block Store' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'Azure Blob Storage Service' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'Azure Table Storage Service' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'Google Storage service' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'DropBox' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage' })
+MATCH (child:tag:skill:hard { name:'OneDrive' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cloud' })
+MATCH (child:tag:skill:hard { name:'Data Analysis' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Analysis' })
+MATCH (child:tag:skill:hard { name:'Data Mining' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Mining' })
+MATCH (child:tag:skill:hard { name:'SAS Enterprise Miner' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Mining' })
+MATCH (child:tag:skill:hard { name:'Microsoft Analysis Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Mining' })
+MATCH (child:tag:skill:hard { name:'IBM SPSS Modeler' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Mining' })
+MATCH (child:tag:skill:hard { name:'Oracle Data Mining' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Analysis' })
+MATCH (child:tag:skill:hard { name:'Business Intelligence' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Business Intelligence' })
+MATCH (child:tag:skill:hard { name:'SAP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Business Intelligence' })
+MATCH (child:tag:skill:hard { name:'Jaspersoft' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Analysis' })
+MATCH (child:tag:skill:hard { name:'Map Reduce' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Map Reduce' })
+MATCH (child:tag:skill:hard { name:'Couchdb' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Map Reduce' })
+MATCH (child:tag:skill:hard { name:'MongoDB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Map Reduce' })
+MATCH (child:tag:skill:hard { name:'Infinispan' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Map Reduce' })
+MATCH (child:tag:skill:hard { name:'Amazon Elastic MapReduce' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Map Reduce' })
+MATCH (child:tag:skill:hard { name:'Apache Spark' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Map Reduce' })
+MATCH (child:tag:skill:hard { name:'Hadoop, Apache' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Map Reduce' })
+MATCH (child:tag:skill:hard { name:'Apache Storm' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Data Analysis' })
+MATCH (child:tag:skill:hard { name:'OLAP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'OLAP' })
+MATCH (child:tag:skill:hard { name:'Microsoft Analysis Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'OLAP' })
+MATCH (child:tag:skill:hard { name:'SAS OLAP Server' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'OLAP' })
+MATCH (child:tag:skill:hard { name:'IBM Cognos' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'OLAP' })
+MATCH (child:tag:skill:hard { name:'Jedox OLAP Server' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Development' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Front-End' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'HTML/CSS frameworks' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'HTML5 Boilerplate' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'HTML KickStart' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Montage HTML5 Framework' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Sproutcore' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'DHTMLX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'YAML' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Kube' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Bootstrap' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Foundation' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Semantic UI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Uikit' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Skeleton' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'960 Grid System' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'G5Framework' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Blueprint' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Metro UI CSS 2.0' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Toast' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Gumby' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Responsive' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Columnal' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'HTML/CSS frameworks' })
+MATCH (child:tag:skill:hard { name:'Susy' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'CSS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'CSS3' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'HTML' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'HTML5' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'Javascript' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'jQuery' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'GWT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'ProcessingJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'AngularJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'AtomsJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'Dojo' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'ExtJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'CreateJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'KnockoutJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'BackboneJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'RequireJS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'Ember' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'Sencha Touch' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'jQuery UI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'jQuery Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'PDF.js' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'underscore' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'Markdown' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'Socket.io' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'Google API' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Javascript' })
+MATCH (child:tag:skill:hard { name:'Build systems' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'CoffeeScript' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'Typescript' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'LESS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Front-End' })
+MATCH (child:tag:skill:hard { name:'SASS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Multimedia Development' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Multimedia Development' })
+MATCH (child:tag:skill:hard { name:'­-' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'­-' })
+MATCH (child:tag:skill:hard { name:'Adobe Flash' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'­-' })
+MATCH (child:tag:skill:hard { name:'Adobe Flex' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'­-' })
+MATCH (child:tag:skill:hard { name:'ActionScript 2.0' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'­-' })
+MATCH (child:tag:skill:hard { name:'ActionScript 3.0' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Multimedia Development' })
+MATCH (child:tag:skill:hard { name:'JavaScript' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JavaScript' })
+MATCH (child:tag:skill:hard { name:'dz.js' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JavaScript' })
+MATCH (child:tag:skill:hard { name:'create.js' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Backend' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'PHP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'ASP.NET MVC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'Base One Foundation Component Library' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'Component-based Scalable Logical Architecture' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'MonoRail' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'OpenRasta' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'Nancy' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'JavaScript' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JavaScript' })
+MATCH (child:tag:skill:hard { name:'node.js' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Core' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Core' })
+MATCH (child:tag:skill:hard { name:'Java6' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Core' })
+MATCH (child:tag:skill:hard { name:'Java7' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Core' })
+MATCH (child:tag:skill:hard { name:'Java8' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Core' })
+MATCH (child:tag:skill:hard { name:'OOP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Core' })
+MATCH (child:tag:skill:hard { name:'Collections' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Core' })
+MATCH (child:tag:skill:hard { name:'Concurrency' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Axis' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Axis2' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache CXF' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'GlassFish' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Click' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache OFBiz' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Shale' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Sling' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Struts 2' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Tapestry' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Wicket' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'AppFuse' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Eclipse RAP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'FormEngine' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Grails' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Google Web Toolkit' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Hamlets' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'ItsNat' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'JavaServer Faces' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'JBoss Seam' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Jspx-bay' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'JVx' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'OpenLaszlo' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'OpenXava' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Oracle ADF' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Play!' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'RIFE' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Spring' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Stripes' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'ThinWire' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Vaadin' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Vraptor' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Wavemaker' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'WebObjects' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'WebWork' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Ze Framework' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'ZK' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'ztemplates' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'JSF' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JSF' })
+MATCH (child:tag:skill:hard { name:'Mojarra' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JSF' })
+MATCH (child:tag:skill:hard { name:'MyFaces' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JSF' })
+MATCH (child:tag:skill:hard { name:'Tomahawk' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JSF' })
+MATCH (child:tag:skill:hard { name:'IceFaces' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JSF' })
+MATCH (child:tag:skill:hard { name:'RichFaces' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JSF' })
+MATCH (child:tag:skill:hard { name:'PrimeFaces' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'GWT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'GWT' })
+MATCH (child:tag:skill:hard { name:'SmartGWT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'GWT' })
+MATCH (child:tag:skill:hard { name:'Vaadin' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'GWT' })
+MATCH (child:tag:skill:hard { name:'GXT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'GWT' })
+MATCH (child:tag:skill:hard { name:'Errai' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Struts 1' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'ORM' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ORM' })
+MATCH (child:tag:skill:hard { name:'Hibernate' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ORM' })
+MATCH (child:tag:skill:hard { name:'JDBC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ORM' })
+MATCH (child:tag:skill:hard { name:'Spring JDBC Template' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ORM' })
+MATCH (child:tag:skill:hard { name:'Eclipse Link' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ORM' })
+MATCH (child:tag:skill:hard { name:'MyBatis' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ORM' })
+MATCH (child:tag:skill:hard { name:'JOOQ' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'JVM languages' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Scala' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Groovy' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Closure' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Kotlin' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Ceylon' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Xtend' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Rhino' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Nashorn' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'Jython' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JVM languages' })
+MATCH (child:tag:skill:hard { name:'JRuby' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'WebServices' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'WebServices' })
+MATCH (child:tag:skill:hard { name:'JAX-WS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'WebServices' })
+MATCH (child:tag:skill:hard { name:'JAX-RS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'WebServices' })
+MATCH (child:tag:skill:hard { name:'JAX-RPC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'WebServices' })
+MATCH (child:tag:skill:hard { name:'SAAJ' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'WebServices' })
+MATCH (child:tag:skill:hard { name:'XML' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'XML' })
+MATCH (child:tag:skill:hard { name:'JAXP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JAXP' })
+MATCH (child:tag:skill:hard { name:'DOM' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JAXP' })
+MATCH (child:tag:skill:hard { name:'SAX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'JAXP' })
+MATCH (child:tag:skill:hard { name:'StAX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'XML' })
+MATCH (child:tag:skill:hard { name:'XSLT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'XML' })
+MATCH (child:tag:skill:hard { name:'JAXR' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'XML' })
+MATCH (child:tag:skill:hard { name:'JAXB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'Perl' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl' })
+MATCH (child:tag:skill:hard { name:'Catalyst' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl' })
+MATCH (child:tag:skill:hard { name:'Dancer' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl' })
+MATCH (child:tag:skill:hard { name:'Mason' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl' })
+MATCH (child:tag:skill:hard { name:'Maypole' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl' })
+MATCH (child:tag:skill:hard { name:'Mojolicious' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'Ruby' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby' })
+MATCH (child:tag:skill:hard { name:'Camping' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby' })
+MATCH (child:tag:skill:hard { name:'Padrino' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby' })
+MATCH (child:tag:skill:hard { name:'Ruby on Rails' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby' })
+MATCH (child:tag:skill:hard { name:'Ramaze' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby' })
+MATCH (child:tag:skill:hard { name:'Sinatra' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby' })
+MATCH (child:tag:skill:hard { name:'Merb' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby' })
+MATCH (child:tag:skill:hard { name:'PureMVC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'Python' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Pyramid' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'BlueBream' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'CherryPy' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'CubicWeb' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Django' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Flask' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Grok' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Nagare' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Pyjamas' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Pylons' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'TACTIC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Tornado' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'TurboGears' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'web2py' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Webware' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python' })
+MATCH (child:tag:skill:hard { name:'Zope 2' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'Scala' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Scala' })
+MATCH (child:tag:skill:hard { name:'Play!' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Scala' })
+MATCH (child:tag:skill:hard { name:'Lift' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Scala' })
+MATCH (child:tag:skill:hard { name:'Scalatra' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'ColdFusion' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ColdFusion' })
+MATCH (child:tag:skill:hard { name:'CFWheels' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ColdFusion' })
+MATCH (child:tag:skill:hard { name:'ColdBox Platform' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ColdFusion' })
+MATCH (child:tag:skill:hard { name:'ColdSpring' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ColdFusion' })
+MATCH (child:tag:skill:hard { name:'Fusebox' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ColdFusion' })
+MATCH (child:tag:skill:hard { name:'FW/1' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ColdFusion' })
+MATCH (child:tag:skill:hard { name:'Mach-II' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ColdFusion' })
+MATCH (child:tag:skill:hard { name:'Model-Glue' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Backend' })
+MATCH (child:tag:skill:hard { name:'Haskell' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Haskell' })
+MATCH (child:tag:skill:hard { name:'Happstack' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Haskell' })
+MATCH (child:tag:skill:hard { name:'Snapp' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Haskell' })
+MATCH (child:tag:skill:hard { name:'Yesod' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CMS' })
+MATCH (child:tag:skill:hard { name:'PHP (CMS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Wordpress' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'AdaptCMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Atutor' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'b2evolution' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Bedita' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Chevereto' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'CMSimple' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'concrete5' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Contao' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Cotonti' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Directus' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Dokuwiki' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Dotclear' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Drupal' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'DynPG' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Exponent CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'eZ Publish' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Geeklog' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'GetSimple CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Habari' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'ImpressCMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'ImpressPages' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Jamroom' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Joomla!' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Kajona' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Magento' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Mambo' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'MediaWiki' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'MiaCMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Midgard CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'MODX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Moodle' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Novius OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Nucleus CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Ocportal' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Opencart' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'papaya CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Phire CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'PHP-Fusion' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'PHP-Nuke' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'phpWebLog' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'phpWebSite' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'phpWiki' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Pico' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'pimcore' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'PivotX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'PixieCMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Prestashop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'ProcessWire' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'RavenNuke CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'SMW+' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Serendipity' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'SilverStripe' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'SPIP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'TangoCMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Textpattern' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Tiki Wiki CMS Groupware' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Tribiq CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'TYPO3' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'u5cms' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Wolf CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Xaraya' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'XOOPS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'PHP (CMS)' })
+MATCH (child:tag:skill:hard { name:'Zikula' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CMS' })
+MATCH (child:tag:skill:hard { name:'Python (CMS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python (CMS)' })
+MATCH (child:tag:skill:hard { name:'Django-cms' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python (CMS)' })
+MATCH (child:tag:skill:hard { name:'MoinMoin' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Python (CMS)' })
+MATCH (child:tag:skill:hard { name:'Plone' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CMS' })
+MATCH (child:tag:skill:hard { name:'Ruby on Rails (CMS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby on Rails (CMS)' })
+MATCH (child:tag:skill:hard { name:'BrowserCMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby on Rails (CMS)' })
+MATCH (child:tag:skill:hard { name:'Flagship Docs' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby on Rails (CMS)' })
+MATCH (child:tag:skill:hard { name:'Radiant' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby on Rails (CMS)' })
+MATCH (child:tag:skill:hard { name:'Refinery CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Ruby on Rails (CMS)' })
+MATCH (child:tag:skill:hard { name:'Typo' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CMS' })
+MATCH (child:tag:skill:hard { name:'CFML (CMS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CFML (CMS)' })
+MATCH (child:tag:skill:hard { name:'Mura CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CFML (CMS)' })
+MATCH (child:tag:skill:hard { name:'FarCry CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CMS' })
+MATCH (child:tag:skill:hard { name:'Perl (CMS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'blosxom' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'Bricolage' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'Cyclone3' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'Eprints' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'Foswiki' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'Ikiwiki' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'Movable Type Open Source' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'Twiki' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Perl (CMS)' })
+MATCH (child:tag:skill:hard { name:'WebGUI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CMS' })
+MATCH (child:tag:skill:hard { name:'ASP.NET (CMS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'Composite C1' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'DotNetNuke' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'mojoPortal' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'Orchard Project' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'Umbraco' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'EpiServer' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'Kentico' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'Kooboo CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'Yendo' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'ASP.NET (CMS)' })
+MATCH (child:tag:skill:hard { name:'Sitefinity' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'CMS' })
+MATCH (child:tag:skill:hard { name:'Java (CMS)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Apache Roller' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'OpenCms' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Ametys CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Liferay' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'eXo Platform' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Dspace' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Enonic' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Fedora Commons' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Dotcms' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'LogicalDOC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Nuxeo EP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Alfresco Community Edition' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Magnolia' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Hippo CMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'VosaoCMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Yanel' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'OpenWGA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Jahia Community Distribution' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'OpenKM' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (CMS)' })
+MATCH (child:tag:skill:hard { name:'Thingamablog' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'RIA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RIA' })
+MATCH (child:tag:skill:hard { name:'.NET (RIA)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET (RIA)' })
+MATCH (child:tag:skill:hard { name:'Silverlight' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RIA' })
+MATCH (child:tag:skill:hard { name:'Java (RIA)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (RIA)' })
+MATCH (child:tag:skill:hard { name:'JavaFX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java (RIA)' })
+MATCH (child:tag:skill:hard { name:'Java applet' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RIA' })
+MATCH (child:tag:skill:hard { name:'Action script (RIA)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Action script (RIA)' })
+MATCH (child:tag:skill:hard { name:'Adobe Flash' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Action script (RIA)' })
+MATCH (child:tag:skill:hard { name:'Apache Flex' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Common Practicies' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Common Practicies' })
+MATCH (child:tag:skill:hard { name:'­-' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'­-' })
+MATCH (child:tag:skill:hard { name:'XML Schema' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'­-' })
+MATCH (child:tag:skill:hard { name:'XSLT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'­-' })
+MATCH (child:tag:skill:hard { name:'Xpath' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Development' })
+MATCH (child:tag:skill:hard { name:'Application development(desktop+mobile)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Application development(desktop+mobile)' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Android' })
+MATCH (child:tag:skill:hard { name:'SDK' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Android' })
+MATCH (child:tag:skill:hard { name:'NDK' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Android' })
+MATCH (child:tag:skill:hard { name:'Communications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Java SE' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'Swing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'AWT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'Java2D' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'CORBA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'Java Plug-In' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'Java Web Start / JNLP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'Java 3D' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'Java Sound' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'JOGL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'JAI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'Internationalization' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'JavaHelp System' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java SE' })
+MATCH (child:tag:skill:hard { name:'JDIC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'NetBeans' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Java EE' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'Servlet' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'Websocket' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'Faces' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'CDI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'EJB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JPA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JTA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JASPIC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'Concurrent' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JMS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'Batch' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JCA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JSP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JSTL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JSF' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JNDI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JAAS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JavaMail' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JACC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JAF' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'JAX-WS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java EE' })
+MATCH (child:tag:skill:hard { name:'StAX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'App servers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Glassfish' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Jboss' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'WebLogic' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'WebSphere' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Tomcat' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Jetty' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Apache TomEE' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'WildFly' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Apache Geronimo' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Enhydra Enterprise' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'JOnAS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Resin' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'App servers' })
+MATCH (child:tag:skill:hard { name:'Apache OpenEJB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Application development(desktop+mobile)' })
+MATCH (child:tag:skill:hard { name:'C++' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'MFC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'VCL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'GDI+' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'COM' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'WinAPI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'ATL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'ActiveX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'Sharepoint' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Linux' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Frameworks' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'C++ Builder' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'Qt' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Libraries' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Libraries' })
+MATCH (child:tag:skill:hard { name:'Boost' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Libraries' })
+MATCH (child:tag:skill:hard { name:'STL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Libraries' })
+MATCH (child:tag:skill:hard { name:'KDE' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Compilers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compilers' })
+MATCH (child:tag:skill:hard { name:'GCC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compilers' })
+MATCH (child:tag:skill:hard { name:'Microsoft Visual C++' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compilers' })
+MATCH (child:tag:skill:hard { name:'Clang' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compilers' })
+MATCH (child:tag:skill:hard { name:'Intel C++ Compiler' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Application development(desktop+mobile)' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'Presentation' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Presentation' })
+MATCH (child:tag:skill:hard { name:'Windows Forms' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Presentation' })
+MATCH (child:tag:skill:hard { name:'WPF' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Presentation' })
+MATCH (child:tag:skill:hard { name:'GDI+' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'Communication' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Communication' })
+MATCH (child:tag:skill:hard { name:'WCF' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Communication' })
+MATCH (child:tag:skill:hard { name:'Sockets' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.NET' })
+MATCH (child:tag:skill:hard { name:'Languages' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Languages' })
+MATCH (child:tag:skill:hard { name:'C#' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Languages' })
+MATCH (child:tag:skill:hard { name:'VB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Languages' })
+MATCH (child:tag:skill:hard { name:'F#' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Languages' })
+MATCH (child:tag:skill:hard { name:'C++' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Application development(desktop+mobile)' })
+MATCH (child:tag:skill:hard { name:'Objective-C' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Objective-C' })
+MATCH (child:tag:skill:hard { name:'Frameworks' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'GCD' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'Open GL ES' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'Foundation' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'AVFoundation' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'CoreData' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'CoreGraphics' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'CoreMotion' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'UIKit' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'QuartzCore' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'Cocoa Touch Layer' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Frameworks' })
+MATCH (child:tag:skill:hard { name:'Media Layer' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Development' })
+MATCH (child:tag:skill:hard { name:'Embedded' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Embedded' })
+MATCH (child:tag:skill:hard { name:'Language' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Language' })
+MATCH (child:tag:skill:hard { name:'C' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Language' })
+MATCH (child:tag:skill:hard { name:'C++' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'STL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'GTK+' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Qt' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Language' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Language' })
+MATCH (child:tag:skill:hard { name:'Scripting' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Scripting' })
+MATCH (child:tag:skill:hard { name:'Shell' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Scripting' })
+MATCH (child:tag:skill:hard { name:'Bash' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Scripting' })
+MATCH (child:tag:skill:hard { name:'Python' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Scripting' })
+MATCH (child:tag:skill:hard { name:'Perl' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Embedded' })
+MATCH (child:tag:skill:hard { name:'Target OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Target OS' })
+MATCH (child:tag:skill:hard { name:'Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Target OS' })
+MATCH (child:tag:skill:hard { name:'Linux' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Target OS' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Target OS' })
+MATCH (child:tag:skill:hard { name:'No_OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Target OS' })
+MATCH (child:tag:skill:hard { name:'RTOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'MQX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'VxWorks' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'QNX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'FreeRTOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'ThreadX' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Embedded' })
+MATCH (child:tag:skill:hard { name:'Platforms' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Platforms' })
+MATCH (child:tag:skill:hard { name:'ARM' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Platforms' })
+MATCH (child:tag:skill:hard { name:'MIPS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Platforms' })
+MATCH (child:tag:skill:hard { name:'AVR' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Platforms' })
+MATCH (child:tag:skill:hard { name:'x86' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Embedded' })
+MATCH (child:tag:skill:hard { name:'Technologies' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Technologies' })
+MATCH (child:tag:skill:hard { name:'Multimedia' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Multimedia' })
+MATCH (child:tag:skill:hard { name:'Audio' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Audio' })
+MATCH (child:tag:skill:hard { name:'OSS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Audio' })
+MATCH (child:tag:skill:hard { name:'ALSA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Audio' })
+MATCH (child:tag:skill:hard { name:'H264' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Audio' })
+MATCH (child:tag:skill:hard { name:'AC3' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Multimedia' })
+MATCH (child:tag:skill:hard { name:'Video' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Video' })
+MATCH (child:tag:skill:hard { name:'FB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Video' })
+MATCH (child:tag:skill:hard { name:'V4L2' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Video' })
+MATCH (child:tag:skill:hard { name:'H264' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Video' })
+MATCH (child:tag:skill:hard { name:'AC3' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Technologies' })
+MATCH (child:tag:skill:hard { name:'Networking' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Networking' })
+MATCH (child:tag:skill:hard { name:'WiFi' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Networking' })
+MATCH (child:tag:skill:hard { name:'Ethernet' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Networking' })
+MATCH (child:tag:skill:hard { name:'Bluetooth' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Networking' })
+MATCH (child:tag:skill:hard { name:'TCP/IP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'TCP/IP' })
+MATCH (child:tag:skill:hard { name:'L2' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'TCP/IP' })
+MATCH (child:tag:skill:hard { name:'L3' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'TCP/IP' })
+MATCH (child:tag:skill:hard { name:'Sockets' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'TCP/IP' })
+MATCH (child:tag:skill:hard { name:'IPSec' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Technologies' })
+MATCH (child:tag:skill:hard { name:'Device Drivers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Device Drivers' })
+MATCH (child:tag:skill:hard { name:'Bus Drivers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Bus Drivers' })
+MATCH (child:tag:skill:hard { name:'USB' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Bus Drivers' })
+MATCH (child:tag:skill:hard { name:'PCI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Bus Drivers' })
+MATCH (child:tag:skill:hard { name:'I2C' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Bus Drivers' })
+MATCH (child:tag:skill:hard { name:'SPI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Bus Drivers' })
+MATCH (child:tag:skill:hard { name:'CAN' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Bus Drivers' })
+MATCH (child:tag:skill:hard { name:'CEC' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Bus Drivers' })
+MATCH (child:tag:skill:hard { name:'TTY' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Device Drivers' })
+MATCH (child:tag:skill:hard { name:'Network Drivers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Network Drivers' })
+MATCH (child:tag:skill:hard { name:'WiFi' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Network Drivers' })
+MATCH (child:tag:skill:hard { name:'Ethernet' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Network Drivers' })
+MATCH (child:tag:skill:hard { name:'Bluetooth' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Network Drivers' })
+MATCH (child:tag:skill:hard { name:'DHCP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Network Drivers' })
+MATCH (child:tag:skill:hard { name:'BLE' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Device Drivers' })
+MATCH (child:tag:skill:hard { name:'Storage Drivers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage Drivers' })
+MATCH (child:tag:skill:hard { name:'HDD' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Storage Drivers' })
+MATCH (child:tag:skill:hard { name:'Flash Memory Drivers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Flash Memory Drivers' })
+MATCH (child:tag:skill:hard { name:'NOR' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Flash Memory Drivers' })
+MATCH (child:tag:skill:hard { name:'NAND' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Device Drivers' })
+MATCH (child:tag:skill:hard { name:'File System Drivers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'File System Drivers' })
+MATCH (child:tag:skill:hard { name:'EXT3' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'File System Drivers' })
+MATCH (child:tag:skill:hard { name:'EXT4' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'File System Drivers' })
+MATCH (child:tag:skill:hard { name:'cramfs' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'File System Drivers' })
+MATCH (child:tag:skill:hard { name:'squashfs' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'File System Drivers' })
+MATCH (child:tag:skill:hard { name:'FAT' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'File System Drivers' })
+MATCH (child:tag:skill:hard { name:'FAT32' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Device Drivers' })
+MATCH (child:tag:skill:hard { name:'Multimedia Drivers' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Multimedia Drivers' })
+MATCH (child:tag:skill:hard { name:'HDMI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Multimedia Drivers' })
+MATCH (child:tag:skill:hard { name:'HDCP' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Multimedia Drivers' })
+MATCH (child:tag:skill:hard { name:'FB (Framebuffer)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Technologies' })
+MATCH (child:tag:skill:hard { name:'Cryptography' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cryptography' })
+MATCH (child:tag:skill:hard { name:'OpenSSL' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cryptography' })
+MATCH (child:tag:skill:hard { name:'Mocana' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Cryptography' })
+MATCH (child:tag:skill:hard { name:'DRM' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'DRM' })
+MATCH (child:tag:skill:hard { name:'PlayReady' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'DRM' })
+MATCH (child:tag:skill:hard { name:'WideVine' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'DRM' })
+MATCH (child:tag:skill:hard { name:'OpenDRM' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Development' })
+MATCH (child:tag:skill:hard { name:'Unit Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Unit Testing' })
+MATCH (child:tag:skill:hard { name:'C++' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Boost Test Library' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'CppUnit' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Google Test' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'QtTest' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Unit Testing' })
+MATCH (child:tag:skill:hard { name:'.Net' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.Net' })
+MATCH (child:tag:skill:hard { name:'NCover' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.Net' })
+MATCH (child:tag:skill:hard { name:'nUnit' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Development' })
+MATCH (child:tag:skill:hard { name:'Logging' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Logging' })
+MATCH (child:tag:skill:hard { name:'Java Script' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java Script' })
+MATCH (child:tag:skill:hard { name:'Intel' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java Script' })
+MATCH (child:tag:skill:hard { name:'Winston' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Logging' })
+MATCH (child:tag:skill:hard { name:'C++' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'log4cpp' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Apache log4cxx' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'C++' })
+MATCH (child:tag:skill:hard { name:'Log4Qt' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Logging' })
+MATCH (child:tag:skill:hard { name:'.Net' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'.Net' })
+MATCH (child:tag:skill:hard { name:'log4net' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Logging' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Log4J' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'SLF4J' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Logback' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Apache Commons Logging' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'tinnylog' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Java' })
+MATCH (child:tag:skill:hard { name:'Java Logging API' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'QA' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Software Test Automation' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'Functional Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Functional Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Functional Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Selenium' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'JMeter' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Selenium' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'SoapUI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'JMeter' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Functional Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'Compatibility Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compatibility Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compatibility Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Selenium' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'JMeter' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Selenium' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'SoapUI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'JMeter' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compatibility Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'UI Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'UI Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'UI Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Selenium' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'UI Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'API Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'API Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'API Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'API Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'Installation and Configuration Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Installation and Configuration Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Installation and Configuration Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Installation and Configuration Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'Performance Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Performance Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'MS Windows' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Performance Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Selenium' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Applications' })
+MATCH (child:tag:skill:hard { name:'JMeter' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'.NET' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Java' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Selenium' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Test Complete' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'HP Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'Rational Solutions' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'SoapUI' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web Services' })
+MATCH (child:tag:skill:hard { name:'JMeter' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Performance Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'Globalization and Localization Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Globalization and Localization Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Globalization and Localization Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Globalization and Localization Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'Usability Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Usability Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Usability Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Usability Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Test Automation' })
+MATCH (child:tag:skill:hard { name:'Security Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Security Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Security Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Security Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Software Testing (Manual)' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Testing (Manual)' })
+MATCH (child:tag:skill:hard { name:'Functional Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Functional Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Functional Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Functional Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Testing (Manual)' })
+MATCH (child:tag:skill:hard { name:'Compatibility Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compatibility Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compatibility Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Compatibility Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Testing (Manual)' })
+MATCH (child:tag:skill:hard { name:'UI Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'UI Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'UI Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'UI Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Testing (Manual)' })
+MATCH (child:tag:skill:hard { name:'Installation and Configuration Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Installation and Configuration Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Installation and Configuration Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Installation and Configuration Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Testing (Manual)' })
+MATCH (child:tag:skill:hard { name:'Globalization and Localization Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Globalization and Localization Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Globalization and Localization Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Globalization and Localization Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Testing (Manual)' })
+MATCH (child:tag:skill:hard { name:'Usability Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Usability Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Usability Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Usability Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Software Testing (Manual)' })
+MATCH (child:tag:skill:hard { name:'Security Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Security Testing' })
+MATCH (child:tag:skill:hard { name:'Desktop' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'MS Windows' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'Mac OS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Desktop' })
+MATCH (child:tag:skill:hard { name:'*nix' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Security Testing' })
+MATCH (child:tag:skill:hard { name:'Web' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Applications' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Web' })
+MATCH (child:tag:skill:hard { name:'Web Services' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Security Testing' })
+MATCH (child:tag:skill:hard { name:'Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile' })
+MATCH (child:tag:skill:hard { name:'Win Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Test Methodology' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Methodology' })
+MATCH (child:tag:skill:hard { name:'White Box' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'White Box' })
+MATCH (child:tag:skill:hard { name:'API Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'White Box' })
+MATCH (child:tag:skill:hard { name:'Code Coverage' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'White Box' })
+MATCH (child:tag:skill:hard { name:'Fault Injection testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'White Box' })
+MATCH (child:tag:skill:hard { name:'Mutations testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'White Box' })
+MATCH (child:tag:skill:hard { name:'Loop testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'White Box' })
+MATCH (child:tag:skill:hard { name:'Unit Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Methodology' })
+MATCH (child:tag:skill:hard { name:'Grey Box' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Methodology' })
+MATCH (child:tag:skill:hard { name:'Black Box' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Black Box' })
+MATCH (child:tag:skill:hard { name:'Functional testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Black Box' })
+MATCH (child:tag:skill:hard { name:'Regression testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Test Strategy' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Strategy' })
+MATCH (child:tag:skill:hard { name:'Test Driven development' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Strategy' })
+MATCH (child:tag:skill:hard { name:'Keyword Driven development' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Strategy' })
+MATCH (child:tag:skill:hard { name:'Behaviour driven development' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Strategy' })
+MATCH (child:tag:skill:hard { name:'Model Based testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Testing Types' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Functional testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Acceptance testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Smoke testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'GUI testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Installation testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Compatibility testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Usability testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Regression testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Requirements testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Performance testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Load testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Stress testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Reliability and Continuous operating testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Security testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Testing Types' })
+MATCH (child:tag:skill:hard { name:'Localization testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Test Management' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Management' })
+MATCH (child:tag:skill:hard { name:'Test Plan' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Management' })
+MATCH (child:tag:skill:hard { name:'Test Management' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Test Development' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Development' })
+MATCH (child:tag:skill:hard { name:'Test Design' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Development' })
+MATCH (child:tag:skill:hard { name:'Test Case development' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Test Development' })
+MATCH (child:tag:skill:hard { name:'Classes of Equivalence' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'Mobile Testing' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile Testing' })
+MATCH (child:tag:skill:hard { name:'Android' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile Testing' })
+MATCH (child:tag:skill:hard { name:'iOS' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile Testing' })
+MATCH (child:tag:skill:hard { name:'J2ME' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile Testing' })
+MATCH (child:tag:skill:hard { name:'Blackberry' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile Testing' })
+MATCH (child:tag:skill:hard { name:'Windows Phone' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Mobile Testing' })
+MATCH (child:tag:skill:hard { name:'WinCE and Windows Mobile' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA' })
+MATCH (child:tag:skill:hard { name:'QA Automation' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'QA Automation' })
+MATCH (child:tag:skill:hard { name:'Programming Language' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'C#' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'C++' })
+CREATE (parent)-[:linked]->(child);
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'Visual Basic' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'Java' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'Java' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'JavaScript' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'JavaScript' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'Python' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'Python' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'Ruby' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'Ruby' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'Windows Shell and powershell' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'Windows Shell and powershell' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'Linux shell - bash' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'Linux shell - bash' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'Perl' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'Perl' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming Language' })
-MATCH (child:tag:skill:hard { id:'PHP' })
+MATCH (parent:tag:skill:hard { name:'Programming Language' })
+MATCH (child:tag:skill:hard { name:'PHP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'QA Automation' })
-MATCH (child:tag:skill:hard { id:'Programming and Design Patterns' })
+MATCH (parent:tag:skill:hard { name:'QA Automation' })
+MATCH (child:tag:skill:hard { name:'Programming and Design Patterns' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming and Design Patterns' })
-MATCH (child:tag:skill:hard { id:'OOP' })
+MATCH (parent:tag:skill:hard { name:'Programming and Design Patterns' })
+MATCH (child:tag:skill:hard { name:'OOP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming and Design Patterns' })
-MATCH (child:tag:skill:hard { id:'PageObject' })
+MATCH (parent:tag:skill:hard { name:'Programming and Design Patterns' })
+MATCH (child:tag:skill:hard { name:'PageObject' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming and Design Patterns' })
-MATCH (child:tag:skill:hard { id:'Front Controller' })
+MATCH (parent:tag:skill:hard { name:'Programming and Design Patterns' })
+MATCH (child:tag:skill:hard { name:'Front Controller' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming and Design Patterns' })
-MATCH (child:tag:skill:hard { id:'Factory' })
+MATCH (parent:tag:skill:hard { name:'Programming and Design Patterns' })
+MATCH (child:tag:skill:hard { name:'Factory' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Programming and Design Patterns' })
-MATCH (child:tag:skill:hard { id:'Singleton' })
+MATCH (parent:tag:skill:hard { name:'Programming and Design Patterns' })
+MATCH (child:tag:skill:hard { name:'Singleton' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'DB' })
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'DB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'DB' })
-MATCH (child:tag:skill:hard { id:'SQL' })
+MATCH (parent:tag:skill:hard { name:'DB' })
+MATCH (child:tag:skill:hard { name:'SQL' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Oracle' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Oracle' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'MySQL' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'MySQL' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'PostgreSQL' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'PostgreSQL' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'4th Dimension' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'4th Dimension' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Altibase' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Altibase' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Apache Derby' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Apache Derby' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Clustrix' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Clustrix' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'CUBRID' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'CUBRID' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'DB2' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'DB2' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'EXASolution' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'EXASolution' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'EnterpriseDB ' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'EnterpriseDB ' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Firebird' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Firebird' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'HSQLDB' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'HSQLDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'H2' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'H2' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Informix Dynamic Server' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Informix Dynamic Server' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Ingres' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Ingres' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'MariaDB' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'MariaDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Microsoft SQL Server' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Microsoft SQL Server' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'MonetDB' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'MonetDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Oracle Rdb' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Oracle Rdb' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Pervasive PSQL' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Pervasive PSQL' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'Polyhedra DBMS' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'Polyhedra DBMS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'SQL' })
-MATCH (child:tag:skill:hard { id:'SQLite' })
+MATCH (parent:tag:skill:hard { name:'SQL' })
+MATCH (child:tag:skill:hard { name:'SQLite' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'DB' })
-MATCH (child:tag:skill:hard { id:'NoSQL' })
+MATCH (parent:tag:skill:hard { name:'DB' })
+MATCH (child:tag:skill:hard { name:'NoSQL' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Coherence' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Coherence' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'eXtreme Scale' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'eXtreme Scale' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'GigaSpaces' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'GigaSpaces' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'GemFire' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'GemFire' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Hazelcast' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Hazelcast' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Infinispan' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Infinispan' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Jboss cache' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Jboss cache' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Memacached' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Memacached' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Repcached' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Repcached' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Terracotta' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Terracotta' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Velocity' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Velocity' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Clusterpoint' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Clusterpoint' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Couchbase' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Couchbase' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'CouchDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'CouchDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'MarkLogic' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'MarkLogic' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'MongoDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'MongoDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'XMS-databases' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'XMS-databases' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Redis' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Redis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Flare' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Flare' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Keyspace' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Keyspace' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'RAMCloud' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'RAMCloud' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'SchemaFree' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'SchemaFree' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'DovetailDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'DovetailDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Dynamo' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Dynamo' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Riak' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Riak' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'MotionDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'MotionDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Voldemort' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Voldemort' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'SubRecord' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'SubRecord' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Actord' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Actord' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'FoundationDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'FoundationDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Lightcloud' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Lightcloud' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'MemacacheDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'MemacacheDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Scalaris' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Scalaris' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'NMDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'NMDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'DB40' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'DB40' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Perst' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Perst' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Shoal' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Shoal' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'ZopeDB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'ZopeDB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'ApacheRiver' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'ApacheRiver' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Coord' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Coord' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'BigTable' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'BigTable' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Cassandra' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Cassandra' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Druid' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Druid' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Hbase' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Hbase' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Hypertable' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Hypertable' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Qbase' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Qbase' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'OpenNeptune' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'OpenNeptune' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Berkeley DB' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Berkeley DB' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'NoSQL' })
-MATCH (child:tag:skill:hard { id:'Neo4J' })
+MATCH (parent:tag:skill:hard { name:'NoSQL' })
+MATCH (child:tag:skill:hard { name:'Neo4J' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'UI Design/Usability' })
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'UI Design/Usability' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design/Usability' })
-MATCH (child:tag:skill:hard { id:'User Experience Design' })
+MATCH (parent:tag:skill:hard { name:'UI Design/Usability' })
+MATCH (child:tag:skill:hard { name:'User Experience Design' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'User Experience Design' })
-MATCH (child:tag:skill:hard { id:'User Experience Design' })
+MATCH (parent:tag:skill:hard { name:'User Experience Design' })
+MATCH (child:tag:skill:hard { name:'User Experience Design' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'User Experience Design' })
-MATCH (child:tag:skill:hard { id:'Graphic Design' })
+MATCH (parent:tag:skill:hard { name:'User Experience Design' })
+MATCH (child:tag:skill:hard { name:'Graphic Design' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'User Experience Design' })
-MATCH (child:tag:skill:hard { id:'Prototyping' })
+MATCH (parent:tag:skill:hard { name:'User Experience Design' })
+MATCH (child:tag:skill:hard { name:'Prototyping' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'User Experience Design' })
-MATCH (child:tag:skill:hard { id:'Wireframes' })
+MATCH (parent:tag:skill:hard { name:'User Experience Design' })
+MATCH (child:tag:skill:hard { name:'Wireframes' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design/Usability' })
-MATCH (child:tag:skill:hard { id:'UI Design' })
+MATCH (parent:tag:skill:hard { name:'UI Design/Usability' })
+MATCH (child:tag:skill:hard { name:'UI Design' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'Balsamiq Studio' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'Balsamiq Studio' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'Axure PRO' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'Axure PRO' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'Flash' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'Flash' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'InDesign' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'InDesign' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'After Effects' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'After Effects' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'Illustrator' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'Illustrator' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'Photoshop' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'Photoshop' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design' })
-MATCH (child:tag:skill:hard { id:'DreamWeaver' })
+MATCH (parent:tag:skill:hard { name:'UI Design' })
+MATCH (child:tag:skill:hard { name:'DreamWeaver' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'UI Design/Usability' })
-MATCH (child:tag:skill:hard { id:'Usability Expert' })
+MATCH (parent:tag:skill:hard { name:'UI Design/Usability' })
+MATCH (child:tag:skill:hard { name:'Usability Expert' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'Management' })
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Management' })
-MATCH (child:tag:skill:hard { id:'Project Management' })
+MATCH (parent:tag:skill:hard { name:'Management' })
+MATCH (child:tag:skill:hard { name:'Project Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Project Planning' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Project Planning' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Scope Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Scope Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Time Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Time Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Cost Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Cost Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Quality Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Quality Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Human Resource Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Human Resource Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Communications Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Communications Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Risk Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Risk Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Procurement Management' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Procurement Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Project Contract Types' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Project Contract Types' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Contract Types' })
-MATCH (child:tag:skill:hard { id:'Fixed Bid' })
+MATCH (parent:tag:skill:hard { name:'Project Contract Types' })
+MATCH (child:tag:skill:hard { name:'Fixed Bid' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Contract Types' })
-MATCH (child:tag:skill:hard { id:'Retainer (Time and Material)' })
+MATCH (parent:tag:skill:hard { name:'Project Contract Types' })
+MATCH (child:tag:skill:hard { name:'Retainer (Time and Material)' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Contract Types' })
-MATCH (child:tag:skill:hard { id:'Hourly' })
+MATCH (parent:tag:skill:hard { name:'Project Contract Types' })
+MATCH (child:tag:skill:hard { name:'Hourly' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Management' })
-MATCH (child:tag:skill:hard { id:'Project Ownership Types' })
+MATCH (parent:tag:skill:hard { name:'Project Management' })
+MATCH (child:tag:skill:hard { name:'Project Ownership Types' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Ownership Types' })
-MATCH (child:tag:skill:hard { id:'Outsourcing' })
+MATCH (parent:tag:skill:hard { name:'Project Ownership Types' })
+MATCH (child:tag:skill:hard { name:'Outsourcing' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Ownership Types' })
-MATCH (child:tag:skill:hard { id:'Full ownership' })
+MATCH (parent:tag:skill:hard { name:'Project Ownership Types' })
+MATCH (child:tag:skill:hard { name:'Full ownership' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Ownership Types' })
-MATCH (child:tag:skill:hard { id:'Team augmentation' })
+MATCH (parent:tag:skill:hard { name:'Project Ownership Types' })
+MATCH (child:tag:skill:hard { name:'Team augmentation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Project Ownership Types' })
-MATCH (child:tag:skill:hard { id:'Outstaffing' })
+MATCH (parent:tag:skill:hard { name:'Project Ownership Types' })
+MATCH (child:tag:skill:hard { name:'Outstaffing' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'Business Analysis' })
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'Business Analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Business Analysis' })
-MATCH (child:tag:skill:hard { id:'Reqirements development' })
+MATCH (parent:tag:skill:hard { name:'Business Analysis' })
+MATCH (child:tag:skill:hard { name:'Reqirements development' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Reqirements development' })
-MATCH (child:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
+MATCH (parent:tag:skill:hard { name:'Reqirements development' })
+MATCH (child:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Brainstorming' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Brainstorming' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Document Analysis' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Document Analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Focus Groups Analysis' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Focus Groups Analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Interface Analysis' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Interface Analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Interviews' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Interviews' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Observation' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Observation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Prototyping' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Prototyping' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Requirements Workshops' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Requirements Workshops' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirenents elicitation (gathering)' })
-MATCH (child:tag:skill:hard { id:'Survey/Questionnaire' })
+MATCH (parent:tag:skill:hard { name:'Requirenents elicitation (gathering)' })
+MATCH (child:tag:skill:hard { name:'Survey/Questionnaire' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Reqirements development' })
-MATCH (child:tag:skill:hard { id:'Requirements analysis' })
+MATCH (parent:tag:skill:hard { name:'Reqirements development' })
+MATCH (child:tag:skill:hard { name:'Requirements analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'Context Data Flow Diagramming' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'Context Data Flow Diagramming' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'Root Cause Analysis' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'Root Cause Analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'Workflow Modeling' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'Workflow Modeling' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'Use Case Modeling' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'Use Case Modeling' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'Process Decomposition Diagram' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'Process Decomposition Diagram' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'Entity Relationship Diagram' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'Entity Relationship Diagram' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'UML notation' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'UML notation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'IDEFx notations' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'IDEFx notations' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'BPM notation' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'BPM notation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements analysis' })
-MATCH (child:tag:skill:hard { id:'Gap Analysis' })
+MATCH (parent:tag:skill:hard { name:'Requirements analysis' })
+MATCH (child:tag:skill:hard { name:'Gap Analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Reqirements development' })
-MATCH (child:tag:skill:hard { id:'Requirements specification' })
+MATCH (parent:tag:skill:hard { name:'Reqirements development' })
+MATCH (child:tag:skill:hard { name:'Requirements specification' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements specification' })
-MATCH (child:tag:skill:hard { id:'Vision and Scope' })
+MATCH (parent:tag:skill:hard { name:'Requirements specification' })
+MATCH (child:tag:skill:hard { name:'Vision and Scope' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements specification' })
-MATCH (child:tag:skill:hard { id:'Software Requirement Specification' })
+MATCH (parent:tag:skill:hard { name:'Requirements specification' })
+MATCH (child:tag:skill:hard { name:'Software Requirement Specification' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements specification' })
-MATCH (child:tag:skill:hard { id:'Business Requirements Specification' })
+MATCH (parent:tag:skill:hard { name:'Requirements specification' })
+MATCH (child:tag:skill:hard { name:'Business Requirements Specification' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements specification' })
-MATCH (child:tag:skill:hard { id:'Functional Requirements Specification' })
+MATCH (parent:tag:skill:hard { name:'Requirements specification' })
+MATCH (child:tag:skill:hard { name:'Functional Requirements Specification' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Reqirements development' })
-MATCH (child:tag:skill:hard { id:'Requirements validation' })
+MATCH (parent:tag:skill:hard { name:'Reqirements development' })
+MATCH (child:tag:skill:hard { name:'Requirements validation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements validation' })
-MATCH (child:tag:skill:hard { id:'Test-Case Driven Inspection' })
+MATCH (parent:tag:skill:hard { name:'Requirements validation' })
+MATCH (child:tag:skill:hard { name:'Test-Case Driven Inspection' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements validation' })
-MATCH (child:tag:skill:hard { id:'Requirements prototyping' })
+MATCH (parent:tag:skill:hard { name:'Requirements validation' })
+MATCH (child:tag:skill:hard { name:'Requirements prototyping' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements validation' })
-MATCH (child:tag:skill:hard { id:'Peer review' })
+MATCH (parent:tag:skill:hard { name:'Requirements validation' })
+MATCH (child:tag:skill:hard { name:'Peer review' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Business Analysis' })
-MATCH (child:tag:skill:hard { id:'Requirement management' })
+MATCH (parent:tag:skill:hard { name:'Business Analysis' })
+MATCH (child:tag:skill:hard { name:'Requirement management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirement management' })
-MATCH (child:tag:skill:hard { id:'Traceability' })
+MATCH (parent:tag:skill:hard { name:'Requirement management' })
+MATCH (child:tag:skill:hard { name:'Traceability' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Traceability' })
-MATCH (child:tag:skill:hard { id:'Requirements Traceability Matrix' })
+MATCH (parent:tag:skill:hard { name:'Traceability' })
+MATCH (child:tag:skill:hard { name:'Requirements Traceability Matrix' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Traceability' })
-MATCH (child:tag:skill:hard { id:'Impact Analysis' })
+MATCH (parent:tag:skill:hard { name:'Traceability' })
+MATCH (child:tag:skill:hard { name:'Impact Analysis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirement management' })
-MATCH (child:tag:skill:hard { id:'Change Management' })
+MATCH (parent:tag:skill:hard { name:'Requirement management' })
+MATCH (child:tag:skill:hard { name:'Change Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Change Management' })
-MATCH (child:tag:skill:hard { id:'Change Curve Model' })
+MATCH (parent:tag:skill:hard { name:'Change Management' })
+MATCH (child:tag:skill:hard { name:'Change Curve Model' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Change Management' })
-MATCH (child:tag:skill:hard { id:'McKinsey 7S Framework' })
+MATCH (parent:tag:skill:hard { name:'Change Management' })
+MATCH (child:tag:skill:hard { name:'McKinsey 7S Framework' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Change Management' })
-MATCH (child:tag:skill:hard { id:'SIPOC diagram' })
+MATCH (parent:tag:skill:hard { name:'Change Management' })
+MATCH (child:tag:skill:hard { name:'SIPOC diagram' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Change Management' })
-MATCH (child:tag:skill:hard { id:'Stakeholder Analysis Matrix' })
+MATCH (parent:tag:skill:hard { name:'Change Management' })
+MATCH (child:tag:skill:hard { name:'Stakeholder Analysis Matrix' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirement management' })
-MATCH (child:tag:skill:hard { id:'Risk Management' })
+MATCH (parent:tag:skill:hard { name:'Requirement management' })
+MATCH (child:tag:skill:hard { name:'Risk Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Risk Management' })
-MATCH (child:tag:skill:hard { id:'Risk Assessment Matrix' })
+MATCH (parent:tag:skill:hard { name:'Risk Management' })
+MATCH (child:tag:skill:hard { name:'Risk Assessment Matrix' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'Technical Writing' })
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'Technical Writing' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'Robohelp' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'Robohelp' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'Madcap Flare' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'Madcap Flare' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'Athor-it' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'Athor-it' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'Help And Manual' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'Help And Manual' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'Snagit' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'Snagit' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'Visio' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'Visio' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'SmartDraw' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'SmartDraw' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'FrameMaker' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'FrameMaker' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'MS-Word' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'MS-Word' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Technical Writing' })
-MATCH (child:tag:skill:hard { id:'Interleaf' })
+MATCH (parent:tag:skill:hard { name:'Technical Writing' })
+MATCH (child:tag:skill:hard { name:'Interleaf' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Role Profile' })
-MATCH (child:tag:skill:hard { id:'IT' })
+MATCH (parent:tag:skill:hard { name:'Role Profile' })
+MATCH (child:tag:skill:hard { name:'IT' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'IT' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'IT' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'HRMS SAP Team' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'HRMS SAP Team' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'IT Support' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'IT Support' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'Virtualization Engineer' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'Virtualization Engineer' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'Nagios' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'Nagios' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'Expect' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'Expect' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'BIND' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'BIND' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'TinyDNS' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'TinyDNS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'vsftp' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'vsftp' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'Samba' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'Samba' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'NFS' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'NFS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'Network' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'Network' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'ZigBee' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'ZigBee' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'VoIP-SIP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'VoIP-SIP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'VoIP-IAX2' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'VoIP-IAX2' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'VoIP-MGCP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'VoIP-MGCP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'VoIP-SCTP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'VoIP-SCTP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'VoIP-SCCP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'VoIP-SCCP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'BGP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'BGP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'IS-IS' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'IS-IS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'OSPF' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'OSPF' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'MPLS and Signaling' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'MPLS and Signaling' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'Traffic load balancing' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'Traffic load balancing' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'Billing Mediation' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'Billing Mediation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'IP Multimedia Subsystem (IMS)' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'IP Multimedia Subsystem (IMS)' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'Network management system (NMS)' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'Network management system (NMS)' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'RADIUS protocol' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'RADIUS protocol' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'RTP/RTCP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'RTP/RTCP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'Security' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'Security' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'SNMP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'SNMP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'Network' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'Network' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'SS7' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'SS7' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'TCP/IP' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'TCP/IP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Network' })
-MATCH (child:tag:skill:hard { id:'Wi-Fi' })
+MATCH (parent:tag:skill:hard { name:'Network' })
+MATCH (child:tag:skill:hard { name:'Wi-Fi' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IT' })
-MATCH (child:tag:skill:hard { id:'OS-Administrator' })
+MATCH (parent:tag:skill:hard { name:'IT' })
+MATCH (child:tag:skill:hard { name:'OS-Administrator' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'CentOS' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'CentOS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'Cisco IOS' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'Cisco IOS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'IBM AIX' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'IBM AIX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'Linux' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'Linux' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'QNX' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'QNX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'VxWorks' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'VxWorks' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'RTOS' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'RTOS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'UNIX' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'UNIX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'HP-UX' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'HP-UX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'MP-RAS' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'MP-RAS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'Windows' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'Windows' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'Solaris' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'Solaris' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'z/OS' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'z/OS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'IXP XXXX' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'IXP XXXX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'Bejerman' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'Bejerman' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS-Administrator' })
-MATCH (child:tag:skill:hard { id:'OS Administrator' })
+MATCH (parent:tag:skill:hard { name:'OS-Administrator' })
+MATCH (child:tag:skill:hard { name:'OS Administrator' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Common areas' })
-MATCH (child:tag:skill:hard { id:'Processes' })
+MATCH (parent:tag:skill:hard { name:'Common areas' })
+MATCH (child:tag:skill:hard { name:'Processes' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Processes' })
-MATCH (child:tag:skill:hard { id:'Waterfall' })
+MATCH (parent:tag:skill:hard { name:'Processes' })
+MATCH (child:tag:skill:hard { name:'Waterfall' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Processes' })
-MATCH (child:tag:skill:hard { id:'Iterative' })
+MATCH (parent:tag:skill:hard { name:'Processes' })
+MATCH (child:tag:skill:hard { name:'Iterative' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Iterative' })
-MATCH (child:tag:skill:hard { id:'Agile' })
+MATCH (parent:tag:skill:hard { name:'Iterative' })
+MATCH (child:tag:skill:hard { name:'Agile' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile' })
-MATCH (child:tag:skill:hard { id:'Scrum' })
+MATCH (parent:tag:skill:hard { name:'Agile' })
+MATCH (child:tag:skill:hard { name:'Scrum' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile' })
-MATCH (child:tag:skill:hard { id:'XP' })
+MATCH (parent:tag:skill:hard { name:'Agile' })
+MATCH (child:tag:skill:hard { name:'XP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile' })
-MATCH (child:tag:skill:hard { id:'Kanban' })
+MATCH (parent:tag:skill:hard { name:'Agile' })
+MATCH (child:tag:skill:hard { name:'Kanban' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Iterative' })
-MATCH (child:tag:skill:hard { id:'RUP' })
+MATCH (parent:tag:skill:hard { name:'Iterative' })
+MATCH (child:tag:skill:hard { name:'RUP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Processes' })
-MATCH (child:tag:skill:hard { id:'RAD' })
+MATCH (parent:tag:skill:hard { name:'Processes' })
+MATCH (child:tag:skill:hard { name:'RAD' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Common areas' })
-MATCH (child:tag:skill:hard { id:'OS' })
+MATCH (parent:tag:skill:hard { name:'Common areas' })
+MATCH (child:tag:skill:hard { name:'OS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'Windows' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'Windows' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'Windows XP' })
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'Windows XP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'Windows 7' })
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'Windows 7' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Windows' })
-MATCH (child:tag:skill:hard { id:'Windows 8' })
+MATCH (parent:tag:skill:hard { name:'Windows' })
+MATCH (child:tag:skill:hard { name:'Windows 8' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'Linux' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'Linux' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'OS 390' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'OS 390' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'AS / 400' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'AS / 400' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'MVS' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'MVS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'BSD' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'BSD' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'FreeBSD' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'FreeBSD' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'MacOS X' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'MacOS X' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'RTOS' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'RTOS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'ThreadX' })
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'ThreadX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'QNX' })
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'QNX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'MQX' })
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'MQX' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'FreeRTOS' })
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'FreeRTOS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'RTOS' })
-MATCH (child:tag:skill:hard { id:'VxWorks' })
+MATCH (parent:tag:skill:hard { name:'RTOS' })
+MATCH (child:tag:skill:hard { name:'VxWorks' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'OS' })
-MATCH (child:tag:skill:hard { id:'Solaris' })
+MATCH (parent:tag:skill:hard { name:'OS' })
+MATCH (child:tag:skill:hard { name:'Solaris' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Common areas' })
-MATCH (child:tag:skill:hard { id:'Tools' })
+MATCH (parent:tag:skill:hard { name:'Common areas' })
+MATCH (child:tag:skill:hard { name:'Tools' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Issue Tracking' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Issue Tracking' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Issue Tracking' })
-MATCH (child:tag:skill:hard { id:'JIRA' })
+MATCH (parent:tag:skill:hard { name:'Issue Tracking' })
+MATCH (child:tag:skill:hard { name:'JIRA' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Issue Tracking' })
-MATCH (child:tag:skill:hard { id:'RedMine' })
+MATCH (parent:tag:skill:hard { name:'Issue Tracking' })
+MATCH (child:tag:skill:hard { name:'RedMine' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Issue Tracking' })
-MATCH (child:tag:skill:hard { id:'Mantis' })
+MATCH (parent:tag:skill:hard { name:'Issue Tracking' })
+MATCH (child:tag:skill:hard { name:'Mantis' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Issue Tracking' })
-MATCH (child:tag:skill:hard { id:'ClearQuest' })
+MATCH (parent:tag:skill:hard { name:'Issue Tracking' })
+MATCH (child:tag:skill:hard { name:'ClearQuest' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Version Control' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Version Control' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'Mercurial' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'Mercurial' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'Git' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'Git' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'GitHub' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'GitHub' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'CVS' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'CVS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'SVN' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'SVN' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'Perforce' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'Perforce' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'LibreSource' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'LibreSource' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'Bazaar' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'Bazaar' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'Version Management System' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'Version Management System' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'PVCS' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'PVCS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'TFS' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'TFS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'Changeman' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'Changeman' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Version Control' })
-MATCH (child:tag:skill:hard { id:'Endevor' })
+MATCH (parent:tag:skill:hard { name:'Version Control' })
+MATCH (child:tag:skill:hard { name:'Endevor' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'IDE' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'IDE' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Visual Studio 2008' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Visual Studio 2008' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Visual Studio 2010' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Visual Studio 2010' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Visual Studio 2012' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Visual Studio 2012' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Eclipse' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Eclipse' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'CodeGear RAD Studio' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'CodeGear RAD Studio' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'IntelliJ IDEA' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'IntelliJ IDEA' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'PyCharm' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'PyCharm' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Emacs' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Emacs' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Embarcadero RAD Studio' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Embarcadero RAD Studio' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Qt Creator' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Qt Creator' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'XCode' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'XCode' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'NetBeans' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'NetBeans' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'Sprint Tool Suite' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'Sprint Tool Suite' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'IDE' })
-MATCH (child:tag:skill:hard { id:'JDeveloper' })
+MATCH (parent:tag:skill:hard { name:'IDE' })
+MATCH (child:tag:skill:hard { name:'JDeveloper' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Profiling' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Profiling' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Profiling' })
-MATCH (child:tag:skill:hard { id:'Intel Vtune' })
+MATCH (parent:tag:skill:hard { name:'Profiling' })
+MATCH (child:tag:skill:hard { name:'Intel Vtune' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Profiling' })
-MATCH (child:tag:skill:hard { id:'TBD' })
+MATCH (parent:tag:skill:hard { name:'Profiling' })
+MATCH (child:tag:skill:hard { name:'TBD' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Productivity' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Productivity' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Productivity' })
-MATCH (child:tag:skill:hard { id:'ReSharper' })
+MATCH (parent:tag:skill:hard { name:'Productivity' })
+MATCH (child:tag:skill:hard { name:'ReSharper' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Productivity' })
-MATCH (child:tag:skill:hard { id:'VisualAssist' })
+MATCH (parent:tag:skill:hard { name:'Productivity' })
+MATCH (child:tag:skill:hard { name:'VisualAssist' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Productivity' })
-MATCH (child:tag:skill:hard { id:'FxCop' })
+MATCH (parent:tag:skill:hard { name:'Productivity' })
+MATCH (child:tag:skill:hard { name:'FxCop' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Productivity' })
-MATCH (child:tag:skill:hard { id:'StyleCop' })
+MATCH (parent:tag:skill:hard { name:'Productivity' })
+MATCH (child:tag:skill:hard { name:'StyleCop' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Productivity' })
-MATCH (child:tag:skill:hard { id:'NDepend' })
+MATCH (parent:tag:skill:hard { name:'Productivity' })
+MATCH (child:tag:skill:hard { name:'NDepend' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Productivity' })
-MATCH (child:tag:skill:hard { id:'DevExpress' })
+MATCH (parent:tag:skill:hard { name:'Productivity' })
+MATCH (child:tag:skill:hard { name:'DevExpress' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Build Automation' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Build Automation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Hudson/Jenkins' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Hudson/Jenkins' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'TFS' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'TFS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Bamboo' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Bamboo' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'RTC' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'RTC' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Teamcity' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Teamcity' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'CruiseControl' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'CruiseControl' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'BuildBot' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'BuildBot' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Travis CI' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Travis CI' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'AnthillPro' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'AnthillPro' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Automated BuildStudio' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Automated BuildStudio' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Apache Continuum' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Apache Continuum' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'BuildIT' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'BuildIT' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Buildout' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Buildout' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'CABIE' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'CABIE' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'Cascade' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'Cascade' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Build Automation' })
-MATCH (child:tag:skill:hard { id:'FinalBuilder' })
+MATCH (parent:tag:skill:hard { name:'Build Automation' })
+MATCH (child:tag:skill:hard { name:'FinalBuilder' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'BuildTool' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'BuildTool' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'BuildTool' })
-MATCH (child:tag:skill:hard { id:'Maven' })
+MATCH (parent:tag:skill:hard { name:'BuildTool' })
+MATCH (child:tag:skill:hard { name:'Maven' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'BuildTool' })
-MATCH (child:tag:skill:hard { id:'Ant' })
+MATCH (parent:tag:skill:hard { name:'BuildTool' })
+MATCH (child:tag:skill:hard { name:'Ant' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'BuildTool' })
-MATCH (child:tag:skill:hard { id:'Ivvy' })
+MATCH (parent:tag:skill:hard { name:'BuildTool' })
+MATCH (child:tag:skill:hard { name:'Ivvy' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'BuildTool' })
-MATCH (child:tag:skill:hard { id:'Gradle' })
+MATCH (parent:tag:skill:hard { name:'BuildTool' })
+MATCH (child:tag:skill:hard { name:'Gradle' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'BuildTool' })
-MATCH (child:tag:skill:hard { id:'SBT' })
+MATCH (parent:tag:skill:hard { name:'BuildTool' })
+MATCH (child:tag:skill:hard { name:'SBT' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Code Analysis Tools' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Code Analysis Tools' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'PVS-Studio / CppCat' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'PVS-Studio / CppCat' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'CppCheck' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'CppCheck' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'CppDepend' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'CppDepend' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Lint / PC-Lint' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Lint / PC-Lint' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'SonarCube' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'SonarCube' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'FindBugs' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'FindBugs' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Checkstyle' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Checkstyle' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'PMD' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'PMD' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Cobetura' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Cobetura' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'JDepend' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'JDepend' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Coverity' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Coverity' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'AgileJ StructureViews' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'AgileJ StructureViews' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'GrammaTech CodeSonar' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'GrammaTech CodeSonar' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Jtest' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Jtest' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'SemmleCode' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'SemmleCode' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'ObjectWeb ASM' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'ObjectWeb ASM' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'SonarJ' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'SonarJ' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Soot' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Soot' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Squale' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Squale' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'SonarQube' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'SonarQube' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'ThreadSafe' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'ThreadSafe' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'LDRA Testbed' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'LDRA Testbed' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'Google CodePro Analytix' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'Google CodePro Analytix' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Code Analysis Tools' })
-MATCH (child:tag:skill:hard { id:'-- debuggers, memory debuggers, merge tools, etc' })
+MATCH (parent:tag:skill:hard { name:'Code Analysis Tools' })
+MATCH (child:tag:skill:hard { name:'-- debuggers, memory debuggers, merge tools, etc' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Management and Planning' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Management and Planning' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Management and Planning' })
-MATCH (child:tag:skill:hard { id:'Basecamp' })
+MATCH (parent:tag:skill:hard { name:'Management and Planning' })
+MATCH (child:tag:skill:hard { name:'Basecamp' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Management and Planning' })
-MATCH (child:tag:skill:hard { id:'JIRA' })
+MATCH (parent:tag:skill:hard { name:'Management and Planning' })
+MATCH (child:tag:skill:hard { name:'JIRA' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Management and Planning' })
-MATCH (child:tag:skill:hard { id:'Microsoft Project' })
+MATCH (parent:tag:skill:hard { name:'Management and Planning' })
+MATCH (child:tag:skill:hard { name:'Microsoft Project' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Management and Planning' })
-MATCH (child:tag:skill:hard { id:'Microsoft SharePoint Server' })
+MATCH (parent:tag:skill:hard { name:'Management and Planning' })
+MATCH (child:tag:skill:hard { name:'Microsoft SharePoint Server' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Management and Planning' })
-MATCH (child:tag:skill:hard { id:'Microsoft Team Foundation Server' })
+MATCH (parent:tag:skill:hard { name:'Management and Planning' })
+MATCH (child:tag:skill:hard { name:'Microsoft Team Foundation Server' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Agile/Scrum' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Agile/Scrum' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile/Scrum' })
-MATCH (child:tag:skill:hard { id:'Jira/Greenhopper' })
+MATCH (parent:tag:skill:hard { name:'Agile/Scrum' })
+MATCH (child:tag:skill:hard { name:'Jira/Greenhopper' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile/Scrum' })
-MATCH (child:tag:skill:hard { id:'Version One' })
+MATCH (parent:tag:skill:hard { name:'Agile/Scrum' })
+MATCH (child:tag:skill:hard { name:'Version One' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile/Scrum' })
-MATCH (child:tag:skill:hard { id:'Microsoft TFS 2010' })
+MATCH (parent:tag:skill:hard { name:'Agile/Scrum' })
+MATCH (child:tag:skill:hard { name:'Microsoft TFS 2010' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile/Scrum' })
-MATCH (child:tag:skill:hard { id:'Microsoft TFS 2012/2013' })
+MATCH (parent:tag:skill:hard { name:'Agile/Scrum' })
+MATCH (child:tag:skill:hard { name:'Microsoft TFS 2012/2013' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile/Scrum' })
-MATCH (child:tag:skill:hard { id:'Rally' })
+MATCH (parent:tag:skill:hard { name:'Agile/Scrum' })
+MATCH (child:tag:skill:hard { name:'Rally' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile/Scrum' })
-MATCH (child:tag:skill:hard { id:'IBM Rational team Concert' })
+MATCH (parent:tag:skill:hard { name:'Agile/Scrum' })
+MATCH (child:tag:skill:hard { name:'IBM Rational team Concert' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Agile/Scrum' })
-MATCH (child:tag:skill:hard { id:'Target Process' })
+MATCH (parent:tag:skill:hard { name:'Agile/Scrum' })
+MATCH (child:tag:skill:hard { name:'Target Process' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Diagraming/Modelling' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Diagraming/Modelling' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'MS Visio' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'MS Visio' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'BizAgi Process Modeler' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'BizAgi Process Modeler' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'IBM Rational RequisitePro' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'IBM Rational RequisitePro' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'Altova UModel' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'Altova UModel' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'ERwin/BPwin' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'ERwin/BPwin' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'Bonita BPM' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'Bonita BPM' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'ARIS' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'ARIS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Diagraming/Modelling' })
-MATCH (child:tag:skill:hard { id:'ADD FROM DEV' })
+MATCH (parent:tag:skill:hard { name:'Diagraming/Modelling' })
+MATCH (child:tag:skill:hard { name:'ADD FROM DEV' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Prototyping/UI Design' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Prototyping/UI Design' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Tools' })
-MATCH (child:tag:skill:hard { id:'Requirements Management' })
+MATCH (parent:tag:skill:hard { name:'Tools' })
+MATCH (child:tag:skill:hard { name:'Requirements Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements Management' })
-MATCH (child:tag:skill:hard { id:'IBM Rational DOORS' })
+MATCH (parent:tag:skill:hard { name:'Requirements Management' })
+MATCH (child:tag:skill:hard { name:'IBM Rational DOORS' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements Management' })
-MATCH (child:tag:skill:hard { id:'Blueprint Requirements Center' })
+MATCH (parent:tag:skill:hard { name:'Requirements Management' })
+MATCH (child:tag:skill:hard { name:'Blueprint Requirements Center' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements Management' })
-MATCH (child:tag:skill:hard { id:'CaseComplete' })
+MATCH (parent:tag:skill:hard { name:'Requirements Management' })
+MATCH (child:tag:skill:hard { name:'CaseComplete' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements Management' })
-MATCH (child:tag:skill:hard { id:'JAMA' })
+MATCH (parent:tag:skill:hard { name:'Requirements Management' })
+MATCH (child:tag:skill:hard { name:'JAMA' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements Management' })
-MATCH (child:tag:skill:hard { id:'TIBCO ActiveMatrix' })
+MATCH (parent:tag:skill:hard { name:'Requirements Management' })
+MATCH (child:tag:skill:hard { name:'TIBCO ActiveMatrix' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements Management' })
-MATCH (child:tag:skill:hard { id:'Enterprise Architect' })
+MATCH (parent:tag:skill:hard { name:'Requirements Management' })
+MATCH (child:tag:skill:hard { name:'Enterprise Architect' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Requirements Management' })
-MATCH (child:tag:skill:hard { id:'CaliberRM' })
+MATCH (parent:tag:skill:hard { name:'Requirements Management' })
+MATCH (child:tag:skill:hard { name:'CaliberRM' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Domain (Vertical)' })
-MATCH (child:tag:skill:hard { id:'Communications' })
+MATCH (parent:tag:skill:hard { name:'Domain (Vertical)' })
+MATCH (child:tag:skill:hard { name:'Communications' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'OSS/BSS SW' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'OSS/BSS SW' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'VAS/SDP SW' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'VAS/SDP SW' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'VoIP/UC SW' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'VoIP/UC SW' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'DTV/IPTV SW' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'DTV/IPTV SW' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'M2M SW' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'M2M SW' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Wireless NE' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Wireless NE' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Wireline NE' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Wireline NE' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Mobile Devices' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Mobile Devices' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Comm Modules' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Comm Modules' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Semiconductors' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Semiconductors' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Wireless Service' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Wireless Service' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Wireline Service' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Wireline Service' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'Hosting Service' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'Hosting Service' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Communications' })
-MATCH (child:tag:skill:hard { id:'TV Service' })
+MATCH (parent:tag:skill:hard { name:'Communications' })
+MATCH (child:tag:skill:hard { name:'TV Service' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Domain (Vertical)' })
-MATCH (child:tag:skill:hard { id:'High Tech' })
+MATCH (parent:tag:skill:hard { name:'Domain (Vertical)' })
+MATCH (child:tag:skill:hard { name:'High Tech' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'Productivity' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'Productivity' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'IT Management' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'IT Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'Security Management Software' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'Security Management Software' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'SCM' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'SCM' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'CRM' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'CRM' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'BPM' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'BPM' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'ERP' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'ERP' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'BI/Analytics' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'BI/Analytics' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'Collaboration' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'Collaboration' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'Computer HW and Peripherals' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'Computer HW and Peripherals' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'Application Development and Deployment Tools' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'Application Development and Deployment Tools' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'System Infrastructure Software' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'System Infrastructure Software' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'High Tech' })
-MATCH (child:tag:skill:hard { id:'Cloud Infrastructure' })
+MATCH (parent:tag:skill:hard { name:'High Tech' })
+MATCH (child:tag:skill:hard { name:'Cloud Infrastructure' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Domain (Vertical)' })
-MATCH (child:tag:skill:hard { id:'Retail & eCommerce' })
+MATCH (parent:tag:skill:hard { name:'Domain (Vertical)' })
+MATCH (child:tag:skill:hard { name:'Retail & eCommerce' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Retail & eCommerce' })
-MATCH (child:tag:skill:hard { id:'Payment Systems' })
+MATCH (parent:tag:skill:hard { name:'Retail & eCommerce' })
+MATCH (child:tag:skill:hard { name:'Payment Systems' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Retail & eCommerce' })
-MATCH (child:tag:skill:hard { id:'Operational SW' })
+MATCH (parent:tag:skill:hard { name:'Retail & eCommerce' })
+MATCH (child:tag:skill:hard { name:'Operational SW' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Retail & eCommerce' })
-MATCH (child:tag:skill:hard { id:'eCommerce Platforms' })
+MATCH (parent:tag:skill:hard { name:'Retail & eCommerce' })
+MATCH (child:tag:skill:hard { name:'eCommerce Platforms' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Domain (Vertical)' })
-MATCH (child:tag:skill:hard { id:'Media & Entertainment' })
+MATCH (parent:tag:skill:hard { name:'Domain (Vertical)' })
+MATCH (child:tag:skill:hard { name:'Media & Entertainment' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Media & Entertainment' })
-MATCH (child:tag:skill:hard { id:'Content Creation' })
+MATCH (parent:tag:skill:hard { name:'Media & Entertainment' })
+MATCH (child:tag:skill:hard { name:'Content Creation' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Media & Entertainment' })
-MATCH (child:tag:skill:hard { id:'Gaming' })
+MATCH (parent:tag:skill:hard { name:'Media & Entertainment' })
+MATCH (child:tag:skill:hard { name:'Gaming' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Media & Entertainment' })
-MATCH (child:tag:skill:hard { id:'Content Management' })
+MATCH (parent:tag:skill:hard { name:'Media & Entertainment' })
+MATCH (child:tag:skill:hard { name:'Content Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Media & Entertainment' })
-MATCH (child:tag:skill:hard { id:'Media Delivery & Consumption' })
+MATCH (parent:tag:skill:hard { name:'Media & Entertainment' })
+MATCH (child:tag:skill:hard { name:'Media Delivery & Consumption' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Media & Entertainment' })
-MATCH (child:tag:skill:hard { id:'Social Networking Platforms' })
+MATCH (parent:tag:skill:hard { name:'Media & Entertainment' })
+MATCH (child:tag:skill:hard { name:'Social Networking Platforms' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Media & Entertainment' })
-MATCH (child:tag:skill:hard { id:'Consumer Electronics' })
+MATCH (parent:tag:skill:hard { name:'Media & Entertainment' })
+MATCH (child:tag:skill:hard { name:'Consumer Electronics' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Media & Entertainment' })
-MATCH (child:tag:skill:hard { id:'Digital Advertising' })
+MATCH (parent:tag:skill:hard { name:'Media & Entertainment' })
+MATCH (child:tag:skill:hard { name:'Digital Advertising' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Domain (Vertical)' })
-MATCH (child:tag:skill:hard { id:'Finance' })
+MATCH (parent:tag:skill:hard { name:'Domain (Vertical)' })
+MATCH (child:tag:skill:hard { name:'Finance' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'Banking' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'Banking' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'Payment Cards' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'Payment Cards' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'Investment Management' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'Investment Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'Investment Banking' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'Investment Banking' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'Retail Brokerage' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'Retail Brokerage' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'Insurance' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'Insurance' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'Employee Benefits' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'Employee Benefits' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Finance' })
-MATCH (child:tag:skill:hard { id:'PFM' })
+MATCH (parent:tag:skill:hard { name:'Finance' })
+MATCH (child:tag:skill:hard { name:'PFM' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Domain (Vertical)' })
-MATCH (child:tag:skill:hard { id:'Healthcare' })
+MATCH (parent:tag:skill:hard { name:'Domain (Vertical)' })
+MATCH (child:tag:skill:hard { name:'Healthcare' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Monitoring' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Monitoring' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Imaging' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Imaging' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Therapy' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Therapy' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Laboratory' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Laboratory' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Automated dispensing machines' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Automated dispensing machines' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'EHR' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'EHR' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Interoperability' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Interoperability' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'CIS (Clinical Info Systems)' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'CIS (Clinical Info Systems)' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Clinical Decision Support & Ref' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Clinical Decision Support & Ref' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Revenue Cycle Management' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Revenue Cycle Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Process Management' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Process Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Compliance & Regulatory SW' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Compliance & Regulatory SW' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Asset Management' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Asset Management' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Airspace' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Airspace' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Geoinformatics' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Geoinformatics' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Heavy Industry' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Heavy Industry' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Jurisprudence' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Jurisprudence' })
 CREATE (parent)-[:linked]->(child);
-MATCH (parent:tag:skill:hard { id:'Healthcare' })
-MATCH (child:tag:skill:hard { id:'Military' })
+MATCH (parent:tag:skill:hard { name:'Healthcare' })
+MATCH (child:tag:skill:hard { name:'Military' })
 CREATE (parent)-[:linked]->(child);
