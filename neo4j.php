@@ -5,7 +5,7 @@
 	$attr_queue = "q";
 	$attr_param = "p";
 
-	$r = array( "code" => 400, "response" => array("message" => "Invalid input parameters" ) );
+	$r = array( "code" => 400, "msg" => "Invalid input parameters" );
 	//
 	$required = array( $attr_queue, $attr_param );
 	$get = $_GET;
@@ -24,15 +24,16 @@
 
 		$cret = curl_exec( $c );
 		if( $cret === false ) {
-			$r["response"]["message"] = curl_error( $c );
+			$r["msg"] = curl_error( $c );
 		} else {
 			$ci = curl_getinfo ( $c );
 			$r["code"] = $ci["http_code"];
 			$resp = json_decode( $cret, true );
 			if ( $r["code"] == 200 ) {
-				$r["response"] = $resp;
+				$r["msg"] = "ok";
+				$r["data"] = $resp;
 			} else {
-				$r["response"]["message"] = $resp["message"];
+				$r["msg"] = $resp["message"];
 			}
 		}
  		curl_close ($c);
