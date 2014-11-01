@@ -8,6 +8,13 @@
 .description{
 }
 
+.cell{
+	border:1px gray solid;border-radius:10;
+	background-color: white;
+}
+
+
+
 .icon-github {
     background: no-repeat url('../img/github-16px.png');
     width: 16px;

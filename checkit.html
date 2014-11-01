@@ -17,67 +17,67 @@
   <body>
 		<div class="container">
 			<div class="page-header">
-			  <p><h1>HR wiki <small>beta</small></h1></p>
-			</div>
-			<div class="row">
-				<div class="col-xs-1 text-center" id="c01"></div>
-				<div class="col-xs-1 text-center" id="c02"></div>
-				<div class="col-xs-1 text-center" id="c03"></div>
-				<div class="col-xs-1 text-center" id="c04"></div>
-				<div class="col-xs-1 text-center" id="c05"></div>
-				<div class="col-xs-1 text-center" id="c06"></div>
-				<div class="col-xs-1 text-center" id="c07"></div>
-				<div class="col-xs-1 text-center" id="c08"></div>
-				<div class="col-xs-1 text-center" id="c09"></div>
-				<div class="col-xs-1 text-center" id="c010"></div>
-				<div class="col-xs-1 text-center" id="c011"></div>
-			</div>
-			<br/>
-			<div class="row">
-				<div class="col-xs-4 synonyms text-right">
-					<div class="panel panel-default">
-					  <div class="panel-heading">Synonyms</div>
-					  <div class="panel-body">
-					  </div>
-					</div>
-				</div>
-				<div class="col-xs-3"><input type="text" class="form-control" name="termName" id="termName" placeholder="type term" autofocus/></div>
-				<div class="col-xs-4 description">
-					<div class="panel panel-default">
-					  <div class="panel-heading">Description</div>
-					  <div class="panel-body">
-					  </div>
+				<p><h1>HR wiki <small>beta</small></h1></p>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-offset-3 col-xs-6">
+							<input type="text" class="form-control" name="termName" id="termName" placeholder="type term" autofocus/>
+						</div>
+						<div class="col-xs-1">
+							<button type="button" class="btn btn-success" id="searchBtn" >Search</button>
+						</div>
 					</div>
 				</div>
 			</div>
-			<br/>
-			<div class="row">
-				<div class="col-xs-1 text-center" id="c11">A1</div>
-				<div class="col-xs-1 text-center" id="c12">A2</div>
-				<div class="col-xs-1 text-center" id="c13">A3</div>
-				<div class="col-xs-1 text-center" id="c14">A4</div>
-				<div class="col-xs-1 text-center" id="c15">A5</div>
-				<div class="col-xs-1 text-center" id="c16">A6</div>
-				<div class="col-xs-1 text-center" id="c17">A7</div>
-				<div class="col-xs-1 text-center" id="c18">A8</div>
-				<div class="col-xs-1 text-center" id="c19">A9</div>
-				<div class="col-xs-1 text-center" id="c110">A10</div>
-				<div class="col-xs-1 text-center" id="c111">A11</div>
-			</div>
-			<br/>
-			<div class="row">
-				<div class="col-xs-1 text-center" id="c21">A1</div>
-				<div class="col-xs-1 text-center" id="c22">A2</div>
-				<div class="col-xs-1 text-center" id="c23">A3</div>
-				<div class="col-xs-1 text-center" id="c24">A4</div>
-				<div class="col-xs-1 text-center" id="c25">A5</div>
-				<div class="col-xs-1 text-center" id="c26">A6</div>
-				<div class="col-xs-1 text-center" id="c27">A7</div>
-				<div class="col-xs-1 text-center" id="c28">A8</div>
-				<div class="col-xs-1 text-center" id="c29">A9</div>
-				<div class="col-xs-1 text-center" id="c210">A10</div>
-				<div class="col-xs-1 text-center" id="c211">A11</div>
-			</div>
+			<!-- -->
+      	<div class="panel panel-default template" style="display:none">
+        	<div class="panel-heading">
+          	<div class="panel-title">
+            	<a class="accordion-toggle" data-toggle="collapse" data-parent="#searchFeed" href="#collapseOne1" title="collapse/expand">
+              	<span class="glyphicon glyphicon-collapse-down action"></span>
+              </a>
+              <button type="button" class="close" data-dismiss="panel-title" aria-hidden="true" title="close">&times;</button>
+							<img class="pull-right" src="img/progress.gif" id="searchProgress"/>
+            </div>
+          </div>
+          <div id="collapseOne1" class="panel-collapse in">
+            <div class="panel-body">
+							<div class="container-fluid" id="searchResult" style="display:none">
+								<div class="row">
+									<div class="col-sm-1 text-center" id="inLeft"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span><span class="badge">+7</span></button></div>
+									<div class="col-sm-2 text-center" id="in0">1</div>
+									<div class="col-sm-2 text-center" id="in1">2</div>
+									<div class="col-sm-2 text-center" id="in2">3</div>
+									<div class="col-sm-2 text-center" id="in3">4</div>
+									<div class="col-sm-2 text-center" id="in4">5</div>
+									<div class="col-sm-1 text-center" id="inRight"><button type="button" class="btn btn-default"><span class="badge">+7</span><span class="glyphicon glyphicon-chevron-right"></span></button></div>
+								</div>
+								<div class="row">
+									<div class="col-sm-offset-5 col-sm-2 text-center" id="inImg"><img src="img/inbound.jpg" class="img-responsive" style="margin:0 auto;"/></div>
+								</div>
+								<div class="row">
+									<h4><div class="col-sm-5 text-right" id="tagSynonyms">Synonyms</div></h4>
+									<h3><div class="col-sm-2 text-center" id="tag">2</div></h3>
+									<h4><div class="col-sm-5 text-left" id="tagDescription">Description</div></h4>
+								</div>
+								<div class="row">
+									<div class="col-sm-offset-5 col-sm-2 text-center" id="outImg"><img src="img/outbound.jpg" class="img-responsive" style="margin:0 auto;"/></div>
+								</div>
+								<div class="row">
+									<div class="col-sm-1 text-center" id="outLeft"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span><span class="badge">+7</span></button></div>
+									<div class="col-sm-2 text-center" id="out0">1</div>
+									<div class="col-sm-2 text-center" id="out1">2</div>
+									<div class="col-sm-2 text-center" id="out2">3</div>
+									<div class="col-sm-2 text-center" id="out3">4</div>
+									<div class="col-sm-2 text-center" id="out4">5</div>
+									<div class="col-sm-1 text-center" id="outRight"><button type="button" class="btn btn-default"><span class="badge">+7</span><span class="glyphicon glyphicon-chevron-right"></span></button></div>
+								</div>
+              </div>
+            </div>
+          </div>
+        </div>
+			<div class="" id="searchFeed">
+      </div>
 		</div>
   </body>
 </html>

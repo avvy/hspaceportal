@@ -38,16 +38,17 @@
 		$cret = curl_exec( $c );
 		$r["code"] = 434;
 		if( $cret === false ) {
-			$r["message"] = curl_error( $c );
+			$r["msg"] = curl_error( $c );
 		} else {
 			$ci = curl_getinfo ( $c );
 			$r["code"] = $ci["http_code"];
 			$resp = json_decode( $cret, true );
 			if ( $r["code"] == 200 ) {
-				$r["response"] = $resp;
+				$r["resp"] = $resp;
+				//echo json_encode( $resp );
 				$status = true;
 			} else {
-				$r["message"] = $resp["message"];
+				$r["msg"] = $resp["message"];
 			}
 		}
  		curl_close ($c);
