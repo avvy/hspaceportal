@@ -1,15 +1,7 @@
 // globals
 var timeline = null;
 var timelineVisible = true;
-
-
-	$( "#notifications" ).toggle( "slide", { direction: "up" }, 250 );
-
-$('#notifyBtn').on('click', function( event ) {
-	$( "#notifications" ).toggle( "slide", { direction: "up" }, 250 );
-	return false;
-});
-
+var timelineTimeout = 250;
 
 
 $('#timelineMinMax').on('click', function( event ) {
@@ -17,17 +9,15 @@ $('#timelineMinMax').on('click', function( event ) {
 	//
 	var more = 'block';
 	var less = 'none';
-	var tl = 'none';
 	if ( timelineVisible ) {
 		more = 'none';
 		less = 'block';
-		tl = 'block';
 	}
 	//
 	$('#timelineMinMax .more').css('display', more);
 	$('#timelineMinMax .less').css('display', less);
-	$('#timeline').css('display', tl);
-
+	$( "#timeline" ).toggle( "slide", { direction: "down" }, timelineTimeout );
+	return false;
 });
 
 

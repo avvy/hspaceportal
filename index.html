@@ -89,6 +89,9 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#"><span>@tlas</span></a>
+          <ul class="nav navbar-nav">
+						<li><a href="#" class="nav navbar-nav" id="notifyBtn"><img src="img/notify.png" class="navbar-img" data-toggle="modal" data-target=""/><span class="label label-success">10+</span></a></li>
+          </ul>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -98,9 +101,6 @@
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" id="inputSearch" placeholder="Search...">
           </form>
-          <ul class="nav navbar-nav navbar-right">
-						<li><a href="#" id="notifyBtn"><img src="img/notify.png" class="navbar-img" data-toggle="modal" data-target=""/><span class="label label-success">10+</span></a></li>
-          </ul>
         </div>
       </div>
     </div>  
@@ -109,10 +109,49 @@
     <div class="surface">
     </div>
 		<div id="timeline"></div>
-		<button id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></button>
+		<a href="#" id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></a>
+		<!--button id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></button-->
 
 		<div id="notifications" class="notifications-panel" >
-			AAAAAAAAAAAAAAAAA
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4" id="in0">
+			
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel title</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+					</div>
+					<div class="col-sm-4" id="in1">
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel title</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+					</div>
+					<div class="col-sm-4" id="in2">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel title</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		
@@ -133,6 +172,7 @@
     <script type="text/javascript" src="js/atlas-tl.js"></script>
     <script type="text/javascript" src="js/atlas-node.js"></script>
     <script type="text/javascript" src="js/atlas-domains.js"></script>
+    <script type="text/javascript" src="js/atlas-ntf.js"></script>
 
   </body>
 </html>
