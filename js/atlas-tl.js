@@ -1,5 +1,35 @@
 // globals
 var timeline = null;
+var timelineVisible = true;
+
+
+	$( "#notifications" ).toggle( "slide", { direction: "up" }, 250 );
+
+$('#notifyBtn').on('click', function( event ) {
+	$( "#notifications" ).toggle( "slide", { direction: "up" }, 250 );
+	return false;
+});
+
+
+
+$('#timelineMinMax').on('click', function( event ) {
+	timelineVisible = !timelineVisible;
+	//
+	var more = 'block';
+	var less = 'none';
+	var tl = 'none';
+	if ( timelineVisible ) {
+		more = 'none';
+		less = 'block';
+		tl = 'block';
+	}
+	//
+	$('#timelineMinMax .more').css('display', more);
+	$('#timelineMinMax .less').css('display', less);
+	$('#timeline').css('display', tl);
+
+});
+
 
 // Called when the Visualization API is loaded.
 function drawVisualization() {
@@ -29,6 +59,18 @@ function drawVisualization() {
   			timeline = new links.Timeline(document.getElementById('timeline'), options);
  				// Draw our timeline with the created data and options
   			timeline.draw(data);
+
+	width = $(window).width();
+	height = $(window).height();
+	//
+  $('#notifications').css({
+		left: 0,
+		top: 0,
+    width: width,
+    height: height - $('#timeline').height() 
+	});
+
+
 			}
 		}
 	});

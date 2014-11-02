@@ -7,6 +7,7 @@ jQuery.fn.fadeOutAndRemove = function(speed){
 }
 
 
+
 //$(function() {
 	// get configuration
 /*

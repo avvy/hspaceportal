@@ -4,6 +4,12 @@
 	height:24px;
 }
 
+.notifications-panel {
+	position: absolute;
+	background-color:rgba(0,0,0,0.95);
+}
+
+
 
 #timeline {
 	position:absolute;
@@ -11,6 +17,19 @@
 	right:0px;
 	bottom:0px;
 }
+
+#timelineMinMax {
+	position:absolute;
+	right:4px;
+	bottom:4px;
+}
+
+.button-img {
+	width:24px;
+	height:24px;
+}
+
+
 
 .surface{
 	position: absolute;

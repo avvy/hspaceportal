@@ -6,6 +6,6 @@ $('#btnLogin').click(function() {
 });
 
 $(function() {
-	$('#loginModal').modal('show');
+//	$('#loginModal').modal('show');
 });
 
