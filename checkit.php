@@ -22,7 +22,7 @@
 			if ( neo4jQueue( $outbound_queue, $p, $outbound ) ) {
 				$r["resp"]["term"] = $q;
 				$r["resp"]["description"] = "Term description";
-				$r["resp"]["synonyms"] = array( "syn1", "syn2", "syn3" );
+				$r["resp"]["synonyms"] = array( "Synonym1", "Synonym2", "Synonym3" );
 				$r["resp"]["inbound"] = $inbound["resp"]["data"];
 				$r["resp"]["outbound"] = $outbound["resp"]["data"];
 				//

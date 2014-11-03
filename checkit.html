@@ -36,49 +36,56 @@
             	<a class="accordion-toggle" data-toggle="collapse" data-parent="#searchFeed" href="#collapseOne1" title="collapse/expand">
               	<span class="glyphicon glyphicon-collapse-down action"></span>
               </a>
-
-
+							<span id="searchResultCaption"></span>
               <button type="button" class="close" data-dismiss="panel-title" aria-hidden="true" title="close">&times;</button>
 							<img class="pull-right" src="img/progress.gif" id="searchProgress"/>
             </div>
           </div>
           <div id="collapseOne1" class="panel-collapse in">
             <div class="panel-body">
-<ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Library</a></li>
-  <li class="active">Data</li>
-</ol>
-
 							<div class="container-fluid" id="searchResult" style="display:none">
-								<div class="row">
-									<div class="col-sm-1 text-center" id="inLeft"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span><span class="badge">+7</span></button></div>
+								<ol class="breadcrumb">
+								  <li><a href="#">Home</a></li>
+								  <li><a href="#">Library</a></li>
+								  <li class="active">Java</li>
+								</ol>
+								<div class="row bg-warning">
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+									    <li class="previous" id="inLeft"><a href="#">&larr;<span class="badge"></span></a></li>
+									  </ul>
+									</div>
 									<div class="col-sm-2 text-center" id="in0">1</div>
 									<div class="col-sm-2 text-center" id="in1">2</div>
 									<div class="col-sm-2 text-center" id="in2">3</div>
 									<div class="col-sm-2 text-center" id="in3">4</div>
 									<div class="col-sm-2 text-center" id="in4">5</div>
-									<div class="col-sm-1 text-center" id="inRight"><button type="button" class="btn btn-default"><span class="badge">+7</span><span class="glyphicon glyphicon-chevron-right"></span></button></div>
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+											<li class="next" id="inRight"><a href="#"><span class="badge"></span>&rarr;</a></li>
+									  </ul>
+									</div>
 								</div>
 								<div class="row">
-									<div class="col-sm-offset-5 col-sm-2 text-center" id="inImg"><img src="img/inbound.jpg" class="img-responsive" style="margin:0 auto;"/></div>
+									<div class="col-sm-offset-5 col-sm-2 text-center"><h2 id="tag"></h2></div>
+									<div class="col-sm-5 text-left"><div class="well well-sm" id="tagDescription">...</div></div>
 								</div>
-								<div class="row">
-									<h4><div class="col-sm-5 text-right" id="tagSynonyms">Synonyms</div></h4>
-									<h3><div class="col-sm-2 text-center" id="tag">2</div></h3>
-									<h4><div class="col-sm-5 text-left" id="tagDescription">Description</div></h4>
-								</div>
-								<div class="row">
-									<div class="col-sm-offset-5 col-sm-2 text-center" id="outImg"><img src="img/outbound.jpg" class="img-responsive" style="margin:0 auto;"/></div>
-								</div>
-								<div class="row">
-									<div class="col-sm-1 text-center" id="outLeft"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span><span class="badge">+7</span></button></div>
+								<div class="row bg-warning">
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+									    <li class="previous" id="outLeft"><a href="#">&larr;<span class="badge"></span></a></li>
+									  </ul>
+									</div>
 									<div class="col-sm-2 text-center" id="out0">1</div>
 									<div class="col-sm-2 text-center" id="out1">2</div>
 									<div class="col-sm-2 text-center" id="out2">3</div>
 									<div class="col-sm-2 text-center" id="out3">4</div>
 									<div class="col-sm-2 text-center" id="out4">5</div>
-									<div class="col-sm-1 text-center" id="outRight"><button type="button" class="btn btn-default"><span class="badge">+7</span><span class="glyphicon glyphicon-chevron-right"></span></button></div>
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+											<li class="next" id="outRight"><a href="#"><span class="badge"></span>&rarr;</a></li>
+									  </ul>
+									</div>
 								</div>
               </div>
             </div>

@@ -1,1 +1,5 @@
 1. How to handle resize end loop to recreate nodes surface
+2. Make link 
+2. http://raphaeljs.com/ - JS canvas
+3. Single-page apps - angular.js, knockout.js, requare.js
+3. bower, galp, grant, fontastic.me, https://github.com/FezVrasta/bootstrap-material-design

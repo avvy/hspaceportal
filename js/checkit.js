@@ -41,11 +41,14 @@ function configureTags(id, fileKey, labels, limit) {
 
 function processRels( panel, prefix, arr ) {
 	var leftBtn = panel.find( prefix + "Left" );
+	var leftBadge = leftBtn.find(".badge");
 	var rightBtn = panel.find( prefix + "right" );
-	var img = panel.find( prefix + "Img" );
-	leftBtn.css("display", "none");
-	rightBtn.css("display", "none");
-	img.css("display", "none");
+	var rightBadge = rightBtn.find(".badge");
+	//
+	leftBtn.addClass('disabled');
+	leftBadge.text('');
+	rightBtn.addClass('disabled');
+	rightBadge.text('');
 	//
 	var minV = 0;
 	var maxV = 4;
@@ -81,15 +84,12 @@ function processRels( panel, prefix, arr ) {
 	}
 	//
 	if ( left ) {
-		leftBtn.find(".badge").text( "+" + left );
-		leftBtn.css("display", "block");
+		leftBadge.text( "+" + left );
+		leftBtn.removeClass('disabled');
 	}
 	if ( right ) {
-		rightBtn.find(".badge").text( "+" + right );
-		rightBtn.css("display", "block");
-	}
-	if ( arr.length ) {
-		img.css("display", "block");
+		rightBadge.text( "+" + right );
+		rightBtn.removeClass('disabled');
 	}
 }
 
@@ -106,7 +106,7 @@ function processTag( panel, searchStr ) {
 			for( var i = 0; i < data.resp.synonyms.length; i++ ) {
 				syns += '<span class="label label-info">' + data.resp.synonyms[i] + '</span>&nbsp;';
 			}
-			panel.find("#tagSynonyms").html( syns );
+			panel.find("#searchResultCaption").html( searchStr + '&nbsp;&nbsp;' + syns );
 			//
 			processRels( panel, '#in', data.resp.inbound );
 			processRels( panel, '#out', data.resp.outbound );
