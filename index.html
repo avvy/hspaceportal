@@ -113,42 +113,19 @@
 		<!--button id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></button-->
 
 		<div id="notifications" class="notifications-panel" >
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-4" id="in0">
-			
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
-  </div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-					</div>
-					<div class="col-sm-4" id="in1">
-<div class="panel panel-danger">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
-  </div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-					</div>
-					<div class="col-sm-4" id="in2">
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
-  </div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
+			<div class="panel panel-default template-ntf-cell" style="display:none">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">Panel title</h3>
+			  </div>
+			  <div class="panel-body">
+			    Panel content
+			  </div>
+			</div>
+			<div class="container-fluid" style="margin-top:64px">
+				<div class="row template-ntf-row">
+					<div class="col-sm-4">A</div>
+					<div class="col-sm-4">A</div>
+					<div class="col-sm-4">A</div>
 					</div>
 				</div>
 			</div>
@@ -167,12 +144,12 @@
     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript" src="libs/timeline-2.9.0/timeline.js"></script>
     <script type="text/javascript" src="libs/jquery-ui-1.11.2/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/atlas.js"></script>
     <script type="text/javascript" src="js/atlas-login.js"></script>
     <script type="text/javascript" src="js/atlas-tl.js"></script>
     <script type="text/javascript" src="js/atlas-node.js"></script>
     <script type="text/javascript" src="js/atlas-domains.js"></script>
     <script type="text/javascript" src="js/atlas-ntf.js"></script>
+    <script type="text/javascript" src="js/atlas.js"></script>
 
   </body>
 </html>
