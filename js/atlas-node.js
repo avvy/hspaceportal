@@ -7,9 +7,9 @@ function getDims( level ) {
 	var r = 0;
 	switch( level ) {
   	case 0:
-			w = 128;
-			h = 128;
-			r = 128;
+			w = 108;
+			h = 108;
+			r = 108;
       break;
 		case 1:
 			w = 64;

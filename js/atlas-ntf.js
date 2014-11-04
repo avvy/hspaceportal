@@ -33,17 +33,21 @@ function ntfRequest() {
 		if ( d ) {
 			if ( d.code == 200 ) {
 				ntfs = d.resp;
-				console.log( JSON.stringify( ntfs ) );
+				ntfDispaly();
 			}
 		}
 	});
 }
 //---------------------------------------------------------------------
 function ntfDispaly() {
+	if ( ntfs ) {
+		for( var i = 0; i < ntfs.length; ++i ) {
+		}
+		console.log( JSON.stringify( ntfs ) );
+	}
 }
 
 //---------------------------------------------------------------------
 $(function() {
 	ntfRequest();
-	ntfDispaly();
 });
