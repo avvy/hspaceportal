@@ -39,15 +39,15 @@ function configureTags(id, fileKey, labels, limit) {
 }
 
 
-function processRels( panel, prefix, arr ) {
+function processRels( panel, prefix, arr, center ) {
 	var leftBtn = panel.find( prefix + "Left" );
 	var leftBadge = leftBtn.find(".badge");
-	var rightBtn = panel.find( prefix + "right" );
+	var rightBtn = panel.find( prefix + "Right" );
 	var rightBadge = rightBtn.find(".badge");
 	//
-	leftBtn.addClass('disabled');
+	leftBtn.removeClass('disabled');
 	leftBadge.text('');
-	rightBtn.addClass('disabled');
+	rightBtn.removeClass('disabled');
 	rightBadge.text('');
 	//
 	var minV = 0;
@@ -62,7 +62,7 @@ function processRels( panel, prefix, arr ) {
 	var left = 0;
 	var right = 0;
 	var step = 0;
-	var pos = 2;
+	var pos = center;
 	for ( var i = 0; i < arr.length; ++i ) {
 		pos += step;
 		if ( step > 0 ) {
@@ -79,18 +79,31 @@ function processRels( panel, prefix, arr ) {
 		} else {
 			var cell = panel.find( prefix + pos );
 			cell.addClass( "cell" );
-			cell.text( arr[i] );
+			cell.addClass( "center-block" );
+			//
+			var l = $('<a>', { text: arr[i], href: '#' });
+			l.on("click", { panel:panel, text: arr[i] }, function( event ) {
+				processTag( event.data.panel, event.data.text );
+			});
+			l.appendTo( cell );
 		}
 	}
 	//
 	if ( left ) {
-		leftBadge.text( "+" + left );
-		leftBtn.removeClass('disabled');
+		rightBadge.text( "+" + left );
+	} else {
+		rightBtn.addClass('disabled');
 	}
 	if ( right ) {
-		rightBadge.text( "+" + right );
-		rightBtn.removeClass('disabled');
+		leftBadge.text( "+" + right );
+	} else {
+		leftBtn.addClass('disabled');
 	}
+}
+
+function scrollTags( panel, type, dir, prefix, arr ) {
+	panel.data( type, panel.data( type ) + dir );
+	processRels( panel, prefix, arr, panel.data( type ) );
 }
 
 function processTag( panel, searchStr ) {
@@ -98,7 +111,7 @@ function processTag( panel, searchStr ) {
 	panel.find("#searchResult").css("display", "none");
 	$.get( "checkit.php?q=" + searchStr, function( data ) {
 		if ( data ) {
-			console.log( JSON.stringify( data ) );
+			//console.log( JSON.stringify( data ) );
 			// term attributes
 			panel.find("#tag").text( data.resp.term );
 			panel.find("#tagDescription").text( data.resp.description );
@@ -106,12 +119,43 @@ function processTag( panel, searchStr ) {
 			for( var i = 0; i < data.resp.synonyms.length; i++ ) {
 				syns += '<span class="label label-info">' + data.resp.synonyms[i] + '</span>&nbsp;';
 			}
-			panel.find("#searchResultCaption").html( searchStr + '&nbsp;&nbsp;' + syns );
+			panel.find("#searchResultCaption").html( searchStr + '&nbsp;&nbsp;<strong>aka</strong>&nbsp;&nbsp;' + syns );
 			//
-			processRels( panel, '#in', data.resp.inbound );
-			processRels( panel, '#out', data.resp.outbound );
-			
-			
+			panel.data( "inbound", 2 );
+			panel.data( "outbound", 2 );
+			//
+			processRels( panel, '#in', data.resp.inbound, panel.data( "inbound" ) );
+			processRels( panel, '#out', data.resp.outbound, panel.data( "outbound" ) );
+			// configure scrolls
+			panel.find('#inLeft').attr('onclick','').unbind('click');
+  		panel.find('#inLeft').on("click", { panel: panel, arr:data.resp.inbound, dir:-1 }, function(event) {
+				if ( !panel.find('#inLeft').hasClass('disabled') ) {
+					scrollTags( event.data.panel, 'inbound', event.data.dir, '#in', event.data.arr );
+				}
+				event.preventDefault();
+	  	});
+  		panel.find('#inRight').attr('onclick','').unbind('click');
+  		panel.find('#inRight').on("click", { panel: panel, arr:data.resp.inbound, dir:1 }, function(event) {
+				if ( !panel.find('#inRight').hasClass('disabled') ) {
+					scrollTags( event.data.panel, 'inbound', event.data.dir, '#in', event.data.arr );
+				}
+				event.preventDefault();
+	  	});
+			panel.find('#outLeft').attr('onclick','').unbind('click');
+  		panel.find('#outLeft').on("click", { panel: panel, arr:data.resp.outbound, dir:-1 }, function(event) {
+				if ( !panel.find('#outLeft').hasClass('disabled') ) {
+					scrollTags( event.data.panel, 'outbound', event.data.dir, '#out', event.data.arr );
+				}
+				event.preventDefault();
+	  	});
+			panel.find('#outRight').attr('onclick','').unbind('click');
+  		panel.find('#outRight').on("click", { panel: panel, arr:data.resp.outbound, dir:1 }, function(event) {
+				if ( !panel.find('#outRight').hasClass('disabled') ) {
+					scrollTags( event.data.panel, 'outbound', event.data.dir, '#out', event.data.arr );
+				}
+				event.preventDefault();
+	  	});
+			//
 			panel.find("#searchProgress").css("display", "none");
 			panel.find("#searchResult").css("display", "block");
 		}
@@ -132,9 +176,7 @@ function startSearch() {
 		//
   	panel.css("display", "block");
 	  // configure close button
-  	panel.find("button.close").on("click", {
-	    param: panel
-  	}, function(event) {
+  	panel.find("button.close").on("click", { param: panel }, function(event) {
 	    event.data.param.css("display", "none");
   	});
 	  //
@@ -153,7 +195,8 @@ $(document).ready(function() {
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     prefetch: {
-      url: 'tags.php?id=skills-hard;soft-skills;interests',
+//      url: 'tags.php?id=skills-hard;soft-skills;interests',
+      url: 'tags.php?id=skills-hard',
       filter: function(list) {
         return $.map(list, function(tag) {
           return {

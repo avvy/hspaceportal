@@ -9,7 +9,10 @@
 }
 
 .cell{
-	border:1px gray solid;border-radius:10;
+	font-weight: bold;
+	border: 1px solid lightgray;
+  border-radius: 5px;
+	margin: 0 auto;
 }
 
 
