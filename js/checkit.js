@@ -237,6 +237,6 @@ $(document).ready(function() {
     startSearch();
   });
 
-	$("#termName").val('C++');
-	startSearch();
+//	$("#termName").val('C++');
+//	startSearch();
 });
