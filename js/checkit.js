@@ -40,13 +40,16 @@ function configureTags(id, fileKey, labels, limit) {
 
 
 function processRels( panel, prefix, arr, center ) {
+	var row = panel.find( prefix + "Row" );
 	var leftBtn = panel.find( prefix + "Left" );
 	var leftBadge = leftBtn.find(".badge");
 	var rightBtn = panel.find( prefix + "Right" );
 	var rightBadge = rightBtn.find(".badge");
 	//
+	leftBtn.show();
 	leftBtn.removeClass('disabled');
 	leftBadge.text('');
+	rightBtn.show();
 	rightBtn.removeClass('disabled');
 	rightBadge.text('');
 	//
@@ -93,12 +96,21 @@ function processRels( panel, prefix, arr, center ) {
 		leftBadge.text( "+" + left );
 	} else {
 		leftBtn.addClass('disabled');
+		leftBtn.hide();
 	}
 	if ( right ) {
 		rightBadge.text( "+" + right );
 	} else {
 		rightBtn.addClass('disabled');
+		rightBtn.hide();
 	}
+	//
+	if ( arr.length ) {
+		row.show();
+	} else {
+		row.hide();
+	}
+
 }
 
 function scrollTags( panel, type, dir, prefix, arr ) {
