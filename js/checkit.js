@@ -90,14 +90,14 @@ function processRels( panel, prefix, arr, center ) {
 	}
 	//
 	if ( left ) {
-		rightBadge.text( "+" + left );
-	} else {
-		rightBtn.addClass('disabled');
-	}
-	if ( right ) {
-		leftBadge.text( "+" + right );
+		leftBadge.text( "+" + left );
 	} else {
 		leftBtn.addClass('disabled');
+	}
+	if ( right ) {
+		rightBadge.text( "+" + right );
+	} else {
+		rightBtn.addClass('disabled');
 	}
 }
 
@@ -109,7 +109,7 @@ function scrollTags( panel, type, dir, prefix, arr ) {
 function processTag( panel, searchStr ) {
 	panel.find("#searchProgress").css("display", "block");
 	panel.find("#searchResult").css("display", "none");
-	$.get( "checkit.php?q=" + searchStr, function( data ) {
+	$.get( "checkit.php?q=" + encodeURIComponent( searchStr ), function( data ) {
 		if ( data ) {
 			//console.log( JSON.stringify( data ) );
 			// term attributes
@@ -128,28 +128,28 @@ function processTag( panel, searchStr ) {
 			processRels( panel, '#out', data.resp.outbound, panel.data( "outbound" ) );
 			// configure scrolls
 			panel.find('#inLeft').attr('onclick','').unbind('click');
-  		panel.find('#inLeft').on("click", { panel: panel, arr:data.resp.inbound, dir:-1 }, function(event) {
+  		panel.find('#inLeft').on("click", { panel: panel, arr:data.resp.inbound, dir:1 }, function(event) {
 				if ( !panel.find('#inLeft').hasClass('disabled') ) {
 					scrollTags( event.data.panel, 'inbound', event.data.dir, '#in', event.data.arr );
 				}
 				event.preventDefault();
 	  	});
   		panel.find('#inRight').attr('onclick','').unbind('click');
-  		panel.find('#inRight').on("click", { panel: panel, arr:data.resp.inbound, dir:1 }, function(event) {
+  		panel.find('#inRight').on("click", { panel: panel, arr:data.resp.inbound, dir:-1 }, function(event) {
 				if ( !panel.find('#inRight').hasClass('disabled') ) {
 					scrollTags( event.data.panel, 'inbound', event.data.dir, '#in', event.data.arr );
 				}
 				event.preventDefault();
 	  	});
 			panel.find('#outLeft').attr('onclick','').unbind('click');
-  		panel.find('#outLeft').on("click", { panel: panel, arr:data.resp.outbound, dir:-1 }, function(event) {
+  		panel.find('#outLeft').on("click", { panel: panel, arr:data.resp.outbound, dir:1 }, function(event) {
 				if ( !panel.find('#outLeft').hasClass('disabled') ) {
 					scrollTags( event.data.panel, 'outbound', event.data.dir, '#out', event.data.arr );
 				}
 				event.preventDefault();
 	  	});
 			panel.find('#outRight').attr('onclick','').unbind('click');
-  		panel.find('#outRight').on("click", { panel: panel, arr:data.resp.outbound, dir:1 }, function(event) {
+  		panel.find('#outRight').on("click", { panel: panel, arr:data.resp.outbound, dir:-1 }, function(event) {
 				if ( !panel.find('#outRight').hasClass('disabled') ) {
 					scrollTags( event.data.panel, 'outbound', event.data.dir, '#out', event.data.arr );
 				}
@@ -197,6 +197,7 @@ $(document).ready(function() {
     prefetch: {
 //      url: 'tags.php?id=skills-hard;soft-skills;interests',
       url: 'tags.php?id=skills-hard',
+//      url: 'tags.php?id=interests',
       filter: function(list) {
         return $.map(list, function(tag) {
           return {
@@ -224,4 +225,6 @@ $(document).ready(function() {
     startSearch();
   });
 
+	$("#termName").val('C++');
+	startSearch();
 });

@@ -16,6 +16,7 @@
 		$r["code"] = 503;
 		$inbound = array();
 		$r2 = array();
+		//
 		$inbound_queue = "match (n{name:'".$q."'})<--(m) return distinct m.name";
 		$outbound_queue = "match (n{name:'".$q."'})-->(m) return distinct m.name";
 		if ( neo4jQueue( $inbound_queue, $p, $inbound ) ) {
