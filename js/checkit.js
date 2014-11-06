@@ -41,6 +41,7 @@ function configureTags(id, fileKey, labels, limit) {
 
 function processRels( panel, prefix, arr, center ) {
 	var row = panel.find( prefix + "Row" );
+	var arrow = panel.find( prefix + "Arrow" );
 	var leftBtn = panel.find( prefix + "Left" );
 	var leftBadge = leftBtn.find(".badge");
 	var rightBtn = panel.find( prefix + "Right" );
@@ -107,10 +108,11 @@ function processRels( panel, prefix, arr, center ) {
 	//
 	if ( arr.length ) {
 		row.show();
+		arrow.show();
 	} else {
 		row.hide();
+		arrow.hide();
 	}
-
 }
 
 function scrollTags( panel, type, dir, prefix, arr ) {
