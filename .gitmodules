@@ -1,0 +1,3 @@
+[submodule "libs/hybridauth-2.2.2"]
+	path = libs/hybridauth-2.2.2
+	url = https://github.com/VladyslavKurmaz/hybridauth.git

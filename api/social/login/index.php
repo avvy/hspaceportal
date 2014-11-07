@@ -1,16 +1,14 @@
 <?php
 	session_start();
 
-	// include hybridauth lib
-	$config = dirname(__FILE__) . '/../../libs/hybridauth-2.2.2/config.php';
-	require_once( "/../../libs/hybridauth-2.2.2/Hybrid/Auth.php" );
+	require_once( "/../util.php" );
+	require_once( "/../../../libs/hybridauth-2.2.2/hybridauth/Hybrid/Auth.php" );
 
-	// start login with facebook?
-	if( isset( $_GET["login"] ) ){
+	if( isset( $_GET["id"] ) ){
 		try{
 			$hybridauth = new Hybrid_Auth( $config );
 
-			$adapter = $hybridauth->authenticate( $_GET["login"] );
+			$adapter = $hybridauth->authenticate( $_GET["id"] );
 
 			$user_profile = $adapter->getUserProfile();
 		}
@@ -26,11 +24,14 @@
 A VERY basic example showing how to integrate Facebook Javascript SDK side by side with HybridAuth. Click the "Sign in" link to start.
 </p>
 
-<h2><a href ="index.php?login=facebook">Sign in with facebook</a></h2> 
+<h2><a href ="index.php?id=facebook">Sign in with facebook</a></h2> 
+<h2><a href ="index.php?id=google">Sign in with google</a></h2> 
+<h2><a href ="index.php?id=linkedin">Sign in with linkedin</a></h2> 
+<h2><a href ="index.php?id=twitter">Sign in with twitter</a></h2> 
+<h2><a href ="index.php?id=foursquare">Sign in with foursquare</a></h2> 
 <?php
 	}
 	
-	// user signed in with facebook
 	else{
 ?>
 <!DOCTYPE html>
