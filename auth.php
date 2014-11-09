@@ -1,7 +1,9 @@
 <?php
+	$dir = pathinfo( $_SERVER['PHP_SELF'] )['dirname'];
+	$base = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].((strlen($dir)>1)?($dir.'/'):('/')).'libs/hybridauth-2.2.2/hybridauth/';
 	$config =
 		array(
-			"base_url" => "http://hspaceportal.com:8080/libs/hybridauth-2.2.2/hybridauth/", 
+			"base_url" => $base, 
 			"providers" => array ( 
 				"Facebook" => array ( 
 					"enabled" => true,
