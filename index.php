@@ -32,6 +32,8 @@
 		      <div class="modal-body">
 						<div class="container-fluid">
 <?php
+	$params = array( "Foursquare" => array( "photo_size" => "16x16" ) );
+	//
 	$hybridauth = new Hybrid_Auth( $config );
 	$connected_adapters_list = $hybridauth->getConnectedProviders(); 
 	//
@@ -57,14 +59,14 @@
 			$action = 'login';
 			if ( in_array( $ck, $connected_adapters_list ) ) {
 				try{
+					$p = null;
+					if ( isset( $params[ $ck ] ) ) {
+						$p = $params[ $ck ];
+					}
+					//
 					$adapter = $hybridauth->authenticate( $ck );  
 					$user_profile = $adapter->getUserProfile();
-					$photo = '';
-					if ( $user_profile->photoURL and ( gettype( $user_profile->photoURL ) == 'string' ) ) {
-						$photo = $user_profile->photoURL;
-					} else {
-						$photo = $user_profile->photoURL->prefix.'36x36'.$user_profile->photoURL->suffix;
-					}
+					$photo = $user_profile->photoURL;
 					echo '<img src="'.$photo.'" style="position:relative;width:24px;height:24px"/>';
 					echo '<span class="glyphicon glyphicon-ok pull-right text-success"></span>';
 					$action = 'logout';

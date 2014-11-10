@@ -7,7 +7,8 @@
 	$hybridauth = new Hybrid_Auth( $config );
 	if( isset( $_GET["id"] ) ){
 		try{
-			$adapter = $hybridauth->authenticate( $_GET["id"] );
+			$id = $_GET["id"];
+			$adapter = $hybridauth->authenticate( $id );
 			$is_user_logged_in = $adapter->isUserConnected();
 			$user_profile = $adapter->getUserProfile();
 			$r["msg"] = $user_profile->displayName;
