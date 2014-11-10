@@ -1,0 +1,108 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Check IT</title>
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="css/checkit.css">
+		<script src="libs/jquery-2.1.1/jquery.min.js"></script>
+    <script src="libs/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
+    <script src="libs/typeahead-0.10.5/typeahead.bundle.js"></script>
+    <script src="js/checkit.js"></script>
+  </head>
+  <body>
+		<div class="container-fluid">
+			<div class="page-header">
+				<p><h1 id="tags-title">@tlas tags <small id="tags-sub-title">beta</small></h1></p>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-offset-3 col-xs-6">
+							<input type="text" class="form-control" name="termName" id="termName" placeholder="type term" autofocus/>
+						</div>
+						<div class="col-xs-1">
+							<button type="button" class="btn btn-success" id="searchBtn" >Search</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- -->
+      	<div class="panel panel-default template" style="display:none">
+        	<div class="panel-heading">
+          	<div class="panel-title">
+            	<a class="accordion-toggle" data-toggle="collapse" data-parent="#searchFeed" href="#collapseOne1" title="collapse/expand">
+              	<span class="glyphicon glyphicon-collapse-down action"></span>
+              </a>
+							<span id="searchResultCaption"></span>
+              <button type="button" class="close" data-dismiss="panel-title" aria-hidden="true" title="close">&times;</button>
+							<img class="pull-right" src="img/progress.gif" id="searchProgress"/>
+            </div>
+          </div>
+          <div id="collapseOne1" class="panel-collapse in">
+            <div class="panel-body">
+							<div class="container-fluid" id="searchResult" style="display:none">
+								<!--ol class="breadcrumb">
+								  <li><a href="#">Home</a></li>
+								  <li><a href="#">Library</a></li>
+								  <li class="active">Java</li>
+								</ol-->
+								<div class="row" id="inRow">
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+									    <li class="previous" id="inLeft"><a href="">&larr;<span class="badge alert-info"></span></a></li>
+									  </ul>
+									</div>
+									<div class="col-sm-2 text-center" id="in0"></div>
+									<div class="col-sm-2 text-center" id="in1"></div>
+									<div class="col-sm-2 text-center" id="in2"></div>
+									<div class="col-sm-2 text-center" id="in3"></div>
+									<div class="col-sm-2 text-center" id="in4"></div>
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+											<li class="next" id="inRight"><a href=""><span class="badge alert-info"></span>&rarr;</a></li>
+									  </ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-offset-5 col-sm-2 text-center">
+										<img id="inArrow" src="img/down.png" class="img-responsive center-block">
+										<h2 id="tag"></h2>
+										<img id="outArrow" src="img/down.png" class="img-responsive center-block">
+									</div>
+									<div class="col-sm-5 text-left"><p class="bg-info">
+										<div class="panel panel-info">
+											<div class="panel-heading">Description</div>
+											<div class="panel-body" id="tagDescription"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row" id="outRow">
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+									    <li class="previous" id="outLeft"><a href="">&larr;<span class="badge alert-info"></span></a></li>
+									  </ul>
+									</div>
+									<div class="col-sm-2 text-center" id="out0"></div>
+									<div class="col-sm-2 text-center" id="out1"></div>
+									<div class="col-sm-2 text-center" id="out2"></div>
+									<div class="col-sm-2 text-center" id="out3"></div>
+									<div class="col-sm-2 text-center" id="out4"></div>
+									<div class="col-sm-1 text-center">
+										<ul class="pager">
+											<li class="next" id="outRight"><a href=""><span class="badge alert-info"></span>&rarr;</a></li>
+									  </ul>
+									</div>
+								</div>
+              </div>
+            </div>
+          </div>
+        </div>
+			<div class="" id="searchFeed">
+      </div>
+		</div>
+  </body>
+</html>
+

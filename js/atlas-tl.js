@@ -1,6 +1,28 @@
 // globals
 var timeline = null;
+var timelineVisible = true;
+var timelineTimeout = 250;
 
+
+//---------------------------------------------------------------------
+$('#timelineMinMax').on('click', function( event ) {
+	timelineVisible = !timelineVisible;
+	//
+	var more = 'block';
+	var less = 'none';
+	if ( timelineVisible ) {
+		more = 'none';
+		less = 'block';
+	}
+	//
+	$('#timelineMinMax .more').css('display', more);
+	$('#timelineMinMax .less').css('display', less);
+	$( "#timeline" ).toggle( "slide", { direction: "down" }, timelineTimeout );
+	return false;
+});
+
+
+//---------------------------------------------------------------------
 // Called when the Visualization API is loaded.
 function drawVisualization() {
 	$.get( "api/tl/s/", function( r ) {
@@ -29,11 +51,16 @@ function drawVisualization() {
   			timeline = new links.Timeline(document.getElementById('timeline'), options);
  				// Draw our timeline with the created data and options
   			timeline.draw(data);
+				//
+				resize();
+				ntfToggle();
 			}
 		}
 	});
 }
 
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
 google.load("visualization", "1");
 // Set callback to run when API is loaded
 google.setOnLoadCallback(drawVisualization);
