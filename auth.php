@@ -1,8 +1,9 @@
 <?php
-	echo '<pre>';
+	$dev = $_SERVER['SERVER_ADDR'] == '127.0.0.1';
+/*	echo '<pre>';
 	print_r($_SERVER);
-	echo '</pre>';
-	$dev = true;
+	print_r($dev);
+	echo '</pre>';*/
 	//
 	$facebook 		= array( "enabled" => true, "keys" => array ( "id" => "1542451842658147", "secret" => "577322b2d6c1287747430cfc314e6ef0" ) );
 	$linkedin 		= array( "enabled" => true, "keys" => array ( "key" => "77kbzctk9sv7ko", "secret" => "hzWYozIvOfA1xvF6" ) );
