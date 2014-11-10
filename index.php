@@ -56,17 +56,21 @@
 			$style = '';
 			$action = 'login';
 			if ( in_array( $ck, $connected_adapters_list ) ) {
-				$adapter = $hybridauth->authenticate( $ck );  
-				$user_profile = $adapter->getUserProfile();
-				$photo = '';
-				if ( $user_profile->photoURL and ( gettype( $user_profile->photoURL ) == 'string' ) ) {
-					$photo = $user_profile->photoURL;
-				} else {
-					$photo = $user_profile->photoURL->prefix.'36x36'.$user_profile->photoURL->suffix;
+				try{
+					$adapter = $hybridauth->authenticate( $ck );  
+					$user_profile = $adapter->getUserProfile();
+					$photo = '';
+					if ( $user_profile->photoURL and ( gettype( $user_profile->photoURL ) == 'string' ) ) {
+						$photo = $user_profile->photoURL;
+					} else {
+						$photo = $user_profile->photoURL->prefix.'36x36'.$user_profile->photoURL->suffix;
+					}
+					echo '<img src="'.$photo.'" style="position:relative;width:24px;height:24px"/>';
+					echo '<span class="glyphicon glyphicon-ok pull-right text-success"></span>';
+					$action = 'logout';
 				}
-				echo '<img src="'.$photo.'" style="position:relative;width:24px;height:24px"/>';
-				echo '<span class="glyphicon glyphicon-ok pull-right text-success"></span>';
-				$action = 'logout';
+				catch( Exception $e ){
+				}
 			}
 			$prefix = '<a href="'.$action.'.php?id='.$ck.'">';
 			$postfix = '</a>';

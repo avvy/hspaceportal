@@ -1,4 +1,20 @@
 <?php
+	echo '<pre>';
+	print_r($_SERVER);
+	echo '</pre>';
+	$dev = true;
+	//
+	$facebook 		= array( "enabled" => true, "keys" => array ( "id" => "1542451842658147", "secret" => "577322b2d6c1287747430cfc314e6ef0" ) );
+	$linkedin 		= array( "enabled" => true, "keys" => array ( "key" => "77kbzctk9sv7ko", "secret" => "hzWYozIvOfA1xvF6" ) );
+	$google 			= array( "enabled" => false, "keys" => array ( "id" => "969983698306-j3qnnak0ntn0g36shjt7qhrduhl9i048.apps.googleusercontent.com", "secret" => "My3H_E6w9_MeOJ_hS9537TP8" ) );
+	$foursquare 	= array( "enabled" => true, "keys" => array ( "id" => "PWXVWB4KCRTOZV4RLJKXSR2BFWO41STEXK15QEA3K5T11UAG", "secret" => "SGKTCJDMGLT5JAFM2HVQEK4S4F4MYPXFIA5KBPN1L4XTJ1V1" ) );
+	if ( $dev ) {
+		$facebook 	= array( "enabled" => true, "keys" =>  array ( "id" => "392123024276483", "secret" => "46182b6c1982e302ed904a65d828bb82" ) );
+		$linkedin 	= array( "enabled" => true, "keys" =>  array ( "key" => "77jtdw1rdfpgbd", "secret" => "Ab6hJUuz79LdD1pB" ) );
+		$google 		= array( "enabled" => true, "keys" =>  array ( "id" => "310402595251-db6uonrfff6g36l1ud49omj0pj4f3jsc.apps.googleusercontent.com", "secret" => "ddT6993acr7mzzj58p13HXXT" ) );
+		$foursquare = array( "enabled" => true, "keys" =>  array ( "id" => "1SXIFZLZCH3A4ZTJ44FLOVADWDEBYM0NPY325GDC3ZMSQV05", "secret" => "1MZN404RVFKEFQOERHYX5OF3LNKHRYP24E4ZQCVL3OQNY1VS" ) );
+	}
+
 	$dir = pathinfo( $_SERVER['PHP_SELF'] )['dirname'];
 	$base = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].((strlen($dir)>1)?($dir.'/'):('/')).'libs/hybridauth-2.2.2/hybridauth/';
 	$config =
@@ -6,19 +22,19 @@
 			"base_url" => $base, 
 			"providers" => array ( 
 				"Facebook" => array ( 
-					"enabled" => true,
+					"enabled" => $facebook["enabled"],
 					"img" => "img/social/facebook.png",
-					"keys"    => array ( "id" => "1542451842658147", "secret" => "577322b2d6c1287747430cfc314e6ef0" )
+					"keys"    => $facebook["keys"]
 				),
 				"LinkedIn" => array ( 
-					"enabled" => true,
+					"enabled" => $linkedin["enabled"],
 					"img" => "img/social/linkedin.png",
-					"keys"    => array ( "key" => "77kbzctk9sv7ko", "secret" => "hzWYozIvOfA1xvF6" ) 
+					"keys"    => $linkedin["keys"]
 				),
 				"Google" => array ( 
-					"enabled" => true,
+					"enabled" => $google["enabled"],
 					"img" => "img/social/gplus.png",
-					"keys"    => array ( "id" => "969983698306-j3qnnak0ntn0g36shjt7qhrduhl9i048.apps.googleusercontent.com", "secret" => "My3H_E6w9_MeOJ_hS9537TP8" )
+					"keys"    => $google["keys"]
 				),
 				"Twitter" => array ( 
 					"enabled" => false,
@@ -26,9 +42,9 @@
 					"keys"    => array ( "key" => "", "secret" => "" ) 
 				),
 				"Foursquare" => array (
-					"enabled" => true,
+					"enabled" => $foursquare["enabled"],
 					"img" => "img/social/foursquare.png",
-					"keys"    => array ( "id" => "PWXVWB4KCRTOZV4RLJKXSR2BFWO41STEXK15QEA3K5T11UAG", "secret" => "SGKTCJDMGLT5JAFM2HVQEK4S4F4MYPXFIA5KBPN1L4XTJ1V1" ) 
+					"keys"    => $foursquare["keys"]
 				),
 				"Github" => array (
 					"enabled" => false,
