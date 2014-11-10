@@ -32,8 +32,6 @@
 		      <div class="modal-body">
 						<div class="container-fluid">
 <?php
-	$params = array( "Foursquare" => array( "photo_size" => "16x16" ) );
-	//
 	$hybridauth = new Hybrid_Auth( $config );
 	$connected_adapters_list = $hybridauth->getConnectedProviders(); 
 	//
@@ -59,10 +57,6 @@
 			$action = 'login';
 			if ( in_array( $ck, $connected_adapters_list ) ) {
 				try{
-					$p = null;
-					if ( isset( $params[ $ck ] ) ) {
-						$p = $params[ $ck ];
-					}
 					//
 					$adapter = $hybridauth->authenticate( $ck );  
 					$user_profile = $adapter->getUserProfile();
