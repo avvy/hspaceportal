@@ -10,6 +10,7 @@
 			$id = $_GET["id"];
 			if ( $id == "all") {
 				$hybridauth->logoutAllProviders(); 
+				session_destroy();
 			} else {
 				$adapter = $hybridauth->getAdapter( $id );
 				$adapter->logout();

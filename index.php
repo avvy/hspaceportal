@@ -40,18 +40,18 @@
 	$cellzs = 12 / $colcnt; 
 	echo '<div class="row">';
 	foreach( $config['providers'] as $ck => $cv ) {
-		$newrow = false;
 		if ( $col >= $colcnt ) {
 			echo '</div>';
 			echo '<div class="row">';
 			$col = 0;
 		}
 		echo '<div class="col-xs-'.$cellzs.' col-sm-'.$cellzs.' col-md-'.$cellzs.' col-lg-'.$cellzs.'">';
+		//echo '<div style="position:relative">';
 		//
 		$prefix = '';
 		$postfix = '';
-		$logo = '';
 		$style = 'opacity: 0.25;';
+		$logo = '';
 		if ( $cv["enabled"] ) {
 			$style = '';
 			$action = 'login';
@@ -60,9 +60,11 @@
 					//
 					$adapter = $hybridauth->authenticate( $ck );  
 					$user_profile = $adapter->getUserProfile();
+					//$user_contacts = $adapter->getUserContacts();;
+					//echo json_encode( $user_contacts );
+					//
 					$photo = $user_profile->photoURL;
-					echo '<img src="'.$photo.'" style="position:relative;width:24px;height:24px"/>';
-					echo '<span class="glyphicon glyphicon-ok pull-right text-success"></span>';
+					$logo = '<img src="'.$photo.'" class="img-rounded" style="position:fixed;width:25px;height:25px;border: 1px solid white"/>';
 					$action = 'logout';
 				}
 				catch( Exception $e ){
@@ -71,7 +73,9 @@
 			$prefix = '<a href="'.$action.'.php?id='.$ck.'">';
 			$postfix = '</a>';
 		}
-		echo $prefix.'<img src="'.$cv['img'].'" class="img-responsive center-block" style="'.$style.'">'.$logo.'</img>'.$postfix;
+		//$style .= "position:fixed;";
+		echo $prefix.$logo.'<img src="'.$cv['img'].'" class="img-responsive center-block" style="'.$style.'"></img>'.$postfix;
+		//echo '</div>';
 		echo '</div>';
 		$col++;
 	}
@@ -119,10 +123,35 @@
 
 		<!-- modal -->
 		<div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			Test
 		  <div class="modal-dialog">
 		    <div class="modal-content">
-					Test
+					<div class="container-fluid">
+<?php
+	$hybridauth = new Hybrid_Auth( $config );
+	$connected_adapters_list = $hybridauth->getConnectedProviders(); 
+	//
+	foreach( $config['providers'] as $ck => $cv ) {
+		if ( $cv['enabled'] ) {
+			if ( in_array( $ck, $connected_adapters_list ) ) {
+				echo '<pre>';
+				try{
+					//
+					$adapter = $hybridauth->authenticate( $ck );  
+					$user_profile = $adapter->getUserProfile();
+					$user_contacts = $adapter->getUserContacts();
+					foreach( $user_contacts as $contact ) {
+						echo '<p><img src="'.$contact->photoURL.'" style="width:48px;height:48px;"/>'.$contact->displayName.'</p>';
+					}
+				}
+				catch( Exception $e ){
+					echo $e->getMessage();
+				}
+				echo '</pre>';
+			}
+		}
+	}
+?>
+					</div>
 		    </div>
 		  </div>
 		</div>
