@@ -32,6 +32,7 @@
 		      <div class="modal-body">
 						<div class="container-fluid">
 <?php
+try{
 	$hybridauth = new Hybrid_Auth( $config );
 	$connected_adapters_list = $hybridauth->getConnectedProviders(); 
 	//
@@ -68,6 +69,7 @@
 					$action = 'logout';
 				}
 				catch( Exception $e ){
+					echo $e->getMessage();
 				}
 			}
 			$prefix = '<a href="'.$action.'.php?id='.$ck.'">';
@@ -80,6 +82,10 @@
 		$col++;
 	}
 	echo '</div>';
+}
+catch( Exception $e ){
+	echo $e->getMessage();
+}
 ?>
 							<div class="row">
 								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -127,6 +133,7 @@
 		    <div class="modal-content">
 					<div class="container-fluid">
 <?php
+try{
 	$hybridauth = new Hybrid_Auth( $config );
 	$connected_adapters_list = $hybridauth->getConnectedProviders(); 
 	//
@@ -150,6 +157,10 @@
 			}
 		}
 	}
+}
+catch( Exception $e ){
+	echo $e->getMessage();
+}
 ?>
 					</div>
 		    </div>
