@@ -1,0 +1,2 @@
+* install LAMP
+* check if PHP has curl extention (sudo apt-get update; sudo apt-get install php5-curl)

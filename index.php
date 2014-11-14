@@ -197,8 +197,8 @@ catch( Exception $e ){
     <div class="surface">
     </div>
 		<div id="timeline"></div>
-		<a href="#" id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></a>
-		<!--button id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></button-->
+		<!--a href="#" id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></a-->
+		<button id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></button>
 
 		<div id="notifications" class="notifications-panel" >
 			<div class="container-fluid" style="margin-top:64px">
