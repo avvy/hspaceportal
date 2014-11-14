@@ -8,4 +8,5 @@
 8. + howto to store oauth2 keys at the server side in right way
 9. + relative+absolute how align login page icons, overlap each other
 10. how to deal with screen size and icons size dependson dimentions
-11. scrollbars
+11. howto define and use scrollbars
+12. canvas draw engine/libraries
