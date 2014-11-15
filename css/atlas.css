@@ -1,5 +1,13 @@
+.navbar-toggle {
+float: left;
+}
 
 .navbar-img {
+	width:24px;
+	height:24px;
+}
+
+.modal-title-img {
 	width:24px;
 	height:24px;
 }
@@ -13,6 +21,11 @@
 	overflow-x:hidden;
 }
 
+.right-toolbar{
+	position: absolute;
+	right:0px;
+	top:0px;
+}
 
 
 #timeline {

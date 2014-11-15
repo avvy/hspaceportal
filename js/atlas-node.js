@@ -83,5 +83,5 @@ function nodeResize() {
 
 	var cx = window.innerWidth / 2;
 	var cy = 2 * window.innerHeight / 5;
-	buildSurface( 0, 1, cx, cy, "f7d786f4-0989-49be-931c-5b5cfa196f20" );
+//		buildSurface( 0, 1, cx, cy, "f7d786f4-0989-49be-931c-5b5cfa196f20" );
 };

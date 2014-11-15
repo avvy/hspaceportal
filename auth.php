@@ -1,4 +1,8 @@
 <?php
+
+//		echo "<pre>".json_encode( $this->api->api( "https://www.googleapis.com/drive/v2/about" ) )."</pre>";
+//		echo "<pre>".json_encode( $this->api->api( "https://www.googleapis.com/drive/v2/files/0Bwmz546iG3X9bnJuMEJNS0N2SEk" ) )."</pre>";
+
 	$dev = $_SERVER['SERVER_ADDR'] == '127.0.0.1';
 	//
 	$facebook 		= array( "enabled" => true, "keys" => array ( "id" => "1542451842658147", "secret" => "577322b2d6c1287747430cfc314e6ef0" ) );
@@ -31,7 +35,8 @@
 				"Google" => array ( 
 					"enabled" => $google["enabled"],
 					"img" => "img/social/gplus.png",
-					"keys"    => $google["keys"]
+					"keys"    => $google["keys"],
+					"scope" => "https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read https://www.google.com/m8/feeds/ https://www.googleapis.com/auth/drive"
 				),
 				"Twitter" => array ( 
 					"enabled" => false,
