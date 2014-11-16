@@ -23,7 +23,7 @@ function ntfResize() {
 		left: 0,
 		top: 0,
     width: width,
-    height: height - $('#timeline').height() 
+    height: height/* - $('#timeline').height() */
 	});
 }
 

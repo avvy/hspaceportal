@@ -33,5 +33,5 @@
 		$r["trace"] = $e->getTraceAsString();
 		}
 	}
-	Hybrid_Auth::redirect( "index.php?msg=".$r["msg"] );
+	Hybrid_Auth::redirect( "index.html" );
 ?>
