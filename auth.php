@@ -7,7 +7,7 @@
 	//
 	$facebook 		= array( "enabled" => true, "keys" => array ( "id" => "1542451842658147", "secret" => "577322b2d6c1287747430cfc314e6ef0" ) );
 	$linkedin 		= array( "enabled" => true, "keys" => array ( "key" => "77kbzctk9sv7ko", "secret" => "hzWYozIvOfA1xvF6" ) );
-	$google 			= array( "enabled" => false, "keys" => array ( "id" => "969983698306-j3qnnak0ntn0g36shjt7qhrduhl9i048.apps.googleusercontent.com", "secret" => "My3H_E6w9_MeOJ_hS9537TP8" ) );
+	$google 			= array( "enabled" => true, "keys" => array ( "id" => "969983698306-j3qnnak0ntn0g36shjt7qhrduhl9i048.apps.googleusercontent.com", "secret" => "My3H_E6w9_MeOJ_hS9537TP8" ) );
 	$foursquare 	= array( "enabled" => true, "keys" => array ( "id" => "PWXVWB4KCRTOZV4RLJKXSR2BFWO41STEXK15QEA3K5T11UAG", "secret" => "SGKTCJDMGLT5JAFM2HVQEK4S4F4MYPXFIA5KBPN1L4XTJ1V1" ) );
 	if ( $dev ) {
 		$facebook 	= array( "enabled" => true, "keys" =>  array ( "id" => "392123024276483", "secret" => "46182b6c1982e302ed904a65d828bb82" ) );
