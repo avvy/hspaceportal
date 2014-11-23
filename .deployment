@@ -1,2 +1,18 @@
-* install LAMP
+** install LAMP
 * check if PHP has curl extention (sudo apt-get update; sudo apt-get install php5-curl)
+
+** prerequisites
+* apt-get update
+* apt-get install default-jre
+
+** neo4j
+* download neo4j to the /opt, wget -O neo4j-community-2.1.5-unix.tar.gz http://neo4j.com/artifact.php?name=neo4j-community-2.1.5-unix.tar.gz
+* tar xvfz neo4j-community-2.1.5-unix.tar.gz
+* uncomment org.neo4j.server.webserver.address=0.0.0.0 line
+* sudo ./neo4j-installer install
+* sudo service neo4j-service status
+* sudo service neo4j-service start
+* sudo service neo4j-service stop
+* sudo ./bin/neo4j-installer remove
+
+** import data
