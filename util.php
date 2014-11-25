@@ -23,6 +23,10 @@
     return sprintf('%04x%04x-%04x-%04x-%04x-%04x%04x%04x', mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(16384, 20479), mt_rand(32768, 49151), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535));
 	}
 
+	function unistr( $s ) {
+		return str_replace( array("'"), "\\'", $s );
+	}
+
 
 	function neo4jQueue( $queue, $param, &$r ) {
 		$host = "http://localhost:7474/";
@@ -65,8 +69,10 @@ function neo4j2json( $foutput, $labels ) {
 	foreach( $labels as $lsk ) {
 		$l .= ":".$lsk;
 	}
+	//echo "MATCH (n".$l.") RETURN n.name";
 	if ( neo4jQueue( "MATCH (n".$l.") RETURN n.name", "", $r ) ) {
-		foreach( $r["response"]["data"] as $rk => $rv ) {
+		//echo json_encode( $r );
+		foreach( $r["resp"]["data"] as $rk => $rv ) {
 			$tags[] = $rv[0];
 		}
 	}
@@ -94,7 +100,7 @@ function c2cAppendItem( &$r, $lvl, $item, &$items ) {
 		c2cAppendItem( $r[key($r)], $lvl, $item, $items );
 	} else {
 		$r[$item] = array(); 
-		$items[] = $item;
+		$items[] = unistr( $item );
 	}
 }
 

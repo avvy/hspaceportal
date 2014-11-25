@@ -1,4 +1,5 @@
 // globals
+var navRightToolbarTimeout = 250;
 
 //---------------------------------------------------------------------
 function resize( event ) {
@@ -6,6 +7,16 @@ function resize( event ) {
 	ntfResize();
 	nodeResize();
 }
+
+//---------------------------------------------------------------------
+function navRightToolbarToggle() {
+	$( "#rightToolbar" ).toggle( "slide", { direction: "up" }, navRightToolbarTimeout );
+}
+//---------------------------------------------------------------------
+$('#navSettings').on('click', function( event ) {
+	navRightToolbarToggle();
+	return false;
+});
 
 //---------------------------------------------------------------------
 $(function() {
@@ -30,6 +41,8 @@ $(function() {
 	//
 	// resize lister
 	window.addEventListener( 'resize', resize, false );
+	//
+	navRightToolbarToggle();
 });
 
 //---------------------------------------------------------------------
