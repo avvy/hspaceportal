@@ -33,7 +33,7 @@
 						<form class="form-horizontal" role="form">
 						  <div class="form-group">
 						    <div class="col-sm-12">
-						      <input type="text" class="form-control" id="goalTitle" placeholder="title">
+						      <input type="text" class="form-control" id="goalTitle" placeholder="title" autofocus>
 						    </div>
 					    </div>
 						  <div class="form-group">
@@ -62,7 +62,6 @@
 							<div class="row" id="socialProviders" >
 								<div class="col-sm-4 provider-template" style="display:none">
 									<a href="">
-										<img id = "logo" src="" class="img-rounded" style="position:fixed;width:25px;height:25px;border: 1px solid white;display:none"/>
 										<img id = "provider" src="" class="img-responsive center-block"/>
 									</a>
 								</div>
@@ -81,38 +80,20 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-    		    <span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
           <a class="navbar-brand" href="index.html"><span>@tlas</span></a>
 					<ul class="nav navbar-nav navbar-left">
 						<li><p class="navbar-text"><a href="#" class="nav navbar-nav" id="notifyBtn"><img src="img/notify.png" class="navbar-img"/><span class="label label-success">10+</span></a></p></li>
 	  	    </ul>
         </div>
 				<ul class="nav navbar-nav navbar-right">
+					<p class="navbar-text"><a href="#" class="nav navbar-nav" data-toggle="modal" data-target="#newGoalModal">
+						<img src="img/goal-lt.png" class="navbar-img"/></a>
+					</p>
           <p class="navbar-text navbar-right"><a href="#" id="navSettings"><img src="img/settings.png" class="navbar-img"/></a></p>
-	      </ul>
-				<div class="collapse navbar-collapse" id="navbar-collapse-1">
           <form class="navbar-form navbar-right" role="search">
             <input type="text" class="form-control" id="inputSearch" placeholder="Search...">
           </form>
-					<ul class="nav navbar-nav navbar-right">
-		        <li class="dropdown">
-    		      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-plus"></span> <span class="caret"></span></a>
-        		  <ul class="dropdown-menu" role="menu">
-		            <li><a href="#" data-toggle="modal" data-target="#newGoalModal">Goal</a></li>
-    		        <li><a href="#" data-toggle="modal" data-target="#progressLockModal">Document</a></li>
-
-
-		            <!--li class="divider"></li>
-    		        <li><a href="#">Separated link</a></li-->
-    		      </ul>
-        		</li>
-	  	    </ul>
-		    </div>
+	      </ul>
       </div>
     </div>  
 
