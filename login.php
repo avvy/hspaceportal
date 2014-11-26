@@ -30,5 +30,6 @@
 		$r["trace"] = $e->getTraceAsString();
 		}
 	}
+	//echo json_encode( $r );
 	Hybrid_Auth::redirect( "index.html" );
 ?>
