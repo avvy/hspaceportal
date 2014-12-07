@@ -12,16 +12,6 @@ function resize( event ) {
 }
 
 //---------------------------------------------------------------------
-function navRightToolbarToggle() {
-	$( "#rightToolbar" ).toggle( "slide", { direction: "up" }, navRightToolbarTimeout );
-}
-//---------------------------------------------------------------------
-$('#navSettings').on('click', function( event ) {
-	navRightToolbarToggle();
-	return false;
-});
-
-//---------------------------------------------------------------------
 $(function() {
 	var contacts = new Bloodhound({
 		datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
@@ -44,8 +34,6 @@ $(function() {
 	//
 	// resize lister
 	window.addEventListener( 'resize', resize, false );
-	//
-	navRightToolbarToggle();
 });
 
 //---------------------------------------------------------------------
