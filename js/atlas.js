@@ -1,6 +1,9 @@
 // globals
 var navRightToolbarTimeout = 250;
 
+// for test purposes only
+$.cookie("ATLAS_DOMAINS", JSON.stringify( [{ api:"http://hspaceportal.com:8080/api/", domain:"630a8a17-0768-4bab-8527-d1bcb467e2bd" }] ));
+
 //---------------------------------------------------------------------
 function resize( event ) {
 	console.log('resize');

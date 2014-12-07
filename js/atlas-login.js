@@ -31,6 +31,6 @@ $(function() {
  		socials.append( item.fadeIn() );
 	}
 	//
-	$('#loginModal').modal('show');
+//	$('#loginModal').modal('show');
 });
 

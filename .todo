@@ -1,2 +1,2 @@
-1. remove social networks from neo4j contact import script
-2. fix hybridauth Foursquare photo url: http://stackoverflow.com/questions/10977100/foursquare-api-for-venue-user-image-error, https://developer.foursquare.com/docs/responses/photo.html
++ remove social networks from neo4j contact import script
++ fix hybridauth Foursquare photo url: http://stackoverflow.com/questions/10977100/foursquare-api-for-venue-user-image-error, https://developer.foursquare.com/docs/responses/photo.html

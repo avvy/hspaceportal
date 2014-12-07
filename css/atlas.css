@@ -14,7 +14,7 @@ float: left;
 
 .notifications-panel {
 	position: absolute;
-	background-color:rgba(0,0,0,0.95);
+	background-color:rgba(192,192,192,0.75);
 	width:0px;
 	height:0px;
 	overflow-y:scroll;

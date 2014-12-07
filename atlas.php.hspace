@@ -1,0 +1,5 @@
+<?php
+	$hosts = array(
+		array( 'db'=>'http://localhost:7474/', 'root'=>'e1857546-1f94-4724-8597-aef07a15a18a' )
+	);
+?>
