@@ -25,54 +25,64 @@
 				"Facebook" => array ( 
 					"enabled" => $facebook["enabled"],
 					"img" => "img/social/facebook.png",
-					"keys"    => $facebook["keys"]
+					"keys"    => $facebook["keys"],
+					"storage" => false
 				),
 				"LinkedIn" => array ( 
 					"enabled" => $linkedin["enabled"],
 					"img" => "img/social/linkedin.png",
-					"keys"    => $linkedin["keys"]
+					"keys"    => $linkedin["keys"],
+					"storage" => false
 				),
 				"Google" => array ( 
 					"enabled" => $google["enabled"],
 					"img" => "img/social/gplus.png",
 					"keys"    => $google["keys"],
-					"scope" => "https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read https://www.google.com/m8/feeds/ https://www.googleapis.com/auth/drive"
+					"scope" => "https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read https://www.google.com/m8/feeds/ https://www.googleapis.com/auth/drive",
+					"storage" => true
 				),
 				"Twitter" => array ( 
 					"enabled" => false,
 					"img" => "img/social/twitter.png",
-					"keys"    => array ( "key" => "", "secret" => "" ) 
+					"keys"    => array ( "key" => "", "secret" => "" ),
+					"storage" => false
 				),
 				"Foursquare" => array (
 					"enabled" => $foursquare["enabled"],
 					"img" => "img/social/foursquare.png",
 					"keys"    => $foursquare["keys"],
-					"params" => array( "photo_size" => "24x24" )
+					"params" => array( "photo_size" => "24x24" ),
+					"storage" => false
 				),
 				"Github" => array (
 					"enabled" => false,
 					"img" => "img/social/github.png",
-					"keys"    => array ( "id" => "", "secret" => "" ) 
+					"keys"    => array ( "id" => "", "secret" => "" ),
+					"storage" => false
 				),
 				"Paypal" => array (
 					"enabled" => false,
 					"img" => "img/social/paypal.png",
-					"keys"    => array ( "id" => "", "secret" => "" ) 
+					"keys"    => array ( "id" => "", "secret" => "" ),
+					"storage" => false
 				),
 				"Instagram" => array (
 					"enabled" => false,
 					"img" => "img/social/instagram.png",
-					"keys"    => array ( "id" => "", "secret" => "" ) 
+					"keys"    => array ( "id" => "", "secret" => "" ),
+					"storage" => false
 				),
 				"Dropbox" => array (
 					"enabled" => false,
 					"img" => "img/social/dropbox.png",
-					"keys"    => array ( "id" => "", "secret" => "" ) 
+					"keys"    => array ( "id" => "", "secret" => "" ), 
+					"storage" => true
 				),
 				"Steam" => array (
 					"enabled" => false,
 					"img" => "img/social/steam.png",
-					"keys"    => array ( "id" => "", "secret" => "" ) 
+					"keys"    => array ( "id" => "", "secret" => "" ), 
+					"storage" => false
 				)
 			),
 			// if you want to enable logging, set 'debug_mode' to true  then provide a writable file by the web server on "debug_file"

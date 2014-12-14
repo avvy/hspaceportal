@@ -2,12 +2,11 @@
 var navRightToolbarTimeout = 250;
 
 // for test purposes only
-$.cookie("ATLAS_DOMAINS", JSON.stringify( [{ api:"http://hspaceportal.com:8080/api/", domain:"630a8a17-0768-4bab-8527-d1bcb467e2bd" }] ));
+$.cookie("ATLAS_DOMAINS", JSON.stringify( [{ name:'BMC lab Kiev', api:"http://hspaceportal.com:8080/api/", domain:"2a279830-8250-11e4-b4a9-0800200c9a66" }] ));
 
 //---------------------------------------------------------------------
 function resize( event ) {
 	console.log('resize');
-	ntfResize();
 	nodeResize();
 }
 
@@ -34,6 +33,13 @@ $(function() {
 	//
 	// resize lister
 	window.addEventListener( 'resize', resize, false );
+	//
+/*
+	$('<script>')
+    .attr('type', 'text/javascript')
+    .src('some script here')
+    .replaceAll('#someelement');
+*/
 });
 
 //---------------------------------------------------------------------

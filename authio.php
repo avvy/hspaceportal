@@ -3,17 +3,26 @@
 	require_once( "./auth.php" );
 	require_once( "./libs/hybridauth-2.2.2/hybridauth/Hybrid/Auth.php" );
 	//
-	$r = array( "code" => 200, "msg" => "Socila provider was not defined" );
+	$r = array( "code" => 200, "msg" => "Social provider was not defined" );
 	$hybridauth = new Hybrid_Auth( $config );
-	if( isset( $_GET["id"] ) ){
-		try{
-			$id = $_GET["id"];
-			if ( $id == "all") {
-				$hybridauth->logoutAllProviders(); 
-				session_destroy();
-			} else {
-				$adapter = $hybridauth->getAdapter( $id );
-				$adapter->logout();
+	if( isset( $_GET["action"] ) && isset( $_GET["id"] ) ) {
+		$action = $_GET["action"];
+		$id = $_GET["id"];
+		//
+		try {
+			if ( $action === "login" ) {
+				$adapter = $hybridauth->authenticate( $id );
+				$is_user_logged_in = $adapter->isUserConnected();
+				$user_profile = $adapter->getUserProfile();
+				$r["msg"] = $user_profile->displayName;
+			} else if ( $action === "logout" ) {
+				if ( $id == "all") {
+					$hybridauth->logoutAllProviders(); 
+					session_destroy();
+				} else {
+					$adapter = $hybridauth->getAdapter( $id );
+					$adapter->logout();
+				}
 			}
 		}
 		catch( Exception $e ){
@@ -33,5 +42,6 @@
 		$r["trace"] = $e->getTraceAsString();
 		}
 	}
+	//echo json_encode( $r );
 	Hybrid_Auth::redirect( "index.html" );
 ?>

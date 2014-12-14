@@ -60,16 +60,17 @@
 		      <div class="modal-body">
 						<div class="container-fluid">
 							<div class="row" id="socialProviders" >
-								<div class="col-sm-4 provider-template" style="display:none">
+								<div class="col-xs-4 provider-template" style="display:none">
 									<a href="">
-										<img id = "logo" src="" class="img-rounded" style="position:fixed;width:25px;height:25px;border: 1px solid white;display:none"/>
-										<img id = "provider" src="" class="img-responsive center-block"/>
+										<img id = "logo" src="" class="img-rounded" style="position:fixed;width:26px;height:26px;border: 1px solid white;display:none"/>
+										<!--img id = "storage" src="img/cloud.png" class="img-rounded" style="position:fixed;top:8px;right:0px;width:24px;height:24px;"/-->
+										<img id = "provider" src="" class="img-responsive"/>
 									</a>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-									<div class="center-block text-center"><a href="logout.php?id=all">logout all</a></div>
+									<div class="center-block text-center"><a href="authio.php?actio=logout&id=all">logout all</a></div>
 								</div>
 							</div>
 						</div>
@@ -77,7 +78,6 @@
 		    </div>
 		  </div>
 		</div>
-
 		<!-- navbar -->
 		<div class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
@@ -92,7 +92,15 @@
     		</div>
 				<div class="collapse navbar-collapse" id="navbar-items">
 		      <ul class="nav navbar-nav">
-						<li><a href="#" id="notifyBtn"><img src="img/notify.png" class="navbar-img"/><span class="label label-success">10+</span></a></li>
+        		<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="img/domains.png" class="navbar-img"/> <span class="caret"></span></a>
+    		      <ul class="dropdown-menu" role="menu" id="domainsList">
+        		    <li class="domain-item-template" style="display:none"><a href="#"><input type="checkbox"/> <span></span></a></li>
+        		    <li><a href="#"><input type="checkbox"/> <span>all</span></a></li>
+    		        <li class="divider"></li>
+		          </ul>
+    		    </li>
+						<!--li><a href="#" id="notifyBtn"><img src="img/notify.png" class="navbar-img"/><span class="label label-success">10+</span></a></li-->
 		      </ul>
     		  <ul class="nav navbar-nav navbar-right">
         		<li class="dropdown">
@@ -120,75 +128,13 @@
 		<-- canvas -->
     <div class="surface">
     </div>
+		<!--img src="img/loader.gif" class="navbar-img" style="position:absolute;left:auto;right:auto;top:60px;"/-->
 		<-- timeline panel -->
 		<div id="timeline"></div>
 		<button id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></button>
 
 
-		<-- notification panel -->
-		<div id="notifications" class="notifications-panel navbar-inverse">
-			<div class="container-fluid" style="margin-top:64px;">
-				<div role="tabpanel" id="notificationTabs">
-  				<!-- Nav tabs -->
-				  <ul class="nav nav-tabs" role="tablist">
-				    <li role="presentation" class="tab-nav-template"><a href="#tmpl" aria-controls="tmpl" role="tab" data-toggle="tab">Template</a></li>
-				    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">All</a></li>
-				    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">HSpace</a></li>
-				    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">BMC lab</a></li>
-				    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">GL</a></li>
-				  </ul>
-				  <!-- Tab panes -->
-				  <div class="tab-content">
-
-				    <div role="tabpanel" class="tab-pane tab-panel-template" id="tmpl">
-							Something strange
-						</div>
-
-
-			    <div role="tabpanel" class="tab-pane active" id="home">
-
-							<div class="row template-ntf-row">
-								<div class="col-sm-4">
-									<div class="panel panel-default template-ntf-cell">
-									  <div class="panel-heading">
-									    <h3 class="panel-title">Task1</h3>
-									  </div>
-									  <div class="panel-body">
-									    Desc1
-									  </div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="panel panel-primary template-ntf-cell">
-									  <div class="panel-heading">
-									    <h3 class="panel-title">Task2</h3>
-									  </div>
-									  <div class="panel-body">
-									    Desc2
-									  </div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="panel panel-danger template-ntf-cell">
-									  <div class="panel-heading">
-									    <h3 class="panel-title">Task3</h3>
-									  </div>
-									  <div class="panel-body">
-									    Desc2
-									  </div>
-									</div>
-								</div>
-							</div>
-						</div>
-				    <div role="tabpanel" class="tab-pane" id="profile">B</div>
-				    <div role="tabpanel" class="tab-pane" id="messages">C</div>
-    				<div role="tabpanel" class="tab-pane" id="settings">D</div>
-					</div>
-  			</div>
-			</div>
-		</div>
-
-
+		<--  -->
 		<div class="template node" style="display:none"><span id="nodeText"></span></div>
 
 
@@ -206,11 +152,10 @@
     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript" src="libs/timeline-2.9.0/timeline.js"></script>
 
-    <script type="text/javascript" src="js/atlas-login.js"></script>
+    <script type="text/javascript" src="js/atlas-auth.js"></script>
     <script type="text/javascript" src="js/atlas-tl.js"></script>
     <script type="text/javascript" src="js/atlas-node.js"></script>
     <script type="text/javascript" src="js/atlas-domains.js"></script>
-    <script type="text/javascript" src="js/atlas-ntf.js"></script>
     <script type="text/javascript" src="js/atlas.js"></script>
 
     <script type="text/javascript" src="conf.php"></script>

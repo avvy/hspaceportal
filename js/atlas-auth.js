@@ -1,7 +1,7 @@
 // globals
 
 $(function() {
-	//
+///*
 	var template = $('.provider-template');
 	var socials = $("#socialProviders");
 	for( var i = 0; i < providers.length; ++i ) {
@@ -21,7 +21,7 @@ $(function() {
 			 	user_img.css("display", "block");
 			  user_img.attr("src", providers[i].photo );
 			}
-			href = action + '.php?id=' + providers[i].id;
+			href = 'authio.php?action=' + action + '&id=' + providers[i].id;
 		} else {
 		  provider_logo.css('opacity', '0.25' );
 		}
@@ -32,5 +32,6 @@ $(function() {
 	}
 	//
 	$('#loginModal').modal('show');
+//*/
 });
 

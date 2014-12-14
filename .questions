@@ -13,3 +13,4 @@
 - warning mark positioning error
 - autofocus dosn\'t work, focus is on the parent link
 - https://code.google.com/p/dropbox-php/wiki/Dropbox_API
+- dont't collapse dropdown with checkboxes

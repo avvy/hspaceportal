@@ -53,7 +53,6 @@ function drawVisualization() {
   			timeline.draw(data);
 				//
 				resize();
-				ntfToggle();
 			}
 		}
 	});
