@@ -1,8 +1,7 @@
 // globals
-var navRightToolbarTimeout = 250;
 
 // for test purposes only
-$.cookie("ATLAS_DOMAINS", JSON.stringify( [{ name:'BMC lab Kiev', api:"http://hspaceportal.com:8080/api/", domain:"2a279830-8250-11e4-b4a9-0800200c9a66" }] ));
+//$.cookie("ATLAS_DOMAINS", JSON.stringify( [{ name:'BMC lab Kiev', api:"http://hspaceportal.com:8080/api/", domain:"2a279830-8250-11e4-b4a9-0800200c9a66" }] ));
 
 //---------------------------------------------------------------------
 function resize( event ) {

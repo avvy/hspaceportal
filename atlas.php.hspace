@@ -2,7 +2,6 @@
 	$dir = pathinfo( $_SERVER['PHP_SELF'] )['dirname'];
 	$base = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].((strlen($dir)>1)?($dir.'/'):('/'));
 	$hosts = array(
-		'e1857546-1f94-4724-8597-aef07a15a18a' => array( 'api'=> $base.'api/', 'db'=>'http://localhost:7474/' ),
-		'630a8a17-0768-4bab-8527-d1bcb467e2bd' => array( 'api'=> $base.'api/', 'db'=>'http://localhost:7474/' )
+		'e1857546-1f94-4724-8597-aef07a15a18a' => array( 'name' => 'hSpace', 'api' => $base.'api/', 'db'=>'http://localhost:7474/' )
 	);
 ?>
