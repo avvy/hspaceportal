@@ -9,11 +9,13 @@
 	$linkedin 		= array( "enabled" => true, "keys" => array ( "key" => "77kbzctk9sv7ko", "secret" => "hzWYozIvOfA1xvF6" ) );
 	$google 			= array( "enabled" => true, "keys" => array ( "id" => "969983698306-j3qnnak0ntn0g36shjt7qhrduhl9i048.apps.googleusercontent.com", "secret" => "My3H_E6w9_MeOJ_hS9537TP8" ) );
 	$foursquare 	= array( "enabled" => true, "keys" => array ( "id" => "PWXVWB4KCRTOZV4RLJKXSR2BFWO41STEXK15QEA3K5T11UAG", "secret" => "SGKTCJDMGLT5JAFM2HVQEK4S4F4MYPXFIA5KBPN1L4XTJ1V1" ) );
+	$twitter		 	= array( "enabled" => true, "keys" => array ( "key" => "Bi2efQQjztgWGBhseIcWvjcnP", "secret" => "l7EwdcLhPGlB7SYPv5WfyTLxDPKIA34k7Wz2htKXRuyaZVilJ5" ) );
 	if ( $dev ) {
 		$facebook 	= array( "enabled" => true, "keys" =>  array ( "id" => "392123024276483", "secret" => "46182b6c1982e302ed904a65d828bb82" ) );
 		$linkedin 	= array( "enabled" => true, "keys" =>  array ( "key" => "77jtdw1rdfpgbd", "secret" => "Ab6hJUuz79LdD1pB" ) );
 		$google 		= array( "enabled" => true, "keys" =>  array ( "id" => "310402595251-db6uonrfff6g36l1ud49omj0pj4f3jsc.apps.googleusercontent.com", "secret" => "ddT6993acr7mzzj58p13HXXT" ) );
 		$foursquare = array( "enabled" => true, "keys" =>  array ( "id" => "1SXIFZLZCH3A4ZTJ44FLOVADWDEBYM0NPY325GDC3ZMSQV05", "secret" => "1MZN404RVFKEFQOERHYX5OF3LNKHRYP24E4ZQCVL3OQNY1VS" ) );
+		$twitter		= array( "enabled" => true, "keys" => array ( "key" => "u71e7RGrWfTmmQIdZDx54G7UW", "secret" => "WSPq0pA51Y81WcVau8YEeaqDpeEhUrTHkKjBry5MP14uNcYonm" ) );
 	}
 
 	$dir = pathinfo( $_SERVER['PHP_SELF'] )['dirname'];
@@ -42,9 +44,9 @@
 					"storage" => true
 				),
 				"Twitter" => array ( 
-					"enabled" => false,
+					"enabled" => $twitter["enabled"],
 					"img" => "img/social/twitter.png",
-					"keys"    => array ( "key" => "", "secret" => "" ),
+					"keys"    => $twitter["keys"],
 					"storage" => false
 				),
 				"Foursquare" => array (

@@ -3,7 +3,7 @@
 	require_once( "./auth.php" );
 	require_once( "./libs/hybridauth-2.2.2/hybridauth/Hybrid/Auth.php" );
 	//
-	$r = array( "code" => 200, "msg" => "Social provider was not defined" );
+	$r = array( "code" => 200, "msg" => "Action type and/or social provider id were/was not defined" );
 	$hybridauth = new Hybrid_Auth( $config );
 	if( isset( $_GET["action"] ) && isset( $_GET["id"] ) ) {
 		$action = $_GET["action"];
@@ -24,8 +24,11 @@
 					$adapter->logout();
 				}
 			}
+			$r["code"] = 200;
+			$r["msg"] = "";
 		}
 		catch( Exception $e ){
+			echo "exception<br/>";
 			$r["code"] = 400;
 			switch( $e->getCode() ){ 
 				case 0 : $r["msg"] = "Unspecified error.";break;
@@ -38,8 +41,8 @@
 				case 7 : $r["msg"] = "User not connected to the provider.";$adapter->logout();break;
 				case 8 : $r["msg"] = "Provider does not support this feature."; break;
 			} 
-		$r["msg"] .= "[".$e->getMessage()."]";
-		$r["trace"] = $e->getTraceAsString();
+			$r["msg"] .= "[".$e->getMessage()."]";
+			$r["trace"] = $e->getTraceAsString();
 		}
 	}
 	//echo json_encode( $r );
