@@ -46,5 +46,5 @@
 		}
 	}
 	//echo json_encode( $r );
-	Hybrid_Auth::redirect( "index.html" );
+	Hybrid_Auth::redirect( "/" );
 ?>

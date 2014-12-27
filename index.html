@@ -60,10 +60,10 @@
 		      <div class="modal-body">
 						<div class="container-fluid">
 							<div class="row" id="socialProviders" >
-								<div class="col-xs-4 provider-template" style="display:none">
+								<div class="col-xs-4 provider-template hide">
 									<a href="">
-										<img id = "logo" src="" class="img-rounded" style="position:fixed;width:26px;height:26px;border: 1px solid white;display:none"/>
-										<!--img id = "storage" src="img/cloud.png" class="img-rounded" style="position:fixed;top:8px;right:0px;width:24px;height:24px;"/-->
+										<img id = "logo" src="" class="img-rounded hide" style="position:fixed;width:26px;height:26px;border: 1px solid white"/>
+										<img id = "storage" src="img/cloud.png" class="img-rounded hide" style="position:fixed;top:0px;left:0px;width:24px;height:24px;"/>
 										<img id = "provider" src="" class="img-responsive"/>
 									</a>
 								</div>
@@ -95,9 +95,11 @@
         		<li class="dropdown">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="img/domains.png" class="navbar-img"/> <span class="caret"></span></a>
     		      <ul class="dropdown-menu" role="menu" id="domainsList">
-        		    <li class="domain-item-template" style="display:none"><a href="#"><input type="checkbox"/> <span></span></a></li>
-        		    <li><a href="#"><input type="checkbox"/> <span>all</span></a></li>
-    		        <li class="divider"></li>
+        		    <li class="domain-item-template hide"><a href="#"><input type="checkbox"/> <span id="domainTitle"></span><span class="glyphicon glyphicon-cloud hide pull-right text-info" aria-hidden="true"></span></a></li>
+        		    <li class="all hide"><a href="#"><input type="checkbox"/> <span>all</span></a></li>
+    		        <li class="divider all hide"></li>
+    		        <li class="divider" id="domainsListInsertPos"></li>
+        		    <li class=""><a href="#"><span class="glyphicon glyphicon-plus text-success" aria-hidden="true"></span> <span>add remote ...</span></a></li>
 		          </ul>
     		    </li>
 						<!--li><a href="#" id="notifyBtn"><img src="img/notify.png" class="navbar-img"/><span class="label label-success">10+</span></a></li-->
@@ -107,7 +109,6 @@
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="img/settings.png" class="navbar-img"/> <span class="caret"></span></a>
     		      <ul class="dropdown-menu" role="menu">
         		    <li><a href="#" data-toggle="modal" data-target="#loginModal"><img src="img/login.png" class="navbar-img"/> mount</a></li>
-		            <li><a href="#"><img src="img/remotes.png" class="navbar-img"/> remotes</a></li>
     		        <li class="divider"></li>
         		    <li><a href="#"><img src="img/email.png" class="navbar-img"/> contact us</a></li>
 		          </ul>
@@ -159,7 +160,5 @@
     <script type="text/javascript" src="js/atlas.js"></script>
 
     <script type="text/javascript" src="conf.php"></script>
-    <script type="text/javascript" src="status.php"></script>
-
   </body>
 </html>
