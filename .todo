@@ -1,5 +1,6 @@
 + remove social networks from neo4j contact import script
 + fix hybridauth Foursquare photo url: http://stackoverflow.com/questions/10977100/foursquare-api-for-venue-user-image-error, https://developer.foursquare.com/docs/responses/photo.html
-- implement basci node navigations, 6 nodes at center, breadcrumb
-- manage remotes from one place - enable/disable dropdown, remove it from settings dropdown menu
+- implement basic node navigations, 6 nodes at center, breadcrumb
++ manage remotes from one place - enable/disable dropdown, remove it from settings dropdown menu
 - rename js files
+- create digitalocean https hosting, update all public apps with https redirect uri

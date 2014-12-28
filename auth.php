@@ -16,7 +16,7 @@
 		$linkedin 	= array( "enabled" => true, "keys" =>  array ( "key" => "77jtdw1rdfpgbd", "secret" => "Ab6hJUuz79LdD1pB" ) );
 		$google 		= array( "enabled" => true, "keys" =>  array ( "id" => "310402595251-db6uonrfff6g36l1ud49omj0pj4f3jsc.apps.googleusercontent.com", "secret" => "ddT6993acr7mzzj58p13HXXT" ) );
 		$foursquare = array( "enabled" => true, "keys" =>  array ( "id" => "1SXIFZLZCH3A4ZTJ44FLOVADWDEBYM0NPY325GDC3ZMSQV05", "secret" => "1MZN404RVFKEFQOERHYX5OF3LNKHRYP24E4ZQCVL3OQNY1VS" ) );
-		$twitter		= array( "enabled" => true, "keys" => array ( "key" => "u71e7RGrWfTmmQIdZDx54G7UW", "secret" => "WSPq0pA51Y81WcVau8YEeaqDpeEhUrTHkKjBry5MP14uNcYonm" ) );
+		$twitter		= array( "enabled" => true, "keys" => array ( "key" => "qn9VGEBG3kCGdcLFqnVuCnMb2", "secret" => "796lt3XQDYmo8hA9CK49xOp5RCmYEF0d6j32193mKYAUWHUK93" ) );
 		$dropbox 		= array( "enabled" => true, "keys" => array ( "id" => "oucp5d3d1168faq", "secret" => "n0p64ucnai2m8pj" ) );
 	}
 
@@ -90,7 +90,7 @@
 				)
 			),
 			// if you want to enable logging, set 'debug_mode' to true  then provide a writable file by the web server on "debug_file"
-			"debug_mode" => true,
+			"debug_mode" => false,
 			"debug_file" => "hybridauth.log"
 		);
 ?>
