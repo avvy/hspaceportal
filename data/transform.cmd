@@ -1,1 +1,0 @@
-call msxsl.exe hspace.xml hspace.xslt -o hspace.cypher

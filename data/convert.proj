@@ -19,5 +19,10 @@
 			OutputPaths="out/services.cypher"
 			XslInputPath="in/services.xslt"
 			Parameters=""/>
+		<XslTransformation 
+			XmlInputPaths="in/gl.xml"
+			OutputPaths="out/gl.cypher"
+			XslInputPath="in/gl.xslt"
+			Parameters=""/>
 	</Target>
 </Project>

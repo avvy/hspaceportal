@@ -50,16 +50,6 @@ CREATE (atlas)-[:linked]->(c);
   
 MATCH (atlas:contact { name:'Atlas' })
 CREATE (c:contact {
-uuid:'ee8b3515-d025-42f2-b0b1-a755c44d69f7',
-id:'',
-name:'Google+',
-key:'http://plus.google.com/',
-img:''
-})
-CREATE (atlas)-[:linked]->(c);
-  
-MATCH (atlas:contact { name:'Atlas' })
-CREATE (c:contact {
 uuid:'906a7586-d6a5-4b70-b8d7-9f106e7e0bc5',
 id:'',
 name:'Skype',
@@ -98,8 +88,23 @@ img:''
 })
 CREATE (atlas)-[:linked]->(c);
   
-
-MATCH (n1:contact { name:'Google+' }),
-			(n2:contact { name:'Google' })
-CREATE (n1)-[:linked]->(n2);
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
+uuid:'e657d579-46f0-4592-a234-55d32f6c5892',
+id:'',
+name:'MTS',
+key:'www.mts.ua/',
+img:''
+})
+CREATE (atlas)-[:linked]->(c);
+  
+MATCH (atlas:contact { name:'Atlas' })
+CREATE (c:contact {
+uuid:'45bd1199-aa40-4da4-b854-d421730cb6c6',
+id:'',
+name:'KyivStar',
+key:'www.kyivstar.ua//',
+img:''
+})
+CREATE (atlas)-[:linked]->(c);
   

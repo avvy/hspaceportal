@@ -22,7 +22,7 @@
 			<img src="img/progress.gif" class="center-block" style="vertical-align: middle;"/>
 		</div>
 		<!-- new goal modal -->
-		<div class="modal fade" id="newGoalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<!--div class="modal fade" id="newGoalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog modal-sm">
 		    <div class="modal-content">
     		  <div class="modal-header bg-info">
@@ -46,9 +46,9 @@
 		      <div class="modal-footer">
         		<button type="button" class="btn btn-primary">Create</button>
 		      </div>
-    		</div><!-- /.modal-content -->
-		  </div><!-- /.modal-dialog -->
-		</div><!-- /.modal -->
+    		</div>
+		  </div>
+		</div-->
 		<!-- login modal -->
 		<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog modal-sm">
@@ -60,15 +60,17 @@
 		      <div class="modal-body">
 						<div class="container-fluid">
 							<div class="row" id="socialProviders" >
-								<div class="col-sm-4 provider-template" style="display:none">
+								<div class="col-xs-4 provider-template hide">
 									<a href="">
-										<img id = "provider" src="" class="img-responsive center-block"/>
+										<img id = "logo" src="" class="img-rounded hide" style="position:fixed;width:26px;height:26px;border: 1px solid white"/>
+										<img id = "storage" src="img/cloud.png" class="img-rounded hide" style="position:fixed;top:0px;left:0px;width:24px;height:24px;"/>
+										<img id = "provider" src="" class="img-responsive"/>
 									</a>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-									<div class="center-block text-center"><a href="logout.php?id=all">logout all</a></div>
+									<div class="center-block text-center"><a href="authio.php?action=logout&id=all">logout all</a></div>
 								</div>
 							</div>
 						</div>
@@ -77,116 +79,83 @@
 		  </div>
 		</div>
 		<!-- navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"><span>@tlas</span></a>
-					<ul class="nav navbar-nav navbar-left">
-						<li><p class="navbar-text"><a href="#" class="nav navbar-nav" id="notifyBtn"><img src="img/notify.png" class="navbar-img"/><span class="label label-success">10+</span></a></p></li>
-	  	    </ul>
-        </div>
-				<ul class="nav navbar-nav navbar-right">
-					<p class="navbar-text"><a href="#" class="nav navbar-nav" data-toggle="modal" data-target="#newGoalModal">
-						<img src="img/goal-lt.png" class="navbar-img"/></a>
-					</p>
-          <p class="navbar-text navbar-right"><a href="#" id="navSettings"><img src="img/settings.png" class="navbar-img"/></a></p>
-          <form class="navbar-form navbar-right" role="search">
-            <input type="text" class="form-control" id="inputSearch" placeholder="Search...">
-          </form>
-	      </ul>
-      </div>
-    </div>  
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+    		<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-items">
+		        <span class="sr-only">Toggle navigation</span>
+    		    <span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+    		  </button>
+      		<a class="navbar-brand" href="/">@tlas</a>
+    		</div>
+				<div class="collapse navbar-collapse" id="navbar-items">
+		      <ul class="nav navbar-nav">
+        		<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="img/domains.png" class="navbar-img"/> <span class="caret"></span></a>
+    		      <ul class="dropdown-menu" role="menu" id="domainsList">
+        		    <li class="domain-item-template hide"><a href="#"><input type="checkbox"/> <span id="domainTitle"></span><span class="glyphicon glyphicon-cloud hide pull-right text-info" aria-hidden="true"></span></a></li>
+        		    <li class="all hide"><a href="#"><input type="checkbox"/> <span>all</span></a></li>
+    		        <li class="divider all hide"></li>
+    		        <li class="divider" id="domainsListInsertPos"></li>
+        		    <li class=""><a href="#"><span class="glyphicon glyphicon-plus text-success" aria-hidden="true"></span> <span>add remote ...</span></a></li>
+		          </ul>
+    		    </li>
+						<!--li><a href="#" id="notifyBtn"><img src="img/notify.png" class="navbar-img"/><span class="label label-success">10+</span></a></li-->
+		      </ul>
+    		  <ul class="nav navbar-nav navbar-right">
+        		<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="img/settings.png" class="navbar-img"/> <span class="caret"></span></a>
+    		      <ul class="dropdown-menu" role="menu">
+        		    <li><a href="#" data-toggle="modal" data-target="#loginModal"><img src="img/login.png" class="navbar-img"/> mount</a></li>
+    		        <li class="divider"></li>
+        		    <li><a href="#"><img src="img/email.png" class="navbar-img"/> contact us</a></li>
+		          </ul>
+    		    </li>
+		      </ul>
+    		  <form class="navbar-form navbar-right" role="search">
+		        <div class="form-group">
+    		      <input type="text" class="form-control" id="inputSearch" placeholder="Search...">
+		        </div>
+    		  </form>
+		    </div>
+    	</div>
+   	</div>
 
-		<div class="template node" style="display:none"><span id="nodeText"></span></div>
+		<-- canvas -->
     <div class="surface">
     </div>
-
+		<!--img src="img/loader.gif" class="navbar-img" style="position:absolute;left:auto;right:auto;top:60px;"/-->
 		<-- timeline panel -->
 		<div id="timeline"></div>
 		<button id="timelineMinMax"><img class="button-img more" src="img/tl_more.png" style="display:none"/><img class="button-img less" src="img/tl_less.png"/></button>
 
-		<-- notification panel -->
-		<div id="notifications" class="notifications-panel" >
-			<div class="container-fluid" style="margin-top:64px">
 
-				<div role="tabpanel">
-  				<!-- Nav tabs -->
-				  <ul class="nav nav-tabs" role="tablist">
-				    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">All</a></li>
-				    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">HSpace</a></li>
-				    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">BMC lab</a></li>
-				    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">GL</a></li>
-				  </ul>
-				  <!-- Tab panes -->
-				  <div class="tab-content">
-				    <div role="tabpanel" class="tab-pane active" id="home">
+		<--  -->
+		<div class="template node" style="display:none"><span id="nodeText"></span></div>
 
-							<div class="row template-ntf-row">
-								<div class="col-sm-4">
-									<div class="panel panel-default template-ntf-cell">
-									  <div class="panel-heading">
-									    <h3 class="panel-title">Task1</h3>
-									  </div>
-									  <div class="panel-body">
-									    Desc1
-									  </div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="panel panel-primary template-ntf-cell">
-									  <div class="panel-heading">
-									    <h3 class="panel-title">Task2</h3>
-									  </div>
-									  <div class="panel-body">
-									    Desc2
-									  </div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="panel panel-danger template-ntf-cell">
-									  <div class="panel-heading">
-									    <h3 class="panel-title">Task3</h3>
-									  </div>
-									  <div class="panel-body">
-									    Desc2
-									  </div>
-									</div>
-								</div>
-							</div>
-						</div>
-				    <div role="tabpanel" class="tab-pane" id="profile">B</div>
-				    <div role="tabpanel" class="tab-pane" id="messages">C</div>
-    				<div role="tabpanel" class="tab-pane" id="settings">D</div>
-					</div>
-  			</div>
-			</div>
-		</div>
-		<-- right toolbar -->
-		<div id="rightToolbar" class="navbar-inverse right-toolbar">
-			<br/>
-			<br/>
-			<br/>
-			<p class="navbar-text"><a href="#" class="nav navbar-nav"><img src="img/login.png" class="navbar-img" data-toggle="modal" data-target="#loginModal"/></a></p>
-		</div>
+
     <!-- /.container -->
     <!-- Bootstrap core JavaScript
       ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 		<script type="text/javascript" src="libs/jquery-2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-ui-1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-cookie-1.4.1/jquery.cookie.js"></script>
     <script type="text/javascript" src="libs/bootstrap-3.2.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="libs/bootstrap-tagsinput-0.4.2/bootstrap-tagsinput.js"></script>
     <script type="text/javascript" src="libs/typeahead-0.10.5/typeahead.bundle.js"></script>
     <script type="text/javascript" src="libs/holder-2.4.0/holder.js"></script>
     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript" src="libs/timeline-2.9.0/timeline.js"></script>
-    <script type="text/javascript" src="libs/jquery-ui-1.11.2/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/atlas-login.js"></script>
+
+    <script type="text/javascript" src="js/atlas-auth.js"></script>
     <script type="text/javascript" src="js/atlas-tl.js"></script>
     <script type="text/javascript" src="js/atlas-node.js"></script>
     <script type="text/javascript" src="js/atlas-domains.js"></script>
-    <script type="text/javascript" src="js/atlas-ntf.js"></script>
     <script type="text/javascript" src="js/atlas.js"></script>
-    <script type="text/javascript" src="status.php"></script>
 
+    <script type="text/javascript" src="conf.php"></script>
   </body>
 </html>
